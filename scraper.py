@@ -1,8 +1,14 @@
 from bs4 import BeautifulSoup
 from queue import Queue
 import httplib2
+import re
 
-DOMAIN = 'https://en.wikipedia.org'
+SCHEME_HOST = 'https://developer.android.com'
+START_PATH = "/guide"
+ONLY_START_PATH = True
+PATH_TO_DIR = "sites/"
+# -1 For unlimited
+MAX_PAGES = -1
 
 
 def load_site(domain):
@@ -21,22 +27,26 @@ def find_links(soup):
         try:
             links.append(link["href"])
         except KeyError:
-            print("heh")
+            None
     return links
 
 
 def is_link_valid(link):
     is_link = not (link.__contains__("javascript:") or link.startswith("#"))
-    is_the_same_domain = link.startswith("/")
+    if ONLY_START_PATH:
+        is_the_same_domain = link.startswith(START_PATH)
+    else:
+        is_the_same_domain = link.startswith("/")
     is_not_file = not (link.__contains__(".") and not link.__contains__(".html"))
     return is_link and is_the_same_domain and is_not_file
 
 
-def beautify(link, domain, path_now):
+def beautify(link, domain):
     if link.startswith(domain):
         link = link[len(domain):]
-    elif link.startswith("/"):
-        link = path_now + link
+
+    link = strip_query_and_fragment(link)
+    link = strip_double_slashes(link)
 
     if link.endswith("/"):
         link = link[:len(link) - 1]
@@ -47,24 +57,39 @@ def beautify(link, domain, path_now):
 def get_text(soup):
     for script in soup(["script", "style"]):
         script.decompose()
-    return soup.get_text(strip=True, separator="\n")
+    return soup.get_text(strip=False, separator="")
 
 
 def write_to_file(domain, visited_paths, texts):
-    f = open("index.txt", "w+")
+    index_path = strip_double_slashes(PATH_TO_DIR + "/index.txt")
+    f = open(index_path, "w+")
     f.write(domain + "\n")
-    for path in visited_paths:
-        f.write(path + "\n")
-    f.close()
     for i in range(len(texts)):
-        f = open(str(i) + ".txt", "w+")
-        f.write(texts[i])
-        f.close()
+        f.write(str(i) + " " + visited_paths[i] + "\n")
+        file_path = strip_double_slashes(PATH_TO_DIR + "/" + str(i) + ".txt")
+        file = open(file_path, "w+")
+        file.write(texts[i])
+        file.close()
+    f.close()
+
+
+def strip_double_slashes(link):
+    return re.sub('/+', '/', link)
+
+
+def strip_query_and_fragment(link):
+    try:
+        return link[:link.index("?")]
+    except ValueError:
+        try:
+            return link[:link.index("#")]
+        except ValueError:
+            return link
 
 
 if __name__ == '__main__':
     # Prepare
-    path = ""
+    path = START_PATH
     link_queue = Queue()
     visited_paths = []
     texts = []
@@ -80,10 +105,10 @@ if __name__ == '__main__':
                 continue
 
         # Create url
-        url = DOMAIN + path
+        url = SCHEME_HOST + path
         # Load site
         status, response = load_site(url)
-        print(status)
+        print(url, status.status)
 
         if status.status == 200:
             # Add to visited
@@ -105,7 +130,7 @@ if __name__ == '__main__':
         # Find all links
         links = find_links(soup)
         # Make thy similar form
-        links = [beautify(ll, DOMAIN, path) for ll in links]
+        links = [beautify(ll, SCHEME_HOST) for ll in links]
 
         # Add to queue if valid
         for link in links:
@@ -113,9 +138,9 @@ if __name__ == '__main__':
                 link_queue.put(link)
 
         # Stop iteration
-        if link_queue.empty():
+        if link_queue.empty() or (0 < MAX_PAGES <= len(visited_paths)):
             break
 
         path = link_queue.get()
 
-    write_to_file(DOMAIN, visited_paths, texts)
+    write_to_file(SCHEME_HOST, visited_paths, texts)
