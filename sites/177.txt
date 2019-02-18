@@ -1,0 +1,789 @@
+Create an input method  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Create an input method
+  
+
+
+
+    An input method editor (IME) is a user control that enables users to enter text. Android
+    provides an extensible input-method framework that allows applications to provide users
+    alternative input methods, such as on-screen keyboards or even speech input. After installing
+    the desired IMEs, a user can select which one to use from the system settings, and use it
+    across the entire system; only one IME may be enabled at a time.
+
+
+    To add an IME to the Android system, you create an Android application
+    containing a class that extends InputMethodService. In
+    addition, you usually create a "settings" activity that passes options to the IME service. You
+    can also define a settings UI that's displayed as part of the system settings.
+
+This guide covers the following:
+
+The IME lifecycle
+Declaring IME components in the application manifest
+The IME API
+Designing an IME UI
+Sending text from an IME to an application
+Working with IME subtypes
+
+
+    If you haven't worked with IMEs before, you should read the introductory article
+    
+    Onscreen Input Methods first.
+
+The IME lifecycle
+
+    The following diagram describes the life cycle of an IME:
+
+
+
+Figure 1. The life cycle of an IME.
+
+
+    The following sections describe how to implement the UI and code associated with an IME that
+    follows this lifecycle.
+
+Declare IME components in the manifest
+
+    In the Android system, an IME is an Android application that contains a special IME service.
+    The application's manifest file must declare the service, request the necessary permissions,
+    provide an intent filter that matches the action action.view.InputMethod, and
+    provide metadata that defines characteristics of the IME. In addition, to provide a settings
+    interface that allows the user to modify the behavior of the IME, you can define a "settings"
+    activity that can be launched from System Settings.
+
+
+    The following snippet declares an IME service. It requests the permission
+    BIND_INPUT_METHOD to allow the service to connect the IME
+    to the system, sets up an intent filter that matches the action
+    android.view.InputMethod, and defines metadata for the IME:
+
+
+<!-- Declares the input method service -->
+<service android:name="FastInputIME"
+    android:label="@string/fast_input_label"
+    android:permission="android.permission.BIND_INPUT_METHOD">
+    <intent-filter>
+        <action android:name="android.view.InputMethod" />
+    </intent-filter>
+    <meta-data android:name="android.view.im"
+               android:resource="@xml/method" />
+</service>
+
+
+    This next snippet declares the settings activity for the IME. It has an intent filter for
+    ACTION_MAIN that indicates this activity is the main entry point
+    for the IME application:
+
+<!-- Optional: an activity for controlling the IME settings -->
+<activity android:name="FastInputIMESettings"
+    android:label="@string/fast_input_settings">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+    </intent-filter>
+</activity>
+
+
+    You can also provide access to the IME's settings directly from its UI.
+
+The input method API
+
+    Classes specific to IMEs are found in the android.inputmethodservice and
+    android.view.inputmethod packages. The KeyEvent class is
+    important for handling keyboard characters.
+
+
+    The central part of an IME is a service component, a class that extends
+    InputMethodService. In addition to implementing the
+    normal service lifecycle, this class has callbacks for providing your IME's UI, handling user
+    input, and delivering text to the field that currently has focus. By default, the
+    InputMethodService class provides most of the implementation
+    for managing the state and visibility of the IME and communicating with the current input
+    field.
+
+
+    The following classes are also important:
+
+
+BaseInputConnection
+
+        Defines the communication channel from an InputMethod
+        back to the application that is receiving its input. You use it to read text around the
+        cursor, commit text to the text box, and send raw key events to the application.
+        Applications should extend this class rather than implementing the base interface
+        InputConnection.
+    
+KeyboardView
+
+        An extension of View that renders a keyboard and responds to user
+        input events. The keyboard layout is specified by an instance of
+        Keyboard, which you can define in an XML file.
+    
+
+Design the input method UI
+
+    There are two main visual elements for an IME: the input view and the
+    candidates view. You only have to implement the elements that are relevant to
+    the input method you're designing.
+
+Input view
+
+    The input view is the UI where the user inputs text in the form of keyclicks, handwriting or
+    gestures. When the IME is displayed for the first time, the system calls the
+    onCreateInputView() callback. In your
+    implementation of this method, you create the layout you want to display in the IME
+    window and return the layout to the system. This snippet is an example of implementing the
+    onCreateInputView() method:
+
+Kotlin
+
+override fun onCreateInputView(): View {
+    return layoutInflater.inflate(R.layout.input, null).apply {
+        if (this is MyKeyboardView) {
+            setOnKeyboardActionListener(this@MyInputMethod)
+            keyboard = latinKeyboard
+        }
+    }
+}
+
+Java
+
+@Override
+public View onCreateInputView() {
+    MyKeyboardView inputView =
+        (MyKeyboardView) getLayoutInflater().inflate(R.layout.input, null);
+
+    inputView.setOnKeyboardActionListener(this);
+    inputView.setKeyboard(latinKeyboard);
+
+    return inputView;
+}
+
+
+
+
+    In this example, MyKeyboardView is an instance of a custom
+  implementation of
+    KeyboardView that renders a
+    Keyboard.
+
+Candidates view
+
+    The candidates view is the UI where the IME displays potential word corrections or
+    suggestions for the user to select. In the IME lifecycle, the system calls
+    onCreateCandidatesView() when it's ready
+    to display the candidates view. In your implementation of this method, return a layout that
+    shows word suggestions, or return null if you don’t want to show anything. A null response is
+    the default behavior, so you don’t have to implement this if you don’t provide suggestions.
+UI design considerations
+
+    This section describes some specific UI design considerations for IMEs.
+
+Handle multiple screen sizes
+
+    The UI for your IME must be able to scale for different screen sizes, and it also
+    must handle both landscape and portrait orientations. In non-fullscreen IME mode, leave
+    sufficient space for the application to show the text field and any associated context, so that
+    no more than half the screen is occupied by the IME. In fullscreen IME mode this is not an
+    issue.
+
+Handle different input types
+
+    Android text fields allow you to set a specific input type, such as free-form text, numbers,
+    URLs, email addresses, and search strings. When you implement a new IME, you need to detect
+    the input type of each field and provide the appropriate interface for it. However, you
+    don't have to set up your IME to check that the user entered valid text for the input type;
+    that's the responsibility of the application that owns the text field.
+
+
+    For example, here are screenshots of the interfaces that the Latin IME provided with the
+    Android platform provides for text and phone number inputs:
+
+
+
+
+Figure 2. Latin IME input types.
+
+
+    When an input field receives focus and your IME starts, the system calls
+    onStartInputView(),
+    passing in an EditorInfo object that contains details about
+    the input type and other attributes of the text field. In this object, the
+    inputType field contains the text field's input
+    type.
+
+
+    The inputType field is an int
+    that contains bit patterns for various input type settings. To test it for the text field's
+    input type, mask it with the constant TYPE_MASK_CLASS, like
+    this:
+
+
+inputType & InputType.TYPE_MASK_CLASS
+
+
+The input type bit pattern can have one of several values, including:
+
+
+TYPE_CLASS_NUMBER
+
+        A text field for entering numbers. As illustrated in the previous screen shot, the
+        Latin IME displays a number pad for fields of this type.
+    
+TYPE_CLASS_DATETIME
+
+        A text field for entering a date and time.
+    
+TYPE_CLASS_PHONE
+
+        A text field for entering telephone numbers.
+    
+TYPE_CLASS_TEXT
+
+        A text field for entering all supported characters.
+    
+
+
+    These constants are described in more detail in the reference documentation for
+    InputType.
+
+
+    The inputType field can contain other bits that
+    indicate a variant of the text field type, such as:
+
+
+TYPE_TEXT_VARIATION_PASSWORD
+
+        A variant of TYPE_CLASS_TEXT for entering passwords. The
+        input method will display dingbats instead of the actual text.
+    
+TYPE_TEXT_VARIATION_URI
+
+        A variant of TYPE_CLASS_TEXT for entering web URLs and
+        other Uniform Resource Identifiers (URIs).
+    
+TYPE_TEXT_FLAG_AUTO_COMPLETE
+
+        A variant of TYPE_CLASS_TEXT for entering text that the
+        application "auto-completes" from a dictionary, search, or other facility.
+    
+
+
+    Remember to mask inputType with the appropriate
+    constant when you test for these variants. The available mask constants are listed in the
+    reference documentation for InputType.
+
+
+Caution: In your own IME, make sure you handle text correctly when you send it
+    to a password field. Hide the password in your UI both in the input view and in the candidates
+    view. Also remember that you shouldn't store passwords on a device. To learn more, see the
+    Designing for Security guide.
+
+Send text to the application
+
+    As the user inputs text with your IME, you can send text to the application by sending
+    individual key events or by editing the text around the cursor in the application's text
+    field. In either case, you use an instance of InputConnection
+    to deliver the text. To get this instance, call
+    InputMethodService.getCurrentInputConnection().
+
+Edit the text around the cursor
+
+    When you're handling the editing of existing text in a text field, some of the more useful
+    methods in BaseInputConnection are:
+
+
+
+getTextBeforeCursor()
+
+        Returns a CharSequence containing the number of requested characters
+        before the current cursor position.
+    
+
+getTextAfterCursor()
+
+
+        Returns a CharSequence containing the number of requested characters
+        following the current cursor position.
+    
+
+deleteSurroundingText()
+
+
+        Deletes the specified number of characters before and following the current cursor
+        position.
+    
+
+commitText()
+
+
+        Commit a CharSequence to the text field and set a new cursor
+        position.
+    
+
+
+    For example, the following snippet shows how to replace the four characters to the left of the
+    cursor with the text "Hello!":
+
+
+Kotlin
+
+currentInputConnection.also { ic: InputConnection ->
+    ic.deleteSurroundingText(4, 0)
+    ic.commitText("Hello", 1)
+    ic.commitText("!", 1)
+}
+
+Java
+
+InputConnection ic = getCurrentInputConnection();
+ic.deleteSurroundingText(4, 0);
+ic.commitText("Hello", 1);
+ic.commitText("!", 1);
+
+
+
+Composing text before committing
+
+    If your IME does text prediction or requires multiple steps to compose a glyph or
+    word, you can show the progress in the text field until the user commits the word, and then you
+    can replace the partial composition with the completed text. You may give special treatment to
+    the text by adding a "span" to it when you pass it to
+setComposingText().
+
+
+    The following snippet shows how to show progress in a text field:
+
+
+Kotlin
+
+currentInputConnection.also { ic: InputConnection ->
+    ic.setComposingText("Composi", 1)
+    ic.setComposingText("Composin", 1)
+    ic.commitText("Composing ", 1)
+}
+
+Java
+
+InputConnection ic = getCurrentInputConnection();
+ic.setComposingText("Composi", 1);
+ic.setComposingText("Composin", 1);
+ic.commitText("Composing ", 1);
+
+
+
+
+    The following screenshots show how this appears to the user:
+
+
+
+
+
+Figure 3. Composing text before committing.
+
+Intercept hardware key events
+
+    Even though the input method window doesn't have explicit focus, it receives hardware key
+    events first and can choose to consume them or forward them along to the application. For
+    example, you may want to consume the directional keys to navigate within your UI for candidate
+    selection during composition. You may also want to trap the back key to dismiss any popups
+    originating from the input method window.
+
+    To intercept hardware keys, override
+    onKeyDown()
+    and onKeyUp().
+
+
+    Remember to call the super() method for keys you don't want to handle yourself.
+
+Create an IME subtype
+
+    Subtypes allow the IME to expose multiple input modes and languages supported by an IME. A
+    subtype can represent:
+
+
+A locale such as en_US or fr_FR.
+An input mode such as voice, keyboard, or handwriting.
+
+        Other input styles, forms, or properties specific to the IME, such as 10-key or qwerty
+        keyboard layouts.
+    
+
+
+    Basically, the mode can be any text such as "keyboard", "voice", and so forth. A subtype can
+    also expose a combination of these.
+
+
+    Subtype information is used for an IME switcher dialog that's available from the notification
+    bar and also for IME settings. The information also allows the framework to bring up a
+    specific subtype of an IME directly. When you build an IME, use the subtype facility, because
+    it helps the user identify and switch between different IME languages and modes.
+
+
+    You define subtypes in one of the input method's XML resource files, using the
+    <subtype> element. The following snippet defines an IME with two
+    subtypes: a keyboard subtype for the US English locale, and another keyboard subtype for the
+    French language locale for France:
+
+
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+        android:settingsActivity="com.example.softkeyboard.Settings"
+        android:icon="@drawable/ime_icon">
+    <subtype android:name="@string/display_name_english_keyboard_ime"
+            android:icon="@drawable/subtype_icon_english_keyboard_ime"
+            android:imeSubtypeLanguage="en_US"
+            android:imeSubtypeMode="keyboard"
+            android:imeSubtypeExtraValue="somePrivateOption=true" />
+    <subtype android:name="@string/display_name_french_keyboard_ime"
+            android:icon="@drawable/subtype_icon_french_keyboard_ime"
+            android:imeSubtypeLanguage="fr_FR"
+            android:imeSubtypeMode="keyboard"
+            android:imeSubtypeExtraValue="foobar=30,someInternalOption=false" />
+    <subtype android:name="@string/display_name_german_keyboard_ime" ... />
+</input-method>
+
+
+    To ensure that your subtypes are labeled correctly in the UI, use %s to get a subtype label
+    that is the same as the subtype’s locale label. This is demonstrated in the next two snippets.
+    The first snippet shows part of the input method's XML file:
+
+
+<subtype
+    android:label="@string/label_subtype_generic"
+    android:imeSubtypeLocale="en_US"
+    android:icon="@drawable/icon_en_us"
+    android:imeSubtypeMode="keyboard" />
+
+
+    The next snippet is part of the IME's strings.xml file. The string
+    resource label_subtype_generic, which is used by the input method UI definition to
+    set the subtype's label, is defined as:
+
+
+<string name="label_subtype_generic">%s</string>
+
+
+    This setting causes the subtype’s display name to match the locale setting.
+    For example, in any English locale, the display name is “English (United States)”.
+
+Choose IME subtypes from the notification bar
+
+    The Android system manages all subtypes exposed by all IMEs. IME subtypes are
+    treated as modes of the IME they belong to. In the notification bar, a user can select an
+    available subtype for the currently-set IME, as shown in the following screenshot:
+
+
+
+Figure 4. Choosing an IME subtype from the notification
+bar.
+
+
+
+Figure 5. Setting subtype preferences in System Settings.
+
+Choose IME subtypes from System Settings
+
+    A user can control how subtypes are used in the “Language & input” settings panel in the
+    System Settings area.
+
+
+
+Figure 6. Choosing a language for the IME.
+
+Switch among IME subtypes
+You can allow users to switch easily among multiple IME subtypes by providing a switching key,
+such as the globe-shaped language icon, as part of the keyboard. Doing so greatly improves the
+keyboard's usability, and can help avoid user frustration.
+To enable such switching, perform the following steps:
+
+Declare supportsSwitchingToNextInputMethod = "true" in the input method's XML
+    resource files. Your declaration should look similar to the following snippet:
+    
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+        android:settingsActivity="com.example.softkeyboard.Settings"
+        android:icon="@drawable/ime_icon"
+        android:supportsSwitchingToNextInputMethod="true">
+
+Call the shouldOfferSwitchingToNextInputMethod() method.
+If the method returns true, display a switching key.
+When the user taps the switching key, call
+    switchToNextInputMethod(),
+    passing false to the second parameter. A value of false tells the system to treat all subtypes
+    equally, regardless of what IME they belong to. Specifying true requires the system to cycle
+    through subtypes in the current IME.
+
+
+Caution: Prior to Android 5.0 (API level 21),
+switchToNextInputMethod()
+is not aware of the supportsSwitchingToNextInputMethod attribute. If the user switches
+into an IME without a switching key, they may get stuck in that IME, unable to switch out of it easily.
+
+
+General IME considerations
+
+    Here are some other things to consider as you're implementing your IME:
+
+
+
+    Provide a way for users to set options directly from the IME's UI.
+
+
+    Because multiple IMEs may be installed on the device, provide a way for the user to switch to a
+    different IME directly from the input method UI.
+
+
+    Bring up the IME's UI quickly. Preload or load on demand any large resources so that users
+    see the IME as soon as they tap on a text field. Cache resources and views for subsequent
+    invocations of the input method.
+
+
+    Conversely, you should release large memory allocations soon after the input method window is
+    hidden, so that applications can have sufficient memory to run. Consider using a delayed
+    message to release resources if the IME is in a hidden state for a few seconds.
+
+
+    Make sure that users can enter as many characters as possible for the language or locale
+    associated with the IME. Remember that users may use punctuation in passwords or user
+    names, so your IME has to provide many different characters to allow users to enter a
+    password and get access to the device.
+
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

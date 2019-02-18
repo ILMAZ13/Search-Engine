@@ -1,0 +1,501 @@
+Input events overview  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Input events overview
+  
+
+
+On Android, there's more than one way to intercept the events from a user's interaction with your application.
+When considering events within your user interface, the approach is to capture the events from
+the specific View object that the user interacts with. The View class provides the means to do so.
+Within the various View classes that you'll use to compose your layout, you may notice several public callback
+methods that look useful for UI events. These methods are called by the Android framework when the
+respective action occurs on that object. For instance, when a View (such as a Button) is touched,
+the onTouchEvent() method is called on that object. However, in order to intercept this, you must extend
+the class and override the method. However, extending every View object
+in order to handle such an event would not be practical. This is why the View class also contains
+a collection of nested interfaces with callbacks that you can much more easily define. These interfaces,
+called event listeners, are your ticket to capturing the user interaction with your UI.
+While you will more commonly use the event listeners to listen for user interaction, there may
+come a time when you do want to extend a View class, in order to build a custom component.
+Perhaps you want to extend the Button
+class to make something more fancy. In this case, you'll be able to define the default event behaviors for your
+class using the class event handlers.
+Event listeners
+An event listener is an interface in the View class that contains a single
+callback method. These methods will be called by the Android framework when the View to which the listener has
+been registered is triggered by user interaction with the item in the UI.
+Included in the event listener interfaces are the following callback methods:
+
+onClick()
+From View.OnClickListener.
+    This is called when the user either touches the item
+    (when in touch mode), or focuses upon the item with the navigation-keys or trackball and
+    presses the suitable "enter" key or presses down on the trackball.
+onLongClick()
+From View.OnLongClickListener.
+    This is called when the user either touches and holds the item (when in touch mode), or
+    focuses upon the item with the navigation-keys or trackball and
+    presses and holds the suitable "enter" key or presses and holds down on the trackball (for one second).
+onFocusChange()
+From View.OnFocusChangeListener.
+    This is called when the user navigates onto or away from the item, using the navigation-keys or trackball.
+onKey()
+From View.OnKeyListener.
+    This is called when the user is focused on the item and presses or releases a hardware key on the device.
+onTouch()
+From View.OnTouchListener.
+    This is called when the user performs an action qualified as a touch event, including a press, a release,
+    or any movement gesture on the screen (within the bounds of the item).
+onCreateContextMenu()
+From View.OnCreateContextMenuListener.
+    This is called when a Context Menu is being built (as the result of a sustained "long click"). See the discussion
+    on context menus in the Menus
+    developer guide.
+
+These methods are the sole inhabitants of their respective interface. To define one of these methods
+and handle your events, implement the nested interface in your Activity or define it as an anonymous class.
+Then, pass an instance of your implementation
+to the respective View.set...Listener() method. (E.g., call
+setOnClickListener()
+and pass it your implementation of the OnClickListener.)
+The example below shows how to register an on-click listener for a Button. 
+
+Kotlin
+
+protected void onCreate(savedValues: Bundle) {
+    ...
+    val button: Button = findViewById(R.id.corky)
+    // Register the onClick listener with the implementation above
+    button.setOnClickListener { view ->
+        // do something when the button is clicked
+    }
+    ...
+}
+
+Java
+
+// Create an anonymous implementation of OnClickListener
+private OnClickListener corkyListener = new OnClickListener() {
+    public void onClick(View v) {
+      // do something when the button is clicked
+    }
+};
+
+protected void onCreate(Bundle savedValues) {
+    ...
+    // Capture our button from layout
+    Button button = (Button)findViewById(R.id.corky);
+    // Register the onClick listener with the implementation above
+    button.setOnClickListener(corkyListener);
+    ...
+}
+
+
+
+You may also find it more convenient to implement OnClickListener as a part of your Activity.
+This will avoid the extra class load and object allocation. For example:
+
+Kotlin
+
+class ExampleActivity : Activity(), OnClickListener {
+
+    protected fun onCreate(savedValues: Bundle) {
+        val button: Button = findViewById(R.id.corky)
+        button.setOnClickListener(this)
+    }
+
+    // Implement the OnClickListener callback
+    fun onClick(v: View) {
+        // do something when the button is clicked
+    }
+}
+
+Java
+
+public class ExampleActivity extends Activity implements OnClickListener {
+    protected void onCreate(Bundle savedValues) {
+        ...
+        Button button = (Button)findViewById(R.id.corky);
+        button.setOnClickListener(this);
+    }
+
+    // Implement the OnClickListener callback
+    public void onClick(View v) {
+      // do something when the button is clicked
+    }
+    ...
+}
+
+
+
+Notice that the onClick() callback in the above example has
+no return value, but some other event listener methods must return a boolean. The reason
+depends on the event. For the few that do, here's why:
+
+onLongClick() -
+    This returns a boolean to indicate whether you have consumed the event and it should not be carried further.
+    That is, return true to indicate that you have handled the event and it should stop here;
+    return false if you have not handled it and/or the event should continue to any other
+    on-click listeners.
+onKey() -
+    This returns a boolean to indicate whether you have consumed the event and it should not be carried further.
+    That is, return true to indicate that you have handled the event and it should stop here;
+    return false if you have not handled it and/or the event should continue to any other
+    on-key listeners.
+onTouch() -
+    This returns a boolean to indicate whether your listener consumes this event. The important thing is that
+    this event can have multiple actions that follow each other. So, if you return false when the
+    down action event is received, you indicate that you have not consumed the event and are also
+    not interested in subsequent actions from this event. Thus, you will not be called for any other actions
+    within the event, such as a finger gesture, or the eventual up action event.
+
+Remember that hardware key events are always delivered to the View currently in focus. They are dispatched starting from the top
+of the View hierarchy, and then down, until they reach the appropriate destination. If your View (or a child of your View)
+currently has focus, then you can see the event travel through the dispatchKeyEvent() method. As an alternative to capturing key events through your View, you can also receive
+all of the events inside your Activity with onKeyDown()
+and onKeyUp().
+Also, when thinking about text input for your application, remember that many devices only have software input
+methods. Such methods are not required to be key-based; some may use voice input, handwriting, and so on. Even if
+an input method presents a keyboard-like interface, it will generally not trigger the
+onKeyDown() family of events. You should never
+build a UI that requires specific key presses to be controlled unless you want to limit your application to devices
+with a hardware keyboard. In particular, do not rely on these methods to validate input when the user presses the
+return key; instead, use actions like IME_ACTION_DONE to signal the
+input method how your application expects to react, so it may change its UI in a meaningful way. Avoid assumptions
+about how a software input method should work and just trust it to supply already formatted text to your application.
+Note: Android will call event handlers first and then the appropriate default
+handlers from the class definition second. As such, returning true from these event listeners will stop
+the propagation of the event to other event listeners and will also block the callback to the
+default event handler in the View. So be certain that you want to terminate the event when you return true.
+Event handlers
+If you're building a custom component from  View, then you'll be able to define several callback methods
+used as default event handlers.
+In the document about Custom
+View Components, you'll learn some of the common callbacks used for event handling,
+including:
+
+onKeyDown(int, KeyEvent) - Called when a new key event occurs.
+onKeyUp(int, KeyEvent) - Called when a key up event occurs.
+onTrackballEvent(MotionEvent) - Called when a trackball motion event occurs.
+onTouchEvent(MotionEvent) - Called when a touch screen motion event occurs.
+onFocusChanged(boolean, int, Rect) - Called when the view gains or loses focus.
+
+There are some other methods that you should be aware of, which are not part of the View class,
+but can directly impact the way you're able to handle events. So, when managing more complex events inside
+a layout, consider these other methods:
+
+Activity.dispatchTouchEvent(MotionEvent) - This allows your Activity to intercept all touch events before they are dispatched to the window.
+ViewGroup.onInterceptTouchEvent(MotionEvent) - This allows a ViewGroup to watch events as they are dispatched to child Views.
+ViewParent.requestDisallowInterceptTouchEvent(boolean) - Call this
+    upon a parent View to indicate that it should not intercept touch events with onInterceptTouchEvent(MotionEvent).
+
+Touch mode
+
+When a user is navigating a user interface with directional keys or a trackball, it is
+necessary to give focus to actionable items (like buttons) so the user can see
+what will accept input.  If the device has touch capabilities, however, and the user
+begins interacting with the interface by touching it, then it is no longer necessary to
+highlight items, or give focus to a particular View.  Thus, there is a mode
+for interaction named "touch mode."
+
+
+For a touch-capable device, once the user touches the screen, the device
+will enter touch mode.  From this point onward, only Views for which
+isFocusableInTouchMode() is true will be focusable, such as text editing widgets.
+Other Views that are touchable, like buttons, will not take focus when touched; they will
+simply fire their on-click listeners when pressed.
+
+
+Any time a user hits a directional key or scrolls with a trackball, the device will
+exit touch mode, and find a view to take focus. Now, the user may resume interacting
+with the user interface without touching the screen.
+
+
+The touch mode state is maintained throughout the entire system (all windows and activities).
+To query the current state, you can call
+isInTouchMode() to see whether the device is currently in touch mode.
+
+Handling focus
+The framework will handle routine focus movement in response to user input.
+This includes changing the focus as Views are removed or hidden, or as new
+Views become available. Views indicate their willingness to take focus
+through the isFocusable() method. To change whether a View can take
+focus, call setFocusable().  When in touch mode,
+you may query whether a View allows focus with isFocusableInTouchMode().
+You can change this with setFocusableInTouchMode().
+
+On devices running Android 9 (API level 28) or higher, activities don't assign an
+initial focus. Instead, you must explicitly request initial focus, if desired.
+
+Focus movement is based on an algorithm which finds the nearest neighbor in a
+given direction. In rare cases, the default algorithm may not match the
+intended behavior of the developer. In these situations, you can provide
+explicit overrides with the following XML attributes in the layout file:
+nextFocusDown, nextFocusLeft, nextFocusRight, and
+nextFocusUp. Add one of these attributes to the View from which
+the focus is leaving. Define the value of the attribute to be the id of the View
+to which focus should be given. For example:
+
+<LinearLayout
+    android:orientation="vertical"
+    ... >
+  <Button android:id="@+id/top"
+          android:nextFocusUp="@+id/bottom"
+          ... />
+  <Button android:id="@+id/bottom"
+          android:nextFocusDown="@+id/top"
+          ... />
+</LinearLayout>
+
+Ordinarily, in this vertical layout, navigating up from the first Button would not go
+anywhere, nor would navigating down from the second Button. Now that the top Button has
+defined the bottom one as the nextFocusUp (and vice versa), the navigation focus will
+cycle from top-to-bottom and bottom-to-top.
+If you'd like to declare a View as focusable in your UI (when it is traditionally not),
+add the android:focusable XML attribute to the View, in your layout declaration.
+Set the value true. You can also declare a View
+as focusable while in Touch Mode with android:focusableInTouchMode.
+To request a particular View to take focus, call requestFocus().
+To listen for focus events (be notified when a View receives or loses focus), use
+onFocusChange(),
+as discussed in the Event listeners section.
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

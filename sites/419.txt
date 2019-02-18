@@ -1,0 +1,588 @@
+Test backup and restore  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Test backup and restore
+  
+
+
+
+  This page shows you how to manually trigger backup and
+  restore operations with Auto Backup and Key/Value Backup
+  to ensure your app saves and restores data properly.
+
+How backup works
+
+  The section describes various pieces in the Android backup framework and
+  how they interact with apps that support Auto Backup and Key/Value
+  Backup. During the app development phase, most of the inner working of
+  the framework were abstracted away, so you didn't need to know this
+  information. However, during the testing phase, an understanding of these
+  concepts is important.
+
+
+  The following diagram illustrates how data flows during backup and
+  restore: 
+
+
+  The Backup Manager Service is an Android system service which
+  orchestrates and initiates backup and restore operations. The service is
+  accessible through the BackupManager API.
+  During a backup operation, the service queries your app for backup data,
+  then hands it to the backup transport, which then archives the
+  data. During a restore operation, the backup manager service retrieves
+  the backup data from the backup transport and restores the data to the
+  device.
+
+
+Backup Transports are Android components that are responsible
+  for storing and retrieving backups. An Android device can have zero or
+  more backup transports, but only one of those transports can be marked
+  active. The available backup transports may differ from device to device
+  (due to customizations by device manufacturers and service providers),
+  but most Google Play enabled devices ship with the following transports:
+
+
+
+Google Transport(default) - the active backup
+    transport on most devices, part of Google Mobile Services. This
+    documentation assumes that users are using the Google transport. This
+    transport stores Auto Backup data in a private folder in the user's
+    Google Drive account. Key/Value backup data is stored in the Android
+    Backup Service.
+  
+
+Local Transport - stores backup data locally on the
+    device. This transport is typically used for development/debugging
+    purposes and is not useful in the real world.
+  
+
+
+  If a device does not have any backup transports, then the data cannot be
+  backed up. Your app is not adversely affected.
+
+
+Caution: Because the backup transport can differ from
+  device to device, Android cannot guarantee the security of your data
+  while using backup. Be cautious about using backup to store sensitive
+  data, such as usernames and passwords.
+
+Prerequisites
+
+  To test your backup and restore operations, you need to know a bit about the
+  following tools.
+
+
+
+adb - to run commands on
+    the device or emulator
+  
+
+bmgr - to perform various
+    backup and restore operations
+  
+
+logcat - to see the
+    output of backup and restore operations.
+  
+
+Prepare your device or emulator
+
+  Prepare your device or emulator for backup testing by working through the
+  following checklist:
+
+
+For Auto Backup, check that you are using a device or emulator
+  running Android 6.0 (API level 23) or higher.
+  
+For Key/Value Backup, check that you are using a device or emulator
+  running Android 2.2 (API level 8) or higher.
+  
+Check that backup and restore is enabled on the device or emulator
+  and that a Google account has been added. There are two ways to check:
+    
+Depending on the device version, you can either go to Settings >
+      Backup & Restore, or just search Backup in the
+      search bar at the top of the screen.
+      
+From adb shell, run bmgr enabled
+
+
+
+      On physical devices, backup and restore is typically enabled during
+      the initial setup wizard. Emulators do not run the setup wizard, so
+      don't forget to enable backup and specify a backup account in device
+      settings.
+    
+
+Make sure the Google Backup Transport is available and active by
+  running the command:
+
+
+adb shell bmgr list transports
+
+
+      Then, check the console for the following output:
+    
+
+android/com.android.internal.backup.LocalTransport
+* com.google.android.gms/.backup.BackupTransportService
+
+
+
+
+  Physical devices without Google Play and emulators without Google APIs
+  might not include the Google Backup Transport. This article assumes you
+  are using the Google Backup Transport. You can test backup and restore
+  with other backup transports, but the procedure and output can differ.
+
+Test the backup
+
+  To initiate a backup of your app, run the following command:
+
+
+adb shell bmgr backupnow <PACKAGE>
+
+
+  The backupnow command is available on devices and emulator
+  running Android 7.0 or later. It runs either a Key/Value Backup or Auto
+  Backup depending on the package's manifest declarations. Check logcat to
+  see the output of the backup procedure. For example:
+
+
+D/BackupManagerService: fullTransportBackup()
+I/GmsBackupTransport: Attempt to do full backup on <PACKAGE>
+
+---- or ----
+
+V/BackupManagerService: Scheduling immediate backup pass
+D/PerformBackupTask: starting key/value Backup of BackupRequest{pkg=<PACKAGE>}
+
+
+  If the backupnow command is not available on your device,
+  complete the steps below for either Auto Backups or Key/Value Backups.
+
+
+  For Auto Backups, complete the following steps:
+
+
+Run the following command:
+
+
+adb shell bmgr backup @pm@ && adb shell bmgr run
+
+
+Wait until the command in the previous step finishes by monitoring
+  adb logcat for the following output:
+
+
+I/BackupManagerService: K/V backup pass finished.
+
+
+Run the following command to perform a full backup:
+
+
+adb shell bmgr fullbackup <PACKAGE>
+
+
+
+
+Note: The fullbackup command forces your
+  app to perform a full backup, even if your app implements key/value
+  backup. The system ignores your app's backup configuration and acts as if
+  the 
+android:fullBackupOnly
+  attribute were set to true.
+
+
+  For Key/Value Backups, schedule and run your backup with the following
+  steps:
+
+
+If your app hasn't called BackupManager.dataChanged() since the last backup, you can include your
+  app in the backup operation for testing purposes by running the following
+  command:
+
+
+adb shell bmgr backup <PACKAGE>
+
+
+You can then trigger a backup by running the following command:
+
+
+adb shell bmgr run
+
+
+
+
+bmgr backup adds your app to the Backup Manager's queue.
+  bmgr run initiates the backup operation, which forces the
+  Backup Manager to perform all backup requests that are in its queue.
+
+
+  When testing Key/Value Backups, you must verify that every preference
+  change schedules a backup. You can verify that a backup is scheduled
+  using one of the following methods:
+
+
+Run adb shell dumpsys backup and check that your app is
+  listed in the output of the command under Pending key/value
+  backup.
+  
+Log a message when you schedule a backup. You can then run adb
+  logcat, and check the output of the command to verify that a
+  backup was scheduled.
+  
+
+Test restore
+To manually initiate a restore, run the following command with a backup token
+(see how to get one below):
+
+adb shell bmgr restore <TOKEN> <PACKAGE>
+
+Warning: This action stops your app and wipes its data before performing the
+restore operation.
+
+  To look up backup tokens, run adb shell dumpsys backup. The
+  token is the hexidecimal string following the labels
+  Ancestral: and Current:. The ancestral
+  token refers to the backup dataset that was used to restore the device
+  when it was initially setup (with the device-setup wizard). The
+  current token refers to the device's current backup dataset (the
+  dataset that the device is currently sending its backup data to).
+
+
+  Then, check logcat to see the output of the restore procedure. For
+  example:
+
+
+V/BackupManagerService: beginRestoreSession: pkg=<PACKAGE> transport=null
+V/RestoreSession: restorePackage pkg=<PACKAGE> token=368abb4465c5c683
+...
+I/BackupManagerService: Restore complete.
+
+You can test automatic restore for your app by uninstalling and
+reinstalling your app either with adb or through the Google Play Store app.
+Caution: We don't recommend running the command adb shell bmgr restore
+<PACKAGE> (where you don't specify the backup set token) because this command
+works slightly differently to the other restore commands.
+Troubleshooting
+
+  This section helps you troubleshoot some common issues.
+
+
+Transport quota exceeded
+
+
+  If you see the following messages in logcat:
+
+
+I/PFTBT: Transport rejected backup of <PACKAGE>, skipping
+
+--- or ---
+
+I/PFTBT: Transport quota exceeded for package: <PACKAGE>
+
+
+  Your app has exceeded the quota. Reduce the amount of backup data and try
+  again. For example, verify that you are caching data only in the cache
+  directory of your app. The cache directory isn't included in backups.
+
+
+Full backup not possible
+
+
+  If you see the following message in logcat:
+
+
+I/BackupManagerService: Full backup not currently possible -- key/value backup not yet run?
+
+
+  The fullbackup operation failed because no Key/Value Backup operation has
+  yet occurred on the device. Trigger a Key/Value Backup with the command
+  bmgr run and then try again.
+
+
+Timeout waiting for agent
+
+
+  If you see the following message in logcat:
+
+
+12-05 18:59:02.033  1910  2251 D BackupManagerService:
+    awaiting agent for ApplicationInfo{5c7cde0 com.your.app.package}
+12-05 18:59:12.117  1910  2251 W BackupManagerService:
+    Timeout waiting for agent ApplicationInfo{5c7cde0 com.your.app.package}
+12-05 18:59:12.117  1910  2251 W BackupManagerService:
+    Can't find backup agent for com.your.app.package
+
+
+  Your app is taking more than 10 seconds to launch for backup. Notice the
+  timestamp difference in the log output. This error typically occurs when
+  your app makes use of a multidex configuration without ProGuard, and may
+  be caused by Instant
+  Run in Android Studio. To workaround the error, use ProGuard and
+  don't use Instant Run.
+
+
+Uninitialized backup account
+
+
+  If you see the following messages in logcat:
+
+
+01-31 14:32:45.698 17280 17292 I Backup: [GmsBackupTransport] Try to backup for an uninitialized backup account.
+01-31 14:32:45.699  1043 18255 W PFTBT: Transport failed; aborting backup: -1001
+01-31 14:32:45.699  1043 18255 I PFTBT: Full backup completed with status: -1000
+
+
+  The backup was aborted because the backup dataset was not initialized.
+  Run the backup manager with the command adb shell bmgr run
+  and then try to perform the backup again.
+
+App methods not called
+Because Auto Backup launches your app with a base class of
+Application, your app's set-up methods
+might not be called. Auto Backup doesn't launch any of your app's activities
+either, so you might see errors if your app does setup in an activity. To learn
+more, read Implement
+BackupAgent.
+In contrast, Key/Value Backup does launch your app with any
+Application subclass you declare in your app manifest file.
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated January 23, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

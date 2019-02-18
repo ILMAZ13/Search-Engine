@@ -1,0 +1,579 @@
+About Android App Bundles  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    About Android App Bundles
+  
+
+
+An Android App Bundle is a new upload format that includes all your app’s
+compiled code and resources, but defers APK generation and signing to Google
+Play.
+Google Play’s new app serving model, called Dynamic Delivery, then uses your
+app bundle to generate and serve optimized APKs for each user’s device
+configuration, so they download only the code and resources they need to run
+your app. You no longer have to build, sign, and manage multiple APKs to support
+different devices, and users get smaller, more optimized downloads.
+Additionally, you can add dynamic feature modules to your app project and
+include them in your app bundle. These modules contain features and assets that
+you can decide not to include when users first download and install your app.
+Using the Play Core Library, your app can later request to download
+those modules as dynamic feature APKs, and, through Dynamic Delivery, Google
+Play serves only the code and resources for that module to the device.
+Watch the following video for an overview of Android App Bundles and Dynamic
+Delivery.
+
+
+
+
+Publishing with Android App Bundles also increases the app size limit to
+500MB without having to use APK expansion files. Keep in mind, this limit
+applies only to the actual download size, not the publishing size. So, users can
+download apps as large as 500MB and, with dynamic delivery, all of that storage
+is used for only the code and resources they need to run the app. When you
+combine this with support for
+uncompressed native libraries,
+larger apps, such as games, can reduce disk usage and increase user retention.
+If you’re using Android Studio 3.2 or higher, most app projects require little
+effort to support Dynamic Delivery, and you can build an Android App Bundle in
+just a few clicks. However, adding dynamic feature modules is still in beta, and
+requires a little more effort and possibly refactoring your app.
+This page describes the steps to get started building Android App Bundles and
+describes some important concepts related to app bundles and Dynamic
+Delivery.
+Get started
+To build app bundles and support Dynamic Delivery, follow these steps:
+
+Download Android Studio 3.2 or higher—it's the easiest way
+to add dynamic feature modules and build app bundles.
+Add support for Dynamic Delivery
+by including a base module, organizing code and resources for configuration
+APKs, and, optionally, adding dynamic feature modules.
+Build an Android App Bundle using Android Studio.
+If you're not using the IDE, you can instead build an app bundle from the
+command line.
+Test your Android App Bundle using bundletool to
+generate APKs from your app bundle and deploy them to a connected device.
+Enroll into app signing by Google Play.
+Otherwise, you can't upload your app bundle to the Play Console.
+Upload your app bundle to the Play Console.
+You can then use the Play Console's new internal test track to quickly test
+downloading your app via Dynamic Delivery.
+
+Considerations for dynamic feature beta testers
+If you want to publish an app that includes dynamic feature modules to a
+production track, you must first apply to the
+dynamic feature beta program.
+If you are accepted into the beta program, keep the following considerations
+in mind as you develop your dynamic feature:
+
+Only devices running Android 5.0 (API level 21) and higher support
+downloading and installing dynamic features on demand. To make your dynamic
+feature available to earlier versions of Android, make sure to enable
+Fusing when you
+create a dynamic feature module.
+Make sure you enable SplitCompat,
+so that your app has immediate access to downloaded dynamic feature modules.
+If the download size for your dynamic feature is large, your app needs to
+obtain user confirmation
+before it can download the dynamic feature module to a device.
+Dynamic feature modules should not specify activities in their manifest with
+android:exported set to
+true. That's because there's no guarantee that the device
+has downloaded the dynamic feature module when another app tries to launch the
+activity. Additionally, your app should confirm that a dynamic feature is
+downloaded before trying to access its code and resources. To learn more, read
+Manage installed modules.
+Before you publish your app, be sure to thoroughly test your dynamic features
+using the Play Console's test tracks. To learn more, read
+Set up an open, closed, or internal test.
+
+Additionally, make sure that you're aware of the known issues
+described in a section below.
+Dynamic Delivery with split APKs
+A fundamental component of Dynamic Delivery is the split APK mechanism
+available on Android 5.0 (API level 21) and higher. Split APKs are very
+similar to regular APKs—they include compiled DEX bytecode, resources, and an
+Android manifest. However, the Android platform is able to treat multiple
+installed split APKs as a single app. That is, you can install multiple split
+APKs that have access to common code and resources, and appear as one
+installed app on the device.
+The benefit of split APKs is the ability to break up a monolithic APK—that is,
+an APK that includes code and resources for all features and device
+configurations your app supports—into smaller, discrete packages that are
+installed on a user’s device as required.
+For example, one split APK may include the code and resources for an
+additional feature that only a few of your users need, while another split APK
+includes resources for only a specific language or screen density. Each of
+these split APKs is downloaded and installed when the user requests it
+or it’s required by the device.
+The following describes the different types of APKs that may be installed
+together on a device to form your full app experience. You’ll learn how to
+configure your app project to support these APKs in later sections on this page.
+
+Base APK: This APK contains code and resources that all other split
+APKs can access and provides the basic functionality for your app. When a
+user requests to download your app, this APK is downloaded and installed
+first. That’s because only the base APK’s manifest contains a full
+declaration of your app’s services, content providers,
+permissions, platform version requirements, and dependencies on system
+features. Google Play generates the base APK for your app from your
+project’s app (or base) module. If you are concerned with reducing your app’s
+initial download size, it’s important to keep in mind that all code and
+resources included in this module are included in your app’s base APK.
+Configuration APKs: Each of these APKs includes native libraries and
+resources for a specific screen density, CPU architecture, or language.
+When a user downloads your app, their device downloads and installs only
+the configuration APKs that target their device. Each configuration APK
+is a dependency of either a base APK or dynamic feature APK. That is,
+they are downloaded and installed along with the APK they provide code
+and resources for. Unlike the base and dynamic feature modules, you don't
+create a separate module for configuration APKs. If you use standard practices
+to organize alternative, configuration-specific resources
+for your base and dynamic feature modules, Google Play automatically
+generates configuration APKs for you.
+Dynamic feature APKs: Each of these APKs contains code and resources
+for a feature of your app that is not required when your app is first
+installed. That is,
+using the Play Core Library,
+dynamic APKs may be installed on demand after the base APK is installed on
+the device to provide additional functionality to the user. For example,
+you may have a chat app that downloads and installs the ability to capture
+and send photos only when the user requests to use that functionality.
+Because dynamic features may not be available at install time, you should
+include any common code and resources in the base APK. That is, your dynamic
+feature should assume that code and resources of only the base APK
+are available at install time. Google Play generates dynamic feature APKs
+for your app from your project’s dynamic feature modules.
+
+Consider an app with three dynamic feature modules and support for multiple
+device configurations. Figure 1 below illustrates what the dependency tree for
+the app’s various APKs may look like. Note that the base APK forms the head of
+the tree, and all other APKs depend on the base APK. (If you're curious about
+how the modules for these APKs are represented in an Android App Bundle,
+see The Android App Bundle format.)
+
+
+Figure 1. Dependency tree for an app served using split APKs
+
+Keep in mind, you don’t need to build these APKs yourself—Google Play does it
+for you using a single signed app bundle you build with Android Studio. To
+learn more about the app bundle format and how to build one, go to
+Build, deploy, and upload Android App Bundles.
+Devices running Android 4.4 (API level 19) and lower
+Because devices running Android 4.4 (API level 19) and lower don’t support
+downloading and installing split APKs, Google Play instead serves those
+devices a single APK, called a multi-APK, that’s optimized for the device's
+configuration. That is, multi-APKs represent your full app experience but do not
+include unnecessary code and resources—such as those for other screen densities
+and CPU architectures.
+They do, however, include resources for all languages that
+your app supports. This allows, for example, users to change your app's
+preferred language setting without having to download a different multi-APK.
+Multi-APKs do not have the ability to later download dynamic features modules
+on demand. To include a dynamic module in this APK, you must either disable
+On-demand or enable Fusing when
+creating the dynamic feature module.
+Keep in mind, with Dynamic Delivery, you don't need to build, sign,
+upload, and manage APKs for each device configuration your app supports. You
+still build and upload only a single app bundle for your entire app, and Google
+Play takes care of the rest for you. So whether or not you plan to support
+devices running Android 4.4 or lower, Dynamic Delivery provides a flexible
+serving mechanism for both you and your users.
+The Android App Bundle format
+An Android App Bundle is a file (with the .aab file extension) that you
+upload to Google Play to support Dynamic Delivery.
+App bundles are signed binaries that organize your app’s
+code and resources into modules, as illustrated in figure 2. Code and resources
+for each module are organized similarly to what you would
+find in an APK—and that makes sense because each of these modules may be
+generated as separate APKs. Google
+Play then uses the app bundle to generate the various APKs that are served to
+users, such as the base
+APK, dynamic feature APKs, configuration APKs, and (for devices that do not
+support split APKs) multi-APKs. The directories that are colored in blue—such
+as the drawable/, values/, and lib/ directories—represent code and
+resources that Google Play uses to create configuration APKs for each module.
+
+
+Figure 2. The contents of an Android App Bundle with one base
+  module and two dynamic feature modules.
+
+Note: You build an app bundle for each unique app, or applicationID. That is,
+if you use product flavors to create multiple versions of your app from a
+single app project, and each of those versions use a unique
+applicationID, you need to build a separate
+app bundle for each version of your app.
+The following list describes some of the app
+bundle’s files and directories in more detail:
+
+base/, feature1/, and feature2/: Each of these top-level directories
+represent a different module of your app. The
+base module for your app is always contained in a base directory of
+the app bundle. However, the directory for each dynamic feature module
+is given the name specified by the split attribute in the module’s
+manifest. To learn more, read about the
+Dynamic feature module manifest.
+BUNDLE-METADATA/: This directory includes  metadata files that contain
+information useful for tools or app stores. Such metadata files may include
+ProGuard mappings and the complete list of your app's DEX files. Files in
+this directory are not packaged into your app's APKs.
+Module Protocol Buffer (*.pb) files: These files provide metadata that
+helps describe the contents of each app module to app stores, such as
+Google Play. For example, BundleConfig.pb provides information about the
+bundle itself, such as which version of the build tools were used to build the
+app bundle, and native.pb and resources.pb
+describe the code and resources in each module, which is useful when Google
+Play optimizes APKs for different device configurations.
+manifest/: Unlike APKs, app bundles store the AndroidManifest.xml
+file of each module in this separate directory.
+dex/: Unlike APKs, app bundles store the DEX files for each
+module in this separate directory.
+res/, lib/, and assets/: These directories are identical to
+those in a typical APK. When you upload your app bundle, Google Play
+inspects these directories and packages only the files that satisfy
+the target device configuration, while preserving file paths.
+root/: This directory stores files that are later relocated to
+the root of any APK that includes the module that this directory is
+located in. For example, the base/root/ directory of an app bundle
+may include Java-based resources that your app loads using
+Class.getResource().
+Those files are later relocated to the root directory of your app’s
+base APK and every multi-APK that Google Play generates. Paths within
+this directory are also preserved. That is, directories (and their
+subdirectories) are also relocated to the root of the APK.
+Caution: If the contents in this directory conflict with other files and
+directories at the root of the APK, Play Console rejects the entire
+app bundle at upload time. For example, you can not include a
+root/lib/ directory because it would conflict with the lib
+directory that each APK already includes.
+
+Build and deploy Android App Bundles
+An app bundle is different from an APK in that you can’t deploy one to a
+device. Rather, it’s a upload format that includes all your app’s compiled
+code and resources in a single build artifact. So, after you upload your
+signed app bundle, Google Play has everything it needs to build and sign your
+app’s APKs, and serve them to users through Dynamic Delivery.
+If you’re using Android Studio, you can
+build your project as a signed app bundle in just a
+few clicks. If you're not using the IDE, you can instead build an app bundle
+from the command line. Then,
+simply upload your app bundle to the Play
+Console to test or publish your app with Dynamic Delivery.
+Test your app bundle with bundletool
+After you build your Android App Bundle, you should test how Google Play will
+use it to generate APKs and how those APKs will behave when deployed to a device.
+You can perform these tests locally using bundletool—the command line tool that
+Gradle, Android Studio, and Google Play use to build an Android App Bundle or
+convert an app bundle into APKs that are deployed to devices.
+This tool is also useful for including app bundle support on your build server.
+To learn how to download and use bundletool, read
+Test Android App Bundles with bundletool.
+After testing your app bundle locally, you should  then test it through Google
+Play by
+uploading your app bundle to the Play Console.
+An internal test track allows you to upload an app bundle to the Play
+Console and start testing it on your device with Dynamic Delivery in just a few
+minutes.
+Download dynamic feature modules with the Play Core Library
+If your app includes dynamic features, it needs to use the Play Core Library to
+request, monitor, and manage dynamic feature module downloads. To learn more, go
+to Download modules with the Play Core Library.
+If you want to see the library in action, try the
+Play Core Library sample app.
+A note about Instant Apps
+In Android Studio 3.2 or higher, you can add an instant
+experience
+to an app bundle, as long as your app's size is small enough. For details on the
+size limits for the different types of instant experiences that you can create,
+see Overview of
+Google Play Instant.
+Known issues
+The following are the currently known issues when building Android App Bundles
+or serving your app using Dynamic Delivery. If you experience issues that are
+not described below, please
+report a bug.
+
+Android App Bundles do not support
+APK expansion files.
+However, Google Play still requires that app downloads be 100MB or less.
+So, for example, when first installing your app, the total size of your base
+APK and its configuration APKs must equal 100 MB or less. Similarly,
+the total size of any dynamic feature APK and its configuration APKs must be
+100 MB or less. After uploading your app bundle, the Play Console warns you
+if your app bundle results in APKs that violate this restriction.
+If you use tools that dynamically modify resource tables, APKs generated
+from app bundles might behave unexpectedly. So, when building an app bundle,
+it is recommended that you disable such tools.
+In a dynamic feature module’s manifest, you should not reference resources
+that don’t exist in the base module. That’s because, when Google Play
+generates your app’s base APK, it merges manifests for all modules into that
+of the base APK. So, resource linking breaks if the base APK’s manifest
+references resources that don’t exist in the base APK.
+As of Android Studio 3.2 Canary 14, when you change the build
+variant for your app’s base module, the same
+build variant is not automatically selected for dynamic feature modules that
+depend on the base module. So, you might receive an error when building your
+app. Simply make sure that you select the same build variant for the base
+module and other modules that depend on it.
+It is currently possible to configure properties in a dynamic feature
+module’s build configuration that conflict with those from the base (or
+other) modules. For example, you can set buildTypes.release.debuggable =
+true in the base module and set it to false in a dynamic feature module.
+Such conflicts might cause build and runtime issues. Keep in mind, by default,
+dynamic feature modules inherit some build configurations from the base
+module. So, make sure you understand which configurations you should keep,
+and which ones you should omit, in your Dynamic feature module build
+configuration.
+Because app installs may require downloading more than one APK (such the
+base APK and a few of its configuration APKs), you should be careful when
+manually transferring your app’s APKs onto a device (also known as
+sideloading). Otherwise, your app may experience runtime issues due to
+missing code and resources.
+Currently, Google Play includes all the code and resources for a dynamic
+feature module in a single APK. In the near future, for devices running
+Android 5.0 (API level 21) and higher, serving will be optimized to use
+configuration APKs.
+Downloading dynamic feature modules requires devices to have a recent
+version of the Play Store app installed. So, if your app includes dynamic
+feature modules, downloads for a very small percentage of users may fall back
+to a single optimized multi-APK, which is the same download experience for
+devices running Android 4.4 (API level 20) and lower.
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated January 14, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

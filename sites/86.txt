@@ -1,0 +1,595 @@
+Downloadable Fonts  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Downloadable Fonts
+  
+
+
+
+    Android 8.0 (API level 26) and Android Support Library 26 introduce support
+    for APIs to request fonts from a provider application instead of bundling
+    files into the APK or letting the APK download fonts. The feature is
+    available on devices running Android API versions 14 and higher through the
+    Support Library 26.
+  
+The Downloadable Fonts feature offers the following benefits:
+
+Reduces the APK size
+Increases the app installation success rate
+Improves the overall system health as multiple APKs can share the same
+      font through a provider. This saves users cellular data, phone memory,
+      and disk space. In this model, the font is fetched over the network when
+      needed.
+
+
+      Refer to the following related resources:
+    
+
+
+
+            Downloadable Fonts sample app
+
+
+How does Downloadable Fonts work?
+
+    A font provider is an application that retrieves fonts and caches them
+    locally so other apps can request and share fonts. Figure 1 illustrates the
+    process.
+  
+
+
+Figure 1. Downloadable Fonts process
+
+The basics
+
+    You can use the Downloadable Fonts feature in the following ways:
+  
+
+via Android Studio and Google Play Services
+Programmatically
+Via the support library
+
+Using Downloadable Fonts via Android Studio and Google Play services
+
+    You can set your application to download fonts by using Android Studio 3.0 or higher.
+    To help you get started with the Downloadable Fonts features, you can use
+    the font provider from Google Play services.
+  
+Note: A device must have Google Play services version
+    11 or higher to use the Google Fonts provider.
+  
+
+In the Layout Editor, select a TextView, and then under
+      Properties, select fontFamily > More Fonts.
+      
+
+Figure 2. Using Layout editor
+
+The Resources window appears.
+
+In the Source drop-down list, select Google Fonts.
+In the Fonts box, select a font.
+Select Create downloadable font and click OK.
+    Note: To bundle the font in your app, select
+      Add font to project.
+
+
+Figure 3.
+            Selecting font from the Resources window
+
+
+
+      Android Studio automatically generates the relevant XML files that are
+      needed to render the font correctly in your app.
+
+
+Figure 4. Previewing font file
+
+
+Using Downloadable Fonts programmatically
+
+    Prior to Android 8.0 (API level 26), the Support Library 26.0 provides
+    full support for Downloadable Fonts. For more information about using the
+    support library, go to the Downloadable Fonts support library section.
+  
+
+    To use the Downloadable Fonts feature programmatically, you need to interact
+    with two key classes:
+
+android.graphics.fonts.FontRequest: This class lets you
+      create a font request.
+FontsContract: This class lets you
+      create a new Typeface object based on the font
+      request.
+
+
+    Your app retrieves fonts from the font provider by using the
+    FontsContract API. Each provider has its own set of
+    restrictions on the Android versions and query language it supports. For
+    more information on the Android versions and query format, refer to your
+    provider’s documentation.
+  
+
+    To download a font, perform the following steps:
+  
+
+Create an instance of the android.graphics.fonts.FontRequest
+      class to request the font from the provider. To create a request, pass the
+      following parameters:
+      
+The font provider authority
+The font provider package to verify the identity of the provider
+The string query of the font. For more information about query
+          formats, see your font provider's documentation, such as
+          Google Fonts.
+A list of sets of hashes for the certificates to verify the identity
+          of the provider.
+          Note: There is no need to add a certificate if
+            you request fonts from pre-installed providers. However, you must
+            always provide a certificate if you request fonts through the
+            support library.
+
+
+
+Kotlin
+
+val request = FontRequest(
+        "com.example.fontprovider.authority",
+        "com.example.fontprovider",
+        "my font",
+        certs
+)
+
+Java
+
+FontRequest request = new FontRequest("com.example.fontprovider",
+                   "com.example.fontprovider", "my font", certs);
+
+
+
+Note: You can receive the parameter values from
+        your font provider. Android Studio automatically populates these values
+        for the providers it supports in its UI.
+
+Create an instance of the
+      FontsContract.FontRequestCallback class.
+Override the
+      onTypefaceRetrieved()
+      method to indicate the font request is complete. Provide the retrieved
+      font as the parameter. You can use this method to set the font, as needed.
+      For example, you can set the font on a TextView
+Override the
+      onTypefaceRequestFailed()
+      method to receive information about errors in the font request process.
+      For more information about error codes, refer to the
+      error code constants.
+Call the FontsContract.requestFont()
+      method to retrieve the font from the font provider. The method initiates a
+      check to determine if the font exists in the cache. If the font is not
+      available locally, it calls the font provider, retrieves the font
+      asynchronously, and passes the result to the callback. Pass the following
+      parameters:
+      
+an instance of the Context class
+an instance of the android.graphics.fonts.FontRequest class
+a callback to receive the results of the font request
+a handler to fetch fonts on a thread
+Note: Ensure this handler is not the User
+          Interface thread handler.
+
+
+
+The following sample code illustrates the overall Downloadable Fonts
+    process:
+
+Kotlin
+
+val request = FontRequest(
+        "com.example.fontprovider.authority",
+        "com.example.fontprovider",
+        "my font",
+        certs
+)
+val callback = object : FontsContract.FontRequestCallback() {
+
+    override fun onTypefaceRetrieved(typeface: Typeface) {
+        // Your code to use the font goes here
+        ...
+    }
+
+    override fun onTypefaceRequestFailed(reason: Int) {
+        // Your code to deal with the failure goes here
+        ...
+    }
+}
+FontsContract.requestFonts(context, request, handler, null, callback)
+
+Java
+
+FontRequest request = new FontRequest("com.example.fontprovider.authority",
+        "com.example.fontprovider", "my font", certs);
+FontsContract.FontRequestCallback callback =
+    new FontsContract.FontRequestCallback() {
+        @Override
+        public void onTypefaceRetrieved(Typeface typeface) {
+            // Your code to use the font goes here
+            ...
+        }
+
+        @Override
+        public void onTypefaceRequestFailed(int reason) {
+            // Your code to deal with the failure goes here
+            ...
+        }
+};
+FontsContract.requestFonts(context, request, handler, null, callback);
+
+
+
+
+    For more information about how to download a font from a font provider, go to
+    
+      Downloadable Fonts sample app.
+  
+Using Downloadable Fonts via the support library
+
+    The Support Library 26 provides support to the Downloadable Fonts feature on
+    devices running Android API versions 14 or higher. The
+    android.support.v4.provider package contains
+    FontsContractCompat and FontRequest classes to
+    implement the backward-compatible Downloadable Fonts feature support. The
+    support library classes contain methods similar to framework. The process
+    of downloading fonts is also similar to the one mentioned in the
+    Downloading fonts section.
+
+    To download fonts by using the support library, import the
+    FontsContractCompat and FontRequest classes from
+    the android.support.v4.provider package. Create the instances of
+    these classes instead of FontsContract and
+    android.graphics.fonts.FontRequest framework classes.
+  
+Note: You must provide a certificate when you
+    request fonts through the support library. This is applicable even for the
+    pre-installed font providers.
+Adding support library dependency
+
+    To use the FontsContractCompat and FontRequest
+    classes, you must modify your app project's classpath dependencies within
+    your development environment.
+  
+
+    To add a support library to your application project:
+  
+
+Open the build.gradle file of your application.
+Add the support library to the dependencies section.
+
+
+dependencies {
+    ...
+    compile "com.android.support:support-compat:28.0.0"
+}
+
+Using Downloadable Fonts as resources in XML
+Android 8.0 (API level 26) and Support Library 26 offer a faster and more
+    convenient way to declare a custom font as a resource in the XML layout.
+    This means, there is no need to bundle the font as an asset. You can define
+    a custom font for your entire theme, which accelerates usability for
+    multiple weights and styles, such as Bold, Medium, or Light, when provided.
+  
+
+Create a new XML file in the res/font folder.
+Add <font-family> root element and set the
+      font-related attributes as shown in the following sample XML
+      file:
+
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fontProviderAuthority="com.example.fontprovider.authority"
+        android:fontProviderPackage="com.example.fontprovider"
+        android:fontProviderQuery="example font"
+        android:fontProviderCerts="@array/certs">
+</font-family>
+
+Refer to the file as @font/font_file_name in the layout XML file. You can
+      also use the getFont()
+      method to retrieve the file programmatically. For example,
+      getFont(R.font.font_file_name).
+
+Pre-declaring fonts in the manifest
+Layout inflation and resource retrieval are synchronous tasks. By default,
+    the first attempt to retrieve fonts triggers a request to the font provider,
+    and therefore increases the first layout time. To avoid the delay, you can
+    pre-declare fonts that need retrieving in your manifest. After the system
+    retrieves the font from the provider, it is available immediately. If the
+    font retrieval takes longer than expected, the system aborts the
+    fetching process and uses the default font.
+To pre-declare fonts in the manifest, perform the following steps:
+
+Create a resources array in res/values/arrays.xml and
+      declare the Downloadable Fonts that you want to prefetch.
+
+res/values/arrays.xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts">
+        <item>@font/font1</item>
+        <item>@font/font2</item>
+    </array>
+</resources>
+
+Use a meta-data tag to declare the resource array in your
+      manifest.
+
+<meta-data android:name="preloaded_fonts" android:resource="@array/preloaded_fonts" />
+
+
+Adding certificates
+When a font provider is not preinstalled or if you are using the support
+    library, you must declare the certificates the font provider is signed with.
+    The system uses the certificates to verify the font provider's identity.
+Note: Android Studio can automatically populate the
+    values for the Google Play services provider if you use the font selector
+    tool in Android Studio. For more information about using Android Studio for
+    downloading fonts, go to the
+    Using Downloadable Fonts via Android Studio and Google Play services
+    section.
+Perform the following steps to add certificates:
+
+Create a string array with the certificate details. For more
+      information about certificate details, refer to your font provider's
+      documentation.
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="certs">
+       <item>MIIEqDCCA5CgAwIBAgIJA071MA0GCSqGSIb3DQEBBAUAMIGUMQsww...</item>
+    </string-array>
+</resources>
+
+Set the fontProviderCerts attribute to the array.
+    
+
+android:fontProviderCerts="@array/certs"
+
+Note: If the provider has more than one set of certs,
+      you can define an array of string arrays.
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated January 23, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

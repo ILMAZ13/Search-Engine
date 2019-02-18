@@ -1,0 +1,1175 @@
+Dialogs  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Dialogs
+  
+
+
+A dialog is a small window that prompts the user to
+make a decision or enter additional information. A dialog does not fill the screen and is
+normally used for modal events that require users to take an action before they can proceed.
+
+Dialog Design
+For information about how to design your dialogs, including recommendations
+  for language, read the Dialogs design guide.
+
+
+The Dialog class is the base class for dialogs, but you
+should avoid instantiating Dialog directly.
+Instead, use one of the following subclasses:
+
+AlertDialog
+A dialog that can show a title, up to three buttons, a list of
+    selectable items, or a custom layout.
+DatePickerDialog or TimePickerDialog
+A dialog with a pre-defined UI that allows the user to select a date or time.
+
+Caution: Android includes another dialog class called
+ProgressDialog that shows a dialog with a progress bar.
+This widget is deprecated because it prevents users from interacting with the
+app while progress is being displayed. If you need to indicate loading or
+indeterminate progress, you should follow the design guidelines for Progress & Activity and use
+a ProgressBar in your layout, instead of using ProgressDialog.
+These classes define the style and structure for your dialog, but you should
+use a DialogFragment as a container for your dialog.
+The DialogFragment class provides all the controls you
+need to create your dialog and manage its appearance, instead of calling methods
+on the Dialog object.
+Using DialogFragment to manage the dialog
+ensures that it correctly handles lifecycle events
+such as when the user presses the Back button or rotates the screen. The DialogFragment class also allows you to reuse the dialog's UI as an
+embeddable component in a larger UI, just like a traditional Fragment (such as when you want the dialog UI to appear differently
+on large and small screens).
+The following sections in this guide describe how to use a DialogFragment in combination with an AlertDialog
+object. If you'd like to create a date or time picker, you should instead read the
+Pickers guide.
+Note:
+Because the DialogFragment class was originally added with
+Android 3.0 (API level 11), this document describes how to use the DialogFragment class that's provided with the Support Library. By adding this library
+to your app, you can use DialogFragment and a variety of other
+APIs on devices running Android 1.6 or higher. If the minimum version your app supports
+is API level 11 or higher, then you can use the framework version of DialogFragment, but be aware that the links in this document are for the support
+library APIs. When using the support library,
+be sure that you import android.support.v4.app.DialogFragment
+class and not android.app.DialogFragment.
+Creating a Dialog Fragment
+You can accomplish a wide variety of dialog designs—including
+custom layouts and those described in the Dialogs
+design guide—by extending
+DialogFragment and creating a AlertDialog
+in the onCreateDialog() callback method.
+For example, here's a basic AlertDialog that's managed within
+a DialogFragment:
+
+Kotlin
+
+class FireMissilesDialogFragment : DialogFragment() {
+
+    override fun onCreateDialog(savedInstanceState: Bundle): Dialog {
+        return activity?.let {
+            // Use the Builder class for convenient dialog construction
+            val builder = AlertDialog.Builder(it)
+            builder.setMessage(R.string.dialog_fire_missiles)
+                    .setPositiveButton(R.string.fire,
+                            DialogInterface.OnClickListener { dialog, id ->
+                                // FIRE ZE MISSILES!
+                            })
+                    .setNegativeButton(R.string.cancel,
+                            DialogInterface.OnClickListener { dialog, id ->
+                                // User cancelled the dialog
+                            })
+            // Create the AlertDialog object and return it
+            builder.create()
+        } ?: throw IllegalStateException("Activity cannot be null")
+    }
+}
+
+Java
+
+public class FireMissilesDialogFragment extends DialogFragment {
+    @Override
+    public Dialog onCreateDialog(Bundle savedInstanceState) {
+        // Use the Builder class for convenient dialog construction
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        builder.setMessage(R.string.dialog_fire_missiles)
+               .setPositiveButton(R.string.fire, new DialogInterface.OnClickListener() {
+                   public void onClick(DialogInterface dialog, int id) {
+                       // FIRE ZE MISSILES!
+                   }
+               })
+               .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                   public void onClick(DialogInterface dialog, int id) {
+                       // User cancelled the dialog
+                   }
+               });
+        // Create the AlertDialog object and return it
+        return builder.create();
+    }
+}
+
+
+
+
+
+Figure 1.
+A dialog with a message and two action buttons.
+
+Now, when you create an instance of this class and call show() on that object, the dialog appears as
+shown in figure 1.
+The next section describes more about using the AlertDialog.Builder
+APIs to create the dialog.
+Depending on how complex your dialog is, you can implement a variety of other callback
+methods in the DialogFragment, including all the basic
+fragment lifecycle methods.
+
+
+
+
+
+Building an Alert Dialog
+The AlertDialog class allows you to build a variety of dialog designs and
+is often the only dialog class you'll need.
+As shown in figure 2, there are three regions of an alert dialog:
+
+
+Figure 2. The layout of a dialog.
+
+
+Title
+This is optional and should be used only when the content area
+  is occupied by a detailed message, a list, or custom layout. If you need to state
+  a simple message or question (such as the dialog in figure 1), you don't need a title.
+Content area
+This can display a message, a list, or other custom layout.
+Action buttons
+There should be no more than three action buttons in a dialog.
+
+The AlertDialog.Builder
+class provides APIs that allow you to create an AlertDialog
+with these kinds of content, including a custom layout.
+To build an AlertDialog:
+
+Kotlin
+
+// 1. Instantiate an <code><a href="/reference/android/app/AlertDialog.Builder.html">AlertDialog.Builder</a></code> with its constructor
+val builder: AlertDialog.Builder? = activity?.let {
+    AlertDialog.Builder(it)
+}
+
+// 2. Chain together various setter methods to set the dialog characteristics
+builder?.setMessage(R.string.dialog_message)
+        .setTitle(R.string.dialog_title)
+
+// 3. Get the <code><a href="/reference/android/app/AlertDialog.html">AlertDialog</a></code> from <code><a href="/reference/android/app/AlertDialog.Builder.html#create()">create()</a></code>
+val dialog: AlertDialog? = builder?.create()
+
+Java
+
+// 1. Instantiate an <code><a href="/reference/android/app/AlertDialog.Builder.html">AlertDialog.Builder</a></code> with its constructor
+AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+
+// 2. Chain together various setter methods to set the dialog characteristics
+builder.setMessage(R.string.dialog_message)
+       .setTitle(R.string.dialog_title);
+
+// 3. Get the <code><a href="/reference/android/app/AlertDialog.html">AlertDialog</a></code> from <code><a href="/reference/android/app/AlertDialog.Builder.html#create()">create()</a></code>
+AlertDialog dialog = builder.create();
+
+
+
+The following topics show how to define various dialog attributes using the
+AlertDialog.Builder class.
+Adding buttons
+To add action buttons like those in figure 2,
+call the setPositiveButton() and
+setNegativeButton() methods:
+
+Kotlin
+
+val alertDialog: AlertDialog? = activity?.let {
+    val builder = AlertDialog.Builder(it)
+    builder.apply {
+        setPositiveButton(R.string.ok,
+                DialogInterface.OnClickListener { dialog, id ->
+                    // User clicked OK button
+                })
+        setNegativeButton(R.string.cancel,
+                DialogInterface.OnClickListener { dialog, id ->
+                    // User cancelled the dialog
+                })
+    }
+    // Set other dialog properties
+    ...
+
+    // Create the AlertDialog
+    builder.create()
+}
+
+Java
+
+AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+// Add the buttons
+builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+           public void onClick(DialogInterface dialog, int id) {
+               // User clicked OK button
+           }
+       });
+builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+           public void onClick(DialogInterface dialog, int id) {
+               // User cancelled the dialog
+           }
+       });
+// Set other dialog properties
+...
+
+// Create the AlertDialog
+AlertDialog dialog = builder.create();
+
+
+
+The set...Button() methods require a title for the button (supplied
+by a string resource) and a
+DialogInterface.OnClickListener that defines the action to take
+when the user presses the button.
+There are three different action buttons you can add:
+
+Positive
+You should use this to accept and continue with the action (the "OK" action).
+Negative
+You should use this to cancel the action.
+Neutral
+You should use this when the user may not want to proceed with the action,
+  but doesn't necessarily want to cancel. It appears between the positive and negative
+  buttons. For example, the action might be "Remind me later."
+
+You can add only one of each button type to an AlertDialog. That is, you cannot have more than one "positive" button.
+
+
+Figure 3.
+A dialog with a title and list.
+
+Adding a list
+There are three kinds of lists available with the AlertDialog APIs:
+
+A traditional single-choice list
+A persistent single-choice list (radio buttons)
+A persistent multiple-choice list (checkboxes)
+
+To create a single-choice list like the one in figure 3,
+use the setItems() method:
+
+Kotlin
+
+override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
+    return activity?.let {
+        val builder = AlertDialog.Builder(it)
+        builder.setTitle(R.string.pick_color)
+                .setItems(R.array.colors_array,
+                        DialogInterface.OnClickListener { dialog, which ->
+                            // The 'which' argument contains the index position
+                            // of the selected item
+                        })
+        builder.create()
+    } ?: throw IllegalStateException("Activity cannot be null")
+}
+
+Java
+
+@Override
+public Dialog onCreateDialog(Bundle savedInstanceState) {
+    AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+    builder.setTitle(R.string.pick_color)
+           .setItems(R.array.colors_array, new DialogInterface.OnClickListener() {
+               public void onClick(DialogInterface dialog, int which) {
+               // The 'which' argument contains the index position
+               // of the selected item
+           }
+    });
+    return builder.create();
+}
+
+
+
+Because the list appears in the dialog's content area,
+the dialog cannot show both a message and a list and you should set a title for the
+dialog with setTitle().
+To specify the items for the list, call setItems(), passing an array.
+Alternatively, you can specify a list using setAdapter(). This allows you to back the list
+with dynamic data (such as from a database) using a ListAdapter.
+If you choose to back your list with a ListAdapter,
+always use a Loader so that the content loads
+asynchronously. This is described further in
+Building Layouts
+with an Adapter and the Loaders
+guide.
+Note: By default, touching a list item dismisses the dialog,
+unless you're using one of the following persistent choice lists.
+Adding a persistent multiple-choice or single-choice list
+To add a list of multiple-choice items (checkboxes) or
+single-choice items (radio buttons), use the
+setMultiChoiceItems() or
+setSingleChoiceItems() methods, respectively.
+
+
+Figure 4.
+A list of multiple-choice items.
+
+For example, here's how you can create a multiple-choice list like the
+one shown in figure 4 that saves the selected
+items in an ArrayList:
+
+Kotlin
+
+override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
+    return activity?.let {
+        val selectedItems = ArrayList<Int>() // Where we track the selected items
+        val builder = AlertDialog.Builder(it)
+        // Set the dialog title
+        builder.setTitle(R.string.pick_toppings)
+                // Specify the list array, the items to be selected by default (null for none),
+                // and the listener through which to receive callbacks when items are selected
+                .setMultiChoiceItems(R.array.toppings, null,
+                        DialogInterface.OnMultiChoiceClickListener { dialog, which, isChecked ->
+                            if (isChecked) {
+                                // If the user checked the item, add it to the selected items
+                                selectedItems.add(which)
+                            } else if (selectedItems.contains(which)) {
+                                // Else, if the item is already in the array, remove it
+                                selectedItems.remove(Integer.valueOf(which))
+                            }
+                        })
+                // Set the action buttons
+                .setPositiveButton(R.string.ok,
+                        DialogInterface.OnClickListener { dialog, id ->
+                            // User clicked OK, so save the selectedItems results somewhere
+                            // or return them to the component that opened the dialog
+                            ...
+                        })
+                .setNegativeButton(R.string.cancel,
+                        DialogInterface.OnClickListener { dialog, id ->
+                            ...
+                        })
+
+        builder.create()
+    } ?: throw IllegalStateException("Activity cannot be null")
+}
+
+Java
+
+@Override
+public Dialog onCreateDialog(Bundle savedInstanceState) {
+    selectedItems = new ArrayList();  // Where we track the selected items
+    AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+    // Set the dialog title
+    builder.setTitle(R.string.pick_toppings)
+    // Specify the list array, the items to be selected by default (null for none),
+    // and the listener through which to receive callbacks when items are selected
+           .setMultiChoiceItems(R.array.toppings, null,
+                      new DialogInterface.OnMultiChoiceClickListener() {
+               @Override
+               public void onClick(DialogInterface dialog, int which,
+                       boolean isChecked) {
+                   if (isChecked) {
+                       // If the user checked the item, add it to the selected items
+                       selectedItems.add(which);
+                   } else if (selectedItems.contains(which)) {
+                       // Else, if the item is already in the array, remove it
+                       selectedItems.remove(Integer.valueOf(which));
+                   }
+               }
+           })
+    // Set the action buttons
+           .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+               @Override
+               public void onClick(DialogInterface dialog, int id) {
+                   // User clicked OK, so save the selectedItems results somewhere
+                   // or return them to the component that opened the dialog
+                   ...
+               }
+           })
+           .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+               @Override
+               public void onClick(DialogInterface dialog, int id) {
+                   ...
+               }
+           });
+
+    return builder.create();
+}
+
+
+
+Although both a traditional list and a list with radio buttons
+provide a "single choice" action, you should use setSingleChoiceItems() if you want to persist the user's choice.
+That is, if opening the dialog again later should indicate what the user's current choice is,
+then you create a list with radio buttons.
+Creating a Custom Layout
+
+
+Figure 5. A custom dialog layout.
+
+If you want a custom layout in a dialog, create a layout and add it to an
+AlertDialog by calling setView() on your AlertDialog.Builder object.
+By default, the custom layout fills the dialog window, but you can still
+use AlertDialog.Builder methods to add buttons and a title.
+For example, here's the layout file for the dialog in Figure 5:
+res/layout/dialog_signin.xml
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/header_logo"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:scaleType="center"
+        android:background="#FFFFBB33"
+        android:contentDescription="@string/app_name" />
+    <EditText
+        android:id="@+id/username"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/username" />
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        android:hint="@string/password"/>
+</LinearLayout>
+
+Tip: By default, when you set an EditText
+element to use the "textPassword" input type, the font family is set to monospace, so
+you should change its font family to "sans-serif" so that both text fields use
+a matching font style.
+To inflate the layout in your DialogFragment,
+get a LayoutInflater with
+getLayoutInflater() and call
+inflate(), where the first parameter
+is the layout resource ID and the second parameter is a parent view for the layout.
+You can then call setView()
+to place the layout in the dialog.
+
+Kotlin
+
+override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
+    return activity?.let {
+        val builder = AlertDialog.Builder(it)
+        // Get the layout inflater
+        val inflater = requireActivity().layoutInflater;
+
+        // Inflate and set the layout for the dialog
+        // Pass null as the parent view because its going in the dialog layout
+        builder.setView(inflater.inflate(R.layout.dialog_signin, null))
+                // Add action buttons
+                .setPositiveButton(R.string.signin,
+                        DialogInterface.OnClickListener { dialog, id ->
+                            // sign in the user ...
+                        })
+                .setNegativeButton(R.string.cancel,
+                        DialogInterface.OnClickListener { dialog, id ->
+                            getDialog().cancel()
+                        })
+        builder.create()
+    } ?: throw IllegalStateException("Activity cannot be null")
+}
+
+Java
+
+@Override
+public Dialog onCreateDialog(Bundle savedInstanceState) {
+    AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+    // Get the layout inflater
+    LayoutInflater inflater = requireActivity().getLayoutInflater();
+
+    // Inflate and set the layout for the dialog
+    // Pass null as the parent view because its going in the dialog layout
+    builder.setView(inflater.inflate(R.layout.dialog_signin, null))
+    // Add action buttons
+           .setPositiveButton(R.string.signin, new DialogInterface.OnClickListener() {
+               @Override
+               public void onClick(DialogInterface dialog, int id) {
+                   // sign in the user ...
+               }
+           })
+           .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+               public void onClick(DialogInterface dialog, int id) {
+                   LoginDialogFragment.this.getDialog().cancel();
+               }
+           });
+    return builder.create();
+}
+
+
+
+
+Tip: If you want a custom dialog,
+you can instead display an Activity as a dialog
+instead of using the Dialog APIs. Simply create an activity and set its theme to
+Theme.Holo.Dialog
+in the <activity> manifest element:
+
+<activity android:theme="@android:style/Theme.Holo.Dialog" >
+
+That's it. The activity now displays in a dialog window instead of fullscreen.
+
+Passing Events Back to the Dialog's Host
+When the user touches one of the dialog's action buttons or selects an item from its list,
+your DialogFragment might perform the necessary
+action itself, but often you'll want to deliver the event to the activity or fragment that
+opened the dialog. To do this, define an interface with a method for each type of click event.
+Then implement that interface in the host component that will
+receive the action events from the dialog.
+For example, here's a DialogFragment that defines an
+interface through which it delivers the events back to the host activity:
+
+Kotlin
+
+class NoticeDialogFragment : DialogFragment() {
+    // Use this instance of the interface to deliver action events
+    internal lateinit var listener: NoticeDialogListener
+
+    /* The activity that creates an instance of this dialog fragment must
+     * implement this interface in order to receive event callbacks.
+     * Each method passes the DialogFragment in case the host needs to query it. */
+    interface NoticeDialogListener {
+        fun onDialogPositiveClick(dialog: DialogFragment)
+        fun onDialogNegativeClick(dialog: DialogFragment)
+    }
+
+    // Override the Fragment.onAttach() method to instantiate the NoticeDialogListener
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        // Verify that the host activity implements the callback interface
+        try {
+            // Instantiate the NoticeDialogListener so we can send events to the host
+            listener = context as NoticeDialogListener
+        } catch (e: ClassCastException) {
+            // The activity doesn't implement the interface, throw exception
+            throw ClassCastException((context.toString() +
+                    " must implement NoticeDialogListener"))
+        }
+    }
+}
+
+Java
+
+public class NoticeDialogFragment extends DialogFragment {
+
+    /* The activity that creates an instance of this dialog fragment must
+     * implement this interface in order to receive event callbacks.
+     * Each method passes the DialogFragment in case the host needs to query it. */
+    public interface NoticeDialogListener {
+        public void onDialogPositiveClick(DialogFragment dialog);
+        public void onDialogNegativeClick(DialogFragment dialog);
+    }
+
+    // Use this instance of the interface to deliver action events
+    NoticeDialogListener listener;
+
+    // Override the Fragment.onAttach() method to instantiate the NoticeDialogListener
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        // Verify that the host activity implements the callback interface
+        try {
+            // Instantiate the NoticeDialogListener so we can send events to the host
+            listener = (NoticeDialogListener) context;
+        } catch (ClassCastException e) {
+            // The activity doesn't implement the interface, throw exception
+            throw new ClassCastException(activity.toString()
+                    + " must implement NoticeDialogListener");
+        }
+    }
+    ...
+}
+
+
+
+The activity hosting the dialog creates an instance of the dialog
+with the dialog fragment's constructor and receives the dialog's
+events through an implementation of the NoticeDialogListener interface:
+
+Kotlin
+
+class MainActivity : FragmentActivity(),
+        NoticeDialogFragment.NoticeDialogListener {
+
+    fun showNoticeDialog() {
+        // Create an instance of the dialog fragment and show it
+        val dialog = NoticeDialogFragment()
+        dialog.show(supportFragmentManager, "NoticeDialogFragment")
+    }
+
+    // The dialog fragment receives a reference to this Activity through the
+    // Fragment.onAttach() callback, which it uses to call the following methods
+    // defined by the NoticeDialogFragment.NoticeDialogListener interface
+    override fun onDialogPositiveClick(dialog: DialogFragment) {
+        // User touched the dialog's positive button
+    }
+
+    override fun onDialogNegativeClick(dialog: DialogFragment) {
+        // User touched the dialog's negative button
+    }
+}
+
+Java
+
+public class MainActivity extends FragmentActivity
+                          implements NoticeDialogFragment.NoticeDialogListener{
+    ...
+
+    public void showNoticeDialog() {
+        // Create an instance of the dialog fragment and show it
+        DialogFragment dialog = new NoticeDialogFragment();
+        dialog.show(getSupportFragmentManager(), "NoticeDialogFragment");
+    }
+
+    // The dialog fragment receives a reference to this Activity through the
+    // Fragment.onAttach() callback, which it uses to call the following methods
+    // defined by the NoticeDialogFragment.NoticeDialogListener interface
+    @Override
+    public void onDialogPositiveClick(DialogFragment dialog) {
+        // User touched the dialog's positive button
+        ...
+    }
+
+    @Override
+    public void onDialogNegativeClick(DialogFragment dialog) {
+        // User touched the dialog's negative button
+        ...
+    }
+}
+
+
+
+Because the host activity implements the NoticeDialogListener—which is
+enforced by the onAttach()
+callback method shown above—the dialog fragment can use the
+interface callback methods to deliver click events to the activity:
+
+Kotlin
+
+    override fun onCreateDialog(savedInstanceState: Bundle): Dialog {
+        return activity?.let {
+            // Build the dialog and set up the button click handlers
+            val builder = AlertDialog.Builder(it)
+
+            builder.setMessage(R.string.dialog_fire_missiles)
+                    .setPositiveButton(R.string.fire,
+                            DialogInterface.OnClickListener { dialog, id ->
+                                // Send the positive button event back to the host activity
+                                listener.onDialogPositiveClick(this)
+                            })
+                    .setNegativeButton(R.string.cancel,
+                            DialogInterface.OnClickListener { dialog, id ->
+                                // Send the negative button event back to the host activity
+                                listener.onDialogNegativeClick(this)
+                            })
+
+            builder.create()
+        } ?: throw IllegalStateException("Activity cannot be null")
+    }
+
+Java
+
+public class NoticeDialogFragment extends DialogFragment {
+    ...
+
+    @Override
+    public Dialog onCreateDialog(Bundle savedInstanceState) {
+        // Build the dialog and set up the button click handlers
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        builder.setMessage(R.string.dialog_fire_missiles)
+               .setPositiveButton(R.string.fire, new DialogInterface.OnClickListener() {
+                   public void onClick(DialogInterface dialog, int id) {
+                       // Send the positive button event back to the host activity
+                       listener.onDialogPositiveClick(NoticeDialogFragment.this);
+                   }
+               })
+               .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                   public void onClick(DialogInterface dialog, int id) {
+                       // Send the negative button event back to the host activity
+                       listener.onDialogNegativeClick(NoticeDialogFragment.this);
+                   }
+               });
+        return builder.create();
+    }
+}
+
+
+
+Showing a Dialog
+When you want to show your dialog, create an instance of your DialogFragment and call show(), passing the FragmentManager and a tag name
+for the dialog fragment.
+You can get the FragmentManager by calling
+getSupportFragmentManager() from
+the FragmentActivity or getFragmentManager() from a Fragment. For example:
+
+Kotlin
+
+fun confirmFireMissiles() {
+    val newFragment = FireMissilesDialogFragment()
+    newFragment.show(supportFragmentManager, "missiles")
+}
+
+Java
+
+public void confirmFireMissiles() {
+    DialogFragment newFragment = new FireMissilesDialogFragment();
+    newFragment.show(getSupportFragmentManager(), "missiles");
+}
+
+
+
+The second argument, "missiles", is a unique tag name that the system uses to save
+and restore the fragment state when necessary. The tag also allows you to get a handle to
+the fragment by calling findFragmentByTag().
+Showing a Dialog Fullscreen or as an Embedded Fragment
+You might have a UI design in which you want a piece of the UI to appear as a dialog in some
+situations, but as a full screen or embedded fragment in others (perhaps depending on whether
+the device is a large screen or small screen). The DialogFragment
+class offers you this flexibility because it can still behave as an embeddable Fragment.
+However, you cannot use AlertDialog.Builder
+or other Dialog objects to build the dialog in this case. If
+you want the DialogFragment to be
+embeddable, you must define the dialog's UI in a layout, then load the layout in the
+onCreateView() callback.
+Here's an example DialogFragment that can appear as either a
+dialog or an embeddable fragment (using a layout named purchase_items.xml):
+
+Kotlin
+
+class CustomDialogFragment : DialogFragment() {
+
+    /** The system calls this to get the DialogFragment's layout, regardless
+    of whether it's being displayed as a dialog or an embedded fragment. */
+    override fun onCreateView(
+            inflater: LayoutInflater,
+            container: ViewGroup?,
+            savedInstanceState: Bundle?
+    ): View {
+        // Inflate the layout to use as dialog or embedded fragment
+        return inflater.inflate(R.layout.purchase_items, container, false)
+    }
+
+    /** The system calls this only when creating the layout in a dialog. */
+    override fun onCreateDialog(savedInstanceState: Bundle): Dialog {
+        // The only reason you might override this method when using onCreateView() is
+        // to modify any dialog characteristics. For example, the dialog includes a
+        // title by default, but your custom layout might not need it. So here you can
+        // remove the dialog title, but you must call the superclass to get the Dialog.
+        val dialog = super.onCreateDialog(savedInstanceState)
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+        return dialog
+    }
+}
+
+Java
+
+public class CustomDialogFragment extends DialogFragment {
+    /** The system calls this to get the DialogFragment's layout, regardless
+        of whether it's being displayed as a dialog or an embedded fragment. */
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState) {
+        // Inflate the layout to use as dialog or embedded fragment
+        return inflater.inflate(R.layout.purchase_items, container, false);
+    }
+
+    /** The system calls this only when creating the layout in a dialog. */
+    @Override
+    public Dialog onCreateDialog(Bundle savedInstanceState) {
+        // The only reason you might override this method when using onCreateView() is
+        // to modify any dialog characteristics. For example, the dialog includes a
+        // title by default, but your custom layout might not need it. So here you can
+        // remove the dialog title, but you must call the superclass to get the Dialog.
+        Dialog dialog = super.onCreateDialog(savedInstanceState);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        return dialog;
+    }
+}
+
+
+
+And here's some code that decides whether to show the fragment as a dialog
+or a fullscreen UI, based on the screen size:
+
+Kotlin
+
+fun showDialog() {
+    val fragmentManager = supportFragmentManager
+    val newFragment = CustomDialogFragment()
+    if (isLargeLayout) {
+        // The device is using a large layout, so show the fragment as a dialog
+        newFragment.show(fragmentManager, "dialog")
+    } else {
+        // The device is smaller, so show the fragment fullscreen
+        val transaction = fragmentManager.beginTransaction()
+        // For a little polish, specify a transition animation
+        transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+        // To make it fullscreen, use the 'content' root view as the container
+        // for the fragment, which is always the root view for the activity
+        transaction
+                .add(android.R.id.content, newFragment)
+                .addToBackStack(null)
+                .commit()
+    }
+}
+
+Java
+
+public void showDialog() {
+    FragmentManager fragmentManager = getSupportFragmentManager();
+    CustomDialogFragment newFragment = new CustomDialogFragment();
+
+    if (isLargeLayout) {
+        // The device is using a large layout, so show the fragment as a dialog
+        newFragment.show(fragmentManager, "dialog");
+    } else {
+        // The device is smaller, so show the fragment fullscreen
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+        // For a little polish, specify a transition animation
+        transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
+        // To make it fullscreen, use the 'content' root view as the container
+        // for the fragment, which is always the root view for the activity
+        transaction.add(android.R.id.content, newFragment)
+                   .addToBackStack(null).commit();
+    }
+}
+
+
+
+For more information about performing fragment transactions, see the
+Fragments guide.
+In this example, the mIsLargeLayout boolean specifies whether the current device
+should use the app's large layout design (and thus show this fragment as a dialog, rather
+than fullscreen). The best way to set this kind of boolean is to declare a
+bool resource value
+with an alternative resource value for different screen sizes. For example, here are two
+versions of the bool resource for different screen sizes:
+res/values/bools.xml
+
+<!-- Default boolean values -->
+<resources>
+    <bool name="large_layout">false</bool>
+</resources>
+
+res/values-large/bools.xml
+
+<!-- Large screen boolean values -->
+<resources>
+    <bool name="large_layout">true</bool>
+</resources>
+
+Then you can initialize the mIsLargeLayout value during the activity's
+onCreate() method:
+
+Kotlin
+
+override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    setContentView(R.layout.activity_main)
+
+    isLargeLayout = resources.getBoolean(R.bool.large_layout)
+}
+
+Java
+
+boolean isLargeLayout;
+
+@Override
+public void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+
+    isLargeLayout = getResources().getBoolean(R.bool.large_layout);
+}
+
+
+
+Showing an activity as a dialog on large screens
+Instead of showing a dialog as a fullscreen UI when on small screens, you can accomplish
+the same result by showing an Activity as a dialog when on
+large screens. Which approach you choose depends on your app design, but
+showing an activity as a dialog is often useful when your app is already designed for small
+screens and you'd like to improve the experience on tablets by showing a short-lived activity
+as a dialog.
+To show an activity as a dialog only when on large screens,
+apply the Theme.Holo.DialogWhenLarge
+theme to the <activity> manifest element:
+
+<activity android:theme="@android:style/Theme.Holo.DialogWhenLarge" >
+
+For more information about styling your activities with themes, see the Styles and Themes guide.
+Dismissing a Dialog
+When the user touches any of the action buttons created with an
+AlertDialog.Builder, the system dismisses the dialog for you.
+The system also dismisses the dialog when the user touches an item in a dialog list, except
+when the list uses radio buttons or checkboxes. Otherwise, you can manually dismiss your dialog
+by calling dismiss() on your DialogFragment.
+In case you need to perform certain
+actions when the dialog goes away, you can implement the onDismiss() method in your DialogFragment.
+You can also cancel a dialog. This is a special event that indicates the user
+explicitly left the dialog without completing the task. This occurs if the user presses the
+Back button, touches the screen outside the dialog area,
+or if you explicitly call cancel() on the Dialog (such as in response to a "Cancel" button in the dialog).
+As shown in the example above, you can respond to the cancel event by implementing
+onCancel() in your DialogFragment class.
+Note: The system calls
+onDismiss() upon each event that
+invokes the onCancel() callback. However,
+if you call Dialog.dismiss() or DialogFragment.dismiss(),
+the system calls onDismiss() but
+not onCancel(). So you should generally
+call dismiss() when the user presses the
+positive button in your dialog in order to remove the dialog from view.
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

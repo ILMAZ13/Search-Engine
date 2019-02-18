@@ -1,0 +1,1320 @@
+Drag and Drop  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Drag and Drop
+  
+
+
+
+    With the Android drag/drop framework, you can allow your users to move data
+    from one View to another using a graphical drag and drop gesture.
+    The framework includes a drag event class, drag listeners, and helper methods and classes.
+
+
+    Although the framework is primarily designed for data movement, you can use
+    it for other UI actions. For example, you could create an app that mixes colors when the user
+    drags a color icon over another icon. The rest of this topic, however, describes the
+    framework in terms of data movement.
+
+You should also see the following related resources:
+
+
+Content Providers
+
+
+Input Events
+
+
+Multi-Window
+          Support
+
+
+Overview
+
+    A drag and drop operation starts when the user makes some gesture that you recognize as a
+    signal to start dragging data. In response, your application tells the system that the drag is
+    starting. The system calls back to your application to get a representation of the data
+    being dragged. As the user's finger moves this representation (a "drag shadow")
+    over the current layout, the system sends drag events to the drag event listener objects and
+    drag event callback methods associated with the View objects in the layout.
+    Once the user releases the drag shadow, the system ends the drag operation.
+
+
+    You create a drag event listener object ("listeners") from a class that implements
+    View.OnDragListener. You set the drag event listener object for a View
+    with the View object's
+    setOnDragListener() method.
+    Each View object also has a onDragEvent()
+    callback method. Both of these are described in more detail in the section
+    The drag event listener and callback method.
+
+
+Note: For the sake of simplicity, the following sections refer to the routine
+    that receives drag events as the "drag event listener", even though it may actually
+    be a callback method.
+
+
+    When you start a drag, you include both the data you are moving and metadata describing this
+    data as part of the call to the system. During the drag, the system sends drag events to the
+    drag event listeners or callback methods of each View in the layout. The listeners or callback
+    methods can use the metadata to decide if they want to accept the data when it is dropped.
+    If the user drops the data over a View object, and that View object's listener or callback
+    method has previously told the system that it wants to accept the drop, then the system sends
+    the data to the listener or callback method in a drag event.
+
+
+    Your application tells the system to start a drag by calling the
+    startDrag()
+    method. This tells the system to start sending drag events. The method also sends the data that
+    you are dragging.
+
+
+    You can call
+    startDrag()
+    for any attached View in the current layout. The system only uses the View object to get access
+    to global settings in your layout.
+
+
+    Once your application calls
+    startDrag(),
+    the rest of the process uses events that the system sends to the View objects in your current
+    layout.
+
+Note: If apps are running in
+  multi-window mode,
+  users can drag and drop data from one app to another. For more information,
+  see Supporting drag and
+  drop.
+
+The drag/drop process
+
+    There are basically four steps or states in the drag and drop process:
+
+
+
+Started
+
+
+        In response to the user's gesture to begin a drag, your application calls
+        startDrag()
+        to tell the system to start a drag. The arguments
+        startDrag()
+        provide the data to be dragged, metadata for this data, and a callback for drawing the
+        drag shadow.
+        
+            The system first responds by calling back to your application to get a drag shadow. It
+            then displays the drag shadow on the device.
+        
+
+            Next, the system sends a drag event with action type
+            ACTION_DRAG_STARTED to the drag event listeners for
+            all the View objects in the current layout. To continue to receive drag events,
+            including a possible drop event, a drag event listener must return true.
+            This registers the listener with the system. Only registered listeners continue to
+            receive drag events. At this point, listeners can also change the appearance of their
+            View object to show that the listener can accept a drop event.
+        
+
+            If the drag event listener returns false, then it will not receive drag
+            events for the current operation until the system sends a drag event with action type
+            ACTION_DRAG_ENDED. By sending false, the
+            listener tells the system that it is not interested in the drag operation and
+            does not want to accept the dragged data.
+        
+
+
+Continuing
+
+
+        The user continues the drag. As the drag shadow intersects the bounding box of a View
+        object, the system sends one or more drag events to the View object's drag event
+        listener (if it is registered to receive events). The listener may choose to
+        alter its View object's appearance in response to the event. For example, if the event
+        indicates that the drag shadow has entered the bounding box of the View
+        (action type ACTION_DRAG_ENTERED), the listener
+        can react by highlighting its View.
+    
+
+Dropped
+
+
+        The user releases the drag shadow within the bounding box of a View that can accept the
+        data. The system sends the View object's listener a drag event with action type
+        ACTION_DROP. The drag event contains the data that was
+        passed to the system in the call to
+        startDrag()
+        that started the operation. The listener is expected to return boolean true to
+        the system if code for accepting the drop succeeds.
+        
+            Note that this step only occurs if the user drops the drag shadow within the bounding
+            box of a View whose listener is registered to receive drag events. If the user releases
+            the drag shadow in any other situation, no ACTION_DROP
+            drag event is sent.
+        
+
+
+Ended
+
+
+        After the user releases the drag shadow, and after the system sends out (if necessary)
+        a drag event with action type ACTION_DROP, the system sends
+        out a drag event with action type ACTION_DRAG_ENDED to
+        indicate that the drag operation is over. This is done regardless of where the user released
+        the drag shadow. The event is sent to every listener that is registered to receive drag
+        events, even if the listener received the ACTION_DROP event.
+    
+
+
+    Each of these four steps is described in more detail in the section
+    Designing a Drag and Drop Operation.
+
+The drag event listener and callback method
+
+    A View receives drag events with either a drag event listener that implements
+    View.OnDragListener or with its
+    onDragEvent(DragEvent) callback method.
+    When the system calls the method or listener, it passes to them
+    a DragEvent object.
+
+
+    You will probably want to use the listener in most cases. When you design UIs, you usually
+    don't subclass View classes, but using the callback method forces you to do this in order to
+    override the method. In comparison, you can implement one listener class and then use it with
+    several different View objects. You can also implement it as an anonymous inline class. To
+    set the listener for a View object, call
+setOnDragListener().
+
+
+    You can have both a listener and a callback method for View object. If this occurs,
+    the system first calls the listener. The system doesn't call the callback method unless the
+    listener returns false.
+
+
+    The combination of the onDragEvent(DragEvent) method and
+    View.OnDragListener is analogous to the combination
+    of the onTouchEvent() and
+    View.OnTouchListener used with touch events.
+
+Drag events
+
+    The system sends out a drag event in the form of a DragEvent object. The
+    object contains an action type that tells the listener what is happening in the drag/drop
+    process. The object contains other data, depending on the action type.
+
+
+    To get the action type, a listener calls getAction(). There
+    are six possible values, defined by constants in the DragEvent class. These
+    are listed in table 1.
+
+
+    The DragEvent object also contains the data that your application provided
+    to the system in the call to
+    startDrag().
+    Some of the data is valid only for certain action types. The data that is valid for each action
+    type is summarized in table 2. It is also described in detail with
+    the event for which it is valid in the section
+    Designing a Drag and Drop Operation.
+
+
+Table 1. DragEvent action types
+
+
+
+getAction() value
+Meaning
+
+
+ACTION_DRAG_STARTED
+
+            A View object's drag event listener receives this event action type just after the
+            application calls
+startDrag() and
+            gets a drag shadow.
+        
+
+
+ACTION_DRAG_ENTERED
+
+            A View object's drag event listener receives this event action type when the drag shadow
+            has just entered the bounding box of the View. This is the first event action type the
+            listener receives when the drag shadow enters the bounding box. If the listener wants to
+            continue receiving drag events for this operation, it must return boolean
+            true to the system.
+        
+
+
+ACTION_DRAG_LOCATION
+
+            A View object's drag event listener receives this event action type after it receives a
+            ACTION_DRAG_ENTERED event while the drag shadow is
+            still within the bounding box of the View.
+        
+
+
+ACTION_DRAG_EXITED
+
+            A View object's drag event listener receives this event action type after it receives a
+            ACTION_DRAG_ENTERED and at least one
+            ACTION_DRAG_LOCATION event, and after the user has moved
+            the drag shadow outside the bounding box of the View.
+        
+
+
+ACTION_DROP
+
+            A View object's drag event listener receives this event action type when the user
+            releases the drag shadow over the View object. This action type is only sent to a View
+            object's listener if the listener returned boolean true in response to the
+            ACTION_DRAG_STARTED drag event. This action type is not
+            sent if the user releases the drag shadow on a View whose listener is not registered,
+            or if the user releases the drag shadow on anything that is not part of the current
+            layout.
+            
+                The listener is expected to return boolean true if it successfully
+                processes the drop. Otherwise, it should return false.
+            
+
+
+
+ACTION_DRAG_ENDED
+
+            A View object's drag event listener receives this event action type
+            when the system is ending the drag operation. This action type is not necessarily
+            preceded by an ACTION_DROP event. If the system sent
+            a ACTION_DROP, receiving the
+            ACTION_DRAG_ENDED action type does not imply that the
+            drop operation succeeded. The listener must call
+            getResult() to get the value that was
+            returned in response to ACTION_DROP. If an
+            ACTION_DROP event was not sent, then
+            getResult() returns false.
+        
+
+
+
+Table 2. Valid DragEvent data by action type
+
+
+getAction() value
+getClipDescription() value
+getLocalState() value
+getX() value
+getY() value
+getClipData() value
+getResult() value
+
+
+ACTION_DRAG_STARTED
+X
+X
+X
+ 
+ 
+ 
+
+
+ACTION_DRAG_ENTERED
+X
+X
+X
+X
+ 
+ 
+
+
+ACTION_DRAG_LOCATION
+X
+X
+X
+X
+ 
+ 
+
+
+ACTION_DRAG_EXITED
+X
+X
+ 
+ 
+ 
+ 
+
+
+ACTION_DROP
+X
+X
+X
+X
+X
+ 
+
+
+ACTION_DRAG_ENDED
+X
+X
+ 
+ 
+ 
+X
+
+
+
+    The getAction(),
+    describeContents(),
+    writeToParcel(), and
+    toString() methods always return valid data.
+
+
+    If a method does not contain valid data for a particular action type, it returns either
+    null or 0, depending on its result type.
+
+
+    The drag shadow
+
+
+    During a drag and drop operation, the system displays a image that the user drags.
+    For data movement, this image represents the data being dragged. For other operations, the
+    image represents some aspect of the drag operation.
+
+
+    The image is called a drag shadow. You create it with methods you declare for a
+    View.DragShadowBuilder object, and then pass it to the system when you
+    start a drag using
+    startDrag().
+    As part of its response to
+    startDrag(),
+    the system invokes the callback methods you've defined in
+    View.DragShadowBuilder to obtain a drag shadow.
+
+
+    The View.DragShadowBuilder class has two constructors:
+
+
+View.DragShadowBuilder(View)
+
+        This constructor accepts any of your application's
+        View objects. The constructor stores the View object
+        in the View.DragShadowBuilder object, so during
+        the callback you can access it as you construct your drag shadow.
+        It doesn't have to be associated with the View (if any) that the user
+        selected to start the drag operation.
+        
+            If you use this constructor, you don't have to extend
+            View.DragShadowBuilder or override its methods. By default,
+            you will get a drag shadow that has the same appearance as the View you pass as an
+            argument, centered under the location where the user is touching the screen.
+        
+
+View.DragShadowBuilder()
+
+        If you use this constructor, no View object is available in the
+        View.DragShadowBuilder object (the field is set to null).
+        If you use this constructor, and you don't extend
+        View.DragShadowBuilder or override its methods,
+        you will get an invisible drag shadow.
+        The system does not give an error.
+    
+
+
+    The View.DragShadowBuilder class has two methods:
+
+
+
+onProvideShadowMetrics()
+
+
+        The system calls this method immediately after you call
+startDrag(). Use it
+        to send to the system the dimensions and touch point of the drag shadow. The method has two
+        arguments:
+        
+dimensions
+
+                A Point object. The drag shadow width goes in
+                x and its height goes in
+                y.
+            
+touch_point
+
+                A Point object. The touch point is the location within the
+                drag shadow that should be under the user's finger during the drag. Its X
+                position goes in x and its Y position goes in
+                y
+
+
+
+
+onDrawShadow()
+
+
+        Immediately after the call to
+onProvideShadowMetrics()
+        the system calls
+        onDrawShadow() to get the
+        drag shadow itself. The method has a single argument, a Canvas
+        object that the system constructs from the parameters you provide in
+onProvideShadowMetrics()
+        Use it to draw the drag shadow in the provided Canvas object.
+    
+
+
+    To improve performance, you should keep the size of the drag shadow small. For a single item,
+    you may want to use a icon. For a multiple selection, you may want to use icons in a stack
+    rather than full images spread out over the screen.
+
+Designing a Drag and Drop Operation
+
+    This section shows step-by-step how to start a drag, how to respond to events during
+    the drag, how respond to a drop event, and how to end the drag and drop operation.
+
+Starting a drag
+
+    The user starts a drag with a drag gesture, usually a long press, on a View object.
+    In response, you should do the following:
+
+
+
+        As necessary, create a ClipData and
+        ClipData.Item for the data being moved. As part of the
+        ClipData object, supply metadata that is stored in a ClipDescription
+        object within the ClipData. For a drag and drop operation that does not represent data
+        movement, you may want to use null instead of an actual object.
+        
+            For example, this code snippet shows how to respond to a long press on a ImageView
+            by creating a ClipData object that contains the tag or label of an
+            ImageView. Following this snippet, the next snippet shows how to override the methods in
+            View.DragShadowBuilder:
+        
+
+Kotlin
+
+const val IMAGEVIEW_TAG = "icon bitmap"
+...
+val imageView = ImageView(this).apply {
+    setImageBitmap(iconBitmap)
+    tag = IMAGEVIEW_TAG
+    imageView.setOnLongClickListener { v: View ->
+        // Create a new ClipData.
+        // This is done in two steps to provide clarity. The convenience method
+        // ClipData.newPlainText() can create a plain text ClipData in one step.
+
+        // Create a new ClipData.Item from the ImageView object's tag
+        val item = ClipData.Item(v.tag as? CharSequence)
+
+        // Create a new ClipData using the tag as a label, the plain text MIME type, and
+        // the already-created item. This will create a new ClipDescription object within the
+        // ClipData, and set its MIME type entry to "text/plain"
+        val dragData = ClipData(
+                v.tag as? CharSequence,
+                arrayOf(ClipDescription.MIMETYPE_TEXT_PLAIN),
+                item)
+
+        // Instantiates the drag shadow builder.
+        val myShadow = MyDragShadowBuilder(this)
+
+        // Starts the drag
+        v.startDrag(
+                dragData,   // the data to be dragged
+                myShadow,   // the drag shadow builder
+                null,       // no need to use local data
+                0           // flags (not currently used, set to 0)
+        )
+    }
+}
+
+Java
+
+// Create a string for the ImageView label
+private static final String IMAGEVIEW_TAG = "icon bitmap"
+
+// Creates a new ImageView
+ImageView imageView = new ImageView(this);
+
+// Sets the bitmap for the ImageView from an icon bit map (defined elsewhere)
+imageView.setImageBitmap(iconBitmap);
+
+// Sets the tag
+imageView.setTag(IMAGEVIEW_TAG);
+
+    ...
+
+// Sets a long click listener for the ImageView using an anonymous listener object that
+// implements the OnLongClickListener interface
+imageView.setOnLongClickListener(new View.OnLongClickListener() {
+
+    // Defines the one method for the interface, which is called when the View is long-clicked
+    public boolean onLongClick(View v) {
+
+    // Create a new ClipData.
+    // This is done in two steps to provide clarity. The convenience method
+    // ClipData.newPlainText() can create a plain text ClipData in one step.
+
+    // Create a new ClipData.Item from the ImageView object's tag
+    ClipData.Item item = new ClipData.Item(v.getTag());
+
+    // Create a new ClipData using the tag as a label, the plain text MIME type, and
+    // the already-created item. This will create a new ClipDescription object within the
+    // ClipData, and set its MIME type entry to "text/plain"
+    ClipData dragData = new ClipData(
+        v.getTag(),
+        new String[] { ClipDescription.MIMETYPE_TEXT_PLAIN },
+        item);
+
+    // Instantiates the drag shadow builder.
+    View.DragShadowBuilder myShadow = new MyDragShadowBuilder(imageView);
+
+    // Starts the drag
+
+            v.startDrag(dragData,  // the data to be dragged
+                        myShadow,  // the drag shadow builder
+                        null,      // no need to use local data
+                        0          // flags (not currently used, set to 0)
+            );
+
+    }
+}
+
+
+
+
+
+        The following code snippet defines myDragShadowBuilder
+        It creates a drag shadow for dragging a TextView as a small gray rectangle:
+
+Kotlin
+
+private class MyDragShadowBuilder(v: View) : View.DragShadowBuilder(v) {
+
+    private val shadow = ColorDrawable(Color.LTGRAY)
+
+    // Defines a callback that sends the drag shadow dimensions and touch point back to the
+    // system.
+    override fun onProvideShadowMetrics(size: Point, touch: Point) {
+        // Sets the width of the shadow to half the width of the original View
+        val width: Int = view.width / 2
+
+        // Sets the height of the shadow to half the height of the original View
+        val height: Int = view.height / 2
+
+        // The drag shadow is a ColorDrawable. This sets its dimensions to be the same as the
+        // Canvas that the system will provide. As a result, the drag shadow will fill the
+        // Canvas.
+        shadow.setBounds(0, 0, width, height)
+
+        // Sets the size parameter's width and height values. These get back to the system
+        // through the size parameter.
+        size.set(width, height)
+
+        // Sets the touch point's position to be in the middle of the drag shadow
+        touch.set(width / 2, height / 2)
+    }
+
+    // Defines a callback that draws the drag shadow in a Canvas that the system constructs
+    // from the dimensions passed in onProvideShadowMetrics().
+    override fun onDrawShadow(canvas: Canvas) {
+        // Draws the ColorDrawable in the Canvas passed in from the system.
+        shadow.draw(canvas)
+    }
+}
+
+Java
+
+private static class MyDragShadowBuilder extends View.DragShadowBuilder {
+
+    // The drag shadow image, defined as a drawable thing
+    private static Drawable shadow;
+
+        // Defines the constructor for myDragShadowBuilder
+        public MyDragShadowBuilder(View v) {
+
+            // Stores the View parameter passed to myDragShadowBuilder.
+            super(v);
+
+            // Creates a draggable image that will fill the Canvas provided by the system.
+            shadow = new ColorDrawable(Color.LTGRAY);
+        }
+
+        // Defines a callback that sends the drag shadow dimensions and touch point back to the
+        // system.
+        @Override
+        public void onProvideShadowMetrics (Point size, Point touch) {
+            // Defines local variables
+            private int width, height;
+
+            // Sets the width of the shadow to half the width of the original View
+            width = getView().getWidth() / 2;
+
+            // Sets the height of the shadow to half the height of the original View
+            height = getView().getHeight() / 2;
+
+            // The drag shadow is a ColorDrawable. This sets its dimensions to be the same as the
+            // Canvas that the system will provide. As a result, the drag shadow will fill the
+            // Canvas.
+            shadow.setBounds(0, 0, width, height);
+
+            // Sets the size parameter's width and height values. These get back to the system
+            // through the size parameter.
+            size.set(width, height);
+
+            // Sets the touch point's position to be in the middle of the drag shadow
+            touch.set(width / 2, height / 2);
+        }
+
+        // Defines a callback that draws the drag shadow in a Canvas that the system constructs
+        // from the dimensions passed in onProvideShadowMetrics().
+        @Override
+        public void onDrawShadow(Canvas canvas) {
+
+            // Draws the ColorDrawable in the Canvas passed in from the system.
+            shadow.draw(canvas);
+        }
+    }
+
+
+
+
+Note: Remember that you don't have to extend
+            View.DragShadowBuilder. The constructor
+            View.DragShadowBuilder(View) creates a
+            default drag shadow that's the same size as the View argument passed to it, with the
+            touch point centered in the drag shadow.
+        
+
+
+Responding to a drag start
+
+    During the drag operation, the system dispatches drag events to the drag event listeners
+    of the View objects in the current layout. The listeners should react
+    by calling getAction() to get the action type.
+    At the start of a drag, this methods returns ACTION_DRAG_STARTED.
+
+
+    In response to an event with the action type ACTION_DRAG_STARTED,
+    a listener should do the following:
+
+
+
+        Call getClipDescription() to get the
+        ClipDescription. Use the MIME type methods in
+        ClipDescription to see if the listener can accept the data being
+        dragged.
+        
+            If the drag and drop operation does not represent data movement, this may not be
+            necessary.
+        
+
+
+        If the listener can accept a drop, it should return true. This tells
+        the system to continue to send drag events to the listener.
+        If it can't accept a drop, it should return false, and the system
+        will stop sending drag events until it sends out
+        ACTION_DRAG_ENDED.
+    
+
+
+    Note that for an ACTION_DRAG_STARTED event, these
+    the following DragEvent methods are not valid:
+    getClipData(), getX(),
+    getY(), and getResult().
+
+Handling events during the drag
+
+    During the drag, listeners that returned true in response to
+    the ACTION_DRAG_STARTED drag event continue to receive drag
+    events. The types of drag events a listener receives during the drag depend on the location of
+    the drag shadow and the visibility of the listener's View.
+
+
+    During the drag, listeners primarily use drag events to decide if they should change the
+    appearance of their View.
+
+
+    During the drag, getAction() returns one of three
+    values:
+
+
+
+ACTION_DRAG_ENTERED:
+        The listener receives this when the touch point
+        (the point on the screen underneath the user's finger) has entered the bounding box of the
+        listener's View.
+    
+
+ACTION_DRAG_LOCATION: Once the listener receives an
+        ACTION_DRAG_ENTERED event, and before it receives an
+        ACTION_DRAG_EXITED event, it receives a new
+        ACTION_DRAG_LOCATION event every time the touch point moves.
+        The getX() and getY() methods
+        return the X and Y coordinates of the touch point.
+    
+
+ACTION_DRAG_EXITED:  This event is sent to a listener that
+        previously received ACTION_DRAG_ENTERED, after
+        the drag shadow is no longer within the bounding box of the listener's View.
+    
+
+
+    The listener does not need to react to any of these action types. If the listener returns a
+    value to the system, it is ignored. Here are some guidelines for responding to each of
+    these action types:
+
+
+
+        In response to ACTION_DRAG_ENTERED or
+        ACTION_DRAG_LOCATION, the listener can change the appearance
+        of the View to indicate that it is about to receive a drop.
+    
+
+        An event with the action type ACTION_DRAG_LOCATION contains
+        valid data for getX() and
+        getY(), corresponding to the location of the touch point.
+        The listener may want to use this information to alter the appearance of that part of the
+        View that is at the touch point. The listener can also use this information
+        to determine the exact position where the user is going to drop the drag shadow.
+    
+
+        In response to ACTION_DRAG_EXITED, the listener should reset
+        any appearance changes it applied in response to
+        ACTION_DRAG_ENTERED or
+        ACTION_DRAG_LOCATION. This indicates to the user that
+        the View is no longer an imminent drop target.
+    
+
+Responding to a drop
+
+    When the user releases the drag shadow on a View in the application, and that View previously
+    reported that it could accept the content being dragged, the system dispatches a drag event
+    to that View with the action type ACTION_DROP. The listener
+    should do the following:
+
+
+
+        Call getClipData() to get the
+        ClipData object that was originally supplied in the call
+        to
+startDrag()
+        and store it. If the drag and drop operation does not represent data movement,
+        this may not be necessary.
+    
+
+        Return boolean true to indicate that the drop was processed successfully, or
+        boolean false if it was not. The returned value becomes the value returned by
+        getResult() for an
+        ACTION_DRAG_ENDED event.
+        
+            Note that if the system does not send out an ACTION_DROP
+            event, the value of getResult() for an
+            ACTION_DRAG_ENDED event is false.
+        
+
+
+
+    For an ACTION_DROP event,
+    getX() and getY()
+    return the X and Y position of the drag point at the moment of the drop, using the coordinate
+    system of the View that received the drop.
+
+
+    The system does allow the user to release the drag shadow on a View whose listener is not
+    receiving drag events. It will also allow the user to release the drag shadow
+    on empty regions of the application's UI, or on areas outside of your application.
+    In all of these cases, the system does not send an event with action type
+    ACTION_DROP, although it does send out an
+    ACTION_DRAG_ENDED event.
+
+Responding to a drag end
+
+    Immediately after the user releases the drag shadow, the system sends a
+    drag event to all of the drag event listeners in your application, with an action type of
+    ACTION_DRAG_ENDED. This indicates that the drag operation is
+    over.
+
+
+    Each listener should do the following:
+
+
+
+        If listener changed its View object's appearance during the operation, it should reset the
+        View to its default appearance. This is a visual indication to the user that the operation
+        is over.
+    
+
+        The listener can optionally call getResult() to find out more
+        about the operation. If a listener returned true in response to an event of
+        action type ACTION_DROP, then
+        getResult() will return boolean true. In all
+        other cases, getResult() returns boolean false,
+        including any case in which the system did not send out a
+        ACTION_DROP event.
+    
+
+        The listener should return boolean true to the system.
+    
+
+
+
+Responding to drag events: an example
+
+    All drag events are initially received by your drag event method or listener. The following
+    code snippet is a simple example of reacting to drag events in a listener:
+
+
+Kotlin
+
+// Creates a new drag event listener
+private val dragListen = View.OnDragListener { v, event ->
+
+    // Handles each of the expected events
+    when (event.action) {
+        DragEvent.ACTION_DRAG_STARTED -> {
+            // Determines if this View can accept the dragged data
+            if (event.clipDescription.hasMimeType(ClipDescription.MIMETYPE_TEXT_PLAIN)) {
+                // As an example of what your application might do,
+                // applies a blue color tint to the View to indicate that it can accept
+                // data.
+                (v as? ImageView)?.setColorFilter(Color.BLUE)
+
+                // Invalidate the view to force a redraw in the new tint
+                v.invalidate()
+
+                // returns true to indicate that the View can accept the dragged data.
+                true
+            } else {
+                // Returns false. During the current drag and drop operation, this View will
+                // not receive events again until ACTION_DRAG_ENDED is sent.
+                false
+            }
+        }
+        DragEvent.ACTION_DRAG_ENTERED -> {
+            // Applies a green tint to the View. Return true; the return value is ignored.
+            (v as? ImageView)?.setColorFilter(Color.GREEN)
+
+            // Invalidate the view to force a redraw in the new tint
+            v.invalidate()
+            true
+        }
+
+        DragEvent.ACTION_DRAG_LOCATION ->
+            // Ignore the event
+            true
+        DragEvent.ACTION_DRAG_EXITED -> {
+            // Re-sets the color tint to blue. Returns true; the return value is ignored.
+            (v as? ImageView)?.setColorFilter(Color.BLUE)
+
+            // Invalidate the view to force a redraw in the new tint
+            v.invalidate()
+            true
+        }
+        DragEvent.ACTION_DROP -> {
+            // Gets the item containing the dragged data
+            val item: ClipData.Item = event.clipData.getItemAt(0)
+
+            // Gets the text data from the item.
+            val dragData = item.text
+
+            // Displays a message containing the dragged data.
+            Toast.makeText(this, "Dragged data is " + dragData, Toast.LENGTH_LONG).show()
+
+            // Turns off any color tints
+            (v as? ImageView)?.clearColorFilter()
+
+            // Invalidates the view to force a redraw
+            v.invalidate()
+
+            // Returns true. DragEvent.getResult() will return true.
+            true
+        }
+
+        DragEvent.ACTION_DRAG_ENDED -> {
+            // Turns off any color tinting
+            (v as? ImageView)?.clearColorFilter()
+
+            // Invalidates the view to force a redraw
+            v.invalidate()
+
+            // Does a getResult(), and displays what happened.
+            when(event.result) {
+                true ->
+                    Toast.makeText(this, "The drop was handled.", Toast.LENGTH_LONG)
+                else ->
+                    Toast.makeText(this, "The drop didn't work.", Toast.LENGTH_LONG)
+            }.show()
+
+            // returns true; the value is ignored.
+            true
+        }
+        else -> {
+            // An unknown action type was received.
+            Log.e("DragDrop Example", "Unknown action type received by OnDragListener.")
+            false
+        }
+    }
+}
+...
+val imageView = ImageView(this)
+
+// Sets the drag event listener for the View
+imageView.setOnDragListener(dragListen)
+
+Java
+
+// Creates a new drag event listener
+dragListen = new myDragEventListener();
+
+View imageView = new ImageView(this);
+
+// Sets the drag event listener for the View
+imageView.setOnDragListener(dragListen);
+
+...
+
+protected class myDragEventListener implements View.OnDragListener {
+
+    // This is the method that the system calls when it dispatches a drag event to the
+    // listener.
+    public boolean onDrag(View v, DragEvent event) {
+
+        // Defines a variable to store the action type for the incoming event
+        final int action = event.getAction();
+
+        // Handles each of the expected events
+        switch(action) {
+
+            case DragEvent.ACTION_DRAG_STARTED:
+
+                // Determines if this View can accept the dragged data
+                if (event.getClipDescription().hasMimeType(ClipDescription.MIMETYPE_TEXT_PLAIN)) {
+
+                    // As an example of what your application might do,
+                    // applies a blue color tint to the View to indicate that it can accept
+                    // data.
+                    v.setColorFilter(Color.BLUE);
+
+                    // Invalidate the view to force a redraw in the new tint
+                    v.invalidate();
+
+                    // returns true to indicate that the View can accept the dragged data.
+                    return true;
+
+                }
+
+                // Returns false. During the current drag and drop operation, this View will
+                // not receive events again until ACTION_DRAG_ENDED is sent.
+                return false;
+
+            case DragEvent.ACTION_DRAG_ENTERED:
+
+                // Applies a green tint to the View. Return true; the return value is ignored.
+
+                v.setColorFilter(Color.GREEN);
+
+                // Invalidate the view to force a redraw in the new tint
+                v.invalidate();
+
+                return true;
+
+            case DragEvent.ACTION_DRAG_LOCATION:
+
+                // Ignore the event
+                return true;
+
+            case DragEvent.ACTION_DRAG_EXITED:
+
+                // Re-sets the color tint to blue. Returns true; the return value is ignored.
+                v.setColorFilter(Color.BLUE);
+
+                // Invalidate the view to force a redraw in the new tint
+                v.invalidate();
+
+                return true;
+
+            case DragEvent.ACTION_DROP:
+
+                // Gets the item containing the dragged data
+                ClipData.Item item = event.getClipData().getItemAt(0);
+
+                // Gets the text data from the item.
+                dragData = item.getText();
+
+                // Displays a message containing the dragged data.
+                Toast.makeText(this, "Dragged data is " + dragData, Toast.LENGTH_LONG).show();
+
+                // Turns off any color tints
+                v.clearColorFilter();
+
+                // Invalidates the view to force a redraw
+                v.invalidate();
+
+                // Returns true. DragEvent.getResult() will return true.
+                return true;
+
+            case DragEvent.ACTION_DRAG_ENDED:
+
+                // Turns off any color tinting
+                v.clearColorFilter();
+
+                // Invalidates the view to force a redraw
+                v.invalidate();
+
+                // Does a getResult(), and displays what happened.
+                if (event.getResult()) {
+                    Toast.makeText(this, "The drop was handled.", Toast.LENGTH_LONG).show();
+
+                } else {
+                    Toast.makeText(this, "The drop didn't work.", Toast.LENGTH_LONG).show();
+
+                }
+
+                // returns true; the value is ignored.
+                return true;
+
+            // An unknown action type was received.
+            default:
+                Log.e("DragDrop Example","Unknown action type received by OnDragListener.");
+                break;
+        }
+
+        return false;
+    }
+};
+
+
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

@@ -1,0 +1,741 @@
+Drawables overview  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Drawables overview
+  
+
+
+When you need to display static images in your app, you can use the Drawable class and its subclasses to draw shapes and
+images. A Drawable is a general abstraction for
+something that can be drawn. The various subclasses help with specific image
+scenarios, and you can extend them to define your own drawable objects
+that behave in unique ways.
+There are two ways to define and instantiate a Drawable besides using the class constructors:
+
+Inflate an image resource (a bitmap file) saved in your project.
+Inflate an XML resource that defines the drawable properties.
+
+Note:
+You might instead prefer using a vector drawable, which defines an image with a set of
+points, lines, and curves, along with associated color information. This allows vector drawables
+to be scaled for different sizes without a loss of quality. For more information, see Vector
+drawables overview.
+Create drawables from resource images
+You can add graphics to your app by referencing an image file from your
+project resources. Supported file types are PNG (preferred), JPG (acceptable),
+and GIF (discouraged). App icons, logos, and other graphics, such as those used
+in games, are well suited for this technique.
+To use an image resource, add your file to the res/drawable/
+directory of your project. Once in your project, you can reference the image
+resource from your code or your XML layout. Either way, it's referred to using a
+resource ID, which is the file name without the file type extension. For
+example, refer to my_image.png as my_image.
+Note: Image resources placed in the
+res/drawable/ directory may be automatically optimized with
+lossless image compression by the aapt tool during the build
+process. For example, a true-color PNG that doesn't require more than 256 colors
+may be converted to an 8-bit PNG with a color palette. This results in an image
+of equal quality but which requires less memory. As a result, the image binaries
+placed in this directory can change at build time. If you plan on reading an
+image as a bitstream in order to convert it to a bitmap, put your images in the
+res/raw/ folder instead, where the aapt tool doesn't
+modify them.
+The following code snippet demonstrates how to build an ImageView that uses an image created from a drawable resource
+and adds it to the layout:
+
+Kotlin
+
+private lateinit var linearLayout: LinearLayout
+
+override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+
+    // Instantiate an ImageView and define its properties
+    val i = ImageView(this).apply {
+        setImageResource(R.drawable.my_image)
+
+        // set the ImageView bounds to match the Drawable's dimensions
+        adjustViewBounds = true
+        layoutParams = LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT)
+    }
+
+    // Create a LinearLayout in which to add the ImageView
+    linearLayout = LinearLayout(this).apply {
+
+        // Add the ImageView to the layout and set the layout as the content view
+        addView(i)
+    }
+
+    setContentView(linearLayout)
+}
+
+Java
+
+LinearLayout linearLayout;
+
+protected void onCreate(Bundle savedInstanceState) {
+  super.onCreate(savedInstanceState);
+
+  // Create a LinearLayout in which to add the ImageView
+  linearLayout = new LinearLayout(this);
+
+  // Instantiate an ImageView and define its properties
+  ImageView i = new ImageView(this);
+  i.setImageResource(R.drawable.my_image);
+
+  // set the ImageView bounds to match the Drawable's dimensions
+  i.setAdjustViewBounds(true);
+  i.setLayoutParams(new Gallery.LayoutParams(LayoutParams.WRAP_CONTENT,
+      LayoutParams.WRAP_CONTENT));
+
+  // Add the ImageView to the layout and set the layout as the content view
+  linearLayout.addView(i);
+  setContentView(linearLayout);
+}
+
+
+
+In other cases, you may want to handle your image resource as a Drawable object, as shown in the following
+example:
+
+Kotlin
+
+val myImage: Drawable = ResourcesCompat.getDrawable(context.resources, R.drawable.my_image, null)
+
+Java
+
+Resources res = context.getResources();
+Drawable myImage = ResourcesCompat.getDrawable(res, R.drawable.my_image, null);
+
+
+
+Note: Each unique resource in your project
+can maintain only one state, no matter how many different objects you
+instantiate for it. For example, if you instantiate two Drawable objects from the same image resource and
+change a property (such as the alpha) for one object, then it also affects
+the other. When dealing with multiple instances of an image resource, instead
+of directly transforming the Drawable object you should perform a
+tween
+animation.
+The XML snippet below shows how to add a drawable resource to an ImageView in the XML layout:
+
+<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/my_image" />
+
+For more information about using project resources, see Resources and assets.
+Note: When using image resources as the source of your drawables,
+be sure the images are the appropriate size for various pixel densities. If the
+images are not correct they will be scaled up to fit, which can cause artifacting in your drawables.
+For more information, read Support different
+pixel densities.
+
+Create drawables from XML resources
+If there is a Drawable object that you'd
+like to create, which isn't initially dependent on variables defined by your
+code or user interaction, then defining the Drawable in XML is a
+good option. Even if you expect your Drawable to change its
+properties during the user's interaction with your app, you should consider
+defining the object in XML, as you can modify properties after it's
+instantiated.
+After you've defined your Drawable in XML,
+save the file in the res/drawable/ directory of your project. The
+following example shows the XML that defines a TransitionDrawable resource, which inherits from
+Drawable:
+
+
+<!-- res/drawable/expand_collapse.xml -->
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/image_expand">
+    <item android:drawable="@drawable/image_collapse">
+</transition>
+
+Then, retrieve and instantiate the object by calling Resources.getDrawable(), and passing
+the resource ID of your XML file. Any Drawable
+subclass that supports the inflate() method can be defined in XML
+and instantiated by your app. Each drawable class that supports XML inflation
+utilizes specific XML attributes that help define the object properties. The
+following code instantiates the TransitionDrawable and sets it as the content of an
+ImageView object:
+
+Kotlin
+
+val transition= ResourcesCompat.getDrawable(
+        context.resources,
+        R.drawable.expand_collapse,
+        null
+) as TransitionDrawable
+
+findViewById<ImageView>(R.id.toggle_image).setImageDrawable(transition)
+
+// Then you can call the TransitionDrawable object's methods
+transition.startTransition(1000)
+
+Java
+
+Resources res = context.getResources();
+TransitionDrawable transition =
+    (TransitionDrawable) ResourcesCompat.getDrawable(res, R.drawable.expand_collapse, null);
+
+ImageView image = (ImageView) findViewById(R.id.toggle_image);
+image.setImageDrawable(transition);
+
+// Then you can call the TransitionDrawable object's methods
+transition.startTransition(1000);
+
+
+
+For more information about the XML attributes supported, refer to the classes
+listed above.
+Shape drawables
+A ShapeDrawable object can be a good option
+when you want to dynamically draw a two-dimensional graphic. You can
+programmatically draw primitive shapes on a ShapeDrawable object
+and apply the styles that your app needs.
+ShapeDrawable is a subclass of Drawable. For this reason, you can use a
+ShapeDrawable wherever a Drawable is expected. For
+example, you can use a ShapeDrawable object to set the background
+of a view by passing it to the setBackgroundDrawable() method of the view. You can also draw your shape as its
+own custom view and add it to a layout in your app.
+Because ShapeDrawable has its own draw() method, you can create a
+subclass of View that draws the ShapeDrawable
+object during the onDraw() event, as shown in
+the following code example:
+
+Kotlin
+
+class CustodrawableView(context: Context) : View(context) {
+    private val drawable: ShapeDrawable = run {
+        val x = 10
+        val y = 10
+        val width = 300
+        val height = 50
+
+        ShapeDrawable(OvalShape()).apply {
+            // If the color isn't set, the shape uses black as the default.
+            paint.color = 0xff74AC23.toInt()
+            // If the bounds aren't set, the shape can't be drawn.
+            setBounds(x, y, x + width, y + height)
+        }
+    }
+
+    override fun onDraw(canvas: Canvas) {
+        mDrawable.draw(canvas)
+    }
+}
+
+Java
+
+public class CustodrawableView extends View {
+  private ShapeDrawable drawable;
+
+  public CustodrawableView(Context context) {
+    super(context);
+
+    int x = 10;
+    int y = 10;
+    int width = 300;
+    int height = 50;
+
+    drawable = new ShapeDrawable(new OvalShape());
+    // If the color isn't set, the shape uses black as the default.
+    drawable.getPaint().setColor(0xff74AC23);
+    // If the bounds aren't set, the shape can't be drawn.
+    mDrawable.setBounds(x, y, x + width, y + height);
+  }
+
+  protected void onDraw(Canvas canvas) {
+    mDrawable.draw(canvas);
+  }
+}
+
+
+
+You can use the CustomDrawableView class in the code sample
+above as you would use any other custom view. For example, you can
+programmatically add it to an activity in your app, as shown in the following
+example:
+
+Kotlin
+
+private lateinit var customDrawableView: CustomDrawableView
+
+override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    customDrawableView = CustomDrawableView(this)
+
+    setContentView(customDrawableView)
+}
+
+Java
+
+CustomDrawableView customDrawableView;
+
+protected void onCreate(Bundle savedInstanceState) {
+  super.onCreate(savedInstanceState);
+  customDrawableView = new CustomDrawableView(this);
+
+  setContentView(customDrawableView);
+}
+
+
+
+If you want to use the custom view in the XML layout instead, then the
+CustomDrawableView class must override the View(Context, AttributeSet) constructor, which is called when the class is
+inflated from XML. The following example shows how to declare the
+CustomDrawableView in the XML layout:
+
+<com.example.shapedrawable.CustomDrawableView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+The ShapeDrawable class, like many other
+drawable types in the android.graphics.drawable package, allows you to
+define various properties of the object by using public methods. Some example
+properties you might want to adjust include alpha transparency, color filter,
+dither, opacity, and color.
+You can also define primitive drawable shapes using XML resources. For more
+information, see 
+Shape drawable in 
+Drawable resource types.
+NinePatch drawables
+A NinePatchDrawable graphic is a
+stretchable bitmap image that you can use as the background of a view. Android
+automatically resizes the graphic to accommodate the contents of the view. An
+example use of a NinePatch image is the background used by standard Android
+buttons—buttons must stretch to accommodate strings of various lengths. A
+NinePatch graphic is a standard PNG image that includes an extra 1-pixel border.
+It must be saved with the 9.png extension in the
+res/drawable/ directory of your project.
+Use the border to define the stretchable and static areas of the image.
+You indicate a stretchable section by drawing one (or more) 1-pixel wide
+black line(s) in the left and top part of the border (the other border pixels
+should be fully transparent or white). You can have as many stretchable sections
+as you want. The relative size of the stretchable sections stays the same, so
+the largest section always remains the largest.
+You can also define an optional drawable section of the image (effectively,
+the padding lines) by drawing a line on the right and a line on the bottom. If a
+View object sets the NinePatch graphic as its background
+and then specifies the view's text, it stretches itself so that all the text
+occupies only the area designated by the right and bottom lines (if included).
+If the padding lines aren't included, Android uses the left and top lines to
+define this drawable area.
+To clarify the difference between the lines, the left and top lines define
+which pixels of the image are allowed to be replicated in order to stretch the
+image. The bottom and right lines define the relative area within the image that
+the contents of the view are allowed to occupy.
+Figure 1 shows an example of a NinePatch graphic used to define a button:
+
+Figure 1: Example of a NinePatch graphic
+that defines a button
+This NinePatch graphic defines one stretchable area with the left and top
+lines, and the drawable area with the bottom and right lines. In the top image,
+the dotted grey lines identify the regions of the image that are replicated
+in order to stretch the image. The pink rectangle in the bottom image identifies
+the region in which the contents of the view are allowed. If the contents don't
+fit in this region, then the image is stretched to make them fit.
+The Draw 9-patch tool offers an
+extremely handy way to create your NinePatch images, using a WYSIWYG graphics
+editor. It even raises warnings if the region you've defined for the stretchable
+area is at risk of producing drawing artifacts as a result of the pixel
+replication.
+The following sample layout XML demonstrates how to add a NinePatch graphic
+to a couple of buttons. The NinePatch image is saved to
+res/drawable/my_button_background.9.png.
+
+<Button id="@+id/tiny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="Tiny"
+        android:textSize="8sp"
+        android:background="@drawable/my_button_background"/>
+
+<Button id="@+id/big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Biiiiiiig text!"
+        android:textSize="30sp"
+        android:background="@drawable/my_button_background"/>
+
+Note that the layout_width and layout_height
+attributes are set to wrap_content to make the button fit neatly
+around the text.
+Figure 2 shows the two buttons rendered from the XML and NinePatch image
+shown above. Notice how the width and height of the button varies with the text,
+and the background image stretches to accommodate it.
+
+
+Figure 2: Buttons rendered using an XML
+resource and a NinePatch graphic
+Custom drawables
+When you want to create some custom drawings, you can do so by extending the Drawable class (or any of its subclasses).
+The most important method to implement is draw(Canvas)
+because this provides the Canvas object you must use to provide
+your drawing instructions.
+The following code shows a simple subclass of Drawable
+that draws a circle:
+
+Kotlin
+
+class MyDrawable : Drawable() {
+    private val redPaint: Paint = Paint().apply { setARGB(255, 255, 0, 0) }
+
+    override fun draw(canvas: Canvas) {
+        // Get the drawable's bounds
+        val width: Int = bounds.width()
+        val height: Int = bounds.height()
+        val radius: Float = Math.min(width, height).toFloat() / 2f
+
+        // Draw a red circle in the center
+        canvas.drawCircle((width / 2).toFloat(), (height / 2).toFloat(), radius, redPaint)
+    }
+
+    override fun setAlpha(alpha: Int) {
+        // This method is required
+    }
+
+    override fun setColorFilter(colorFilter: ColorFilter?) {
+        // This method is required
+    }
+
+    override fun getOpacity(): Int =
+        // Must be PixelFormat.UNKNOWN, TRANSLUCENT, TRANSPARENT, or OPAQUE
+        PixelFormat.OPAQUE
+}
+
+Java
+
+public class MyDrawable extends Drawable {
+    private final Paint redPaint;
+
+    public MyDrawable() {
+        // Set up color and text size
+        redPaint = new Paint();
+        redPaint.setARGB(255, 255, 0, 0);
+    }
+
+    @Override
+    public void draw(Canvas canvas) {
+        // Get the drawable's bounds
+        int width = getBounds().width();
+        int height = getBounds().height();
+        float radius = Math.min(width, height) / 2;
+
+        // Draw a red circle in the center
+        canvas.drawCircle(width/2, height/2, radius, redPaint);
+    }
+
+    @Override
+    public void setAlpha(int alpha) {
+        // This method is required
+    }
+
+    @Override
+    public void setColorFilter(ColorFilter colorFilter) {
+        // This method is required
+    }
+
+    @Override
+    public int getOpacity() {
+        // Must be PixelFormat.UNKNOWN, TRANSLUCENT, TRANSPARENT, or OPAQUE
+        return PixelFormat.OPAQUE;
+    }
+}
+
+
+
+Then you can add your drawable wherever you'd like, such as to an
+ImageView as shown here:
+
+Kotlin
+
+val mydrawing = MyDrawable()
+findViewById<ImageView>(R.id.imageView).setImageDrawable(mydrawing)
+
+Java
+
+MyDrawable mydrawing = new MyDrawable();
+ImageView image = findViewById(R.id.imageView);
+image.setImageDrawable(mydrawing);
+
+
+
+On Android 7.0 (API level 24) and higher, you can also define instances of your custom drawable
+with XML in the following ways:
+
+
+Using the fully-qualified class name as the XML element name. For this approach, the custom
+  drawable class must be a public top-level class:
+
+<com.myapp.MyDrawable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#ffff0000" />
+
+
+Using drawable as the XML tag name and specifying the fully-qualified class
+  name from the class attribute. This approach may be used for both public top-level classes and
+  public static inner classes:
+
+<drawable xmlns:android="http://schemas.android.com/apk/res/android"
+    class="com.myapp.MyTopLevelClass$MyDrawable"
+    android:color="#ffff0000" />
+
+
+
+Add tint to drawables
+With Android 5.0 (API level 21) and above, you can tint bitmaps and nine-patches defined as
+alpha masks. You can tint them with color resources or theme attributes that resolve to color
+resources (for example, ?android:attr/colorPrimary). Usually, you create these assets
+only once and color them automatically to match your theme.
+You can apply a tint to BitmapDrawable, NinePatchDrawable or VectorDrawable
+objects with the setTint() method. You can
+also set the tint color and mode in your layouts with the android:tint and
+android:tintMode attributes.
+Extract prominent colors from an image
+The Android Support Library includes the Palette class, which lets you extract prominent colors from an image.
+You can load your drawables as a Bitmap and pass it to Palette to access its colors.
+For more information, read Selecting colors with
+the Palette API.
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

@@ -1,0 +1,835 @@
+Security tips  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Security tips
+  
+
+
+Android has built-in security features that significantly reduce the frequency and impact of
+application security issues. The system is designed so that you can typically build your apps with
+the default system and file permissions and avoid difficult decisions about security.
+The following core security features help you build secure apps:
+
+The Android Application Sandbox, which isolates your app data and code execution
+from other apps.
+An application framework with robust implementations of common
+security functionality such as cryptography, permissions, and secure
+IPC.
+Technologies like ASLR, NX, ProPolice, safe_iop, OpenBSD dlmalloc, OpenBSD
+calloc, and Linux mmap_min_addr to mitigate risks associated with common memory
+management errors.
+An encrypted file system that can be enabled to protect data on lost or
+stolen devices.
+User-granted permissions to restrict access to system features and user data.
+Application-defined permissions to control application data on a per-app basis.
+
+It is important that you be familiar with the Android
+security best practices in this document. Following these practices as general coding habits
+ reduces the likelihood of inadvertently introducing security issues that
+adversely affect your users.
+Store data
+The most common security concern for an application on Android is whether the data
+that you save on the device is accessible to other apps. There are three fundamental
+ways to save data on the device:
+
+Internal storage.
+External storage.
+Content providers.
+
+
+The following paragraphs describe the security issues associated with each approach.
+
+Use internal storage
+By default, files that you create on internal
+storage are accessible only to your app.
+ Android implements this protection, and it's sufficient for most applications.
+Generally, avoid the MODE_WORLD_WRITEABLE or
+MODE_WORLD_READABLE modes for
+IPC files because they do not provide
+the ability to limit data access to particular applications, nor do they
+provide any control of data format. If you want to share your data with other
+app processes, instead consider using a
+content provider, which
+offers read and write permissions to other apps and can make
+dynamic permission grants on a case-by-case basis.
+To provide additional protection for sensitive data, you can
+ encrypt local files using a key that is not directly accessible to the
+application. For example, you can place a key in a KeyStore
+and protect it with a user password that is not stored on the device.  While this
+does not protect data from a root compromise that can monitor the user
+inputting the password,  it can provide protection for a lost device without file system
+encryption.
+Use external storage
+Files created on external
+storage, such as SD cards, are globally readable and writable. Because
+external storage can be removed by the user and also modified by any
+application, don't store sensitive information using
+external storage.
+You should Perform input validation when handling
+data from external storage as you would with data from any untrusted source.
+You should not store executables or
+class files on external storage prior to dynamic loading.  If your app
+does retrieve executable files from external storage, the files should be signed and
+cryptographically verified prior to dynamic loading.
+Use content providers
+Content providers
+offer a structured storage mechanism that can be limited
+to your own application or exported to allow access by other applications.
+If you do not intend to provide other
+applications with access to your ContentProvider, mark them as 
+android:exported=false in the application manifest. Otherwise, set the android:exported
+attribute to true to allow other apps to access the stored data.
+
+When creating a ContentProvider
+that is exported for use by other applications, you can specify a single
+permission
+ for reading and writing, or you can specify distinct permissions for reading and writing.
+You should limit your permissions to those
+required to accomplish the task at hand. Keep in mind that it’s usually
+easier to add permissions later to expose new functionality than it is to take
+them away and impact existing users.
+If you are using a content provider
+for sharing data between only your own apps, it is preferable to use the
+android:protectionLevel attribute set to signature protection.
+Signature permissions do not require user confirmation,
+so they provide a better user experience and more controlled access to the
+content provider data when the apps accessing the data are
+signed with
+the same key.
+Content providers can also provide more granular access by declaring the android:grantUriPermissions attribute and using the FLAG_GRANT_READ_URI_PERMISSION and FLAG_GRANT_WRITE_URI_PERMISSION flags in the
+Intent object
+that activates the component.  The scope of these permissions can be further
+limited by the 
+<grant-uri-permission> element.
+When accessing a content provider, use parameterized query methods such as
+query(),
+update(), and
+delete() to avoid
+potential SQL injection from untrusted sources. Note that using parameterized methods is not
+sufficient if the selection argument is built by concatenating user data
+prior to submitting it to the method.
+Don't have a false sense of security about the write permission.
+ The write permission allows SQL statements that make it possible for some
+data to be confirmed using creative WHERE clauses and parsing the
+results. For example, an attacker might probe for the presence of a specific phone
+number in a call log by modifying a row only if that phone number already
+exists. If the content provider data has predictable structure, the write
+permission may be equivalent to providing both reading and writing.
+Use permissions
+Because Android sandboxes applications from each other, applications must explicitly
+share resources and data. They do this by declaring the permissions they need for additional
+capabilities not provided by the basic sandbox, including access to device features such as
+the camera.
+Request permissions
+You should minimize the number of permissions that your app requests.
+Restricting access to sensitive permissions reduces the risk of
+inadvertently misusing those permissions, improves user adoption, and makes
+your app less vulnerable for attackers. Generally,
+if a permission is not required for your app to function, don't request it.
+If there is a feature that the app can't run without, declare it using a
+<uses-feature>
+element in the manifest file.
+If it's possible to design your application in a way that does not require
+any permissions, that is preferable.  For example, rather than requesting access
+to device information to create a unique identifier, create a GUID for your application
+(see the section about Handling user data). Or, rather than
+using external storage (which requires permission), store data
+on the internal storage.
+In addition to requesting permissions, your application can use the <permission>
+ element to protect IPC that is security sensitive and is exposed to other
+applications, such as a ContentProvider.
+In general, we recommend using access controls
+other than user confirmed permissions where possible because permissions can
+be confusing for users. For example, consider using the signature
+protection level on permissions for IPC communication between applications
+provided by a single developer.
+Do not leak permission-protected data. This occurs when your app exposes
+data over IPC that is available only because your app has permission to access
+that data. The clients of your app's IPC interface may not have that same
+data-access permission. More details on the frequency and potential effects
+of this issue appear in the research paper 
+Permission Re-Delegation: Attacks and Defenses
+, published at USENIX.
+
+
+
+Create permissions
+Generally, you should strive to define as few permissions as possible while
+satisfying your security requirements. Creating a new permission is relatively
+uncommon for most applications, because the system-defined
+permissions cover many situations. Where appropriate,
+perform access checks using existing permissions.
+If you must create a new permission, consider whether you can accomplish
+your task with a signature
+protection level. Signature permissions are transparent
+to the user and allow access only by applications signed by the same developer
+as the application performing the permission check. If the new permission is
+still required, it's declared in the app manifest using the
+<permission>
+element. Apps that wish to use the new permission can reference it by each
+adding a
+<uses-permission>
+element in their respective manifest files. You can also add permissions
+dynamically by using the
+addPermission()
+method.
+If you create a permission with the dangerous
+protection level, there are a number of complexities
+that you need to consider:
+
+The permission must have a string that concisely expresses to a user the
+security decision they are required to make.
+The permission string must be localized to many different languages.
+Users may choose not to install an application because a permission is
+confusing or perceived as risky.
+Applications may request the permission when the creator of the permission
+has not been installed.
+
+Each of these poses a significant nontechnical challenge for you as the developer
+while also confusing your users,
+which is why we discourages the use of the dangerous permission level.
+Use networking
+Network transactions are inherently risky for security, because they involve transmitting
+data that is potentially private to the user. People are increasingly aware of the privacy
+concerns of a mobile device, especially when the device performs network transactions,
+so it's very important that your app implement all best practices toward keeping the user's
+data secure at all times.
+Use IP networking
+Networking on Android is not significantly different from other Linux
+environments.  The key consideration is making sure that appropriate protocols
+are used for sensitive data, such as HttpsURLConnection for
+secure web traffic. You should use HTTPS over HTTP anywhere that HTTPS is
+supported on the server, because mobile devices frequently connect on networks
+that are not secured, such as public Wi-Fi hotspots.
+Authenticated, encrypted socket-level communication can be easily
+implemented using the SSLSocket
+class.  Given the frequency with which Android devices connect to unsecured
+wireless networks using Wi-Fi, the use of secure networking is strongly
+encouraged for all applications that communicate over the network.
+Some applications use localhost network ports for
+handling sensitive IPC.  You should not use this approach because these interfaces are
+accessible by other applications on the device. Instead, use an Android IPC
+mechanism where authentication is possible, such as with a Service.
+Binding to INADDR_ANY is worse than using loopback because then your application
+may receive requests from anywhere.
+Make sure that you don't
+ trust data downloaded from HTTP or other insecure protocols.  This includes
+validation of input in WebView and
+any responses to intents issued against HTTP.
+Use telephony networking
+The SMS protocol was primarily designed for
+user-to-user communication and is not well-suited for apps that want to transfer data.
+Due to the limitations of SMS, you should use Google Cloud Messaging (GCM)
+and IP networking for sending data messages from a web server to your app on a user device.
+Beware that SMS is neither encrypted nor strongly
+authenticated on either the network or the device. In particular, any SMS receiver
+should expect that a malicious user may have sent the SMS to your application. Don't
+ rely on unauthenticated SMS data to perform sensitive commands.
+Also, you should be aware that SMS may be subject to spoofing and/or
+interception on the network.  On the Android-powered device itself, SMS
+messages are transmitted as broadcast intents, so they may be read or captured
+by other applications that have the READ_SMS
+permission.
+Perform input validation
+Insufficient input validation is one of the most common security problems
+affecting applications, regardless of what platform they run on. Android
+has platform-level countermeasures that reduce the exposure of applications to
+input validation issues, and you should use those features where possible. Also
+note that the selection of type-safe languages tends to reduce the likelihood of
+input validation issues.
+If you are using native code, any data read from files, received over
+the network, or received from an IPC has the potential to introduce a security
+issue.  The most common problems are buffer overflows, use after
+free, and off-by-one errors.
+Android provides a number of technologies like ASLR and DEP that reduce the
+exploitability of these errors, but they don't solve the underlying problem.
+You can prevent these vulnerabilities by carefully handling pointers and managing
+buffers.
+Dynamic, string-based languages such as JavaScript and SQL are also subject
+to input validation problems due to escape characters and script injection.
+If you are using data within queries that are submitted to an SQL database or a
+content provider, SQL injection may be an issue.  The best defense is to use
+parameterized queries, as is discussed in the above section about content providers.
+Limiting permissions to read-only or write-only can also reduce the potential
+for harm related to SQL injection.
+If you can't use the security features above, you should make sure to use
+well-structured data formats and verify that the data conforms to the
+expected format. While blacklisting of characters or character-replacement can
+be an effective strategy, these techniques are error prone in practice and
+should be avoided when possible.
+Handle user data
+In general, the best approach for user data security is to minimize the use of APIs that access
+sensitive or personal user data. If you have access to user data and can avoid
+storing or transmitting it, don't store or transmit the data.
+Consider if there is a way that your application logic can be
+implemented using a hash or non-reversible form of the data.  For example, your
+application might use the hash of an email address as a primary key to
+avoid transmitting or storing the email address.  This reduces the chances of
+inadvertently exposing data, and it also reduces the chance of attackers
+attempting to exploit your application.
+If your application accesses personal information such as passwords or
+user names, keep in mind that some jurisdictions may require you to provide a
+privacy policy explaining your use and storage of that data. Following the
+security best practice of minimizing access to user data may also simplify
+compliance.
+You should also consider whether your application might be inadvertently
+exposing personal information to other parties such as third-party components
+for advertising or third-party services used by your application. If you don't
+know why a component or service requires personal information, don’t
+provide it.  In general, reducing the access to personal information by your
+application reduces the potential for problems in this area.
+If your app requires access to sensitive data, evaluate whether you need to
+ transmit it to a server or you can run the operation on
+the client. Consider running any code using sensitive data on the client to
+avoid transmitting user data. Also, make sure that you do not inadvertently expose user
+ data to other
+applications on the device through overly permissive IPC, world-writable files,
+or network sockets. Overly permissive IPC is a special case of leaking permission-protected data,
+discussed in the Requesting Permissions section.
+If a GUID
+is required, create a large, unique number and store it.  Don't
+use phone identifiers such as the phone number or IMEI, which may be associated
+with personal information.  This topic is discussed in more detail in the Android Developer Blog.
+Be careful when writing to on-device logs.
+In Android, logs are a shared resource and are available
+to an application with the READ_LOGS permission.
+Even though the phone log data is temporary and erased on reboot, inappropriate
+logging of user information could inadvertently leak user data to other
+applications. In addition to not logging PII, production apps should limit log
+usage. To easily implement this, use debug flags and custom Log
+classes with easily configurable logging levels.
+Use WebView
+Because WebView consumes web content that can include HTML
+ and JavaScript,
+improper use can introduce common web security issues such as 
+cross-site-scripting
+(JavaScript injection).  Android includes a number of mechanisms to reduce
+the scope of these potential issues by limiting the capability of
+ WebView to
+the minimum functionality required by your application.
+If your application doesn't directly use JavaScript within a WebView,
+ do not call
+ setJavaScriptEnabled().
+Some sample code uses this method, which you might repurpose in production
+application, so remove that method call if it's not required. By default,
+WebView does
+not execute JavaScript, so cross-site-scripting is not possible.
+Use addJavaScriptInterface() with
+particular care because it allows JavaScript to invoke operations that are
+normally reserved for Android applications.  If you use it, expose
+addJavaScriptInterface() only to
+web pages from which all input is trustworthy.  If untrusted input is allowed,
+untrusted JavaScript may be able to invoke Android methods within your app.  In general, we
+recommend exposing addJavaScriptInterface() only to JavaScript that is contained within your application APK.
+If your application accesses sensitive data with a
+WebView, you may want to use the
+clearCache() method to delete any files stored
+locally. You can also use server-side
+headers such as no-cache to indicate that an application should
+not cache particular content.
+Devices running platforms older than Android 4.4 (API level 19)
+use a version of webkit that has a number of security issues.
+As a workaround, if your app is running on these devices, it
+must confirm that WebView objects display only trusted
+content. To make sure your app isn’t exposed to
+potential vulnerabilities in SSL, use the updatable security Provider object as described in Updating Your
+Security Provider to Protect Against SSL Exploits. If your application must
+render content from the open web, consider providing your own renderer so
+you can keep it up to date with the latest security patches.
+Handle credentials
+To make phishing attacks more conspicuous and less likely to be
+successful, minimize the frequency of asking for user
+credentials. Instead use an authorization token and refresh it.
+Where possible, don't store user names and passwords on the device.
+Instead, perform initial authentication using the user name and password
+ supplied by the user, and then use a short-lived, service-specific
+authorization token.
+Services that are accessible to multiple applications should be accessed
+using AccountManager. If possible, use the
+AccountManager class to invoke a cloud-based service and don't store
+passwords on the device.
+After using AccountManager to retrieve an
+Account, use CREATOR
+before passing in any credentials so that you do not inadvertently pass
+credentials to the wrong application.
+If credentials are used only by applications that you create, you
+can verify the application that accesses the AccountManager using
+checkSignature().
+Alternatively, if only one application uses the credential, you might use a
+KeyStore for storage.
+Use cryptography
+In addition to providing data isolation, supporting full-filesystem
+encryption, and providing secure communications channels, Android provides a
+wide array of algorithms for protecting data using cryptography.
+In general, you should know which Java Cryptography Architecture (JCA)
+security providers your software uses. Try to use the highest level of the
+pre-existing framework implementation that can support your use case. If
+applicable, use the Google-provided providers in the Google-specified order.
+If you need to securely retrieve a file from a known location, a simple HTTPS
+URI may be adequate and requires no knowledge of cryptography. If you need a
+secure tunnel, consider using HttpsURLConnection or
+SSLSocket rather than writing your own protocol. If you
+use SSLSocket, be aware that it does not perform hostname verification. See
+Warnings about using SSLSocket
+directly.
+If you find that you need to implement your own protocol, you shouldn't
+implement your own cryptographic algorithms. Use existing cryptographic
+algorithms, such as the implementations of AES and RSA provided in the
+Cipher class. Additionally, you should follow these best
+practices:
+
+Use 256-bit AES for commercial purposes. (If unavailable, use 128-bit
+AES.)
+Use either 224- or 256-bit public key sizes for elliptic curve (EC)
+cryptography.
+Know when to use CBC, CTR, or GCM block modes.
+Avoid IV/counter reuse in CTR mode. Ensure that they're cryptographically
+random.
+When using encryption, implement integrity using the CBC or CTR mode with
+one of the following functions:
+ 
+HMAC-SHA1
+HMAC-SHA-256
+HMAC-SHA-512
+GCM mode
+
+
+
+Use a secure random number generator, SecureRandom,
+to initialize any cryptographic keys generated by KeyGenerator.
+Use of a key that is not generated with a secure random
+number generator significantly weakens the strength of the algorithm and may
+allow offline attacks.
+If you need to store a key for repeated use, use a mechanism, such as
+  KeyStore, that
+provides a mechanism for long term storage and retrieval of cryptographic
+keys.
+Use interprocess communication
+Some apps attempt to implement IPC using traditional Linux
+techniques such as network sockets and shared files. However, you should instead
+use Android system functionality for IPC such as Intent,
+Binder or Messenger with a Service, and BroadcastReceiver.
+The Android IPC mechanisms allow you to verify the identity of
+the application connecting to your IPC and set security policy for each IPC
+mechanism.
+Many of the security elements are shared across IPC mechanisms.
+If your IPC mechanism is not intended for use by other applications, set the
+android:exported attribute to false in the component's manifest element,
+such as for the <service>
+element.  This is useful for applications that consist of multiple processes
+within the same UID or if you decide late in development that you don't
+actually want to expose functionality as IPC, but you don’t want to rewrite
+the code.
+If your IPC is accessible to other applications, you can
+apply a security policy by using the <permission>
+element. If IPC is between your own separate apps that are signed with the same key,
+it is preferable to use signature level permission in the android:protectionLevel.
+Use intents
+For activities and broadcast receivers, intents are the preferred mechanism for
+ asynchronous IPC in Android.
+Depending on your application requirements, you might use sendBroadcast(), sendOrderedBroadcast(),
+or an explicit intent to a specific application component. For security purposes,
+explicit intents are preferred.
+Caution: If you use an intent to bind to a
+ Service, ensure that your app is secure by using an
+ explicit
+intent. Using an implicit intent to start a service is a
+security hazard because you can't be certain what service will respond to the intent,
+and the user can't see which service starts. Beginning with Android 5.0 (API level 21),
+ the system
+throws an exception if you call bindService()
+with an implicit intent.
+Note that ordered broadcasts can be consumed by a recipient, so they
+may not be delivered to all applications.  If you are sending an intent that must be delivered
+to a specific receiver, you must use an explicit intent that declares the receiver
+by name.
+Senders of an intent can verify that the recipient has permission
+ by specifying a non-null permission with the method call.  Only applications with that
+permission receive the intent. If data within a broadcast intent may be
+sensitive, you should consider applying a permission to make sure that
+malicious applications can't register to receive those messages without
+appropriate permissions. In those circumstances, you may also consider
+invoking the receiver directly, rather than raising a broadcast.
+Note: Intent filters should not be considered
+a security feature. Components
+can be invoked with explicit intents and may not have data that would conform to the intent
+filter. To
+confirm that it is properly formatted for the invoked receiver, service, or
+activity, perform input validation within your intent receiver.
+Use services
+A Service is often used to supply functionality for other applications to
+use. Each service class must have a corresponding <service>
+ declaration in its
+manifest file.
+By default, services are not exported and cannot be invoked by any other
+application. However, if you add any intent filters to the service declaration, it is exported
+by default. It's best if you explicitly declare the android:exported attribute to be sure it behaves as you'd like.
+Services can also be protected using the android:permission
+attribute. By doing so, other applications need to declare
+a corresponding <uses-permission>
+ element in their own manifest to be
+able to start, stop, or bind to the service.
+Note: If your app targets Android 5.0 (API level 21) or later,
+ you should use the JobScheduler to execute background
+ services. For more information about JobScheduler, see its
+ API-reference documentation.
+A service can protect individual IPC calls into it with permissions, by
+calling checkCallingPermission() before executing
+the implementation of that call. You should use the
+declarative permissions in the manifest, since those are less prone to
+oversight.
+Caution: Don't confuse client and server
+permissions; ensure that the called app has appropriate permissions and verify
+that you grant the same permissions to the calling app.
+Use binder and messenger interfaces
+Using Binder or Messenger is the
+preferred mechanism for RPC-style IPC in Android. They provide a well-defined
+interface that enables mutual authentication of the endpoints, if required.
+You should design your app interfaces in a manner that does not require
+interface-specific permission checks. Binder and
+Messenger objects are not declared within the
+application manifest, and therefore you cannot apply declarative permissions
+directly to them.  They generally inherit permissions declared in the
+application manifest for the Service or Activity within which they are
+implemented.  If you are creating an interface that requires authentication
+and/or access controls, you must explicitly add those controls
+ as code in the Binder or Messenger
+interface.
+If you are providing an interface that does require access controls, use checkCallingPermission()
+to verify whether the
+caller has a required permission. This is especially important
+before accessing a service on behalf of the caller, as the identity of your
+application is passed to other interfaces.  If you are invoking an interface provided
+by a Service, the bindService()
+ invocation may fail if you do not have permission to access the given service.
+ If calling an interface provided locally by your own application, it may be
+useful to use the clearCallingIdentity()
+method, which masks the caller permissions against the app's permissions, to
+satisfy internal security checks. You can restore the caller permissions later
+by using the
+restoreCallingIdentity()
+method.
+
+For more information about performing IPC with a service, see
+Bound Services.
+Use broadcast receivers
+A BroadcastReceiver handles asynchronous requests initiated by
+an Intent.
+By default, receivers are exported and can be invoked by any other
+application. If your BroadcastReceiver
+is intended for use by other applications, you
+may want to apply security permissions to receivers using the 
+<receiver> element within the application manifest.  This
+prevents applications without appropriate permissions from sending an intent to
+the BroadcastReceiver.
+Dynamically load code
+We strongly discourage loading code from outside of your application APK.
+Doing so significantly increases the likelihood of application compromise due
+to code injection or code tampering. It also adds complexity around version
+management and application testing. It can also make it impossible to
+verify the behavior of an application, so it may be prohibited in some
+environments.
+If your application does dynamically load code, the most important thing to
+keep in mind about dynamically-loaded code is that it runs with the same
+security permissions as the application APK.  The user makes a decision to
+install your application based on your identity, and the user expects that
+you provide any code run within the application, including code that is
+dynamically loaded.
+The major security risk associated with dynamically loading code is that the
+code needs to come from a verifiable source. If the modules are included
+directly within your APK, they cannot be modified by other applications.
+This is true whether the code is a native library or a class being loaded using
+DexClassLoader.  Many applications
+attempt to load code from insecure locations, such as downloaded from the
+network over unencrypted protocols or from world-writable locations such as
+external storage. These locations could allow someone on the network to modify
+the content in transit or another application on a user's device to modify the
+content on the device.
+Security in a virtual machine
+Dalvik is Android's runtime virtual machine (VM). Dalvik was built specifically for Android,
+but many of the concerns regarding secure code in other virtual machines also apply to Android.
+In general, you shouldn't concern yourself with security issues relating to the virtual machine.
+Your application runs in a secure sandbox environment, so other processes on the system can't
+access your code or private data.
+If you're interested in learning more about virtual machine security,
+ familiarize yourself with some
+existing literature on the subject. Two of the more popular resources are:
+
+
+Securing Java
+
+Related 3rd party Projects
+
+This document focuses on areas that are Android specific or
+different from other VM environments.  For developers experienced with VM
+programming in other environments, there are two broad issues that may be
+different about writing apps for Android:
+
+Some virtual machines, such as the JVM or .NET runtime, act as a security
+boundary, isolating code from the underlying operating system capabilities.  On
+Android, the Dalvik VM is not a security boundary—the application sandbox is
+implemented at the OS level, so Dalvik can interoperate with native code in the
+same application without any security constraints.
+Given the limited storage on mobile devices, it’s common for developers
+to want to build modular applications and use dynamic class loading.  When
+doing this, consider both the source where you retrieve your application logic
+and where you store it locally. Do not use dynamic class loading from sources
+that are not verified, such as unsecured network sources or external storage,
+because that code might be modified to include malicious behavior.
+
+Security in native code
+In general, you should use the Android SDK for
+application development, rather than using native code with the
+Android NDK.  Applications built
+with native code are more complex, less portable, and more like to include
+common memory-corruption errors such as buffer overflows.
+Android is built using the Linux kernel, and being familiar with Linux
+development security best practices is especially useful if you are
+using native code. Linux security practices are beyond the scope of this document,
+but one of the most popular resources is Secure Programming HOWTO - Creating Secure Software.
+An important difference between Android and most Linux environments is the
+Application Sandbox.  On Android, all applications run in the Application
+Sandbox, including those written with native code.  At the most basic level, a
+good way to think about it for developers familiar with Linux is to know that
+every application is given a unique UID
+with very limited permissions. This is discussed in more detail in the Android Security
+Overview, and you should be familiar with application permissions even if
+you are using native code.
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated June 15, 2018.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

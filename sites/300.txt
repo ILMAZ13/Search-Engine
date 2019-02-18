@@ -1,0 +1,651 @@
+Layouts  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+
+Layouts
+
+  Part of Android Jetpack.
+
+A layout defines the structure for a user interface in your app, such as in an activity.
+All elements in the layout are built using a hierarchy of View and
+ViewGroup objects. A View usually
+draws something the user can see and interact with. Whereas a ViewGroup is an
+invisible container that defines the layout structure for View and other
+ViewGroup objects, as shown in figure 1.
+
+Figure 1. Illustration of a view hierarchy, which defines a
+UI layout
+The View objects are usually called "widgets" and can be one of many
+subclasses, such as Button or TextView. The
+ViewGroup objects are usually called "layouts" can be one of many types that
+provide a different layout structure, such as LinearLayout or
+ConstraintLayout
+.
+You can declare a layout in two ways:
+
+Declare UI elements in XML. Android provides a straightforward XML
+vocabulary that corresponds to the View classes and subclasses, such as those for widgets and
+layouts.
+You can also use Android Studio's Layout Editor
+to build your XML layout using a drag-and-drop interface.
+Instantiate layout elements at runtime. Your
+app can create View and ViewGroup objects (and manipulate their properties) programmatically. 
+
+Declaring your UI in XML allows you to separate the presentation of your app from the code that
+controls its behavior. Using XML files also makes it easy to provide different layouts for
+different screen sizes and orientations (discussed further in Supporting Different Screen Sizes).
+The Android framework gives you the flexibility to use either or both of these methods to
+build your app's UI. For example, you can declare your app's default layouts in XML, and then
+modify the layout at runtime.
+Tip:To debug your layout at runtime, use the
+Layout Inspector tool.
+Write the XML
+Using Android's XML vocabulary, you can quickly design UI layouts and the screen elements they contain, in the same way you create web pages in HTML — with a series of nested elements. 
+Each layout file must contain exactly one root element, which must be a View or ViewGroup object. Once you've defined the root element, you can add additional layout objects or widgets as child elements to gradually build a View hierarchy that defines your layout. For example, here's an XML layout that uses a vertical LinearLayout
+to hold a TextView and a Button:
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+    <TextView android:id="@+id/text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Hello, I am a TextView" />
+    <Button android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello, I am a Button" />
+</LinearLayout>
+
+After you've declared your layout in XML, save the file with the .xml extension,
+in your Android project's res/layout/ directory, so it will properly compile. 
+More information about the syntax for a layout XML file is available in the Layout Resources document.
+Load the XML Resource
+When you compile your app, each XML layout file is compiled into a
+View resource. You should load the layout resource from your app code, in your
+Activity.onCreate() callback implementation.
+Do so by calling setContentView(),
+passing it the reference to your layout resource in the form of:
+R.layout.layout_file_name.
+For example, if your XML layout is saved as main_layout.xml, you would load it
+for your Activity like so:
+
+Kotlin
+
+fun onCreate(savedInstanceState: Bundle) {
+    super.onCreate(savedInstanceState)
+    setContentView(R.layout.main_layout)
+}
+
+Java
+
+public void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.main_layout);
+}
+
+
+
+The onCreate() callback method in your Activity is called by the Android framework when
+your Activity is launched (see the discussion about lifecycles, in the
+Activities
+document).
+Attributes
+Every View and ViewGroup object supports their own variety of XML attributes.
+Some attributes are specific to a View object (for example, TextView supports the textSize
+attribute), but these attributes are also inherited by any View objects that may extend this class.
+Some are common to all View objects, because they are inherited from the root View class (like
+the id attribute). And, other attributes are considered "layout parameters," which are
+attributes that describe certain layout orientations of the View object, as defined by that object's
+parent ViewGroup object.
+ID
+Any View object may have an integer ID associated with it, to uniquely identify the View within the tree.
+When the app is compiled, this ID is referenced as an integer, but the ID is typically
+assigned in the layout XML file as a string, in the id attribute.
+This is an XML attribute common to all View objects
+(defined by the View class) and you will use it very often.
+The syntax for an ID, inside an XML tag is:
+android:id="@+id/my_button"
+The  at-symbol (@) at the beginning of the string indicates that the XML parser should parse and expand the rest
+of the ID string and identify it as an ID resource. The plus-symbol (+) means that this is a new resource name that must
+be created and added to our resources (in the R.java file). There are a number of other ID resources that
+are offered by the Android framework. When referencing an Android resource ID, you do not need the plus-symbol,
+but must add the android package namespace, like so:
+android:id="@android:id/empty"
+With the android package namespace in place, we're now referencing an ID from the android.R
+resources class, rather than the local resources class.
+In order to create views and reference them from the app, a common pattern is to:
+
+Define a view/widget in the layout file and assign it a unique ID:
+
+<Button android:id="@+id/my_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_button_text"/>
+
+
+Then create an instance of the view object and capture it from the layout
+(typically in the onCreate() method):
+
+Kotlin
+
+val myButton: Button = findViewById(R.id.my_button)
+
+Java
+
+Button myButton = (Button) findViewById(R.id.my_button);
+
+
+
+
+
+Defining IDs for view objects is important when creating a RelativeLayout.
+In a relative layout, sibling views can define their layout relative to another sibling view,
+which is referenced by the unique ID.
+An ID need not be unique throughout the entire tree, but it should be
+unique within the part of the tree you are searching (which may often be the entire tree, so it's best
+to be completely unique when possible).
+Layout Parameters
+XML layout attributes named layout_something define
+layout parameters for the View that are appropriate for the ViewGroup in which it resides.
+Every ViewGroup class implements a nested class that extends ViewGroup.LayoutParams. This subclass
+contains property types that define the size and position for each child view, as
+appropriate for the view group. As you can see in figure 2, the parent
+view group defines layout parameters for each child view (including the child view group).
+
+Figure 2. Visualization of a view hierarchy with layout
+parameters associated with each view
+Note that every LayoutParams subclass has its own syntax for setting
+values. Each child element must define LayoutParams that are appropriate for its parent,
+though it may also define different LayoutParams for its own children. 
+All view groups include a width and height (layout_width and
+layout_height), and each view is required to define them. Many
+LayoutParams also include optional margins and borders. 
+You can specify width and height with exact measurements, though you probably
+won't want to do this often. More often, you will use one of these constants to
+set the width or height: 
+
+wrap_content tells your view to size itself to the dimensions
+required by its content.
+match_parent
+tells your view to become as big as its parent view group will allow.
+
+In general, specifying a layout width and height using absolute units such as
+pixels is not recommended. Instead, using relative measurements such as
+density-independent pixel units (dp), wrap_content, or
+match_parent, is a better approach, because it helps ensure that
+your app will display properly across a variety of device screen sizes.
+The accepted measurement types are defined in the
+
+Available Resources document.
+Layout Position
+
+   The geometry of a view is that of a rectangle. A view has a location,
+   expressed as a pair of left and top coordinates, and
+   two dimensions, expressed as a width and a height. The unit for location
+   and dimensions is the pixel.
+   
+
+   It is possible to retrieve the location of a view by invoking the methods
+   getLeft() and getTop(). The former returns the left, or X,
+   coordinate of the rectangle representing the view. The latter returns the
+   top, or Y, coordinate of the rectangle representing the view. These methods
+   both return the location of the view relative to its parent. For instance,
+   when getLeft() returns 20, that means the view is located 20 pixels to the
+   right of the left edge of its direct parent.
+   
+
+   In addition, several convenience methods are offered to avoid unnecessary
+   computations, namely getRight() and getBottom().
+   These methods return the coordinates of the right and bottom edges of the
+   rectangle representing the view. For instance, calling getRight()
+   is similar to the following computation: getLeft() + getWidth().
+   
+Size, Padding and Margins
+
+   The size of a view is expressed with a width and a height. A view actually
+   possesses two pairs of width and height values.
+   
+
+   The first pair is known as measured width and
+   measured height. These dimensions define how big a view wants to be
+   within its parent. The
+   measured dimensions can be obtained by calling getMeasuredWidth()
+   and getMeasuredHeight().
+   
+
+   The second pair is simply known as width and height, or
+   sometimes drawing width and drawing height. These
+   dimensions define the actual size of the view on screen, at drawing time and
+   after layout. These values may, but do not have to, be different from the
+   measured width and height. The width and height can be obtained by calling
+   getWidth() and getHeight().
+   
+
+   To measure its dimensions, a view takes into account its padding. The padding
+   is expressed in pixels for the left, top, right and bottom parts of the view.
+   Padding can be used to offset the content of the view by a specific number of
+   pixels. For instance, a left padding of 2 will push the view's content by
+   2 pixels to the right of the left edge. Padding can be set using the
+   setPadding(int, int, int, int) method and queried by calling
+   getPaddingLeft(), getPaddingTop(),
+   getPaddingRight() and getPaddingBottom().
+   
+
+   Even though a view can define a padding, it does not provide any support for
+   margins. However, view groups provide such a support. Refer to
+   ViewGroup and
+   ViewGroup.MarginLayoutParams for further information.
+   
+For more information about dimensions, see
+   Dimension Values.
+   
+
+Common Layouts
+Each subclass of the ViewGroup class provides a unique way to display
+the views you nest within it. Below are some of the more common layout types that are built
+into the Android platform.
+Note: Although you can nest one or more layouts within another
+layout to achieve your UI design, you should strive to keep your layout hierarchy as shallow as
+possible. Your layout draws faster if it has fewer nested layouts (a wide view hierarchy is
+better than a deep view hierarchy).
+
+
+Linear Layout
+
+A layout that organizes its children into a single horizontal or vertical row. It
+  creates a scrollbar if the length of the window exceeds the length of the screen.
+
+
+Relative Layout
+
+Enables you to specify the location of child objects relative to each other (child A to
+the left of child B) or to the parent (aligned to the top of the parent).
+
+
+Web View
+
+Displays web pages.
+
+Building Layouts with an Adapter
+When the content for your layout is dynamic or not pre-determined, you can use a layout that
+subclasses AdapterView to populate the layout with views at runtime. A
+subclass of the AdapterView class uses an Adapter to
+bind data to its layout. The Adapter behaves as a middleman between the data
+source and the AdapterView layout—the Adapter
+retrieves the data (from a source such as an array or a database query) and converts each entry
+into a view that can be added into the AdapterView layout.
+Common layouts backed by an adapter include:
+
+List View
+
+Displays a scrolling single column list.
+
+
+Grid View
+
+Displays a scrolling grid of columns and rows.
+
+Filling an adapter view with data
+You can populate an AdapterView such as ListView or
+GridView by binding the AdapterView instance to an
+Adapter, which retrieves data from an external source and creates a View that represents each data entry.
+Android provides several subclasses of Adapter that are useful for
+retrieving different kinds of data and building views for an AdapterView. The
+two most common adapters are:
+
+ArrayAdapter
+Use this adapter when your data source is an array. By default, ArrayAdapter creates a view for each array item by calling toString() on each item and placing the contents in a TextView.
+      For example, if you have an array of strings you want to display in a ListView, initialize a new ArrayAdapter using a
+constructor to specify the layout for each string and the string array:
+
+Kotlin
+
+val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, myStringArray)
+
+Java
+
+ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+        android.R.layout.simple_list_item_1, myStringArray);
+
+
+
+The arguments for this constructor are:
+
+Your app Context
+The layout that contains a TextView for each string in the array
+The string array
+
+Then simply call
+setAdapter() on your ListView:
+
+Kotlin
+
+val listView: ListView = findViewById(R.id.listview)
+listView.adapter = adapter
+
+Java
+
+ListView listView = (ListView) findViewById(R.id.listview);
+listView.setAdapter(adapter);
+
+
+
+To customize the appearance of each item you can override the toString() method for the objects in your array. Or, to create a view for each
+item that's something other than a TextView (for example, if you want an
+ImageView for each array item), extend the ArrayAdapter class and override getView() to return the type of view you want for each item.
+
+SimpleCursorAdapter
+Use this adapter when your data comes from a Cursor. When
+using SimpleCursorAdapter, you must specify a layout to use for each
+row in the Cursor and which columns in the Cursor
+should be inserted into which views of the layout. For example, if you want to create a list of
+people's names and phone numbers, you can perform a query that returns a Cursor containing a row for each person and columns for the names and
+numbers. You then create a string array specifying which columns from the Cursor you want in the layout for each result and an integer array specifying the
+corresponding views that each column should be placed:
+
+Kotlin
+
+val fromColumns = arrayOf(ContactsContract.Data.DISPLAY_NAME,
+                          ContactsContract.CommonDataKinds.Phone.NUMBER)
+val toViews = intArrayOf(R.id.display_name, R.id.phone_number)
+
+Java
+
+String[] fromColumns = {ContactsContract.Data.DISPLAY_NAME,
+                        ContactsContract.CommonDataKinds.Phone.NUMBER};
+int[] toViews = {R.id.display_name, R.id.phone_number};
+
+
+
+When you instantiate the SimpleCursorAdapter, pass the layout to use for
+each result, the Cursor containing the results, and these two arrays:
+
+Kotlin
+
+val adapter = SimpleCursorAdapter(this,
+        R.layout.person_name_and_number, cursor, fromColumns, toViews, 0)
+val listView = getListView()
+listView.adapter = adapter
+
+Java
+
+SimpleCursorAdapter adapter = new SimpleCursorAdapter(this,
+        R.layout.person_name_and_number, cursor, fromColumns, toViews, 0);
+ListView listView = getListView();
+listView.setAdapter(adapter);
+
+
+
+The SimpleCursorAdapter then creates a view for each row in the
+Cursor using the provided layout by inserting each fromColumns item into the corresponding toViews view..
+
+If, during the course of your app's life, you change the underlying data that is read by
+your adapter, you should call notifyDataSetChanged(). This will
+notify the attached view that the data has been changed and it should refresh itself.
+Handling click events
+You can respond to click events on each item in an AdapterView by
+implementing the AdapterView.OnItemClickListener interface. For example:
+
+Kotlin
+
+listView.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
+    // Do something in response to the click
+}
+
+Java
+
+// Create a message handling object as an anonymous class.
+private OnItemClickListener messageClickedHandler = new OnItemClickListener() {
+    public void onItemClick(AdapterView parent, View v, int position, long id) {
+        // Do something in response to the click
+    }
+};
+
+listView.setOnItemClickListener(messageClickedHandler);
+
+
+
+Additional resources
+Layouts are
+used in the Sunflower demo app.
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

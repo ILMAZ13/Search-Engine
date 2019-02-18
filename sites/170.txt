@@ -1,0 +1,1035 @@
+Back up key-value pairs with Android Backup Service  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Back up key-value pairs with Android Backup Service
+  
+
+
+Android Backup Service provides cloud storage backup and restore for key-
+value data in your Android app. During a key-value backup operation, the app's
+backup data is passed to the device's backup transport. If the device is using
+the default Google backup transport, then the data is passed to Android
+Backup Service for archival.
+The amount of data is limited to 5MB per user of your app
+and there is no charge for storing backup data.
+For an overview of Android's backup options and guidance about which data
+you should back up and restore, see the Data backup overview.
+Note: For most apps,
+  auto backup should be used to
+  implement backup and restore. Your app may only implement auto backup
+  and key-value backup, not both. auto backup requries no code and will backup
+  entire files while key-value backup requires you write code to define your
+  backup content explicitly in the form of key-value pairs.
+
+Implement key-value backup
+To back up your app data, you need to implement a backup agent. Your backup
+agent is called by the Backup Manager both during backup and restore.
+To implement a backup agent, you must:
+
+Declare your backup agent in your manifest file with the
+  
+android:backupAgent attribute.
+Register your app with Android
+   Backup Service.
+Define a backup agent by either:
+    
+Extending BackupAgent
+The BackupAgent class provides the central interface with
+which your app communicates with the Backup Manager. If you extend this class
+directly, you must override onBackup() and onRestore() to handle the backup and restore operations for your data.
+
+Or
+Extending BackupAgentHelper
+The BackupAgentHelper class provides a convenient
+wrapper around the BackupAgent class, which minimizes the amount of code
+you need to write. In your BackupAgentHelper, you must use one or more
+"helper" objects, which automatically backup and restore certain types of data, so that you do not
+need to implement onBackup() and onRestore(). Unless you need full control over your app's backups, we recommend using the
+BackupAgentHelper to handle your app's backups.
+Android currently provides backup helpers that will backup and restore complete files
+from SharedPreferences and internal storage.
+
+
+
+
+
+Declare the backup agent in your manifest
+This is the easiest step, so once you've decided on the class name for your
+backup agent, declare it in your manifest with the android:backupAgent attribute in the <application> tag.
+For example:
+
+<manifest ... >
+    ...
+    <application android:label="MyApplication"
+                 android:backupAgent="MyBackupAgent">
+        <activity ... >
+            ...
+        </activity>
+    </application>
+</manifest>
+
+Another attribute you might want to use is android:restoreAnyVersion. This attribute takes a boolean value to indicate whether you
+want to restore the app data regardless of the current app version compared to the
+version that produced the backup data. (The default value is "false".) See Check the restore data version for more information.
+Register for Android Backup Service
+Google provides a backup transport with Android Backup Service for most
+Android-powered devices running Android 2.2 or greater.
+In order for your app to perform backup using Android Backup Service, you must
+register your app with the service to receive a Backup Service Key, then
+declare the Backup Service Key in your Android manifest.
+To get your Backup Service Key, register for Android Backup Service.
+When you register, you are provided a Backup Service Key and the appropriate
+<meta-data> XML code for your Android manifest file, which you must include as a
+child of the <application> element. For example:
+
+<application android:label="MyApplication"
+             android:backupAgent="MyBackupAgent">
+    ...
+    <meta-data android:name="com.google.android.backup.api_key"
+        android:value="AEdPqrEAAAAIDaYEVgU6DJnyJdBmU7KLH3kszDXLv_4DIsEIyQ" />
+</application>
+
+The android:name must be "com.google.android.backup.api_key" and
+the android:value must be the Backup Service Key received from the Android Backup
+Service registration.
+If you have multiple apps, you must register each one, using the respective package
+name.
+Note: The backup transport provided by Android Backup Service is
+not guaranteed to be available
+on all Android-powered devices that support backup. Some devices might support backup
+using a different transport, some devices might not support backup at all, and there is no way for
+your app to know what transport is used on the device. However, if you implement backup for
+your app, you should always include a Backup Service Key for Android Backup Service so
+your app can perform backup when the device uses the Android Backup Service transport. If
+the device does not use Android Backup Service, then the <meta-data> element
+with the Backup Service Key is ignored.
+
+Extend BackupAgentHelper
+You should build your backup agent using BackupAgentHelper if you want
+to back up complete files (from either SharedPreferences or internal storage).
+Building your backup agent with BackupAgentHelper requires far less
+code than extending BackupAgent, because you don't have to implement
+onBackup() and onRestore().
+Your implementation of BackupAgentHelper must
+use one or more backup helpers. A backup helper is a specialized
+component that BackupAgentHelper summons to perform backup and
+restore operations for a particular type of data. The Android framework currently provides two
+different helpers:
+
+SharedPreferencesBackupHelper to backup SharedPreferences files.
+FileBackupHelper to back up files from internal storage.
+
+You can include multiple helpers in your BackupAgentHelper, but only
+one helper is needed for each data type. That is, if you have multiple
+SharedPreferences files, then you need only one
+SharedPreferencesBackupHelper.
+For each helper you want to add to your BackupAgentHelper, you must do
+the following during your onCreate() method:
+
+Instantiate an instance of the desired helper class. In the class constructor, you must
+specify the appropriate file(s) you want to backup.
+Call addHelper()
+to add the helper to your BackupAgentHelper.
+
+The following sections describe how to create a backup agent using each of the available
+helpers.
+
+Back up SharedPreferences
+When you instantiate a SharedPreferencesBackupHelper, you must
+include the name of one or more SharedPreferences files.
+For example, to back up a SharedPreferences file named
+user_preferences, a complete backup agent using BackupAgentHelper looks
+like this:
+
+Kotlin
+
+// The name of the SharedPreferences file
+const val PREFS = "user_preferences"
+
+// A key to uniquely identify the set of backup data
+const val PREFS_BACKUP_KEY = "prefs"
+
+class MyPrefsBackupAgent : BackupAgentHelper() {
+    override fun onCreate() {
+        // Allocate a helper and add it to the backup agent
+        SharedPreferencesBackupHelper(this, PREFS).also {
+            addHelper(PREFS_BACKUP_KEY, it)
+        }
+    }
+}
+
+
+Java
+
+public class MyPrefsBackupAgent extends BackupAgentHelper {
+    // The name of the SharedPreferences file
+    static final String PREFS = "user_preferences";
+
+    // A key to uniquely identify the set of backup data
+    static final String PREFS_BACKUP_KEY = "prefs";
+
+    // Allocate a helper and add it to the backup agent
+    @Override
+    public void onCreate() {
+        SharedPreferencesBackupHelper helper =
+                new SharedPreferencesBackupHelper(this, PREFS);
+        addHelper(PREFS_BACKUP_KEY, helper);
+    }
+}
+
+
+
+
+That's it. The SharedPreferencesBackupHelper
+includes all the code needed to backup and restore a SharedPreferences file.
+When the Backup Manager calls onBackup() and onRestore(), BackupAgentHelper calls your backup helpers to perform
+backup and restore for your specified files.
+Note: The methods of SharedPreferences
+are thread-safe, so
+you can safely read and write the shared preferences file from your backup agent and
+other activities.
+
+Back up other files
+When you instantiate a FileBackupHelper, you must include the name of
+one or more files that are saved to your app's internal storage
+(as specified by getFilesDir(), which is the same
+location where openFileOutput() writes
+files).
+For example, to backup two files named scores and stats, a backup agent
+using BackupAgentHelper looks like this:
+
+Kotlin
+
+// The name of the file
+const val TOP_SCORES = "scores"
+const val PLAYER_STATS = "stats"
+// A key to uniquely identify the set of backup data
+const val FILES_BACKUP_KEY = "myfiles"
+
+class MyFileBackupAgent : BackupAgentHelper() {
+    override fun onCreate() {
+        // Allocate a helper and add it to the backup agent
+        FileBackupHelper(this, TOP_SCORES, PLAYER_STATS).also {
+            addHelper(FILES_BACKUP_KEY, it)
+        }
+    }
+}
+
+
+Java
+
+public class MyFileBackupAgent extends BackupAgentHelper {
+    // The name of the file
+    static final String TOP_SCORES = "scores";
+    static final String PLAYER_STATS = "stats";
+
+    // A key to uniquely identify the set of backup data
+    static final String FILES_BACKUP_KEY = "myfiles";
+
+    // Allocate a helper and add it to the backup agent
+    @Override
+    public void onCreate() {
+        FileBackupHelper helper = new FileBackupHelper(this,
+                TOP_SCORES, PLAYER_STATS);
+        addHelper(FILES_BACKUP_KEY, helper);
+    }
+}
+
+
+
+
+The FileBackupHelper includes all the code necessary to back up and
+restore files that are saved to your app's internal storage..
+However, reading and writing to files on internal storage is not thread-safe. To
+ensure that your backup agent does not read or write your files at the same time as your activities,
+you must use synchronized statements each time you perform a read or write. For example,
+in any Activity where you read and write the file, you need an object to use as the intrinsic
+lock for the synchronized statements:
+
+Kotlin
+
+// Object for intrinsic lock
+companion object {
+    val sDataLock = Any()
+}
+
+
+Java
+
+// Object for intrinsic lock
+static final Object sDataLock = new Object();
+
+
+
+
+Then create a synchronized statement with this lock each time you read or write the files. For
+example, here's a synchronized statement for writing the latest score in a game to a file:
+
+Kotlin
+
+try {
+    synchronized(MyActivity.sDataLock) {
+        val dataFile = File(filesDir, TOP_SCORES)
+        RandomAccessFile(dataFile, "rw").apply {
+            writeInt(score)
+        }
+    }
+} catch (e: IOException) {
+    Log.e(TAG, "Unable to write to file")
+}
+
+
+Java
+
+try {
+    synchronized (MyActivity.sDataLock) {
+        File dataFile = new File(getFilesDir(), TOP_SCORES);
+        RandomAccessFile raFile = new RandomAccessFile(dataFile, "rw");
+        raFile.writeInt(score);
+    }
+} catch (IOException e) {
+    Log.e(TAG, "Unable to write to file");
+}
+
+
+
+
+You should synchronize your read statements with the same lock.
+Then, in your BackupAgentHelper, you must override onBackup() and onRestore() to synchronize the backup and restore operations with the same
+intrinsic lock. For example, the MyFileBackupAgent example from above needs the following
+methods:
+
+Kotlin
+
+@Throws(IOException::class)
+override fun onBackup(
+        oldState: ParcelFileDescriptor,
+        data: BackupDataOutput,
+        newState: ParcelFileDescriptor
+) {
+    // Hold the lock while the FileBackupHelper performs backup
+    synchronized(MyActivity.sDataLock) {
+        super.onBackup(oldState, data, newState)
+    }
+}
+
+@Throws(IOException::class)
+override fun onRestore(
+        data: BackupDataInput,
+        appVersionCode: Int,
+        newState: ParcelFileDescriptor
+) {
+    // Hold the lock while the FileBackupHelper restores the file
+    synchronized(MyActivity.sDataLock) {
+        super.onRestore(data, appVersionCode, newState)
+    }
+}
+
+
+Java
+
+@Override
+public void onBackup(ParcelFileDescriptor oldState, BackupDataOutput data,
+          ParcelFileDescriptor newState) throws IOException {
+    // Hold the lock while the FileBackupHelper performs backup
+    synchronized (MyActivity.sDataLock) {
+        super.onBackup(oldState, data, newState);
+    }
+}
+
+@Override
+public void onRestore(BackupDataInput data, int appVersionCode,
+        ParcelFileDescriptor newState) throws IOException {
+    // Hold the lock while the FileBackupHelper restores the file
+    synchronized (MyActivity.sDataLock) {
+        super.onRestore(data, appVersionCode, newState);
+    }
+}
+
+
+
+
+That's all you need to back up and restore data with
+BackupAgentHelper.
+Extend BackupAgent
+Most apps shouldn't need to extend the BackupAgent class
+directly, but should instead extend BackupAgentHelper to take
+advantage of the built-in helper classes that automatically backup and restore your files. However,
+you might want to extend BackupAgent directly if you need to:
+
+Version your data format. For instance, if you anticipate the need to revise the
+format in which you write your app data, you can build a backup agent to cross-check your
+app version during a restore operation and perform any necessary compatibility work if the
+version on the device is different than that of the backup data. For more information, see Check the restore data version.
+Instead of backing up an entire file, you can specify the portions of data that should be
+backed up and how each portion is then restored to the device. (This can also help you manage
+different versions, because you read and write your data as unique entities, rather than
+complete files.)
+Back up data in a database. If you have an SQLite database that you want to restore when
+the user re-installs your app, you need to build a custom BackupAgent that reads the appropriate data during a backup operation, then
+create your table and insert the data during a restore operation.
+
+If you don't need to perform any of the tasks above and want to back up complete files from
+SharedPreferences or internal storage, see
+Extending BackupAgentHelper.
+
+Required methods
+When you create a BackupAgent, you
+must implement the following callback methods:
+
+
+onBackup()
+The Backup Manager calls this method after you request a
+backup. In this method, you read your app data from the device and pass the data you
+want to back up to the Backup Manager, as described below in Performing
+backup.
+onRestore()
+The Backup Manager calls this method during a restore operation.
+    This method delivers your backup data, which your app can use to restore
+    its former state, as described below in
+    Performing restore.
+    The system calls this method to restore any backup data
+when the user re-installs your app, but your app can also request a restore.
+
+Perform a backup
+When it's time to back up your app data, the Backup Manager calls your onBackup() method. This is where you must provide your app data to the Backup Manager so
+it can be saved to cloud storage.
+Only the Backup Manager can call your backup agent's onBackup() method. Each time that your app data changes and you want to perform a backup,
+you must request a backup operation by calling dataChanged() (see Request a
+backup for more information). A backup request does not result in an immediate call to your
+onBackup() method. Instead, the Backup Manager waits for an appropriate time, then performs
+backup for all apps that have requested a backup since the last backup was performed.
+Tip: While developing your app, you can initiate an
+immediate backup operation from the Backup Manager with the bmgr tool.
+When the Backup Manager calls your onBackup() method, it passes three parameters:
+
+oldState
+An open, read-only ParcelFileDescriptor pointing to the last backup
+state provided by your app. This is not the backup data from cloud storage, but a
+local representation of the data that was backed up the last time onBackup() was called (as defined by newState, below, or from onRestore()—more about this in the next section). Because onBackup() does not allow you to read existing backup data in
+the cloud storage, you can use this local representation to determine whether your data has changed
+since the last backup.
+data
+A BackupDataOutput object, which you use to deliver your backup
+data to the Backup Manager.
+newState
+An open, read/write ParcelFileDescriptor pointing to a file in which
+you must write a representation of the data that you delivered to data (a representation
+can be as simple as the last-modified timestamp for your file). This object is
+returned as oldState the next time the Backup Manager calls your onBackup() method. If you do not write your backup data to newState, then oldState
+will point to an empty file next time Backup Manager calls onBackup().
+
+Using these parameters, you should implement your onBackup() method to do the following:
+
+Check whether your data has changed since the last backup by comparing oldState to
+your current data. How you read data in oldState depends on how you originally wrote it to
+newState (see step 3). The easiest way to record the state of a file is with its
+last-modified timestamp. For example, here's how you can read and compare a timestamp from oldState:
+
+
+Kotlin
+
+val instream = FileInputStream(oldState.fileDescriptor)
+val dataInputStream = DataInputStream(instream)
+try {
+    // Get the last modified timestamp from the state file and data file
+    val stateModified = dataInputStream.readLong()
+    val fileModified: Long = dataFile.lastModified()
+    if (stateModified != fileModified) {
+        // The file has been modified, so do a backup
+        // Or the time on the device changed, so be safe and do a backup
+    } else {
+        // Don't back up because the file hasn't changed
+        return
+    }
+} catch (e: IOException) {
+    // Unable to read state file... be safe and do a backup
+}
+
+
+Java
+
+// Get the oldState input stream
+FileInputStream instream = new FileInputStream(oldState.getFileDescriptor());
+DataInputStream in = new DataInputStream(instream);
+
+try {
+    // Get the last modified timestamp from the state file and data file
+    long stateModified = in.readLong();
+    long fileModified = dataFile.lastModified();
+
+    if (stateModified != fileModified) {
+        // The file has been modified, so do a backup
+        // Or the time on the device changed, so be safe and do a backup
+    } else {
+        // Don't back up because the file hasn't changed
+        return;
+    }
+} catch (IOException e) {
+    // Unable to read state file... be safe and do a backup
+}
+
+
+
+
+If nothing has changed and you don't need to back up, skip to step 3.
+
+If your data has changed, compared to oldState, write the current data to
+data to back it up to the cloud storage.
+    You must write each chunk of data as an "entity" in the BackupDataOutput. An entity is a flattened binary data
+record that is identified by a unique key string. Thus, the data set that you back up is
+conceptually a set of key-value pairs.
+To add an entity to your backup data set, you must:
+
+Call writeEntityHeader(), passing a unique string key for the data you're about to write and the data
+size.
+Call writeEntityData(), passing a byte buffer that contains your data and the number of bytes to write
+from the buffer (which should match the size passed to writeEntityHeader()).
+
+For example, the following code flattens some data into a byte stream and writes it into a
+single entity:
+
+Kotlin
+
+val buffer: ByteArray = ByteArrayOutputStream().run {
+    DataOutputStream(this).apply {
+        writeInt(playerName)
+        writeInt(playerScore)
+    }
+    toByteArray()
+}
+val len: Int = buffer.size
+data.apply {
+    writeEntityHeader(TOPSCORE_BACKUP_KEY, len)
+    writeEntityData(buffer, len)
+}
+
+
+Java
+
+// Create buffer stream and data output stream for our data
+ByteArrayOutputStream bufStream = new ByteArrayOutputStream();
+DataOutputStream outWriter = new DataOutputStream(bufStream);
+// Write structured data
+outWriter.writeUTF(playerName);
+outWriter.writeInt(playerScore);
+// Send the data to the Backup Manager via the BackupDataOutput
+byte[] buffer = bufStream.toByteArray();
+int len = buffer.length;
+data.writeEntityHeader(TOPSCORE_BACKUP_KEY, len);
+data.writeEntityData(buffer, len);
+
+
+
+
+Perform this for each piece of data that you want to back up. How you divide your data into
+entities is up to you (and you might use just one entity).
+
+Whether or not you perform a backup (in step 2), write a representation of the current data to
+the newState ParcelFileDescriptor. The Backup Manager retains this object
+locally as a representation of the data that is currently backed up. It passes this back to you as
+oldState the next time it calls onBackup() so you can determine whether another backup is necessary (as handled in step 1). If you
+do not write the current data state to this file, then
+oldState will be empty during the next callback.
+    The following example saves a representation of the current data into newState using
+the file's last-modified timestamp:
+
+Kotlin
+
+val modified = dataFile.lastModified()
+FileOutputStream(newState.fileDescriptor).also {
+    DataOutputStream(it).apply {
+        writeLong(modified)
+    }
+}
+
+
+Java
+
+FileOutputStream outstream = new FileOutputStream(newState.getFileDescriptor());
+DataOutputStream out = new DataOutputStream(outstream);
+
+long modified = dataFile.lastModified();
+out.writeLong(modified);
+
+
+
+
+
+
+Caution: If your app data is saved to a file, make sure
+that you use synchronized statements while accessing the file so that your backup agent does not
+read the file while an Activity in your app is also writing the file.
+
+Perform a restore
+When it's time to restore your app data, the Backup Manager calls your backup
+agent's onRestore() method. When it calls this method, the Backup Manager delivers your backup data so
+you can restore it onto the device.
+Only the Backup Manager can call onRestore(), which happens automatically when the system installs your app and
+finds existing backup data. However, you can request a restore operation for
+your app by calling requestRestore() (see Requesting restore for more information).
+Note: While developing your app, you can also request a
+restore operation with the bmgr
+tool.
+When the Backup Manager calls your onRestore() method, it passes three parameters:
+
+data
+A BackupDataInput, which allows you to read your backup
+data.
+appVersionCode
+An integer representing the value of your app's android:versionCode
+manifest attribute, as it was when this data was backed up. You can use this to cross-check the
+current app version and determine if the data format is compatible. For more
+information about using this to handle different versions of restore data, see the section
+below about Check the restore data version.
+newState
+An open, read/write ParcelFileDescriptor pointing to a file in which
+you must write the final backup state that was provided with data. This object is
+returned as oldState the next time onBackup() is called. Recall that you must also write the same newState object in the
+onBackup() callback—also doing it here ensures that the oldState object given to
+onBackup() is valid even the first time onBackup() is called after the device is restored.
+
+In your implementation of onRestore(), you should call readNextHeader() on the
+data to iterate
+through all entities in the data set. For each entity found, do the following:
+
+Get the entity key with getKey().
+Compare the entity key to a list of known key values that you should have declared as static
+final strings inside your BackupAgent class. When the key matches one of
+your known key strings, enter into a statement to extract the entity data and save it to the device:
+    
+Get the entity data size with getDataSize() and create a byte array of that size.
+Call readEntityData() and pass it the byte array, which is where the data will go, and specify the
+start offset and the size to read.
+Your byte array is now full and you can read the data and write it to the device
+however you like.
+
+
+After you read and write your data back to the device, write the state of your data to the
+newState parameter the same as you do during onBackup().
+
+For example, here's how you can restore the data backed up by the example in the previous
+section:
+
+Kotlin
+
+@Throws(IOException::class)
+override fun onRestore(data: BackupDataInput, appVersionCode: Int,
+                       newState: ParcelFileDescriptor) {
+    with(data) {
+        // There should be only one entity, but the safest
+        // way to consume it is using a while loop
+        while (readNextHeader()) {
+            when(key) {
+                TOPSCORE_BACKUP_KEY -> {
+                    val dataBuf = ByteArray(dataSize).also {
+                        readEntityData(it, 0, dataSize)
+                    }
+                    ByteArrayInputStream(dataBuf).also {
+                        DataInputStream(it).apply {
+                            // Read the player name and score from the backup data
+                            playerName = readUTF()
+                            playerScore = readInt()
+                        }
+                        // Record the score on the device (to a file or something)
+                        recordScore(playerName, playerScore)
+                    }
+                }
+                else -> skipEntityData()
+            }
+        }
+    }
+
+    // Finally, write to the state blob (newState) that describes the restored data
+    FileOutputStream(newState.fileDescriptor).also {
+        DataOutputStream(it).apply {
+            writeUTF(playerName)
+            writeInt(mPlayerScore)
+        }
+    }
+}
+
+
+Java
+
+@Override
+public void onRestore(BackupDataInput data, int appVersionCode,
+                      ParcelFileDescriptor newState) throws IOException {
+    // There should be only one entity, but the safest
+    // way to consume it is using a while loop
+    while (data.readNextHeader()) {
+        String key = data.getKey();
+        int dataSize = data.getDataSize();
+
+        // If the key is ours (for saving top score). Note this key was used when
+        // we wrote the backup entity header
+        if (TOPSCORE_BACKUP_KEY.equals(key)) {
+            // Create an input stream for the BackupDataInput
+            byte[] dataBuf = new byte[dataSize];
+            data.readEntityData(dataBuf, 0, dataSize);
+            ByteArrayInputStream baStream = new ByteArrayInputStream(dataBuf);
+            DataInputStream in = new DataInputStream(baStream);
+
+            // Read the player name and score from the backup data
+            playerName = in.readUTF();
+            playerScore = in.readInt();
+
+            // Record the score on the device (to a file or something)
+            recordScore(playerName, playerScore);
+        } else {
+            // We don't know this entity key. Skip it. (Shouldn't happen.)
+            data.skipEntityData();
+        }
+    }
+
+    // Finally, write to the state blob (newState) that describes the restored data
+    FileOutputStream outstream = new FileOutputStream(newState.getFileDescriptor());
+    DataOutputStream out = new DataOutputStream(outstream);
+    out.writeUTF(playerName);
+    out.writeInt(mPlayerScore);
+}
+
+
+
+
+In this example, the appVersionCode parameter passed to onRestore() is not used. However, you might want to use
+it if you've chosen to perform backup when the user's version of the app has actually moved
+backward (for example, the user went from version 1.5 of your app to 1.0). For more information, see
+the section about Check the restore data version.
+Check the restore data version
+When the Backup Manager saves your data to cloud storage, it automatically includes the version
+of your app, as defined by your manifest file's android:versionCode
+attribute. Before the Backup Manager calls your backup agent to restore your data, it
+looks at the android:versionCode of the installed app and compares it to the value
+recorded in the restore data set. If the version recorded in the restore data set is
+newer than the app version on the device, then the user has downgraded their
+app. In this case, the Backup Manager will abort the restore operation for your app
+and not call your onRestore()
+method, because the restore set is considered meaningless to an older version.
+You can override this behavior with the android:restoreAnyVersion attribute. This attribute is either "true" or "false" to indicate whether you want to restore the app regardless of the restore set
+version. The default value is "false". If you define this to be "true" then the
+Backup Manager will ignore the android:versionCode
+and call your onRestore()
+method in all cases. In doing so, you can manually check for the version difference in your onRestore()
+method and take any steps necessary to make the data compatible if the versions conflict.
+To help you handle different versions during a restore operation, the onRestore()
+method passes you the version code included with the restore data set as the appVersionCode
+parameter. You can then query the current app's version code with the PackageInfo.versionCode field. For example:
+
+Kotlin
+
+val info: PackageInfo? = try {
+    packageManager.getPackageInfo(packageName, 0)
+} catch (e: PackageManager.NameNotFoundException) {
+    null
+}
+
+val version: Int = info?.versionCode ?: 0
+
+
+Java
+
+PackageInfo info;
+try {
+    String name = getPackageName();
+    info = getPackageManager().getPackageInfo(name, 0);
+} catch (NameNotFoundException nnfe) {
+    info = null;
+}
+
+int version;
+if (info != null) {
+    version = info.versionCode;
+}
+
+
+
+
+Then simply compare the version acquired from PackageInfo
+to the appVersionCode passed into onRestore().
+
+Caution: Be certain you understand the consequences of setting
+android:restoreAnyVersion to "true" for your app. If each version of your
+app that supports backup does not properly account for variations in your data format during
+onRestore(),
+then the data on the device could be saved in a format incompatible with the version currently
+installed on the device.
+
+Request a backup
+You can request a backup operation at any time by calling dataChanged(). This method notifies the Backup Manager that you'd
+like to backup your data using your backup agent. The Backup Manager then calls your backup
+agent's onBackup() method at an opportune time in the future. Typically, you should
+request a backup each time your data changes (such as when the user changes an app
+preference that you'd like to back up). If you call dataChanged() several times consecutively, before the Backup
+Manager requests a backup from your agent, your agent still receives just one call to onBackup().
+Note: While developing your app, you can request a
+backup and initiate an immediate backup operation with the bmgr
+tool.
+
+Request a restore
+During the normal life of your app, you shouldn't need to request a restore operation.
+They system automatically checks for backup data and performs a restore when your app is
+installed. However, you can manually request a restore operation by calling requestRestore(), if necessary. In
+which case, the Backup Manager calls your onRestore()
+implementation, passing the data from the current set of backup data.
+Note: While developing your app, you can request a
+restore operation with the bmgr
+tool.
+
+Migrate to auto backup
+You can transition your app to full-data backups by setting
+android:fullBackupOnly
+to true in the <application> element in the manifest file. When
+running on a device with Android 5.1 (API level 22) or lower, your app ignores
+this value in the manifest, and continues performing key-value backups. When
+running on a device with Android 6.0 (API level 23) or higher, your app performs
+auto backup instead of key-value backup.
+
+User privacy
+At Google, we are keenly aware of the trust users place in us and our responsibility to protect
+users' privacy. Google securely transmits backup data to and from Google servers in order to provide
+backup and restore features. Google treats this data as personal information in accordance with
+Google's Privacy Policy.
+In addition, users can disable data backup functionality through the Android
+system's privacy settings. When a user disables backup, Android Backup Service deletes all saved
+backup data. A user can re-enable backup on the device, but Android Backup Service will not restore
+any previously deleted data.
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

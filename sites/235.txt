@@ -1,0 +1,1088 @@
+RenderScript Kernel Invocation Functions and Types  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    RenderScript Kernel Invocation Functions and Types
+  
+
+
+
+Overview
+The rsForEach() function can be used to invoke the root kernel of a script.
+
+ The other functions are used to get the characteristics of the invocation of
+an executing kernel, like dimensions and current indices.  These functions take
+a rs_kernel_context as argument.
+
+Summary
+
+Types
+
+
+rs_for_each_strategy_t
+
+
+      Suggested cell processing order
+    
+
+
+
+rs_kernel
+
+
+      Handle to a kernel function
+    
+
+
+
+rs_kernel_context
+
+
+      Handle to a kernel invocation context
+    
+
+
+
+rs_script_call_t
+
+
+      Cell iteration information
+    
+
+
+
+Functions
+
+
+rsForEach
+
+
+      Launches a kernel
+    
+
+
+
+rsForEachInternal
+
+
+      (Internal API) Launch a kernel in the current Script (with the slot number)
+    
+
+
+
+rsForEachWithOptions
+
+
+      Launches a kernel with options
+    
+
+
+
+rsGetArray0
+
+
+      Index in the Array0 dimension for the specified kernel context
+    
+
+
+
+rsGetArray1
+
+
+      Index in the Array1 dimension for the specified kernel context
+    
+
+
+
+rsGetArray2
+
+
+      Index in the Array2 dimension for the specified kernel context
+    
+
+
+
+rsGetArray3
+
+
+      Index in the Array3 dimension for the specified kernel context
+    
+
+
+
+rsGetDimArray0
+
+
+      Size of the Array0 dimension for the specified kernel context
+    
+
+
+
+rsGetDimArray1
+
+
+      Size of the Array1 dimension for the specified kernel context
+    
+
+
+
+rsGetDimArray2
+
+
+      Size of the Array2 dimension for the specified kernel context
+    
+
+
+
+rsGetDimArray3
+
+
+      Size of the Array3 dimension for the specified kernel context
+    
+
+
+
+rsGetDimHasFaces
+
+
+      Presence of more than one face for the specified kernel context
+    
+
+
+
+rsGetDimLod
+
+
+      Number of levels of detail for the specified kernel context
+    
+
+
+
+rsGetDimX
+
+
+      Size of the X dimension for the specified kernel context
+    
+
+
+
+rsGetDimY
+
+
+      Size of the Y dimension for the specified kernel context
+    
+
+
+
+rsGetDimZ
+
+
+      Size of the Z dimension for the specified kernel context
+    
+
+
+
+rsGetFace
+
+
+      Coordinate of the Face for the specified kernel context
+    
+
+
+
+rsGetLod
+
+
+      Index in the Levels of Detail dimension for the specified kernel context
+    
+
+
+Types
+
+
+
+rs_for_each_strategy_t
+: Suggested cell processing order
+
+
+An enum with the following values:     
+
+
+RS_FOR_EACH_STRATEGY_SERIAL = 0Prefer contiguous memory regions.
+RS_FOR_EACH_STRATEGY_DONT_CARE = 1No prefrences.
+RS_FOR_EACH_STRATEGY_DST_LINEAR = 2Prefer DST.
+RS_FOR_EACH_STRATEGY_TILE_SMALL = 3Prefer processing small rectangular regions.
+RS_FOR_EACH_STRATEGY_TILE_MEDIUM = 4Prefer processing medium rectangular regions.
+RS_FOR_EACH_STRATEGY_TILE_LARGE = 5Prefer processing large rectangular regions.
+
+ This type is used to suggest how the invoked kernel should iterate over the cells of the
+allocations.  This is a hint only.  Implementations may not follow the suggestion.
+
+ This specification can help the caching behavior of the running kernel, e.g. the cache
+locality when the processing is distributed over multiple cores.
+
+
+
+
+
+
+rs_kernel
+: Handle to a kernel function
+
+
+A typedef of: void*     Added in API level 24
+
+  An opaque type for a function that is defined with the kernel attribute.  A value
+ of this type can be used in a rsForEach call to launch a kernel.
+
+
+
+
+
+
+rs_kernel_context
+: Handle to a kernel invocation context
+
+
+A typedef of: const struct rs_kernel_context_t *     Added in API level 23
+
+ The kernel context contains common characteristics of the allocations being iterated
+over, like dimensions.  It also contains rarely used indices of the currently processed
+cell, like the Array0 index or the current level of detail.
+
+ You can access the kernel context by adding a special parameter named "context" of type
+rs_kernel_context to your kernel function.  See rsGetDimX() and rsGetArray0() for examples.
+
+
+
+
+
+
+rs_script_call_t
+: Cell iteration information
+
+
+A structure with the following fields:     
+
+rs_for_each_strategy_t strategyCurrently ignored.  In the future, will be suggested cell iteration strategy.
+uint32_t xStartStarting index in the X dimension.
+uint32_t xEndEnding index (exclusive) in the X dimension.
+uint32_t yStartStarting index in the Y dimension.
+uint32_t yEndEnding index (exclusive) in the Y dimension.
+uint32_t zStartStarting index in the Z dimension.
+uint32_t zEndEnding index (exclusive) in the Z dimension.
+uint32_t arrayStartStarting index in the Array0 dimension.
+uint32_t arrayEndEnding index (exclusive) in the Array0 dimension.
+uint32_t array1StartStarting index in the Array1 dimension.
+uint32_t array1EndEnding index (exclusive) in the Array1 dimension.
+uint32_t array2StartStarting index in the Array2 dimension.
+uint32_t array2EndEnding index (exclusive) in the Array2 dimension.
+uint32_t array3StartStarting index in the Array3 dimension.
+uint32_t array3EndEnding index (exclusive) in the Array3 dimension.
+
+ This structure is used to provide iteration information to a rsForEach call.
+It is currently used to restrict processing to a subset of cells.  In future
+versions, it will also be used to provide hint on how to best iterate over
+the cells.
+
+ The Start fields are inclusive and the End fields are exclusive.  E.g. to iterate
+over cells 4, 5, 6, and 7 in the X dimension, set xStart to 4 and xEnd to 8.
+
+
+
+Functions
+
+
+
+rsForEach
+: Launches a kernel
+
+
+
+
+void rsForEach(rs_kernel kernel, ... ...);
+
+    Added in API level 24
+
+
+
+void rsForEach(rs_script script, rs_allocation input, rs_allocation output);
+
+ API level 14 - 23
+
+
+
+void rsForEach(rs_script script, rs_allocation input, rs_allocation output, const void* usrData);
+
+    Removed from API level 14 and higher
+
+
+
+void rsForEach(rs_script script, rs_allocation input, rs_allocation output, const void* usrData, const rs_script_call_t* sc);
+
+    Removed from API level 14 and higher
+
+
+
+void rsForEach(rs_script script, rs_allocation input, rs_allocation output, const void* usrData, size_t usrDataLen);
+
+ API level 14 - 20
+
+
+
+void rsForEach(rs_script script, rs_allocation input, rs_allocation output, const void* usrData, size_t usrDataLen, const rs_script_call_t* sc);
+
+ API level 14 - 20
+
+
+
+
+ Parameters
+
+scriptScript to call.
+inputAllocation to source data from.
+outputAllocation to write date into.
+usrDataUser defined data to pass to the script.  May be NULL.
+scExtra control information used to select a sub-region of the allocation to be processed or suggest a walking strategy.  May be NULL.
+usrDataLenSize of the userData structure.  This will be used to perform a shallow copy of the data if necessary.
+kernelFunction designator to a function that is defined with the kernel attribute.
+...Input and output allocations
+
+
+
+ Runs the kernel over zero or more input allocations. They are passed after the
+rs_kernel argument. If the specified kernel returns a value, an output allocation
+must be specified as the last argument. All input allocations,
+and the output allocation if it exists, must have the same dimensions.
+
+ This is a synchronous function. A call to this function only returns after all
+the work has completed for all cells of the input allocations. If the kernel
+function returns any value, the call waits until all results have been written
+to the output allocation.
+
+ Up to API level 23, the kernel is implicitly specified as the kernel named
+"root" in the specified script, and only a single input allocation can be used.
+Starting in API level 24, an arbitrary kernel function can be used,
+as specified by the kernel argument. The script argument is removed.
+The kernel must be defined in the current script. In addition, more than one
+input can be used.
+
+ E.g.
+float __attribute__((kernel)) square(float a) {
+  return a * a;
+}
+
+void compute(rs_allocation ain, rs_allocation aout) {
+  rsForEach(square, ain, aout);
+}
+
+
+
+
+
+
+
+rsForEachInternal
+: (Internal API) Launch a kernel in the current Script (with the slot number)
+
+
+
+
+void rsForEachInternal(int slot, rs_script_call_t* options, int hasOutput, int numInputs, rs_allocation* allocs);
+
+    Added in API level 24
+
+
+
+
+ Parameters
+
+slot
+options
+hasOutputIndicates whether the kernel generates output
+numInputsNumber of input allocations
+allocsInput and output allocations
+
+
+
+ Internal API to launch a kernel.
+
+
+
+
+
+
+rsForEachWithOptions
+: Launches a kernel with options
+
+
+
+
+void rsForEachWithOptions(rs_kernel kernel, rs_script_call_t* options, ... ...);
+
+    Added in API level 24
+
+
+
+
+ Parameters
+
+kernelFunction designator to a function that is defined with the kernel attribute.
+optionsLaunch options
+...Input and output allocations
+
+
+
+ Launches kernel in a way similar to rsForEach. However, instead of processing
+all cells in the input, this function only processes cells in the subspace of
+the index space specified in options. With the index space explicitly specified
+by options, no input or output allocation is required for a kernel launch using
+this API. If allocations are passed in, they must match the number of arguments
+and return value expected by the kernel function. The output allocation is
+present if and only if the kernel has a non-void return value.
+
+ E.g.,
+   rs_script_call_t opts = {0};
+   opts.xStart = 0;
+   opts.xEnd = dimX;
+   opts.yStart = 0;
+   opts.yEnd = dimY / 2;
+   rsForEachWithOptions(foo, &opts, out, out);
+
+
+
+
+
+
+
+rsGetArray0
+: Index in the Array0 dimension for the specified kernel context
+
+
+
+
+uint32_t rsGetArray0(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the index in the Array0 dimension of the cell being processed, as specified
+by the supplied kernel context.
+
+ The kernel context contains common characteristics of the allocations being iterated
+over and rarely used indices, like the Array0 index.
+
+ You can access the kernel context by adding a special parameter named "context" of
+type rs_kernel_context to your kernel function.  E.g.
+short RS_KERNEL myKernel(short value, uint32_t x, rs_kernel_context context) {
+  // The current index in the common x, y, z dimensions are accessed by
+  // adding these variables as arguments.  For the more rarely used indices
+  // to the other dimensions, extract them from the kernel context:
+  uint32_t index_a0 = rsGetArray0(context);
+  //...
+}
+
+ This function returns 0 if the Array0 dimension is not present.
+
+
+
+
+
+
+rsGetArray1
+: Index in the Array1 dimension for the specified kernel context
+
+
+
+
+uint32_t rsGetArray1(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the index in the Array1 dimension of the cell being processed, as specified
+by the supplied kernel context.  See rsGetArray0() for an explanation of the context.
+
+ Returns 0 if the Array1 dimension is not present.
+
+
+
+
+
+
+rsGetArray2
+: Index in the Array2 dimension for the specified kernel context
+
+
+
+
+uint32_t rsGetArray2(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the index in the Array2 dimension of the cell being processed,
+as specified by the supplied kernel context.  See rsGetArray0() for an explanation
+of the context.
+
+ Returns 0 if the Array2 dimension is not present.
+
+
+
+
+
+
+rsGetArray3
+: Index in the Array3 dimension for the specified kernel context
+
+
+
+
+uint32_t rsGetArray3(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the index in the Array3 dimension of the cell being processed, as specified
+by the supplied kernel context.  See rsGetArray0() for an explanation of the context.
+
+ Returns 0 if the Array3 dimension is not present.
+
+
+
+
+
+
+rsGetDimArray0
+: Size of the Array0 dimension for the specified kernel context
+
+
+
+
+uint32_t rsGetDimArray0(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the size of the Array0 dimension for the specified kernel context.
+See rsGetDimX() for an explanation of the context.
+
+ Returns 0 if the Array0 dimension is not present.
+
+
+
+
+
+
+rsGetDimArray1
+: Size of the Array1 dimension for the specified kernel context
+
+
+
+
+uint32_t rsGetDimArray1(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the size of the Array1 dimension for the specified kernel context.
+See rsGetDimX() for an explanation of the context.
+
+ Returns 0 if the Array1 dimension is not present.
+
+
+
+
+
+
+rsGetDimArray2
+: Size of the Array2 dimension for the specified kernel context
+
+
+
+
+uint32_t rsGetDimArray2(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the size of the Array2 dimension for the specified kernel context.
+See rsGetDimX() for an explanation of the context.
+
+ Returns 0 if the Array2 dimension is not present.
+
+
+
+
+
+
+rsGetDimArray3
+: Size of the Array3 dimension for the specified kernel context
+
+
+
+
+uint32_t rsGetDimArray3(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the size of the Array3 dimension for the specified kernel context.
+See rsGetDimX() for an explanation of the context.
+
+ Returns 0 if the Array3 dimension is not present.
+
+
+
+
+
+
+rsGetDimHasFaces
+: Presence of more than one face for the specified kernel context
+
+
+
+
+bool rsGetDimHasFaces(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+ Returns
+
+Returns true if more than one face is present, false otherwise.
+
+
+
+ If the kernel is iterating over a cubemap, this function returns true if there's more
+than one face present.  In all other cases, it returns false.  See rsGetDimX() for an
+explanation of the context.
+
+ rsAllocationGetDimFaces() is similar but returns 0 or 1 instead of a bool.
+
+
+
+
+
+
+rsGetDimLod
+: Number of levels of detail for the specified kernel context
+
+
+
+
+uint32_t rsGetDimLod(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the number of levels of detail for the specified kernel context.  This is useful
+for mipmaps.  See rsGetDimX() for an explanation of the context.
+
+ Returns 0 if Level of Detail is not used.
+
+ rsAllocationGetDimLOD() is similar but returns 0 or 1 instead the actual
+number of levels.
+
+
+
+
+
+
+rsGetDimX
+: Size of the X dimension for the specified kernel context
+
+
+
+
+uint32_t rsGetDimX(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the size of the X dimension for the specified kernel context.
+
+ The kernel context contains common characteristics of the allocations being iterated
+over and rarely used indices, like the Array0 index.
+
+ You can access it by adding a special parameter named "context" of
+type rs_kernel_context to your kernel function.  E.g.
+int4 RS_KERNEL myKernel(int4 value, rs_kernel_context context) {
+  uint32_t size = rsGetDimX(context); //...
+
+ To get the dimension of specific allocation, use rsAllocationGetDimX().
+
+
+
+
+
+
+rsGetDimY
+: Size of the Y dimension for the specified kernel context
+
+
+
+
+uint32_t rsGetDimY(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the size of the X dimension for the specified kernel context.
+See rsGetDimX() for an explanation of the context.
+
+ Returns 0 if the Y dimension is not present.
+
+ To get the dimension of specific allocation, use rsAllocationGetDimY().
+
+
+
+
+
+
+rsGetDimZ
+: Size of the Z dimension for the specified kernel context
+
+
+
+
+uint32_t rsGetDimZ(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the size of the Z dimension for the specified kernel context.
+See rsGetDimX() for an explanation of the context.
+
+ Returns 0 if the Z dimension is not present.
+
+ To get the dimension of specific allocation, use rsAllocationGetDimZ().
+
+
+
+
+
+
+rsGetFace
+: Coordinate of the Face for the specified kernel context
+
+
+
+
+rs_allocation_cubemap_face rsGetFace(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the face on which the cell being processed is found, as specified by the
+supplied kernel context.  See rsGetArray0() for an explanation of the context.
+
+ Returns RS_ALLOCATION_CUBEMAP_FACE_POSITIVE_X if the face dimension is not
+present.
+
+
+
+
+
+
+rsGetLod
+: Index in the Levels of Detail dimension for the specified kernel context
+
+
+
+
+uint32_t rsGetLod(rs_kernel_context context);
+
+    Added in API level 23
+
+
+
+
+
+ Returns the index in the Levels of Detail dimension of the cell being processed,
+as specified by the supplied kernel context.  See rsGetArray0() for an explanation of
+the context.
+
+ Returns 0 if the Levels of Detail dimension is not present.
+
+
+
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated April 23, 2018.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

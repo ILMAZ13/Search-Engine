@@ -1,0 +1,957 @@
+Animate movement using spring physics  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Animate movement using spring physics
+  
+
+
+
+Physics-based
+    motion is driven by force. Spring force is one such force that guides
+    interactivity and motion. A spring force has the following properties:
+    damping and stiffness. In a spring-based animation, the value and the
+    velocity are calculated based on the spring force that are applied on each
+    frame.
+  
+If you'd like your app's animations to slow down in only one direction,
+  consider using a friction-based
+  fling animation
+  instead.
+Lifecycle of a spring animation
+
+    In a spring-based animation, the SpringForce
+    class lets you customize spring's stiffness, its damping ratio, and its
+    final position. As soon as the animation begins, the spring force updates
+    the animation value and the velocity on each frame. The animation continues
+    until the spring force reaches an equilibrium.
+  
+
+    For example, if you drag an app icon around the screen and later release it
+    by lifting your finger from the icon, the icon tugs back to its original
+    place by an invisible but a familiar force.
+  
+
+    Figure 1 demonstrates a similar spring effect. The plus sign (+) sign in the
+    middle of the circle indicates the force applied through a touch gesture.
+  
+
+
+Figure 1. Spring release effect
+
+Build a spring animation
+
+    The general steps for building a spring animation for your application are
+    as follows:
+  
+
+Add the support library
+      You must add the support library to your project to use the spring animation classes.
+    
+Create a spring animation:
+      The primary step is to create an instance of the
+      SpringAnimation class and set the motion
+      behavior parameters.
+    
+(Optional) Register listeners:
+      Register listeners to watch for animation lifecycle changes and animation
+      value updates.
+      Note: Update listener should be
+        registered only if you need per-frame update on the animation value
+        changes. An update listener prevents the animation from potentially
+        running on a separate thread.
+
+(Optional) Remove listeners:
+      Remove listeners that are no longer in use.
+    
+(Optional) Set a start value:
+      Customize the animation start value.
+    
+(Optional) Set a value range:
+      Set the animation value range to restrain values within the minimum and the maximum range.
+    
+(Optional) Set start velocity:
+      Set the start velocity for the animation.
+    
+(Optional) Set spring properties:
+      Set the damping ratio and the stiffness on the spring.
+    
+(Optional) Create a custom spring:
+      Create a custom spring in case you do not intend to use the default spring
+      or want to use a common spring throughout the animation.
+    
+Start animation:
+      Start the spring animation.
+    
+(Optional) Cancel animation:
+      Cancel the animation in case the user abruptly exits the app or the view
+      becomes invisble.
+    
+
+
+    The following sections discuss the general steps of building a spring
+    animation in detail.
+  
+Add the support library
+To use the physics-based support library, you must add the support library to your project
+    as follows:
+    
+
+Open the build.gradle file for your app module.
+Add the support library to the dependencies section.
+  
+  dependencies {
+      implementation 'com.android.support:support-dynamic-animation:28.0.0'
+  }
+  
+
+
+Create a spring animation
+
+    The SpringAnimation class lets you create
+    a spring animation for an object. To build a spring animation, you need to
+    create an instance of the SpringAnimation
+    class and provide an object, an object’s property that you want to animate, and an
+    optional final spring position where you want the animation to rest.
+  
+Note: At the time of creating a spring animation, the  final
+    position of the spring is optional. Though, it must be defined
+    before starting the animation.
+  
+
+Kotlin
+
+val springAnim = findViewById<View>(R.id.imageView).let { img ->
+    // Setting up a spring animation to animate the view’s translationY property with the final
+    // spring position at 0.
+    SpringAnimation(img, DynamicAnimation.TRANSLATION_Y, 0f)
+}
+
+Java
+
+final View img = findViewById(R.id.imageView);
+// Setting up a spring animation to animate the view’s translationY property with the final
+// spring position at 0.
+final SpringAnimation springAnim = new SpringAnimation(img, DynamicAnimation.TRANSLATION_Y, 0);
+
+
+
+
+    The spring-based animation can animate views on the screen by changing the
+    actual properties in the view objects. The following views are available in
+    the system:
+  
+
+ALPHA:
+      Represents the alpha transparency on the view. The value is 1 (opaque) by
+      default, with a value of 0 representing full transparency (not visible).
+    
+TRANSLATION_X,
+      TRANSLATION_Y, and
+      TRANSLATION_Z: These
+      properties control where the view is located as a delta from its left
+      coordinate, top coordinate, and elevation, which are set by its layout
+      container.
+      
+TRANSLATION_X
+          describes the left coordinate.
+TRANSLATION_Y
+          describes the top coordinate.
+TRANSLATION_Z
+          describes the depth of the view relative to its elevation.
+
+
+ROTATION,
+      ROTATION_X, and
+      ROTATION_Y: These
+      properties control the rotation in 2D (rotation property) and
+      3D around the pivot point.
+    
+SCROLL_X and
+      SCROLL_Y: These
+      properties indicate the scroll offset of the source left and the top edge
+      in pixels. It also indicates the position in terms how much the page is
+      scrolled.
+    SCALE_X and
+      SCALE_Y: These
+      properties control the 2D scaling of a view around its pivot point.
+    
+X,
+      Y, and
+      Z: These are basic
+      utility properties to describe the final location of the view in its
+      container.
+      
+X is a sum of the
+          left value and TRANSLATION_X.
+Y is a sum of the
+          top value and TRANSLATION_Y.
+Z is a sum of the
+          elevation value and TRANSLATION_Z.
+
+
+
+Register listeners
+
+    The DynamicAnimation class provides two
+    listeners: OnAnimationUpdateListener
+    and OnAnimationEndListener.
+    These listeners listen to the updates in animation such as when there is a
+    change in the animation value and when the animation comes to an end.
+  
+OnAnimationUpdateListener
+
+    When you want to animate multiple views to create a chained animation, you
+    can set up OnAnimationUpdateListener
+    to receive a callback every time there is a change in the current view’s
+    property. The callback notifies the other view to update its spring position
+    based on the change incurred in the current view’s property. To register the
+    listener, perform the following steps:
+  
+
+
+      Call the addUpdateListener()
+      method and attach the listener to the animation.
+      Note: You need to register the update
+        listener before the animation begins. Though, update listener should be
+        registered only if you need per-frame update on the animation value
+        changes. An update listener prevents the animation from potentially
+        running on a separate thread.
+      
+
+
+      Override the onAnimationUpdate()
+      method to notify the caller about the change in the current object. The
+      following sample code illustrates the overall use of
+      OnAnimationUpdateListener.
+    
+
+
+Kotlin
+
+// Setting up a spring animation to animate the view1 and view2 translationX and translationY properties
+val (anim1X, anim1Y) = findViewById<View>(R.id.view1).let { view1 ->
+    SpringAnimation(view1, DynamicAnimation.TRANSLATION_X) to
+            SpringAnimation(view1, DynamicAnimation.TRANSLATION_Y)
+}
+val (anim2X, anim2Y) = findViewById<View>(R.id.view2).let { view2 ->
+    SpringAnimation(view2, DynamicAnimation.TRANSLATION_X) to
+            SpringAnimation(view2, DynamicAnimation.TRANSLATION_Y)
+}
+
+// Registering the update listener
+anim1X.addUpdateListener { _, value, _ ->
+    // Overriding the method to notify view2 about the change in the view1’s property.
+    anim2X.animateToFinalPosition(value)
+}
+
+anim1Y.addUpdateListener { _, value, _ -> anim2Y.animateToFinalPosition(value) }
+
+Java
+
+// Creating two views to demonstrate the registration of the update listener.
+final View view1 = findViewById(R.id.view1);
+final View view2 = findViewById(R.id.view2);
+
+// Setting up a spring animation to animate the view1 and view2 translationX and translationY properties
+final SpringAnimation anim1X = new SpringAnimation(view1,
+        DynamicAnimation.TRANSLATION_X);
+final SpringAnimation anim1Y = new SpringAnimation(view1,
+    DynamicAnimation.TRANSLATION_Y);
+final SpringAnimation anim2X = new SpringAnimation(view2,
+        DynamicAnimation.TRANSLATION_X);
+final SpringAnimation anim2Y = new SpringAnimation(view2,
+        DynamicAnimation.TRANSLATION_Y);
+
+// Registering the update listener
+anim1X.addUpdateListener(new DynamicAnimation.OnAnimationUpdateListener() {
+
+// Overriding the method to notify view2 about the change in the view1’s property.
+    @Override
+    public void onAnimationUpdate(DynamicAnimation dynamicAnimation, float value,
+                                  float velocity) {
+        anim2X.animateToFinalPosition(value);
+    }
+});
+
+anim1Y.addUpdateListener(new DynamicAnimation.OnAnimationUpdateListener() {
+
+  @Override
+    public void onAnimationUpdate(DynamicAnimation dynamicAnimation, float value,
+                                  float velocity) {
+        anim2Y.animateToFinalPosition(value);
+    }
+});
+
+
+
+OnAnimationEndListener
+
+OnAnimationEndListener
+    notifies the end of an animation. You can set up the listener to receive
+    callback whenever the animation reaches equilibrium or it is canceled. To
+    register the listener, perform the following steps:
+  
+
+
+      Call the addEndListener()
+      method and attach the listener to the animation.
+      
+
+      Override the onAnimationEnd()
+      method to receive notification whenever an animation reaches equilibrium
+      or is canceled.
+    
+
+Remove listeners
+
+    To stop receiving animation update callbacks and animation end callbacks,
+    call removeUpdateListener()
+    and removeEndListener()
+    methods, respectively.
+  
+Set animation start value
+
+    To set the start value of the animation, call the
+    setStartValue()
+    method and pass the start value of the animation. If you do not set the
+    start value, the animation uses the current value of the object’s property
+    as the start value.
+  
+Set animation value range
+
+    You can set the minimum and the maximum animation values when you want to
+    restrain the property value to a certain range. It also helps to control the
+    range in case you animate properties that have an intrinsic range, such as
+    alpha (from 0 to 1).
+  
+
+
+      To set the minimum value, call the
+      setMinValue()
+      method and pass the minimum value of the property.
+    
+
+      To set the maximum value, call the setMaxValue()
+      method and pass the maximum value of the property.
+    
+
+
+    Both methods return the animation for which the value is being set.
+  
+Note: If you have set the start value and have
+    defined an animation value range, ensure the start value is within the
+    minimum and the maximum value range.
+  
+Set start velocity
+
+    Start velocity defines the speed at which the animation property changes at
+    the beginning of the animation. The default start velocity is set to zero
+    pixels per second. You can set the velocity either with the velocity of touch
+    gestures or by using a fixed value as the start velocity. If you choose to
+    provide a fixed value, we recommend to define the value in dp per second and
+    then convert it to pixels per second. Defining the value in dp per second
+    allows velocity to be independent of density and form factors. For more
+    information about converting value to pixels per second, refer to the
+    Converting dp per second to pixels per second
+    section.
+  
+
+    To set the velocity, call the
+    setStartVelocity()
+    method and pass the velocity in pixels per second. The method returns the
+    spring force object on which the velocity is set.
+  
+Note: Use the
+    GestureDetector.OnGestureListener or the
+    VelocityTracker class methods to retrieve and compute
+    the velocity of touch gestures.
+  
+
+Kotlin
+
+findViewById<View>(R.id.imageView).also { img ->
+    SpringAnimation(img, DynamicAnimation.TRANSLATION_Y).apply {
+        …
+        // Compute velocity in the unit pixel/second
+        vt.computeCurrentVelocity(1000)
+        val velocity = vt.yVelocity
+        setStartVelocity(velocity)
+    }
+}
+
+Java
+
+final View img = findViewById(R.id.imageView);
+final SpringAnimation anim = new SpringAnimation(img, DynamicAnimation.TRANSLATION_Y);
+…
+// Compute velocity in the unit pixel/second
+vt.computeCurrentVelocity(1000);
+float velocity = vt.getYVelocity();
+anim.setStartVelocity(velocity);
+
+
+
+Converting dp per second to pixels per second
+
+    Velocity of a spring must be in pixels per second. If you choose to provide a
+    fixed value as the start of the velocity, provide the value in dp per second
+    and then convert it to pixels per second. For conversion, use the
+    applyDimension()
+    method from the TypedValue class. Refer to the
+    following sample code:
+  
+
+Kotlin
+
+val pixelPerSecond: Float =
+    TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dpPerSecond, resources.displayMetrics)
+
+Java
+
+float pixelPerSecond = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dpPerSecond, getResources().getDisplayMetrics());
+
+
+
+Set spring properties
+
+    The SpringForce class defines the getter
+    and the setter methods for each of the spring properties, such as damping
+    ratio and stiffness. To set the spring properties, it is important to either
+    retrieve the spring force object or create a custom spring force on which
+    you can set the properties. For more information about creating a custom
+    spring force, refer to the
+    Creating a custom spring force
+    section.
+  
+Tip: While using the setter methods, you can
+    create a method chain as all the setter methods return the spring force
+    object.
+  
+Damping ratio
+
+    The damping ratio describes a gradual reduction in a spring oscillation. By
+    using the damping ratio, you can define how rapidly the oscillations decay
+    from one bounce to the next. There are four different ways you can damp a
+    spring:
+  
+
+Overdamping occurs when the damping ratio is greater than one. It lets
+      the object quickly return to the rest position.
+    
+Critical damping occurs when the damping ratio is equal to one. It lets
+      the object return to the rest position within the shortest amount of time.
+    
+
+      Underdamping occurs when the damping ratio is less than one. It lets
+      object overshoot multiple times by passing the rest position, and then
+      gradually reaches the rest position.
+    
+
+      Undamped occurs when the damping ratio is equal to zero. It lets the
+      object oscillate forever.
+    
+
+
+    To add the damping ratio to the spring, perform the following steps:
+  
+
+
+      Call the getSpring()
+      method to retrieve the spring to add the damping ratio.
+    
+
+      Call the setDampingRatio()
+      method and pass the damping ratio that you want to add to the spring. The
+      method returns the spring force object on which the damping ratio is set.
+      Note: The damping ratio must be a
+        non-negative number. If you set the damping ratio to zero, the spring will
+        never reach the rest position. In other words, it oscillates forever.
+      
+
+
+
+    The following damping ratio constants are available in the system:
+  
+
+DAMPING_RATIO_HIGH_BOUNCY
+DAMPING_RATIO_MEDIUM_BOUNCY
+DAMPING_RATIO_LOW_BOUNCY
+DAMPING_RATIO_NO_BOUNCY
+
+
+Figure 2: High bounce
+  
+
+Figure 3: Medium bounce
+  
+
+Figure 4: Low bounce
+  
+
+Figure 5: No bounce
+  
+
+
+    The default damping ratio is set to DAMPING_RATIO_MEDIUM_BOUNCY.
+  
+
+Kotlin
+
+findViewById<View>(R.id.imageView).also { img ->
+    SpringAnimation(img, DynamicAnimation.TRANSLATION_Y).apply {
+        …
+        //Setting the damping ratio to create a low bouncing effect.
+        spring.dampingRatio = SpringForce.DAMPING_RATIO_LOW_BOUNCY
+        …
+    }
+}
+
+Java
+
+final View img = findViewById(R.id.imageView);
+final SpringAnimation anim = new SpringAnimation(img, DynamicAnimation.TRANSLATION_Y);
+…
+//Setting the damping ratio to create a low bouncing effect.
+anim.getSpring().setDampingRatio(SpringForce.DAMPING_RATIO_LOW_BOUNCY);
+…
+
+
+
+Stiffness
+
+    Stiffness defines the spring constant, which measures the strength of the
+    spring. A stiff spring applies more force to the object that is attached
+    when the spring is not at the rest position.
+    To add the stiffness to the spring, perform the following steps:
+  
+
+
+      Call the getSpring()
+      method to retrieve the spring to add the stiffness.
+    
+
+      Call the setStiffness()
+      method and pass the stiffness value that you want to add to the spring. The
+      method returns the spring force object on which the stiffness is set.
+      Note: The stiffness must be a
+        positive number.
+      
+
+
+
+    The following stiffness constants are available in the system:
+  
+
+STIFFNESS_HIGH
+STIFFNESS_MEDIUM
+STIFFNESS_LOW
+STIFFNESS_VERY_LOW
+
+
+Figure 6: High stiffness
+  
+
+Figure 7: Medium stiffness
+  
+
+Figure 8: Low stiffness
+  
+
+Figure 9: Very low stiffness
+  
+
+
+    The default stiffness is set to STIFFNESS_MEDIUM.
+  
+
+Kotlin
+
+findViewById<View>(R.id.imageView).also { img ->
+    SpringAnimation(img, DynamicAnimation.TRANSLATION_Y).apply {
+        …
+        //Setting the spring with a low stiffness.
+        spring.stiffness = SpringForce.STIFFNESS_LOW
+        …
+    }
+}
+
+Java
+
+final View img = findViewById(R.id.imageView);
+final SpringAnimation anim = new SpringAnimation(img, DynamicAnimation.TRANSLATION_Y);
+…
+//Setting the spring with a low stiffness.
+anim.getSpring().setStiffness(SpringForce.STIFFNESS_LOW);
+…
+
+
+
+Create a custom spring force
+
+    You can create a custom spring force as an alternative to using the default
+    spring force. The custom spring force lets you share the same spring force
+    instance across multiple spring animations. Once you have created the spring
+    force, you can set properties such as damping ratio and stiffness.
+  
+
+
+      Create a SpringForce object.
+      SpringForce force = new SpringForce();
+
+
+      Assign the properties by calling the respective methods. You can also
+      create a method chain.
+      force.setDampingRatio(DAMPING_RATIO_LOW_BOUNCY).setStiffness(STIFFNESS_LOW);
+
+
+      Call the setSpring()
+      method to set the spring to the animation.
+    setSpring(force);
+
+
+Start animation
+
+    There are two ways you can start a spring animation: By calling the
+    start() or by calling the
+    animateToFinalPosition()
+    method. Both the methods need to be called on the main thread.
+  
+
+animateToFinalPosition()
+    method performs two tasks:
+  
+
+Sets the final position of the spring.
+Starts the animation, if it has not started.
+
+
+    Since the method updates the final position of the spring and starts the
+    animation if needed, you can call this method any time to change the course
+    of an animation. For example, in a chained spring animation, the animation
+    of one view depends on another view. For such an animation, it's more
+    convenient to use the
+    animateToFinalPosition()
+    method. By using this method in a chained spring animation, you don't need
+    to worry if the animation you want to update next is currently running.
+  
+
+    Figure 10 illustrates a chained spring animation, where the animation of one
+    view depends on another view.
+  
+
+
+Figure 10. Chained spring demo
+
+
+    To use the animateToFinalPosition()
+    method, call the
+    animateToFinalPosition()
+    method and pass the rest position of the spring. You can also set the rest
+    position of the spring by calling the
+    setFinalPosition()
+    method.
+  
+
+    The start() method does
+    not set the property value to the start value immediately. The property
+    value changes at each animation pulse, which happens before the draw pass.
+    As a result, the changes are reflected in the next frame, as if
+    the values are set immediately.
+  
+
+Kotlin
+
+findViewById<View>(R.id.imageView).also { img ->
+    SpringAnimation(img, DynamicAnimation.TRANSLATION_Y).apply {
+        …
+        //Starting the animation
+        start()
+        …
+    }
+}
+
+
+Java
+
+final View img = findViewById(R.id.imageView);
+final SpringAnimation anim = new SpringAnimation(img, DynamicAnimation.TRANSLATION_Y);
+…
+//Starting the animation
+anim.start();
+…
+
+
+
+Cancel animation
+
+    You can cancel or skip to the end of the animation. An ideal situation
+    where you need to cancel or skip to the end of the amiation is when a user
+    interaction demands the animation to be terminated immediately. This is
+    mostly when a user exits an app abruptly or the view becomes invisible.
+  
+
+    There are two methods that you can use to terminate the animation.
+    The cancel() method
+    terminates the animation at the value where it is. The
+    skipToEnd() method
+    skips the animation to the final value and then terminates it.
+  
+
+    Before you can terminate the animation, it is important to first check the
+    state of the spring. If the state is undamped, the animation can never reach
+    the rest position.
+    To check the state of the spring, call the
+    canSkipToEnd() method. If
+    the spring is damped, the method returns true, otherwise
+    false.
+  
+
+    Once you know the state of the spring, you can terminate an animation by
+    using either
+    skipToEnd() method or the
+    cancel() method. The
+    cancel() method
+    must be called only on the main thread.
+  
+Note: In general, the
+    skipToEnd() method causes
+    a visual jump.
+  
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated January 31, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

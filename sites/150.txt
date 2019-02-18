@@ -1,0 +1,1143 @@
+Android Interface Definition Language (AIDL)  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Android Interface Definition Language (AIDL)
+  
+
+
+The Android Interface Definition Language (AIDL) is similar to other IDLs you might have
+worked with. It allows you to define the programming interface that both
+the client and service agree upon in order to communicate with each other using
+interprocess communication (IPC). On Android, one process cannot normally access the
+memory of another process. So to talk, they need to decompose their objects into primitives that the
+operating system can understand, and marshall the objects across that boundary for you. The code to
+do that marshalling is tedious to write, so Android handles it for you with AIDL.
+Note: Using AIDL is necessary only if you allow clients from
+different applications to access your service for IPC and want to handle multithreading in your
+service. If you do not need to perform concurrent IPC across
+different applications, you should create your interface by implementing a
+Binder or, if you want to perform IPC, but do not need to handle multithreading,
+implement your interface using a Messenger.
+Regardless, be sure that you understand Bound Services before
+implementing an AIDL.
+Before you begin designing your AIDL interface, be aware that calls to an AIDL interface are
+direct function calls.  You should not make assumptions about the thread in which the call
+occurs.  What happens is different depending on whether the call is from a thread in the
+local process or a remote process. Specifically:
+
+Calls made from the local process are executed in the same thread that is making the call. If
+this is your main UI thread, that thread continues to execute in the AIDL interface.  If it is
+another thread, that is the one that executes your code in the service.  Thus, if only local
+threads are accessing the service, you can completely control which threads are executing in it (but
+if that is the case, then you shouldn't be using AIDL at all, but should instead create the
+interface by implementing a
+Binder).
+Calls from a remote process are dispatched from a thread pool the platform maintains inside of
+your own process.  You must be prepared for incoming calls from unknown threads, with multiple calls
+happening at the same time.  In other words, an implementation of an AIDL interface must be
+completely thread-safe.
+The oneway keyword modifies the behavior of remote calls.  When used, a remote call does
+not block; it simply sends the transaction data and immediately returns.
+The implementation of the interface eventually receives this as a regular call from the Binder thread pool as a normal remote call. If oneway is used with a local call,
+there is no impact and the call is still synchronous.
+
+Defining an AIDL interface
+You must define your AIDL interface in an .aidl file using the Java
+programming language syntax, then save it in the source code (in the src/ directory) of both
+the application hosting the service and any other application that binds to the service.
+When you build each application that contains the .aidl file, the Android SDK tools
+generate an IBinder interface based on the .aidl file and save it in
+the project's gen/ directory. The service must implement the IBinder
+interface as appropriate. The client applications can then bind to the service and call methods from
+the IBinder to perform IPC.
+To create a bounded service using AIDL, follow these steps:
+
+Create the .aidl file
+This file defines the programming interface with method signatures.
+
+Implement the interface
+The Android SDK tools generate an interface in the Java programming language, based on your
+.aidl file. This interface has an inner abstract class named Stub that extends
+Binder and implements methods from your AIDL interface. You must extend the
+Stub class and implement the methods.
+
+Expose the interface to clients
+Implement a Service and override onBind() to return your implementation of the Stub
+class.
+
+
+Caution: Any changes that you make to your AIDL interface after
+your first release must remain backward compatible in order to avoid breaking other applications
+that use your service. That is, because your .aidl file must be copied to other applications
+in order for them to access your service's interface, you must maintain support for the original
+interface.
+1. Create the .aidl file
+AIDL uses a simple syntax that lets you declare an interface with one or more methods that can
+take parameters and return values. The parameters and return values can be of any type, even other
+AIDL-generated interfaces.
+You must construct the .aidl file using the Java programming language. Each .aidl
+file must define a single interface and requires only the interface declaration and method
+signatures.
+By default, AIDL supports the following data types:
+
+All primitive types in the Java programming language (such as int, long,
+char, boolean, and so on)
+String
+CharSequence
+List
+All elements in the List must be one of the supported data types in this
+list or one of the other AIDL-generated interfaces or parcelables you've declared. A List may optionally be used as a "generic" class (for example,
+List<String>).
+The actual concrete class that the other side receives is always an ArrayList, although the method is generated to use the List interface.
+
+Map
+All elements in the Map must be one of the supported data types in this
+list or one of the other AIDL-generated interfaces or parcelables you've declared.  Generic maps,
+(such as those of the form
+Map<String,Integer>) are not supported. The actual concrete class that the other side
+receives is always a HashMap, although the method is generated to
+use the Map interface.
+
+
+You must include an import statement for each additional type not listed above, even if
+they are defined in the same package as your interface.
+When defining your service interface, be aware that:
+
+Methods can take zero or more parameters, and return a value or void.
+All non-primitive parameters require a directional tag indicating which way the data goes.
+Either in, out, or inout (see the example below).
+    Primitives are in by default, and cannot be otherwise.
+Caution: You should limit the direction to what is truly
+needed, because marshalling parameters is expensive.
+All code comments included in the .aidl file are included in the generated IBinder interface (except for comments before the import and package
+statements).
+Only methods are supported; you cannot expose static fields in AIDL.
+
+Here is an example .aidl file:
+
+// IRemoteService.aidl
+package com.example.android;
+
+// Declare any non-default types here with import statements
+
+/** Example service interface */
+interface IRemoteService {
+    /** Request the process ID of this service, to do evil things with it. */
+    int getPid();
+
+    /** Demonstrates some basic types that you can use as parameters
+     * and return values in AIDL.
+     */
+    void basicTypes(int anInt, long aLong, boolean aBoolean, float aFloat,
+            double aDouble, String aString);
+}
+
+Simply save your .aidl file in your project's src/ directory and when you
+build your application, the SDK tools generate the IBinder interface file in your
+project's gen/ directory. The generated file name matches the .aidl file name, but
+with a .java extension (for example, IRemoteService.aidl results in IRemoteService.java).
+If you use Android Studio, the incremental build generates the binder class almost immediately.
+If you do not use Android Studio, then the Gradle tool generates the binder class next time you
+build your application—you should build your project with gradle assembleDebug
+(or gradle assembleRelease) as soon as you're finished writing the .aidl file,
+so that your code can link against the generated class.
+2. Implement the interface
+When you build your application, the Android SDK tools generate a .java interface file
+named after your .aidl file. The generated interface includes a subclass named Stub
+that is an abstract implementation of its parent interface (for example, YourInterface.Stub) and declares all the methods from the .aidl file.
+Note: Stub also
+defines a few helper methods, most notably asInterface(), which takes an IBinder (usually the one passed to a client's onServiceConnected() callback method) and
+returns an instance of the stub interface. See the section Calling an IPC
+Method for more details on how to make this cast.
+To implement the interface generated from the .aidl, extend the generated Binder interface (for example, YourInterface.Stub) and implement the methods
+inherited from the .aidl file.
+Here is an example implementation of an interface called IRemoteService (defined by the
+IRemoteService.aidl example, above) using an anonymous instance:
+
+Kotlin
+
+private val binder = object : IRemoteService.Stub() {
+
+    override fun getPid(): Int =
+            Process.myPid()
+
+    override fun basicTypes(
+            anInt: Int,
+            aLong: Long,
+            aBoolean: Boolean,
+            aFloat: Float,
+            aDouble: Double,
+            aString: String
+    ) {
+        // Does nothing
+    }
+}
+
+Java
+
+private final IRemoteService.Stub binder = new IRemoteService.Stub() {
+    public int getPid(){
+        return Process.myPid();
+    }
+    public void basicTypes(int anInt, long aLong, boolean aBoolean,
+        float aFloat, double aDouble, String aString) {
+        // Does nothing
+    }
+};
+
+
+
+Now the mBinder is an instance of the Stub class (a Binder),
+which defines the RPC interface for the service. In the next step, this instance is exposed to
+clients so they can interact with the service.
+There are a few rules you should be aware of when implementing your AIDL interface: 
+
+Incoming calls are not guaranteed to be executed on the main thread, so you need to think
+about multithreading from the start and properly build your service to be thread-safe.
+By default, RPC calls are synchronous. If you know that the service takes more than a few
+milliseconds to complete a request, you should not call it from the activity's main thread, because
+it might hang the application (Android might display an "Application is Not Responding"
+dialog)—you should usually call them from a separate thread in the client. 
+No exceptions that you throw are sent back to the caller.
+
+3. Expose the interface to clients
+Once you've implemented the interface for your service, you need to expose it to
+clients so they can bind to it. To expose the interface
+for your service, extend Service and implement onBind() to return an instance of your class that implements
+the generated Stub (as discussed in the previous section). Here's an example
+service that exposes the IRemoteService example interface to clients. 
+
+Kotlin
+
+class RemoteService : Service() {
+
+    override fun onCreate() {
+        super.onCreate()
+    }
+
+    override fun onBind(intent: Intent): IBinder {
+        // Return the interface
+        return binder
+    }
+
+
+    private val binder = object : IRemoteService.Stub() {
+        override fun getPid(): Int {
+            return Process.myPid()
+        }
+
+        override fun basicTypes(
+                anInt: Int,
+                aLong: Long,
+                aBoolean: Boolean,
+                aFloat: Float,
+                aDouble: Double,
+                aString: String
+        ) {
+            // Does nothing
+        }
+    }
+}
+
+Java
+
+public class RemoteService extends Service {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+    }
+
+    @Override
+    public IBinder onBind(Intent intent) {
+        // Return the interface
+        return binder;
+    }
+
+    private final IRemoteService.Stub binder = new IRemoteService.Stub() {
+        public int getPid(){
+            return Process.myPid();
+        }
+        public void basicTypes(int anInt, long aLong, boolean aBoolean,
+            float aFloat, double aDouble, String aString) {
+            // Does nothing
+        }
+    };
+}
+
+
+
+Now, when a client (such as an activity) calls bindService() to connect to this service, the client's onServiceConnected() callback receives the
+mBinder instance returned by the service's onBind()
+method.
+The client must also have access to the interface class, so if the client and service are in
+separate applications, then the client's application must have a copy of the .aidl file
+in its src/ directory (which generates the android.os.Binder
+interface—providing the client access to the AIDL methods).
+When the client receives the IBinder in the onServiceConnected() callback, it must call
+YourServiceInterface.Stub.asInterface(service) to cast the returned
+parameter to YourServiceInterface type. For example:
+
+Kotlin
+
+var iRemoteService: IRemoteService? = null
+
+val mConnection = object : ServiceConnection {
+
+    // Called when the connection with the service is established
+    override fun onServiceConnected(className: ComponentName, service: IBinder) {
+        // Following the example above for an AIDL interface,
+        // this gets an instance of the IRemoteInterface, which we can use to call on the service
+        iRemoteService = IRemoteService.Stub.asInterface(service)
+    }
+
+    // Called when the connection with the service disconnects unexpectedly
+    override fun onServiceDisconnected(className: ComponentName) {
+        Log.e(TAG, "Service has unexpectedly disconnected")
+        iRemoteService = null
+    }
+}
+
+Java
+
+IRemoteService iRemoteService;
+private ServiceConnection mConnection = new ServiceConnection() {
+    // Called when the connection with the service is established
+    public void onServiceConnected(ComponentName className, IBinder service) {
+        // Following the example above for an AIDL interface,
+        // this gets an instance of the IRemoteInterface, which we can use to call on the service
+        iRemoteService = IRemoteService.Stub.asInterface(service);
+    }
+
+    // Called when the connection with the service disconnects unexpectedly
+    public void onServiceDisconnected(ComponentName className) {
+        Log.e(TAG, "Service has unexpectedly disconnected");
+        iRemoteService = null;
+    }
+};
+
+
+
+For more sample code, see the
+  
+RemoteService.java class in
+  
+  ApiDemos.
+Passing objects over IPC
+If you have a class that you would like to send from one process to another through
+an IPC interface, you can do that. However, you must ensure that the code for your class is
+available to the other side of the IPC channel and your class must support the Parcelable interface. Supporting the Parcelable interface is
+important because it allows the Android system to decompose objects into primitives that can be
+marshalled across processes.
+To create a class that supports the Parcelable protocol, you must do the
+following:
+
+Make your class implement the Parcelable interface.
+Implement writeToParcel, which takes the
+current state of the object and writes it to a Parcel.
+Add a static field called CREATOR to your class which is an object implementing
+the Parcelable.Creator interface.
+Finally, create an .aidl file that declares your parcelable class (as shown for the
+Rect.aidl file, below).
+  If you are using a custom build process, do not add the .aidl file to your
+build. Similar to a header file in the C language, this .aidl file isn't compiled.
+
+AIDL uses these methods and fields in the code it generates to marshall and unmarshall
+your objects.
+For example, here is a Rect.aidl file to create a Rect class that's
+parcelable:
+
+package android.graphics;
+
+// Declare Rect so AIDL can find it and knows that it implements
+// the parcelable protocol.
+parcelable Rect;
+
+And here is an example of how the Rect class implements the
+Parcelable protocol.
+
+Kotlin
+
+import android.os.Parcel
+import android.os.Parcelable
+
+class Rect() : Parcelable {
+    var left: Int = 0
+    var top: Int = 0
+    var right: Int = 0
+    var bottom: Int = 0
+
+    companion object CREATOR : Parcelable.Creator<Rect> {
+        override fun createFromParcel(parcel: Parcel): Rect {
+            return Rect(parcel)
+        }
+
+        override fun newArray(size: Int): Array<Rect> {
+            return Array(size) { Rect() }
+        }
+    }
+
+    private constructor(inParcel: Parcel) : this() {
+        readFromParcel(inParcel)
+    }
+
+    override fun writeToParcel(outParcel: Parcel, flags: Int) {
+        outParcel.writeInt(left)
+        outParcel.writeInt(top)
+        outParcel.writeInt(right)
+        outParcel.writeInt(bottom)
+    }
+
+    private fun readFromParcel(inParcel: Parcel) {
+        left = inParcel.readInt()
+        top = inParcel.readInt()
+        right = inParcel.readInt()
+        bottom = inParcel.readInt()
+    }
+
+    override fun describeContents(): Int {
+        return 0
+    }
+}
+
+Java
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public final class Rect implements Parcelable {
+    public int left;
+    public int top;
+    public int right;
+    public int bottom;
+
+    public static final Parcelable.Creator<Rect> CREATOR = new Parcelable.Creator<Rect>() {
+        public Rect createFromParcel(Parcel in) {
+            return new Rect(in);
+        }
+
+        public Rect[] newArray(int size) {
+            return new Rect[size];
+        }
+    };
+
+    public Rect() {
+    }
+
+    private Rect(Parcel in) {
+        readFromParcel(in);
+    }
+
+    public void writeToParcel(Parcel out, int flags) {
+        out.writeInt(left);
+        out.writeInt(top);
+        out.writeInt(right);
+        out.writeInt(bottom);
+    }
+
+    public void readFromParcel(Parcel in) {
+        left = in.readInt();
+        top = in.readInt();
+        right = in.readInt();
+        bottom = in.readInt();
+    }
+
+    public int describeContents() {
+        return 0;
+    }
+}
+
+
+
+The marshalling in the Rect class is pretty simple.  Take a look at the other
+methods on Parcel to see the other kinds of values you can write
+to a Parcel.
+Warning: Don't forget the security implications of receiving
+data from other processes.  In this case, the Rect reads four numbers from the Parcel, but it is up to you to ensure that these are within the acceptable range of
+values for whatever the caller is trying to do.  See Security and Permissions for more
+information about how to keep your application secure from malware.
+Calling an IPC method
+Here are the steps a calling class must take to call a remote interface defined with AIDL: 
+
+Include the .aidl file in the project src/ directory.
+Declare an instance of the IBinder interface (generated based on the
+AIDL). 
+Implement ServiceConnection. 
+Call Context.bindService(), passing in your ServiceConnection implementation. 
+In your implementation of onServiceConnected(),
+you will receive an IBinder instance (called service). Call
+YourInterfaceName.Stub.asInterface((IBinder)service) to
+        cast the returned parameter to YourInterface type.
+Call the methods that you defined on your interface. You should always trap
+        DeadObjectException exceptions, which are thrown when
+        the connection has broken. You should also trap SecurityException exceptions, which are thrown when the two processes involved in the IPC method call have conflicting AIDL definitions.
+To disconnect, call Context.unbindService() with the instance of your interface. 
+
+A few comments on calling an IPC service:
+
+Objects are reference counted across processes. 
+You can send anonymous objects
+        as method arguments. 
+
+For more information about binding to a service, read the Bound Services
+document.
+Here is some sample code demonstrating calling an AIDL-created service, taken
+    from the Remote Service sample in the ApiDemos project.
+
+Kotlin
+
+private const val BUMP_MSG = 1
+
+class Binding : Activity() {
+
+    /** The primary interface we will be calling on the service.  */
+    private var mService: IRemoteService? = null
+
+    /** Another interface we use on the service.  */
+    internal var secondaryService: ISecondary? = null
+
+    private lateinit var killButton: Button
+    private lateinit var callbackText: TextView
+    private lateinit var handler: InternalHandler
+
+    private var isBound: Boolean = false
+
+    /**
+     * Class for interacting with the main interface of the service.
+     */
+    private val mConnection = object : ServiceConnection {
+
+        override fun onServiceConnected(className: ComponentName, service: IBinder) {
+            // This is called when the connection with the service has been
+            // established, giving us the service object we can use to
+            // interact with the service.  We are communicating with our
+            // service through an IDL interface, so get a client-side
+            // representation of that from the raw service object.
+            mService = IRemoteService.Stub.asInterface(service)
+            killButton.isEnabled = true
+            callbackText.text = "Attached."
+
+            // We want to monitor the service for as long as we are
+            // connected to it.
+            try {
+                mService?.registerCallback(mCallback)
+            } catch (e: RemoteException) {
+                // In this case the service has crashed before we could even
+                // do anything with it; we can count on soon being
+                // disconnected (and then reconnected if it can be restarted)
+                // so there is no need to do anything here.
+            }
+
+            // As part of the sample, tell the user what happened.
+            Toast.makeText(
+                    this@Binding,
+                    R.string.remote_service_connected,
+                    Toast.LENGTH_SHORT
+            ).show()
+        }
+
+        override fun onServiceDisconnected(className: ComponentName) {
+            // This is called when the connection with the service has been
+            // unexpectedly disconnected -- that is, its process crashed.
+            mService = null
+            killButton.isEnabled = false
+            callbackText.text = "Disconnected."
+
+            // As part of the sample, tell the user what happened.
+            Toast.makeText(
+                    this@Binding,
+                    R.string.remote_service_disconnected,
+                    Toast.LENGTH_SHORT
+            ).show()
+        }
+    }
+
+    /**
+     * Class for interacting with the secondary interface of the service.
+     */
+    private val secondaryConnection = object : ServiceConnection {
+
+        override fun onServiceConnected(className: ComponentName, service: IBinder) {
+            // Connecting to a secondary interface is the same as any
+            // other interface.
+            secondaryService = ISecondary.Stub.asInterface(service)
+            killButton.isEnabled = true
+        }
+
+        override fun onServiceDisconnected(className: ComponentName) {
+            secondaryService = null
+            killButton.isEnabled = false
+        }
+    }
+
+    private val mBindListener = View.OnClickListener {
+        // Establish a couple connections with the service, binding
+        // by interface names.  This allows other applications to be
+        // installed that replace the remote service by implementing
+        // the same interface.
+        val intent = Intent(this@Binding, RemoteService::class.java)
+        intent.action = IRemoteService::class.java.name
+        bindService(intent, mConnection, Context.BIND_AUTO_CREATE)
+        intent.action = ISecondary::class.java.name
+        bindService(intent, secondaryConnection, Context.BIND_AUTO_CREATE)
+        isBound = true
+        callbackText.text = "Binding."
+    }
+
+    private val unbindListener = View.OnClickListener {
+        if (isBound) {
+            // If we have received the service, and hence registered with
+            // it, then now is the time to unregister.
+            try {
+                mService?.unregisterCallback(mCallback)
+            } catch (e: RemoteException) {
+                // There is nothing special we need to do if the service
+                // has crashed.
+            }
+
+            // Detach our existing connection.
+            unbindService(mConnection)
+            unbindService(secondaryConnection)
+            killButton.isEnabled = false
+            isBound = false
+            callbackText.text = "Unbinding."
+        }
+    }
+
+    private val killListener = View.OnClickListener {
+        // To kill the process hosting our service, we need to know its
+        // PID.  Conveniently our service has a call that will return
+        // to us that information.
+        try {
+            secondaryService?.pid?.also { pid ->
+                // Note that, though this API allows us to request to
+                // kill any process based on its PID, the kernel will
+                // still impose standard restrictions on which PIDs you
+                // are actually able to kill.  Typically this means only
+                // the process running your application and any additional
+                // processes created by that app as shown here; packages
+                // sharing a common UID will also be able to kill each
+                // other's processes.
+                Process.killProcess(pid)
+                callbackText.text = "Killed service process."
+            }
+        } catch (ex: RemoteException) {
+            // Recover gracefully from the process hosting the
+            // server dying.
+            // Just for purposes of the sample, put up a notification.
+            Toast.makeText(this@Binding, R.string.remote_call_failed, Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    // ----------------------------------------------------------------------
+    // Code showing how to deal with callbacks.
+    // ----------------------------------------------------------------------
+
+    /**
+     * This implementation is used to receive callbacks from the remote
+     * service.
+     */
+    private val mCallback = object : IRemoteServiceCallback.Stub() {
+        /**
+         * This is called by the remote service regularly to tell us about
+         * new values.  Note that IPC calls are dispatched through a thread
+         * pool running in each process, so the code executing here will
+         * NOT be running in our main thread like most other things -- so,
+         * to update the UI, we need to use a Handler to hop over there.
+         */
+        override fun valueChanged(value: Int) {
+            handler.sendMessage(handler.obtainMessage(BUMP_MSG, value, 0))
+        }
+    }
+
+    /**
+     * Standard initialization of this activity.  Set up the UI, then wait
+     * for the user to poke it before doing anything.
+     */
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        setContentView(R.layout.remote_service_binding)
+
+        // Watch for button clicks.
+        var button: Button = findViewById(R.id.bind)
+        button.setOnClickListener(mBindListener)
+        button = findViewById(R.id.unbind)
+        button.setOnClickListener(unbindListener)
+        killButton = findViewById(R.id.kill)
+        killButton.setOnClickListener(killListener)
+        killButton.isEnabled = false
+
+        callbackText = findViewById(R.id.callback)
+        callbackText.text = "Not attached."
+        handler = InternalHandler(callbackText)
+    }
+
+    private class InternalHandler(
+            textView: TextView,
+            private val weakTextView: WeakReference<TextView> = WeakReference(textView)
+    ) : Handler() {
+        override fun handleMessage(msg: Message) {
+            when (msg.what) {
+                BUMP_MSG -> weakTextView.get()?.text = "Received from service: ${msg.arg1}"
+                else -> super.handleMessage(msg)
+            }
+        }
+    }
+}
+
+Java
+
+public static class Binding extends Activity {
+    /** The primary interface we will be calling on the service. */
+    IRemoteService mService = null;
+    /** Another interface we use on the service. */
+    ISecondary secondaryService = null;
+
+    Button killButton;
+    TextView callbackText;
+
+    private InternalHandler handler;
+    private boolean isBound;
+
+    /**
+     * Standard initialization of this activity.  Set up the UI, then wait
+     * for the user to poke it before doing anything.
+     */
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.remote_service_binding);
+
+        // Watch for button clicks.
+        Button button = (Button)findViewById(R.id.bind);
+        button.setOnClickListener(mBindListener);
+        button = (Button)findViewById(R.id.unbind);
+        button.setOnClickListener(unbindListener);
+        killButton = (Button)findViewById(R.id.kill);
+        killButton.setOnClickListener(killListener);
+        killButton.setEnabled(false);
+
+        callbackText = (TextView)findViewById(R.id.callback);
+        callbackText.setText("Not attached.");
+        handler = new InternalHandler(callbackText);
+    }
+
+    /**
+     * Class for interacting with the main interface of the service.
+     */
+    private ServiceConnection mConnection = new ServiceConnection() {
+        public void onServiceConnected(ComponentName className,
+                IBinder service) {
+            // This is called when the connection with the service has been
+            // established, giving us the service object we can use to
+            // interact with the service.  We are communicating with our
+            // service through an IDL interface, so get a client-side
+            // representation of that from the raw service object.
+            mService = IRemoteService.Stub.asInterface(service);
+            killButton.setEnabled(true);
+            callbackText.setText("Attached.");
+
+            // We want to monitor the service for as long as we are
+            // connected to it.
+            try {
+                mService.registerCallback(mCallback);
+            } catch (RemoteException e) {
+                // In this case the service has crashed before we could even
+                // do anything with it; we can count on soon being
+                // disconnected (and then reconnected if it can be restarted)
+                // so there is no need to do anything here.
+            }
+
+            // As part of the sample, tell the user what happened.
+            Toast.makeText(Binding.this, R.string.remote_service_connected,
+                    Toast.LENGTH_SHORT).show();
+        }
+
+        public void onServiceDisconnected(ComponentName className) {
+            // This is called when the connection with the service has been
+            // unexpectedly disconnected -- that is, its process crashed.
+            mService = null;
+            killButton.setEnabled(false);
+            callbackText.setText("Disconnected.");
+
+            // As part of the sample, tell the user what happened.
+            Toast.makeText(Binding.this, R.string.remote_service_disconnected,
+                    Toast.LENGTH_SHORT).show();
+        }
+    };
+
+    /**
+     * Class for interacting with the secondary interface of the service.
+     */
+    private ServiceConnection secondaryConnection = new ServiceConnection() {
+        public void onServiceConnected(ComponentName className,
+                IBinder service) {
+            // Connecting to a secondary interface is the same as any
+            // other interface.
+            secondaryService = ISecondary.Stub.asInterface(service);
+            killButton.setEnabled(true);
+        }
+
+        public void onServiceDisconnected(ComponentName className) {
+            secondaryService = null;
+            killButton.setEnabled(false);
+        }
+    };
+
+    private OnClickListener mBindListener = new OnClickListener() {
+        public void onClick(View v) {
+            // Establish a couple connections with the service, binding
+            // by interface names.  This allows other applications to be
+            // installed that replace the remote service by implementing
+            // the same interface.
+            Intent intent = new Intent(Binding.this, RemoteService.class);
+            intent.setAction(IRemoteService.class.getName());
+            bindService(intent, mConnection, Context.BIND_AUTO_CREATE);
+            intent.setAction(ISecondary.class.getName());
+            bindService(intent, secondaryConnection, Context.BIND_AUTO_CREATE);
+            isBound = true;
+            callbackText.setText("Binding.");
+        }
+    };
+
+    private OnClickListener unbindListener = new OnClickListener() {
+        public void onClick(View v) {
+            if (isBound) {
+                // If we have received the service, and hence registered with
+                // it, then now is the time to unregister.
+                if (mService != null) {
+                    try {
+                        mService.unregisterCallback(mCallback);
+                    } catch (RemoteException e) {
+                        // There is nothing special we need to do if the service
+                        // has crashed.
+                    }
+                }
+
+                // Detach our existing connection.
+                unbindService(mConnection);
+                unbindService(secondaryConnection);
+                killButton.setEnabled(false);
+                isBound = false;
+                callbackText.setText("Unbinding.");
+            }
+        }
+    };
+
+    private OnClickListener killListener = new OnClickListener() {
+        public void onClick(View v) {
+            // To kill the process hosting our service, we need to know its
+            // PID.  Conveniently our service has a call that will return
+            // to us that information.
+            if (secondaryService != null) {
+                try {
+                    int pid = secondaryService.getPid();
+                    // Note that, though this API allows us to request to
+                    // kill any process based on its PID, the kernel will
+                    // still impose standard restrictions on which PIDs you
+                    // are actually able to kill.  Typically this means only
+                    // the process running your application and any additional
+                    // processes created by that app as shown here; packages
+                    // sharing a common UID will also be able to kill each
+                    // other's processes.
+                    Process.killProcess(pid);
+                    callbackText.setText("Killed service process.");
+                } catch (RemoteException ex) {
+                    // Recover gracefully from the process hosting the
+                    // server dying.
+                    // Just for purposes of the sample, put up a notification.
+                    Toast.makeText(Binding.this,
+                            R.string.remote_call_failed,
+                            Toast.LENGTH_SHORT).show();
+                }
+            }
+        }
+    };
+
+    // ----------------------------------------------------------------------
+    // Code showing how to deal with callbacks.
+    // ----------------------------------------------------------------------
+
+    /**
+     * This implementation is used to receive callbacks from the remote
+     * service.
+     */
+    private IRemoteServiceCallback mCallback = new IRemoteServiceCallback.Stub() {
+        /**
+         * This is called by the remote service regularly to tell us about
+         * new values.  Note that IPC calls are dispatched through a thread
+         * pool running in each process, so the code executing here will
+         * NOT be running in our main thread like most other things -- so,
+         * to update the UI, we need to use a Handler to hop over there.
+         */
+        public void valueChanged(int value) {
+            handler.sendMessage(handler.obtainMessage(BUMP_MSG, value, 0));
+        }
+    };
+
+    private static final int BUMP_MSG = 1;
+
+    private static class InternalHandler extends Handler {
+        private final WeakReference<TextView> weakTextView;
+
+        InternalHandler(TextView textView) {
+            weakTextView = new WeakReference<>(textView);
+        }
+
+        @Override
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case BUMP_MSG:
+                    TextView textView = weakTextView.get();
+                    if (textView != null) {
+                        textView.setText("Received from service: " + msg.arg1);
+                    }
+                    break;
+                default:
+                    super.handleMessage(msg);
+            }
+        }
+    }
+}
+
+
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

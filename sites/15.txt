@@ -1,0 +1,1140 @@
+String resources  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    String resources
+  
+
+
+A string resource provides text strings for your application
+with optional text styling and formatting. There are three types of resources that can provide
+your application with strings:
+
+String
+XML resource that provides a single string.
+String Array
+XML resource that provides an array of strings.
+Quantity Strings (Plurals)
+XML resource that carries different strings for pluralization.
+
+All strings are capable of applying some styling markup and formatting arguments. For
+information about styling and formatting strings, see the section about Formatting and Styling.
+String
+A single string that can be referenced from the application or from other resource files (such
+as an XML layout).
+Note: A string is a simple resource that is referenced
+using the value provided in the name attribute (not the name of the XML file). So, you can
+combine string resources with other simple resources in the one XML file,
+under one <resources> element.
+
+file location:
+res/values/filename.xml
+The filename is arbitrary. The <string> element's name is used as the
+resource ID.
+compiled resource datatype:
+Resource pointer to a String.
+resource reference:
+
+In Java: R.string.string_name
+In XML:@string/string_name
+
+syntax:
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string
+        name="string_name"
+        >text_string</string>
+</resources>
+
+
+elements:
+
+
+<resources>
+Required. This must be the root node.
+      No attributes.
+
+<string>
+A string, which can include styling tags. Beware that you must escape apostrophes and
+quotation marks. For more information about how to properly style and format your strings see Formatting and Styling, below.
+      attributes:
+
+name
+String. A name for the string. This name is used as the resource
+ID.
+
+
+
+ 
+example:
+XML file saved at res/values/strings.xml:
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello!</string>
+</resources>
+
+This layout XML applies a string to a View:
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hello" />
+
+This application code retrieves a string:
+
+Kotlin
+
+val string: String = getString(R.string.hello)
+
+Java
+
+String string = getString(R.string.hello);
+
+
+
+You can use either getString(int) or
+getText(int) to retrieve a string. getText(int) retains any rich text styling applied to the string.
+ 
+
+String array
+An array of strings that can be referenced from the application.
+Note: A string array is a simple resource that is referenced
+using the value provided in the name attribute (not the name of the XML file). As
+such, you can combine string array resources with other simple resources in the one XML file,
+under one <resources> element.
+
+file location:
+res/values/filename.xml
+The filename is arbitrary. The <string-array> element's name is used as the
+resource ID.
+compiled resource datatype:
+Resource pointer to an array of Strings.
+resource reference:
+
+In Java: R.array.string_array_name
+
+syntax:
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="string_array_name">
+        <item
+            >text_string</item>
+    </string-array>
+</resources>
+
+
+elements:
+
+
+<resources>
+Required. This must be the root node.
+      No attributes.
+
+<string-array>
+Defines an array of strings. Contains one or more <item> elements.
+      attributes:
+
+name
+String. A name for the array. This name is used as the resource
+ID to reference the array.
+
+
+<item>
+A string, which can include styling tags. The value can be a reference to another
+string resource. Must be a child of a <string-array> element. Beware that you
+must escape apostrophes and
+quotation marks. See Formatting and Styling, below, for
+information about to properly style and format your strings.
+      No attributes.
+
+
+ 
+example:
+XML file saved at res/values/strings.xml:
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+    </string-array>
+</resources>
+
+This application code retrieves a string array:
+
+Kotlin
+
+val array: Array = resources.getStringArray(R.array.planets_array)
+
+Java
+
+Resources res = getResources();
+String[] planets = res.getStringArray(R.array.planets_array);
+
+
+
+ 
+
+Quantity strings (plurals)
+Different languages have different rules for grammatical agreement with quantity. In English,
+for example, the quantity 1 is a special case. We write "1 book", but for any other quantity we'd
+write "n books". This distinction between singular and plural is very common, but other
+languages make finer distinctions. The full set supported by Android is zero,
+one, two, few, many, and other.
+
+The rules for deciding which case to use for a given language and quantity can be very complex,
+so Android provides you with methods such as
+getQuantityString() to select
+the appropriate resource for you.
+
+Although historically called "quantity strings" (and still called that in API), quantity
+strings should only be used for plurals. It would be a mistake to use quantity strings to
+implement something like Gmail's "Inbox" versus "Inbox (12)" when there are unread messages, for
+example. It might seem convenient to use quantity strings instead of an if statement,
+but it's important to note that some languages (such as Chinese) don't make these grammatical
+distinctions at all, so you'll always get the other string.
+
+The selection of which string to use is made solely based on grammatical necessity.
+In English, a string for zero is ignored even if the quantity is 0, because 0
+isn't grammatically different from 2, or any other number except 1 ("zero books", "one book",
+"two books", and so on). Conversely, in Korean only the other string is
+ever used.
+
+Don't be misled either by the fact that, say, two sounds like it could only apply to
+the quantity 2: a language may require that 2, 12, 102 (and so on) are all treated like one
+another but differently to other quantities. Rely on your translator to know what distinctions
+their language actually insists upon.
+
+It's often possible to avoid quantity strings by using quantity-neutral formulations such as
+"Books: 1". This makes your life and your translators' lives easier, if it's an acceptable style for your application.
+
+Note: A plurals collection is a simple resource that is
+referenced using the value provided in the name attribute (not the name of the XML
+file). As such, you can combine plurals resources with other simple resources in the one
+XML file, under one <resources> element.
+
+file location:
+res/values/filename.xml
+The filename is arbitrary. The <plurals> element's name is used as the
+resource ID.
+resource reference:
+
+In Java: R.plurals.plural_name
+
+syntax:
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals
+        name="plural_name">
+        <item
+            quantity=["zero" | "one" | "two" | "few" | "many" | "other"]
+            >text_string</item>
+    </plurals>
+</resources>
+
+
+elements:
+
+
+<resources>
+Required. This must be the root node.
+      No attributes.
+
+<plurals>
+A collection of strings, of which, one string is provided depending on the amount of
+something. Contains one or more <item> elements.
+      attributes:
+
+name
+String. A name for the pair of strings. This name is used as the
+resource ID.
+
+
+<item>
+A plural or singular string. The value can be a reference to another
+string resource. Must be a child of a <plurals> element. Beware that you must
+escape apostrophes and quotation marks. See Formatting and
+Styling, below, for information about to properly style and format your strings.
+      attributes:
+
+quantity
+Keyword. A value indicating when this string should be used. Valid
+values, with non-exhaustive examples in parentheses:
+          
+ValueDescription
+
+zeroWhen the language requires special treatment of the number 0 (as in Arabic).
+
+
+oneWhen the language requires special treatment of numbers like one (as with the number 1 in English and most other languages; in Russian, any number ending in 1 but not ending in 11 is in this class).
+
+
+twoWhen the language requires special treatment of numbers like two (as with 2 in Welsh, or 102 in Slovenian).
+
+
+fewWhen the language requires special treatment of "small" numbers (as with 2, 3, and 4 in Czech; or numbers ending 2, 3, or 4 but not 12, 13, or 14 in Polish).
+
+
+manyWhen the language requires special treatment of "large" numbers (as with numbers ending 11-99 in Maltese).
+
+
+otherWhen the language does not require special treatment of the given quantity (as with all numbers in Chinese, or 42 in English).
+
+
+
+
+
+
+ 
+example:
+XML file saved at res/values/strings.xml:
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfSongsAvailable">
+        <!--
+             As a developer, you should always supply "one" and "other"
+             strings. Your translators will know which strings are actually
+             needed for their language. Always include %d in "one" because
+             translators will need to use %d for languages where "one"
+             doesn't mean 1 (as explained above).
+          -->
+        <item quantity="one">%d song found.</item>
+        <item quantity="other">%d songs found.</item>
+    </plurals>
+</resources>
+
+XML file saved at res/values-pl/strings.xml:
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfSongsAvailable">
+        <item quantity="one">Znaleziono %d piosenkę.</item>
+        <item quantity="few">Znaleziono %d piosenki.</item>
+        <item quantity="other">Znaleziono %d piosenek.</item>
+    </plurals>
+</resources>
+
+Usage:
+
+Kotlin
+
+val count = getNumberOfSongsAvailable()
+val songsFound = resources.getQuantityString(R.plurals.numberOfSongsAvailable, count, count)
+
+Java
+
+int count = getNumberOfSongsAvailable();
+Resources res = getResources();
+String songsFound = res.getQuantityString(R.plurals.numberOfSongsAvailable, count, count);
+
+
+
+When using the getQuantityString() method, you need to pass the count twice if your string includes
+string formatting with a number. For example, for the string
+%d songs found, the first count parameter selects the appropriate plural string and
+the second count parameter is inserted into the %d placeholder. If your plural
+strings do not include string formatting, you don't need to pass the third parameter to getQuantityString.
+ 
+
+Format and style
+Here are a few important things you should know about how to properly
+format and style your string resources.
+Handle special characters
+When a string contains characters that have special usage in XML or Android, you must escape the
+  characters. Some characters can be escaped by using a preceding backslash, while others require
+  XML escaping. Apostrophes and single quotes can also be handled by enclosing the entire string in
+  double quotes. Some examples are shown below:
+
+
+Character
+Escaped form(s)
+
+
+@
+\@
+
+
+?
+\?
+
+
+<
+&lt;
+
+
+&
+&amp;
+
+
+Single quote (')
+
+Any of the following:
+
+&apos;
+\'
+Enclose the entire string in double quotes ("This'll work", for example)
+
+
+
+
+Double quote (")
+
+Any of the following:
+
+&quot;
+\"
+
+Note that you must escape double quotes. Surrounding the string with
+        single quotes does not work.
+
+
+
+Formatting strings
+If you need to format your strings,
+then you can do so by putting your format arguments in the string resource,
+as demonstrated by the following example resource.
+
+<string name="welcome_messages">Hello, %1$s! You have %2$d new messages.</string>
+
+In this example, the format string has two arguments: %1$s is a string and %2$d
+is a decimal number. Then, format the string by calling getString(int, Object...). For example:
+
+Kotlin
+
+var text = getString(R.string.welcome_messages, username, mailCount)
+
+Java
+
+String text = getString(R.string.welcome_messages, username, mailCount);
+
+
+
+Styling with HTML markup
+You can add styling to your strings with HTML markup. For example:
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Welcome to <b>Android</b>!</string>
+</resources>
+
+The following HTML elements are supported:
+
+Bold: <b>, <em>
+Italic: <i>, <cite>, <dfn>
+25% larger text: <big>
+20% smaller text: <small>
+Setting font properties: <font face=”font_family“ color=”hex_color”>. Examples of
+    possible font families include monospace, serif, and
+    sans_serif.
+Setting a monospace font family: <tt>
+Strikethrough: <s>, <strike>, <del>
+Underline: <u>
+Superscript: <sup>
+Subscript: <sub>
+Bullet points: <ul>, <li>
+Line breaks: <br>
+Division: <div>
+CSS style: <span style=”color|background_color|text-decoration”>
+Paragraphs: <p dir=”rtl | ltr” style=”…”>
+
+If you aren't applying formatting, you can set TextView text directly by calling
+  setText(java.lang.CharSequence). In some cases, however, you may
+  want to create a styled text resource that is also used as a format string. Normally, this
+  doesn't work because the format(String, Object...) and
+  getString(int, Object...) methods strip all the style
+  information from the string. The work-around to this is to write the HTML tags with escaped
+  entities, which are then recovered with fromHtml(String),
+  after the formatting takes place. For example:
+
+Store your styled text resource as an HTML-escaped string:
+
+<resources>
+  <string name="welcome_messages">Hello, %1$s! You have &lt;b>%2$d new messages&lt;/b>.</string>
+</resources>
+
+In this formatted string, a <b> element is added. Notice that the opening bracket is
+HTML-escaped, using the &lt; notation.
+
+Then format the string as usual, but also call fromHtml(String) to
+convert the HTML text into styled text:
+
+Kotlin
+
+val text: String = getString(R.string.welcome_messages, username, mailCount)
+val styledText: Spanned = Html.fromHtml(text, FROM_HTML_MODE_LEGACY)
+
+Java
+
+String text = getString(R.string.welcome_messages, username, mailCount);
+Spanned styledText = Html.fromHtml(text, FROM_HTML_MODE_LEGACY);
+
+
+
+
+
+Because the fromHtml(String) method formats all HTML entities, be sure to
+escape any possible HTML characters in the strings you use with the formatted text, using
+htmlEncode(String). For instance, if you are formatting a string that contains characters such as
+"<" or "&", then they must be escaped before formatting, so that when the formatted string
+is passed through fromHtml(String), the characters come out the way they were
+originally written. For example:
+
+Kotlin
+
+val escapedUsername: String = TextUtils.htmlEncode(username)
+
+val text: String = getString(R.string.welcome_messages, escapedUsername, mailCount)
+val styledText: Spanned = Html.fromHtml(text, FROM_HTML_MODE_LEGACY)
+
+Java
+
+String escapedUsername = TextUtils.htmlEncode(username);
+
+String text = getString(R.string.welcome_messages, escapedUsername, mailCount);
+Spanned styledText = Html.fromHtml(text);
+
+
+
+Styling with spannables
+
+A Spannable is a text object that you can style with
+typeface properties such as color and font weight. You use
+SpannableStringBuilder to build
+your text and then apply styles defined in the android.text.style
+package to the text.
+
+You can use the following helper methods to set up much of the work
+of creating spannable text:
+
+Kotlin
+
+/**
+ * Returns a CharSequence that concatenates the specified array of CharSequence
+ * objects and then applies a list of zero or more tags to the entire range.
+ *
+ * @param content an array of character sequences to apply a style to
+ * @param tags the styled span objects to apply to the content
+ *        such as android.text.style.StyleSpan
+ */
+private fun apply(content: Array<out CharSequence>, vararg tags: Any): CharSequence {
+    return SpannableStringBuilder().apply {
+        openTags(tags)
+        content.forEach { charSequence ->
+            append(charSequence)
+        }
+        closeTags(tags)
+    }
+}
+
+/**
+ * Iterates over an array of tags and applies them to the beginning of the specified
+ * Spannable object so that future text appended to the text will have the styling
+ * applied to it. Do not call this method directly.
+ */
+private fun Spannable.openTags(tags: Array<out Any>) {
+    tags.forEach { tag ->
+        setSpan(tag, 0, 0, Spannable.SPAN_MARK_MARK)
+    }
+}
+
+/**
+ * "Closes" the specified tags on a Spannable by updating the spans to be
+ * endpoint-exclusive so that future text appended to the end will not take
+ * on the same styling. Do not call this method directly.
+ */
+private fun Spannable.closeTags(tags: Array<out Any>) {
+    tags.forEach { tag ->
+    if (length > 0) {
+            setSpan(tag, 0, length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+        } else {
+            removeSpan(tag)
+        }
+    }
+}
+
+Java
+
+/**
+ * Returns a CharSequence that concatenates the specified array of CharSequence
+ * objects and then applies a list of zero or more tags to the entire range.
+ *
+ * @param content an array of character sequences to apply a style to
+ * @param tags the styled span objects to apply to the content
+ *        such as android.text.style.StyleSpan
+ *
+ */
+private static CharSequence applyStyles(CharSequence[] content, Object[] tags) {
+    SpannableStringBuilder text = new SpannableStringBuilder();
+    openTags(text, tags);
+    for (CharSequence item : content) {
+        text.append(item);
+    }
+    closeTags(text, tags);
+    return text;
+}
+
+/**
+ * Iterates over an array of tags and applies them to the beginning of the specified
+ * Spannable object so that future text appended to the text will have the styling
+ * applied to it. Do not call this method directly.
+ */
+private static void openTags(Spannable text, Object[] tags) {
+    for (Object tag : tags) {
+        text.setSpan(tag, 0, 0, Spannable.SPAN_MARK_MARK);
+    }
+}
+
+/**
+ * "Closes" the specified tags on a Spannable by updating the spans to be
+ * endpoint-exclusive so that future text appended to the end will not take
+ * on the same styling. Do not call this method directly.
+ */
+private static void closeTags(Spannable text, Object[] tags) {
+    int len = text.length();
+    for (Object tag : tags) {
+        if (len > 0) {
+            text.setSpan(tag, 0, len, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        } else {
+            text.removeSpan(tag);
+        }
+    }
+}
+
+
+
+
+The following bold, italic, and color
+methods wrap the helper methods above and demonstrate specific examples of applying
+styles defined in the android.text.style package. You
+can create similar methods to do other types of text styling.
+
+
+Kotlin
+
+/**
+ * Returns a CharSequence that applies boldface to the concatenation
+ * of the specified CharSequence objects.
+ */
+fun bold(vararg content: CharSequence): CharSequence = apply(content, StyleSpan(Typeface.BOLD))
+
+/**
+ * Returns a CharSequence that applies italics to the concatenation
+ * of the specified CharSequence objects.
+ */
+fun italic(vararg content: CharSequence): CharSequence = apply(content, StyleSpan(Typeface.ITALIC))
+
+/**
+ * Returns a CharSequence that applies a foreground color to the
+ * concatenation of the specified CharSequence objects.
+ */
+fun color(color: Int, vararg content: CharSequence): CharSequence =
+        apply(content, ForegroundColorSpan(color))
+
+Java
+
+/**
+ * Returns a CharSequence that applies boldface to the concatenation
+ * of the specified CharSequence objects.
+ */
+public static CharSequence bold(CharSequence... content) {
+    return apply(content, new StyleSpan(Typeface.BOLD));
+}
+
+/**
+ * Returns a CharSequence that applies italics to the concatenation
+ * of the specified CharSequence objects.
+ */
+public static CharSequence italic(CharSequence... content) {
+    return apply(content, new StyleSpan(Typeface.ITALIC));
+}
+
+/**
+ * Returns a CharSequence that applies a foreground color to the
+ * concatenation of the specified CharSequence objects.
+ */
+public static CharSequence color(int color, CharSequence... content) {
+    return apply(content, new ForegroundColorSpan(color));
+}
+
+
+
+
+Here's an example of how to chain these methods together to apply various styles to individual
+  words within a phrase:
+
+
+Kotlin
+
+// Create an italic "hello, " a red "world",
+// and bold the entire sequence.
+val text: CharSequence = bold(italic(getString(R.string.hello)),
+        color(Color.RED, getString(R.string.world)))
+
+Java
+
+// Create an italic "hello, " a red "world",
+// and bold the entire sequence.
+var text = bold(italic(getString(R.string.hello)),
+  color(Color.RED, getString(R.string.world)))
+</pre>
+</section><section><h3 id="java">Java</h3>
+<pre class="prettyprint lang-java">
+// Create an italic "hello, " a red "world",
+// and bold the entire sequence.
+CharSequence text = bold(italic(getString(R.string.hello)),
+    color(Color.RED, getString(R.string.world)));
+
+
+
+The core-ktx Kotlin module also contains extension functions that make working with spans even
+  easier. You can check out the
+  
+    android.text package documentation on GitHub to learn more.
+For more information on working with spans, see the following links:
+
+
+    Spantastic text styling with Spans
+
+    Understanding spans
+
+Styling with annotations
+
+  You can apply complex or custom styling by using the Annotation class along with the
+  <annotation> tag in your strings.xml resource files. The annotation tag allows
+  you to mark parts of the string for custom styling by defining custom key-value pairs in the XML
+  that the framework then converts into Annotation spans. You can then retrieve these
+  annotations and use the key and value to apply the styling.
+When creating annotations, make sure you add the <annotation>
+  tag to all translations of the string in every strings.xml file.
+
+
+Applying a custom typeface to the word “text” in all languages
+
+Example - adding a custom typeface
+
+
+Add the <annotation> tag, and define the key-value pair. In this case, the
+      key is font, and the value is the type of font we want to use: title_emphasis
+
+// values/strings.xml
+<string name="title">Best practices for <annotation font="title_emphasis">text</annotation> on Android</string>
+
+// values-es/strings.xml
+<string name="title"><annotation font="title_emphasis">Texto</annotation> en Android: mejores prácticas</string>
+
+
+
+Load the string resource and find the annotations with the font key. Then create a
+      custom span and replace the existing span.
+
+Kotlin
+
+// get the text as SpannedString so we can get the spans attached to the text
+val titleText = getText(R.string.title) as SpannedString
+
+// get all the annotation spans from the text
+val annotations = titleText.getSpans(0, titleText.length, Annotation::class.java)
+
+// create a copy of the title text as a SpannableString.
+// the constructor copies both the text and the spans. so we can add and remove spans
+val spannableString = SpannableString(titleText)
+
+// iterate through all the annotation spans
+for (annotation in annotations) {
+   // look for the span with the key font
+   if (annotation.key == "font") {
+      val fontName = annotation.value
+      // check the value associated to the annotation key
+      if (fontName == "title_emphasis") {
+         // create the typeface
+         val typeface = getFontCompat(R.font.permanent_marker)
+         // set the span at the same indices as the annotation
+         spannableString.setSpan(CustomTypefaceSpan(typeface),
+            titleText.getSpanStart(annotation),
+            titleText.getSpanEnd(annotation),
+            Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+      }
+   }
+}
+
+// now, the spannableString contains both the annotation spans and the CustomTypefaceSpan
+styledText.text = spannableString
+
+Java
+
+// get the text as SpannedString so we can get the spans attached to the text
+SpannedString titleText = (SpannedString) getText(R.string.title_about);
+
+// get all the annotation spans from the text
+Annotation[] annotations = titleText.getSpans(0, titleText.length(), Annotation.class);
+
+// create a copy of the title text as a SpannableString.
+// the constructor copies both the text and the spans. so we can add and remove spans
+SpannableString spannableString = new SpannableString(titleText);
+
+// iterate through all the annotation spans
+for (Annotation annotation: annotations) {
+  // look for the span with the key font
+  if (annotation.getKey().equals("font")) {
+    String fontName = annotation.getValue();
+    // check the value associated to the annotation key
+    if (fontName.equals("title_emphasis")) {
+    // create the typeface
+    Typeface typeface = ResourcesCompat.getFont(this, R.font.roboto_mono);
+    // set the span at the same indices as the annotation
+    spannableString.setSpan(new CustomTypefaceSpan(typeface),
+      titleText.getSpanStart(annotation),
+      titleText.getSpanEnd(annotation),
+      Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+    }
+  }
+}
+
+// now, the spannableString contains both the annotation spans and the CustomTypefaceSpan
+styledText.text = spannableString;
+
+
+
+
+
+If you’re using the same text multiple times, you should construct the
+  SpannableString object once and reuse it as needed to avoid potential performance and memory
+  issues.
+For more examples of annotation usage, see
+  
+    Styling internationalized text in Android
+Annotation spans and text parceling
+Because Annotation spans are also ParcelableSpans, the key-value
+  pairs are parceled and unparceled. As long as the receiver of the parcel knows how to interpret
+  the annotations, you can use Annotation spans to apply custom styling to the
+  parceled text.
+To keep your custom styling when you pass the text to an Intent Bundle, you first need to add
+  Annotation spans to your text. You can do this in the XML resources via the
+  <annotation> tag, as shown in the example above, or in code by creating a new
+  Annotation and setting it as a span, as shown below:
+
+Kotlin
+
+val spannableString = SpannableString("My spantastic text")
+val annotation = Annotation("font", "title_emphasis")
+spannableString.setSpan(annotation, 3, 7, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+
+// start Activity with text with spans
+val intent = Intent(this, MainActivity::class.java)
+intent.putExtra(TEXT_EXTRA, spannableString)
+startActivity(intent)
+
+Java
+
+SpannableString spannableString = new SpannableString("My spantastic text");
+Annotation annotation = new Annotation("font", "title_emphasis");
+spannableString.setSpan(annotation, 3, 7, 33);
+
+// start Activity with text with spans
+Intent intent = new Intent(this, MainActivity.class);
+intent.putExtra(TEXT_EXTRA, spannableString);
+this.startActivity(intent);
+
+
+
+Retrieve the text from the Bundle as a SpannableString and then parse
+  the annotations attached, as shown in the example above.
+
+Kotlin
+
+// read text with Spans
+val intentCharSequence = intent.getCharSequenceExtra(TEXT_EXTRA) as SpannableString
+
+Java
+
+// read text with Spans
+SpannableString intentCharSequence = (SpannableString)intent.getCharSequenceExtra(TEXT_EXTRA);
+
+
+
+For more information on text styling, see the following links:
+
+Google I/O 2018 talk - Best
+    practices for text on Android
+
+Understanding
+      spans
+
+
+
+
+
+
+        
+        Previous
+      
+
+
+          arrow_back
+        
+        Menu
+      
+
+
+
+
+
+        
+        Next
+      
+
+
+          arrow_forward
+        
+        Style
+      
+
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated January 17, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

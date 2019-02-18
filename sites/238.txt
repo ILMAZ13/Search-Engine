@@ -1,0 +1,2261 @@
+RenderScript Graphics Functions and Types  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    RenderScript Graphics Functions and Types
+  
+
+
+
+Overview
+The graphics subsystem of RenderScript was removed at API level 23.
+
+Summary
+
+Deprecated Types
+
+
+rs_blend_dst_func
+
+
+Deprecated.  Blend destination function
+    
+
+
+
+rs_blend_src_func
+
+
+Deprecated.  Blend source function
+    
+
+
+
+rs_cull_mode
+
+
+Deprecated.  Culling mode
+    
+
+
+
+rs_depth_func
+
+
+Deprecated.  Depth function
+    
+
+
+
+rs_font
+
+
+Deprecated.  Handle to a Font
+    
+
+
+
+rs_mesh
+
+
+Deprecated.  Handle to a Mesh
+    
+
+
+
+rs_primitive
+
+
+Deprecated.  How to intepret mesh vertex data
+    
+
+
+
+rs_program_fragment
+
+
+Deprecated.  Handle to a ProgramFragment
+    
+
+
+
+rs_program_raster
+
+
+Deprecated.  Handle to a ProgramRaster
+    
+
+
+
+rs_program_store
+
+
+Deprecated.  Handle to a ProgramStore
+    
+
+
+
+rs_program_vertex
+
+
+Deprecated.  Handle to a ProgramVertex
+    
+
+
+
+Deprecated Functions
+
+
+rsgAllocationSyncAll
+
+
+Deprecated.  Sync the contents of an allocation
+    
+
+
+
+rsgBindColorTarget
+
+
+Deprecated.  Set the color target
+    
+
+
+
+rsgBindConstant
+
+
+Deprecated.  Bind a constant allocation
+    
+
+
+
+rsgBindDepthTarget
+
+
+Deprecated.  Set the depth target
+    
+
+
+
+rsgBindFont
+
+
+Deprecated.  Bind a font object
+    
+
+
+
+rsgBindProgramFragment
+
+
+Deprecated.  Bind a ProgramFragment
+    
+
+
+
+rsgBindProgramRaster
+
+
+Deprecated.  Bind a ProgramRaster
+    
+
+
+
+rsgBindProgramStore
+
+
+Deprecated.  Bind a ProgramStore
+    
+
+
+
+rsgBindProgramVertex
+
+
+Deprecated.  Bind a ProgramVertex
+    
+
+
+
+rsgBindSampler
+
+
+Deprecated.  Bind a sampler
+    
+
+
+
+rsgBindTexture
+
+
+Deprecated.  Bind a texture allocation
+    
+
+
+
+rsgClearAllRenderTargets
+
+
+Deprecated.  Clear all color and depth targets
+    
+
+
+
+rsgClearColor
+
+
+Deprecated.  Clear the specified color from the surface
+    
+
+
+
+rsgClearColorTarget
+
+
+Deprecated.  Clear the color target
+    
+
+
+
+rsgClearDepth
+
+
+Deprecated.  Clear the depth surface
+    
+
+
+
+rsgClearDepthTarget
+
+
+Deprecated.  Clear the depth target
+    
+
+
+
+rsgDrawMesh
+
+
+Deprecated.  Draw a mesh
+    
+
+
+
+rsgDrawQuad
+
+
+Deprecated.  Draw a quad
+    
+
+
+
+rsgDrawQuadTexCoords
+
+
+Deprecated.  Draw a textured quad
+    
+
+
+
+rsgDrawRect
+
+
+Deprecated.  Draw a rectangle
+    
+
+
+
+rsgDrawSpriteScreenspace
+
+
+Deprecated.  Draw rectangles in screenspace
+    
+
+
+
+rsgDrawText
+
+
+Deprecated.  Draw a text string
+    
+
+
+
+rsgFinish
+
+
+Deprecated.  End rendering commands
+    
+
+
+
+rsgFontColor
+
+
+Deprecated.  Set the font color
+    
+
+
+
+rsgGetHeight
+
+
+Deprecated.  Get the surface height
+    
+
+
+
+rsgGetWidth
+
+
+Deprecated.  Get the surface width
+    
+
+
+
+rsgMeasureText
+
+
+Deprecated.  Get the bounding box for a text string
+    
+
+
+
+rsgMeshComputeBoundingBox
+
+
+Deprecated.  Compute a bounding box
+    
+
+
+
+rsgMeshGetIndexAllocation
+
+
+Deprecated.  Return an allocation containing index data
+    
+
+
+
+rsgMeshGetPrimitive
+
+
+Deprecated.  Return the primitive
+    
+
+
+
+rsgMeshGetPrimitiveCount
+
+
+Deprecated.  Return the number of index sets
+    
+
+
+
+rsgMeshGetVertexAllocation
+
+
+Deprecated.  Return a vertex allocation
+    
+
+
+
+rsgMeshGetVertexAllocationCount
+
+
+Deprecated.  Return the number of vertex allocations
+    
+
+
+
+rsgProgramFragmentConstantColor
+
+
+Deprecated.  Set the constant color for a fixed function emulation program
+    
+
+
+
+rsgProgramRasterGetCullMode
+
+
+Deprecated.  Get program raster cull mode
+    
+
+
+
+rsgProgramRasterIsPointSpriteEnabled
+
+
+Deprecated.  Get program raster point sprite state
+    
+
+
+
+rsgProgramStoreGetBlendDstFunc
+
+
+Deprecated.  Get program store blend destination function
+    
+
+
+
+rsgProgramStoreGetBlendSrcFunc
+
+
+Deprecated.  Get program store blend source function
+    
+
+
+
+rsgProgramStoreGetDepthFunc
+
+
+Deprecated.  Get program store depth function
+    
+
+
+
+rsgProgramStoreIsColorMaskAlphaEnabled
+
+
+Deprecated.  Get program store alpha component color mask
+    
+
+
+
+rsgProgramStoreIsColorMaskBlueEnabled
+
+
+Deprecated.  Get program store blur component color mask
+    
+
+
+
+rsgProgramStoreIsColorMaskGreenEnabled
+
+
+Deprecated.  Get program store green component color mask
+    
+
+
+
+rsgProgramStoreIsColorMaskRedEnabled
+
+
+Deprecated.  Get program store red component color mask
+    
+
+
+
+rsgProgramStoreIsDepthMaskEnabled
+
+
+Deprecated.  Get program store depth mask
+    
+
+
+
+rsgProgramStoreIsDitherEnabled
+
+
+Deprecated.  Get program store dither state
+    
+
+
+
+rsgProgramVertexGetProjectionMatrix
+
+
+Deprecated.  Get the projection matrix for a fixed function vertex program
+    
+
+
+
+rsgProgramVertexLoadModelMatrix
+
+
+Deprecated.  Load the model matrix for a bound fixed function vertex program
+    
+
+
+
+rsgProgramVertexLoadProjectionMatrix
+
+
+Deprecated.  Load the projection matrix for a bound fixed function vertex program
+    
+
+
+
+rsgProgramVertexLoadTextureMatrix
+
+
+Deprecated.  Load the texture matrix for a bound fixed function vertex program
+    
+
+
+Types
+
+
+
+rs_blend_dst_func
+: Blend destination function
+
+
+An enum with the following values:     
+When compiling for 32 bits. API level 16 - 22
+
+
+RS_BLEND_DST_ZERO = 0
+RS_BLEND_DST_ONE = 1
+RS_BLEND_DST_SRC_COLOR = 2
+RS_BLEND_DST_ONE_MINUS_SRC_COLOR = 3
+RS_BLEND_DST_SRC_ALPHA = 4
+RS_BLEND_DST_ONE_MINUS_SRC_ALPHA = 5
+RS_BLEND_DST_DST_ALPHA = 6
+RS_BLEND_DST_ONE_MINUS_DST_ALPHA = 7
+RS_BLEND_DST_INVALID = 100
+
+Deprecated.  Do not use.
+
+
+
+
+
+rs_blend_src_func
+: Blend source function
+
+
+An enum with the following values:     
+When compiling for 32 bits. API level 16 - 22
+
+
+RS_BLEND_SRC_ZERO = 0
+RS_BLEND_SRC_ONE = 1
+RS_BLEND_SRC_DST_COLOR = 2
+RS_BLEND_SRC_ONE_MINUS_DST_COLOR = 3
+RS_BLEND_SRC_SRC_ALPHA = 4
+RS_BLEND_SRC_ONE_MINUS_SRC_ALPHA = 5
+RS_BLEND_SRC_DST_ALPHA = 6
+RS_BLEND_SRC_ONE_MINUS_DST_ALPHA = 7
+RS_BLEND_SRC_SRC_ALPHA_SATURATE = 8
+RS_BLEND_SRC_INVALID = 100
+
+Deprecated.  Do not use.
+
+
+
+
+
+rs_cull_mode
+: Culling mode
+
+
+An enum with the following values:     
+When compiling for 32 bits. API level 16 - 22
+
+
+RS_CULL_BACK = 0
+RS_CULL_FRONT = 1
+RS_CULL_NONE = 2
+RS_CULL_INVALID = 100
+
+Deprecated.  Do not use.
+
+
+
+
+
+rs_depth_func
+: Depth function
+
+
+An enum with the following values:     
+When compiling for 32 bits. API level 16 - 22
+
+
+RS_DEPTH_FUNC_ALWAYS = 0Always drawn
+RS_DEPTH_FUNC_LESS = 1Drawn if the incoming depth value is less than that in the depth buffer
+RS_DEPTH_FUNC_LEQUAL = 2Drawn if the incoming depth value is less or equal to that in the depth buffer
+RS_DEPTH_FUNC_GREATER = 3Drawn if the incoming depth value is greater than that in the depth buffer
+RS_DEPTH_FUNC_GEQUAL = 4Drawn if the incoming depth value is greater or equal to that in the depth buffer
+RS_DEPTH_FUNC_EQUAL = 5Drawn if the incoming depth value is equal to that in the depth buffer
+RS_DEPTH_FUNC_NOTEQUAL = 6Drawn if the incoming depth value is not equal to that in the depth buffer
+RS_DEPTH_FUNC_INVALID = 100Invalid depth function
+
+Deprecated.  Do not use.
+ Specifies conditional drawing depending on the comparison of the incoming
+depth to that found in the depth buffer.
+
+
+
+
+
+
+rs_font
+: Handle to a Font
+
+
+When compiling for 32 bits. Removed from API level 23 and higher
+
+Deprecated.  Do not use.
+ Opaque handle to a RenderScript font object.
+See: android.renderscript.Font
+
+
+
+
+
+
+rs_mesh
+: Handle to a Mesh
+
+
+When compiling for 32 bits. Removed from API level 23 and higher
+
+Deprecated.  Do not use.
+ Opaque handle to a RenderScript mesh object.
+See: android.renderscript.Mesh
+
+
+
+
+
+
+rs_primitive
+: How to intepret mesh vertex data
+
+
+An enum with the following values:     
+When compiling for 32 bits. API level 16 - 22
+
+
+RS_PRIMITIVE_POINT = 0Vertex data will be rendered as a series of points
+RS_PRIMITIVE_LINE = 1Vertex pairs will be rendered as lines
+RS_PRIMITIVE_LINE_STRIP = 2Vertex data will be rendered as a connected line strip
+RS_PRIMITIVE_TRIANGLE = 3Vertices will be rendered as individual triangles
+RS_PRIMITIVE_TRIANGLE_STRIP = 4Vertices will be rendered as a connected triangle strip defined by the first three vertices with each additional triangle defined by a new vertex
+RS_PRIMITIVE_TRIANGLE_FAN = 5Vertices will be rendered as a sequence of triangles that all share first vertex as the origin
+RS_PRIMITIVE_INVALID = 100Invalid primitive
+
+Deprecated.  Do not use.
+ Describes the way mesh vertex data is interpreted when rendering
+
+
+
+
+
+
+rs_program_fragment
+: Handle to a ProgramFragment
+
+
+When compiling for 32 bits. Removed from API level 23 and higher
+
+Deprecated.  Do not use.
+ Opaque handle to a RenderScript ProgramFragment object.
+See: android.renderscript.ProgramFragment
+
+
+
+
+
+
+rs_program_raster
+: Handle to a ProgramRaster
+
+
+When compiling for 32 bits. Removed from API level 23 and higher
+
+Deprecated.  Do not use.
+ Opaque handle to a RenderScript ProgramRaster object.
+See: android.renderscript.ProgramRaster
+
+
+
+
+
+
+rs_program_store
+: Handle to a ProgramStore
+
+
+When compiling for 32 bits. Removed from API level 23 and higher
+
+Deprecated.  Do not use.
+ Opaque handle to a RenderScript ProgramStore object.
+See: android.renderscript.ProgramStore
+
+
+
+
+
+
+rs_program_vertex
+: Handle to a ProgramVertex
+
+
+When compiling for 32 bits. Removed from API level 23 and higher
+
+Deprecated.  Do not use.
+ Opaque handle to a RenderScript ProgramVertex object.
+See: android.renderscript.ProgramVertex
+
+
+
+Functions
+
+
+
+rsgAllocationSyncAll
+: Sync the contents of an allocation
+
+
+
+
+void rsgAllocationSyncAll(rs_allocation alloc);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+void rsgAllocationSyncAll(rs_allocation alloc, rs_allocation_usage_type source);
+
+    When compiling for 32 bits. API level 14 - 22
+
+
+
+
+
+Deprecated.  Do not use.
+ Sync the contents of an allocation.
+
+ If the source is specified, sync from memory space specified by source.
+
+ If the source is not specified, sync from its SCRIPT memory space to its HW
+memory spaces.
+
+
+
+
+
+
+rsgBindColorTarget
+: Set the color target
+
+
+
+
+void rsgBindColorTarget(rs_allocation colorTarget, uint slot);
+
+    When compiling for 32 bits. API level 14 - 22
+
+
+
+
+
+Deprecated.  Do not use.
+ Set the color target used for all subsequent rendering calls
+
+
+
+
+
+
+rsgBindConstant
+: Bind a constant allocation
+
+
+
+
+void rsgBindConstant(rs_program_fragment ps, uint slot, rs_allocation c);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+void rsgBindConstant(rs_program_vertex pv, uint slot, rs_allocation c);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+ Parameters
+
+psprogram fragment object
+slotindex of the constant buffer on the program
+cconstants to bind
+pvprogram vertex object
+
+
+
+Deprecated.  Do not use.
+ Bind a new Allocation object to a ProgramFragment or ProgramVertex.
+The Allocation must be a valid constant input for the Program.
+
+
+
+
+
+
+rsgBindDepthTarget
+: Set the depth target
+
+
+
+
+void rsgBindDepthTarget(rs_allocation depthTarget);
+
+    When compiling for 32 bits. API level 14 - 22
+
+
+
+
+
+Deprecated.  Do not use.
+ Set the depth target used for all subsequent rendering calls
+
+
+
+
+
+
+rsgBindFont
+: Bind a font object
+
+
+
+
+void rsgBindFont(rs_font font);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+ Parameters
+
+fontobject to bind
+
+
+
+Deprecated.  Do not use.
+ Binds the font object to be used for all subsequent font rendering calls
+
+
+
+
+
+
+rsgBindProgramFragment
+: Bind a ProgramFragment
+
+
+
+
+void rsgBindProgramFragment(rs_program_fragment pf);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Bind a new ProgramFragment to the rendering context.
+
+
+
+
+
+
+rsgBindProgramRaster
+: Bind a ProgramRaster
+
+
+
+
+void rsgBindProgramRaster(rs_program_raster pr);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Bind a new ProgramRaster to the rendering context.
+
+
+
+
+
+
+rsgBindProgramStore
+: Bind a ProgramStore
+
+
+
+
+void rsgBindProgramStore(rs_program_store ps);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Bind a new ProgramStore to the rendering context.
+
+
+
+
+
+
+rsgBindProgramVertex
+: Bind a ProgramVertex
+
+
+
+
+void rsgBindProgramVertex(rs_program_vertex pv);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Bind a new ProgramVertex to the rendering context.
+
+
+
+
+
+
+rsgBindSampler
+: Bind a sampler
+
+
+
+
+void rsgBindSampler(rs_program_fragment fragment, uint slot, rs_sampler sampler);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Bind a new Sampler object to a ProgramFragment.  The sampler will
+operate on the texture bound at the matching slot.
+
+
+
+
+
+
+rsgBindTexture
+: Bind a texture allocation
+
+
+
+
+void rsgBindTexture(rs_program_fragment v, uint slot, rs_allocation alloc);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Bind a new Allocation object to a ProgramFragment.  The
+Allocation must be a valid texture for the Program.  The sampling
+of the texture will be controled by the Sampler bound at the
+matching slot.
+
+
+
+
+
+
+rsgClearAllRenderTargets
+: Clear all color and depth targets
+
+
+
+
+void rsgClearAllRenderTargets();
+
+    When compiling for 32 bits. API level 14 - 22
+
+
+
+
+
+Deprecated.  Do not use.
+ Clear all color and depth targets and resume rendering into
+the framebuffer
+
+
+
+
+
+
+rsgClearColor
+: Clear the specified color from the surface
+
+
+
+
+void rsgClearColor(float r, float g, float b, float a);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Clears the rendering surface to the specified color.
+
+
+
+
+
+
+rsgClearColorTarget
+: Clear the color target
+
+
+
+
+void rsgClearColorTarget(uint slot);
+
+    When compiling for 32 bits. API level 14 - 22
+
+
+
+
+
+Deprecated.  Do not use.
+ Clear the previously set color target
+
+
+
+
+
+
+rsgClearDepth
+: Clear the depth surface
+
+
+
+
+void rsgClearDepth(float value);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Clears the depth suface to the specified value.
+
+
+
+
+
+
+rsgClearDepthTarget
+: Clear the depth target
+
+
+
+
+void rsgClearDepthTarget();
+
+    When compiling for 32 bits. API level 14 - 22
+
+
+
+
+
+Deprecated.  Do not use.
+ Clear the previously set depth target
+
+
+
+
+
+
+rsgDrawMesh
+: Draw a mesh
+
+
+
+
+void rsgDrawMesh(rs_mesh ism);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+void rsgDrawMesh(rs_mesh ism, uint primitiveIndex);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+void rsgDrawMesh(rs_mesh ism, uint primitiveIndex, uint start, uint len);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+ Parameters
+
+ismmesh object to render
+primitiveIndexfor meshes that contain multiple primitive groups this parameter specifies the index of the group to draw.
+startstarting index in the range
+lennumber of indices to draw
+
+
+
+Deprecated.  Do not use.
+ Draw a mesh using the current context state.
+
+ If primitiveIndex is specified, draw part of a mesh using the current context state.
+
+ If start and len are also specified, draw specified index range of part of a mesh using the current context state.
+
+ Otherwise the whole mesh is rendered.
+
+
+
+
+
+
+rsgDrawQuad
+: Draw a quad
+
+
+
+
+void rsgDrawQuad(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3, float z3, float x4, float y4, float z4);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Low performance utility function for drawing a simple quad.  Not intended for
+drawing large quantities of geometry.
+
+
+
+
+
+
+rsgDrawQuadTexCoords
+: Draw a textured quad
+
+
+
+
+void rsgDrawQuadTexCoords(float x1, float y1, float z1, float u1, float v1, float x2, float y2, float z2, float u2, float v2, float x3, float y3, float z3, float u3, float v3, float x4, float y4, float z4, float u4, float v4);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Low performance utility function for drawing a textured quad.  Not intended
+for drawing large quantities of geometry.
+
+
+
+
+
+
+rsgDrawRect
+: Draw a rectangle
+
+
+
+
+void rsgDrawRect(float x1, float y1, float x2, float y2, float z);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Low performance utility function for drawing a simple rectangle.  Not
+intended for drawing large quantities of geometry.
+
+
+
+
+
+
+rsgDrawSpriteScreenspace
+: Draw rectangles in screenspace
+
+
+
+
+void rsgDrawSpriteScreenspace(float x, float y, float z, float w, float h);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Low performance function for drawing rectangles in screenspace.  This
+function uses the default passthough ProgramVertex.  Any bound ProgramVertex
+is ignored.  This function has considerable overhead and should not be used
+for drawing in shipping applications.
+
+
+
+
+
+
+rsgDrawText
+: Draw a text string
+
+
+
+
+void rsgDrawText(const char* text, int x, int y);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+void rsgDrawText(rs_allocation alloc, int x, int y);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Draws text given a string and location
+
+
+
+
+
+
+rsgFinish
+: End rendering commands
+
+
+
+
+uint rsgFinish();
+
+    When compiling for 32 bits. API level 14 - 22
+
+
+
+
+
+Deprecated.  Do not use.
+ Force RenderScript to finish all rendering commands
+
+
+
+
+
+
+rsgFontColor
+: Set the font color
+
+
+
+
+void rsgFontColor(float r, float g, float b, float a);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+ Parameters
+
+rred component
+ggreen component
+bblue component
+aalpha component
+
+
+
+Deprecated.  Do not use.
+ Sets the font color for all subsequent rendering calls
+
+
+
+
+
+
+rsgGetHeight
+: Get the surface height
+
+
+
+
+uint rsgGetHeight();
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Get the height of the current rendering surface.
+
+
+
+
+
+
+rsgGetWidth
+: Get the surface width
+
+
+
+
+uint rsgGetWidth();
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Get the width of the current rendering surface.
+
+
+
+
+
+
+rsgMeasureText
+: Get the bounding box for a text string
+
+
+
+
+void rsgMeasureText(const char* text, int* left, int* right, int* top, int* bottom);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+void rsgMeasureText(rs_allocation alloc, int* left, int* right, int* top, int* bottom);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Returns the bounding box of the text relative to (0, 0)
+Any of left, right, top, bottom could be NULL
+
+
+
+
+
+
+rsgMeshComputeBoundingBox
+: Compute a bounding box
+
+
+
+
+void rsgMeshComputeBoundingBox(rs_mesh mesh, float* minX, float* minY, float* min, float* maxX, float* maxY, float* maxZ);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+void rsgMeshComputeBoundingBox(rs_mesh mesh, float3* bBoxMin, float3* bBoxMax);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Computes an axis aligned bounding box of a mesh object
+
+
+
+
+
+
+rsgMeshGetIndexAllocation
+: Return an allocation containing index data
+
+
+
+
+rs_allocation rsgMeshGetIndexAllocation(rs_mesh m, uint32_t index);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+mmesh to get data from
+indexindex of the index allocation
+
+
+ Returns
+
+allocation containing index data
+
+
+
+Deprecated.  Do not use.
+ Returns an allocation containing index data or a null
+allocation if only the primitive is specified
+
+
+
+
+
+
+rsgMeshGetPrimitive
+: Return the primitive
+
+
+
+
+rs_primitive rsgMeshGetPrimitive(rs_mesh m, uint32_t index);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+mmesh to get data from
+indexindex of the primitive
+
+
+ Returns
+
+primitive describing how the mesh is rendered
+
+
+
+Deprecated.  Do not use.
+ Returns the primitive describing how a part of the mesh is
+rendered
+
+
+
+
+
+
+rsgMeshGetPrimitiveCount
+: Return the number of index sets
+
+
+
+
+uint32_t rsgMeshGetPrimitiveCount(rs_mesh m);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+mmesh to get data from
+
+
+ Returns
+
+number of primitive groups in the mesh. This would include simple primitives as well as allocations containing index data
+
+
+
+Deprecated.  Do not use.
+ Meshes could have multiple index sets, this function returns
+the number.
+
+
+
+
+
+
+rsgMeshGetVertexAllocation
+: Return a vertex allocation
+
+
+
+
+rs_allocation rsgMeshGetVertexAllocation(rs_mesh m, uint32_t index);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+mmesh to get data from
+indexindex of the vertex allocation
+
+
+ Returns
+
+allocation containing vertex data
+
+
+
+Deprecated.  Do not use.
+ Returns an allocation that is part of the mesh and contains
+vertex data, e.g. positions, normals, texcoords
+
+
+
+
+
+
+rsgMeshGetVertexAllocationCount
+: Return the number of vertex allocations
+
+
+
+
+uint32_t rsgMeshGetVertexAllocationCount(rs_mesh m);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+mmesh to get data from
+
+
+ Returns
+
+number of allocations in the mesh that contain vertex data
+
+
+
+Deprecated.  Do not use.
+ Returns the number of allocations in the mesh that contain
+vertex data
+
+
+
+
+
+
+rsgProgramFragmentConstantColor
+: Set the constant color for a fixed function emulation program
+
+
+
+
+void rsgProgramFragmentConstantColor(rs_program_fragment pf, float r, float g, float b, float a);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+
+Deprecated.  Do not use.
+ Set the constant color for a fixed function emulation program.
+
+
+
+
+
+
+rsgProgramRasterGetCullMode
+: Get program raster cull mode
+
+
+
+
+rs_cull_mode rsgProgramRasterGetCullMode(rs_program_raster pr);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+prprogram raster to query
+
+
+
+Deprecated.  Do not use.
+ Get program raster cull mode
+
+
+
+
+
+
+rsgProgramRasterIsPointSpriteEnabled
+: Get program raster point sprite state
+
+
+
+
+bool rsgProgramRasterIsPointSpriteEnabled(rs_program_raster pr);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+prprogram raster to query
+
+
+
+Deprecated.  Do not use.
+ Get program raster point sprite state
+
+
+
+
+
+
+rsgProgramStoreGetBlendDstFunc
+: Get program store blend destination function
+
+
+
+
+rs_blend_dst_func rsgProgramStoreGetBlendDstFunc(rs_program_store ps);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+psprogram store to query
+
+
+
+Deprecated.  Do not use.
+ Get program store blend destination function
+
+
+
+
+
+
+rsgProgramStoreGetBlendSrcFunc
+: Get program store blend source function
+
+
+
+
+rs_blend_src_func rsgProgramStoreGetBlendSrcFunc(rs_program_store ps);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+psprogram store to query
+
+
+
+Deprecated.  Do not use.
+ Get program store blend source function
+
+
+
+
+
+
+rsgProgramStoreGetDepthFunc
+: Get program store depth function
+
+
+
+
+rs_depth_func rsgProgramStoreGetDepthFunc(rs_program_store ps);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+psprogram store to query
+
+
+
+Deprecated.  Do not use.
+ Get program store depth function
+
+
+
+
+
+
+rsgProgramStoreIsColorMaskAlphaEnabled
+: Get program store alpha component color mask
+
+
+
+
+bool rsgProgramStoreIsColorMaskAlphaEnabled(rs_program_store ps);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+psprogram store to query
+
+
+
+Deprecated.  Do not use.
+ Get program store alpha component color mask
+
+
+
+
+
+
+rsgProgramStoreIsColorMaskBlueEnabled
+: Get program store blur component color mask
+
+
+
+
+bool rsgProgramStoreIsColorMaskBlueEnabled(rs_program_store ps);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+psprogram store to query
+
+
+
+Deprecated.  Do not use.
+ Get program store blur component color mask
+
+
+
+
+
+
+rsgProgramStoreIsColorMaskGreenEnabled
+: Get program store green component color mask
+
+
+
+
+bool rsgProgramStoreIsColorMaskGreenEnabled(rs_program_store ps);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+psprogram store to query
+
+
+
+Deprecated.  Do not use.
+ Get program store green component color mask
+
+
+
+
+
+
+rsgProgramStoreIsColorMaskRedEnabled
+: Get program store red component color mask
+
+
+
+
+bool rsgProgramStoreIsColorMaskRedEnabled(rs_program_store ps);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+psprogram store to query
+
+
+
+Deprecated.  Do not use.
+ Get program store red component color mask
+
+
+
+
+
+
+rsgProgramStoreIsDepthMaskEnabled
+: Get program store depth mask
+
+
+
+
+bool rsgProgramStoreIsDepthMaskEnabled(rs_program_store ps);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+psprogram store to query
+
+
+
+Deprecated.  Do not use.
+ Get program store depth mask
+
+
+
+
+
+
+rsgProgramStoreIsDitherEnabled
+: Get program store dither state
+
+
+
+
+bool rsgProgramStoreIsDitherEnabled(rs_program_store ps);
+
+    When compiling for 32 bits. API level 16 - 22
+
+
+
+
+ Parameters
+
+psprogram store to query
+
+
+
+Deprecated.  Do not use.
+ Get program store dither state
+
+
+
+
+
+
+rsgProgramVertexGetProjectionMatrix
+: Get the projection matrix for a fixed function vertex program
+
+
+
+
+void rsgProgramVertexGetProjectionMatrix(rs_matrix4x4* proj);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+ Parameters
+
+projmatrix to store the current projection matrix into
+
+
+
+Deprecated.  Do not use.
+ Get the projection matrix for a currently bound fixed function
+vertex program. Calling this function with a custom vertex shader
+would result in an error.
+
+
+
+
+
+
+rsgProgramVertexLoadModelMatrix
+: Load the model matrix for a bound fixed function vertex program
+
+
+
+
+void rsgProgramVertexLoadModelMatrix(const rs_matrix4x4* model);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+ Parameters
+
+modelmodel matrix
+
+
+
+Deprecated.  Do not use.
+ Load the model matrix for a currently bound fixed function
+vertex program. Calling this function with a custom vertex shader
+would result in an error.
+
+
+
+
+
+
+rsgProgramVertexLoadProjectionMatrix
+: Load the projection matrix for a bound fixed function vertex program
+
+
+
+
+void rsgProgramVertexLoadProjectionMatrix(const rs_matrix4x4* proj);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+ Parameters
+
+projprojection matrix
+
+
+
+Deprecated.  Do not use.
+ Load the projection matrix for a currently bound fixed function
+vertex program. Calling this function with a custom vertex shader
+would result in an error.
+
+
+
+
+
+
+rsgProgramVertexLoadTextureMatrix
+: Load the texture matrix for a bound fixed function vertex program
+
+
+
+
+void rsgProgramVertexLoadTextureMatrix(const rs_matrix4x4* tex);
+
+    When compiling for 32 bits. Removed from API level 23 and higher
+
+
+
+
+ Parameters
+
+textexture matrix
+
+
+
+Deprecated.  Do not use.
+ Load the texture matrix for a currently bound fixed function
+vertex program. Calling this function with a custom vertex shader
+would result in an error.
+
+
+
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated April 23, 2018.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

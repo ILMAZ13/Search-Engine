@@ -1,0 +1,901 @@
+More resource types  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    More resource types
+  
+
+
+This page defines more types of resources you can externalize, including:
+
+Bool
+XML resource that carries a boolean value.
+Color
+XML resource that carries a color value (a hexadecimal color).
+Dimension
+XML resource that carries a dimension value (with a unit of measure).
+ID
+XML resource that provides a unique identifier for application resources and
+components.
+Integer
+XML resource that carries an integer value.
+Integer Array
+XML resource that provides an array of integers.
+Typed Array
+XML resource that provides a TypedArray (which you can use
+for an array of drawables).
+
+Bool
+A boolean value defined in XML.
+Note: A bool is a simple resource that is referenced
+using the value provided in the name attribute (not the name of the XML file). As
+such, you can combine bool resources with other simple resources in the one XML file,
+under one <resources> element.
+
+file location:
+res/values/filename.xml
+The filename is arbitrary. The <bool> element's name will be used as the resource
+ID.
+resource reference:
+
+In Java: R.bool.bool_name
+In XML: @[package:]bool/bool_name
+
+syntax:
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool
+        name="bool_name"
+        >[true | false]</bool>
+</resources>
+
+
+elements:
+
+
+<resources>
+Required. This must be the root node.
+      No attributes.
+
+<bool>
+A boolean value: true or false.
+      attributes:
+
+name
+String. A name for the bool value. This will be used as the resource ID.
+
+
+
+ 
+example:
+XML file saved at res/values-small/bools.xml:
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="screen_small">true</bool>
+    <bool name="adjust_view_bounds">true</bool>
+</resources>
+
+This application code retrieves the boolean:
+Kotlin
+
+val screenIsSmall: Boolean = resources.getBoolean(R.bool.screen_small)
+
+Java
+
+Resources res = getResources();
+boolean screenIsSmall = res.getBoolean(R.bool.screen_small);
+
+
+This layout XML uses the boolean for an attribute:
+
+<ImageView
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:src="@drawable/logo"
+    android:adjustViewBounds="@bool/adjust_view_bounds" />
+
+ 
+
+Color
+A color value defined in XML.
+The color is specified with an RGB value and alpha channel. You can use a color resource
+any place that accepts a hexadecimal color value. You can also use a color resource when a
+drawable resource is expected in XML (for example, android:drawable="@color/green").
+The value always begins with a pound (#) character and then followed by the
+Alpha-Red-Green-Blue information in one of the following formats:
+
+#RGB
+#ARGB
+#RRGGBB
+#AARRGGBB
+
+Note: A color is a simple resource that is referenced
+using the value provided in the name attribute (not the name of the XML file). As
+such, you can combine color resources with other simple resources in the one XML file,
+under one <resources> element.
+
+file location:
+res/values/colors.xml
+The filename is arbitrary. The <color> element's name will be used as the
+resource ID.
+resource reference:
+
+In Java: R.color.color_name
+In XML: @[package:]color/color_name
+
+syntax:
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color
+        name="color_name"
+        >hex_color</color>
+</resources>
+
+
+elements:
+
+
+<resources>
+Required. This must be the root node.
+      No attributes.
+
+<color>
+A color expressed in hexadecimal, as described above.
+      attributes:
+
+name
+String. A name for the color. This will be used as the resource ID.
+        
+
+
+
+ 
+example:
+XML file saved at res/values/colors.xml:
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="opaque_red">#f00</color>
+   <color name="translucent_red">#80ff0000</color>
+</resources>
+
+This application code retrieves the color resource:
+Kotlin
+
+val color: Int = resources.getColor(R.color.opaque_red)
+
+Java
+
+Resources res = getResources();
+int color = res.getColor(R.color.opaque_red);
+
+
+This layout XML applies the color to an attribute:
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/translucent_red"
+    android:text="Hello"/>
+
+ 
+
+Dimension
+A dimension value defined in XML. A dimension
+is specified with a number followed by a unit of measure.
+For example: 10px, 2in, 5sp. The following units of measure are supported by Android:
+
+dp
+Density-independent Pixels - An abstract unit that is based on the physical density of the
+screen. These units are relative to a 160 dpi (dots per inch) screen, on which 1dp is roughly equal
+to 1px. When running on a higher density screen, the number of pixels used to draw 1dp is scaled up
+by a factor appropriate for the screen's dpi. Likewise, when on a lower density screen, the number
+of pixels used for 1dp is scaled down. The ratio of dp-to-pixel will change with the screen density,
+but not necessarily in direct proportion. Using dp units (instead of px units) is a simple solution
+to making the view dimensions in your layout resize properly for different screen densities. In
+other words, it provides consistency for the real-world sizes of your UI elements across different
+devices.
+sp
+Scale-independent Pixels - This is like the dp unit, but it is also scaled by the user's font
+    size preference. It is recommend you use this unit when specifying font sizes, so they will be adjusted
+    for both the screen density and the user's preference.
+pt
+Points - 1/72 of an inch based on the physical size of the screen,
+      assuming a 72dpi density screen.
+px
+Pixels - Corresponds to actual pixels on the screen. This unit of measure is not recommended because
+    the actual representation can vary across devices; each devices may have a different number of pixels
+    per inch and may have more or fewer total pixels available on the screen.
+mm
+Millimeters - Based on the physical size of the screen.
+in
+Inches - Based on the physical size of the screen.
+
+Note: A dimension is a simple resource that is referenced
+using the value provided in the name attribute (not the name of the XML file). As
+such, you can combine dimension resources with other simple resources in the one XML file,
+under one <resources> element.
+
+file location:
+res/values/filename.xml
+The filename is arbitrary. The <dimen> element's name will be used as the
+resource ID.
+resource reference:
+
+In Java: R.dimen.dimension_name
+In XML: @[package:]dimen/dimension_name
+
+syntax:
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen
+        name="dimension_name"
+        >dimension</dimen>
+</resources>
+
+
+elements:
+
+
+<resources>
+Required. This must be the root node.
+      No attributes.
+
+<dimen>
+A dimension, represented by a float, followed by a unit of measurement (dp, sp, pt, px, mm, in),
+      as described above.
+      attributes:
+
+name
+String. A name for the dimension. This will be used as the resource ID.
+        
+
+
+
+ 
+example:
+XML file saved at res/values/dimens.xml:
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textview_height">25dp</dimen>
+    <dimen name="textview_width">150dp</dimen>
+    <dimen name="ball_radius">30dp</dimen>
+    <dimen name="font_size">16sp</dimen>
+</resources>
+
+This application code retrieves a dimension:
+Kotlin
+
+val fontSize: Float = resources.getDimension(R.dimen.font_size)
+
+Java
+
+Resources res = getResources();
+float fontSize = res.getDimension(R.dimen.font_size);
+
+
+This layout XML applies dimensions to attributes:
+
+<TextView
+    android:layout_height="@dimen/textview_height"
+    android:layout_width="@dimen/textview_width"
+    android:textSize="@dimen/font_size"/>
+
+
+
+ID
+A unique resource ID defined in XML. Using the name you provide in the <item>
+element, the Android developer tools create a unique integer in your project's R.java class, which you can use as an
+identifier for an application resources (for example, a View in your UI layout)
+or a unique integer for use in your application code (for example, as an ID for a dialog or a
+result code).
+Note: An ID is a simple resource that is referenced
+using the value provided in the name attribute (not the name of the XML file). As
+such, you can combine ID resources with other simple resources in the one XML file,
+under one <resources> element. Also, remember that an ID resources does not reference
+an actual resource item; it is simply a unique ID that you can attach to other resources or use
+as a unique integer in your application.
+
+file location:
+res/values/filename.xml
+The filename is arbitrary.
+resource reference:
+
+In Java: R.id.name
+In XML: @[package:]id/name
+
+syntax:
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item
+        type="id"
+        name="id_name" />
+</resources>
+
+
+elements:
+
+
+<resources>
+Required. This must be the root node.
+      No attributes.
+
+<item>
+Defines a unique ID. Takes no value, only attributes.
+      attributes:
+
+type
+Must be "id".
+name
+String. A unique name for the ID.
+
+
+
+ 
+example:
+
+XML file saved at res/values/ids.xml:
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="button_ok" />
+    <item type="id" name="dialog_exit" />
+</resources>
+
+Then, this layout snippet uses the "button_ok" ID for a Button widget:
+
+<Button android:id="@id/button_ok"
+    style="@style/button_style" />
+
+Notice that the android:id value does not include the plus sign in the ID reference,
+because the ID already exists, as defined in the ids.xml example above. (When you specify an
+ID to an XML resource using the plus sign—in the format android:id="@+id/name"—it means that the "name" ID does not exist and should be created.)
+As another example, the following code snippet uses the "dialog_exit" ID as a unique identifier
+for a dialog:
+Kotlin
+
+showDialog(R.id.dialog_exit)
+
+Java
+
+showDialog(R.id.dialog_exit);
+
+
+In the same application, the "dialog_exit" ID is compared when creating a dialog:
+Kotlin
+
+override fun onCreateDialog(id: Int): Dialog? {
+    return when(id) {
+        R.id.dialog_exit -> {
+            ...
+        }
+        else -> {
+            null
+        }
+    }
+}
+
+Java
+
+protected Dialog onCreateDialog(int id) {
+    Dialog dialog;
+    switch(id) {
+    case R.id.dialog_exit:
+        ...
+        break;
+    default:
+        dialog = null;
+    }
+    return dialog;
+}
+
+
+ 
+
+Integer
+An integer defined in XML.
+Note: An integer is a simple resource that is referenced
+using the value provided in the name attribute (not the name of the XML file). As
+such, you can combine integer resources with other simple resources in the one XML file,
+under one <resources> element.
+
+file location:
+res/values/filename.xml
+The filename is arbitrary. The <integer> element's name will be used as the
+resource ID.
+resource reference:
+
+In Java: R.integer.integer_name
+In XML: @[package:]integer/integer_name
+
+syntax:
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer
+        name="integer_name"
+        >integer</integer>
+</resources>
+
+
+elements:
+
+
+<resources>
+Required. This must be the root node.
+      No attributes.
+
+<integer>
+An integer.
+      attributes:
+
+name
+String. A name for the integer. This will be used as the resource ID.
+        
+
+
+
+ 
+example:
+
+XML file saved at res/values/integers.xml:
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_speed">75</integer>
+    <integer name="min_speed">5</integer>
+</resources>
+
+This application code retrieves an integer:
+Kotlin
+
+val maxSpeed: Int = resources.getInteger(R.integer.max_speed)
+
+Java
+
+Resources res = getResources();
+int maxSpeed = res.getInteger(R.integer.max_speed);
+
+
+ 
+
+Integer array
+An array of integers defined in XML.
+Note: An integer array is a simple resource that is referenced
+using the value provided in the name attribute (not the name of the XML file). As
+such, you can combine integer array resources with other simple resources in the one XML file,
+under one <resources> element.
+
+file location:
+res/values/filename.xml
+The filename is arbitrary. The <integer-array> element's name will be used as the
+resource ID.
+compiled resource datatype:
+Resource pointer to an array of integers.
+resource reference:
+
+In Java: R.array.integer_array_name
+In XML: @[package:]array.integer_array_name
+
+syntax:
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array
+        name="integer_array_name">
+        <item
+            >integer</item>
+    </integer-array>
+</resources>
+
+
+elements:
+
+
+<resources>
+Required. This must be the root node.
+      No attributes.
+
+<integer-array>
+Defines an array of integers. Contains one or more child <item> elements.
+      attributes:
+
+android:name
+String. A name for the array. This name will be used as the resource
+ID to reference the array.
+
+
+<item>
+An integer. The value can be a reference to another
+integer resource. Must be a child of a <integer-array> element.
+      No attributes.
+
+
+ 
+example:
+XML file saved at res/values/integers.xml:
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="bits">
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </integer-array>
+</resources>
+
+This application code retrieves the integer array:
+Kotlin
+
+val bits: IntArray = resources.getIntArray(R.array.bits)
+
+Java
+
+Resources res = getResources();
+int[] bits = res.getIntArray(R.array.bits);
+
+
+ 
+
+Typed array
+A TypedArray defined in XML. You can use
+this to create an array of other resources, such as drawables. Note that the array
+is not required to be homogeneous, so you can create an array of mixed resource types, but
+you must be aware of what and where the data types are in the array so that you can properly obtain
+each item with the TypedArray's get...() methods.
+Note: A typed array is a simple resource that is referenced
+using the value provided in the name attribute (not the name of the XML file). As
+such, you can combine typed array resources with other simple resources in the one XML file,
+under one <resources> element.
+
+file location:
+res/values/filename.xml
+The filename is arbitrary. The <array> element's name will be used as the
+resource ID.
+compiled resource datatype:
+Resource pointer to a TypedArray.
+resource reference:
+
+In Java: R.array.array_name
+In XML: @[package:]array.array_name
+
+syntax:
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array
+        name="integer_array_name">
+        <item>resource</item>
+    </array>
+</resources>
+
+
+elements:
+
+
+<resources>
+Required. This must be the root node.
+      No attributes.
+
+<array>
+Defines an array. Contains one or more child <item> elements.
+      attributes:
+
+android:name
+String. A name for the array. This name will be used as the resource
+ID to reference the array.
+
+
+<item>
+A generic resource. The value can be a reference to a resource or a simple data type.
+Must be a child of an <array> element.
+      No attributes.
+
+
+ 
+example:
+XML file saved at res/values/arrays.xml:
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+        <item>@drawable/home</item>
+        <item>@drawable/settings</item>
+        <item>@drawable/logout</item>
+    </array>
+    <array name="colors">
+        <item>#FFFF0000</item>
+        <item>#FF00FF00</item>
+        <item>#FF0000FF</item>
+    </array>
+</resources>
+
+This application code retrieves each array and then obtains the first entry in each array:
+Kotlin
+
+val icons: TypedArray = resources.obtainTypedArray(R.array.icons)
+val drawable: Drawable = icons.getDrawable(0)
+
+val colors: TypedArray = resources.obtainTypedArray(R.array.colors)
+val color: Int = colors.getColor(0,0)
+
+Java
+
+Resources res = getResources();
+TypedArray icons = res.obtainTypedArray(R.array.icons);
+Drawable drawable = icons.getDrawable(0);
+
+TypedArray colors = res.obtainTypedArray(R.array.colors);
+int color = colors.getColor(0,0);
+
+
+ 
+
+
+
+
+
+
+
+        
+        Previous
+      
+
+
+          arrow_back
+        
+        Font
+      
+
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated January 17, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

@@ -1,0 +1,1598 @@
+Content provider basics  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Content provider basics
+  
+
+
+
+
+    A content provider manages access to a central repository of data. A provider
+    is part of an Android application, which often provides its own UI for working with
+    the data. However, content providers are primarily intended to be used by other
+    applications, which access the provider using a provider client object. Together, providers
+    and provider clients offer a consistent, standard interface to data that also handles
+    inter-process communication and secure data access.
+
+
+    Typically you work with content providers in one of two scenarios; you may want to implement
+    code to access an existing content provider in another application, or you may want to create
+    a new content provider in your application to share data with other applications. This topic
+    covers the basics of working with existing content providers. To learn more about implementing
+    content providers in your own applications, see
+    
+    Creating a content provider.
+
+    This topic describes the following:
+
+
+How content providers work.
+The API you use to retrieve data from a content provider.
+The API you use to insert, update, or delete data in a content provider.
+Other API features that facilitate working with providers.
+
+
+Overview
+
+    A content provider presents data to external applications as one or more tables that are
+    similar to the tables found in a relational database. A row represents an instance of some type
+    of data the provider collects, and each column in the row represents an individual piece of
+    data collected for an instance.
+
+
+    A content provider coordinates access to the data storage layer in your application for a
+    number of different APIs and components as illustrated in figure 1, these include:
+
+
+Sharing access to your application data with other applications
+Sending data to a widget
+Returning custom search suggestions for your application through the search
+        framework using SearchRecentSuggestionsProvider
+Synchronizing application data with your server using an implementation of
+        AbstractThreadedSyncAdapter
+Loading data in your UI using a CursorLoader
+
+
+
+Figure 1. Relationship between content provider and other components.
+
+Accessing a provider
+
+    When you want to access data in a content provider, you use the
+    ContentResolver object in your application's
+    Context to communicate with the provider as a client. The
+    ContentResolver object communicates with the provider object, an
+    instance of a class that implements ContentProvider. The provider
+    object receives data requests from clients, performs the requested action, and returns the
+    results. This object has methods that call identically-named methods in the provider object,
+    an instance of one of the concrete subclasses of ContentProvider. The
+    ContentResolver methods provide the basic
+    "CRUD" (create, retrieve, update, and delete) functions of persistent storage.
+
+
+    A common pattern for accessing a ContentProvider from your UI uses a
+    CursorLoader to run an asynchronous query in the background. The
+    Activity or Fragment in your UI call a
+    CursorLoader to the query, which in turn gets the
+    ContentProvider using the ContentResolver.
+    This allows the UI to continue to be available to the user while the query is running. This
+    pattern involves the interaction of a number of different objects, as well as the underlying
+    storage mechanism, as illustrated in figure 2.
+
+
+
+Figure 2. Interaction between ContentProvider, other classes, and storage.
+
+
+Note: To access a provider, your application usually has to request specific
+    permissions in its manifest file. This development pattern is described in more detail in the
+    section Content Provider Permissions.
+
+
+    One of the built-in providers in the Android platform is the user dictionary, which
+    stores the spellings of non-standard words that the user wants to keep. Table 1 illustrates what
+    the data might look like in this provider's table:
+
+
+Table 1: Sample user dictionary table.
+
+
+
+word
+app id
+frequency
+locale
+_ID
+
+
+mapreduce
+user1
+100
+en_US
+1
+
+
+precompiler
+user14
+200
+fr_FR
+2
+
+
+applet
+user2
+225
+fr_CA
+3
+
+
+const
+user1
+255
+pt_BR
+4
+
+
+int
+user5
+100
+en_UK
+5
+
+
+
+    In table 1, each row represents an instance of a word that might not be
+    found in a standard dictionary. Each column represents some data for that word, such as the
+    locale in which it was first encountered. The column headers are column names that are stored in
+    the provider. To refer to a row's locale, you refer to its locale column. For
+    this provider, the _ID column serves as a "primary key" column that
+    the provider automatically maintains.
+
+
+    To get a list of the words and their locales from the User Dictionary Provider,
+    you call ContentResolver.query().
+    The query() method calls the
+    ContentProvider.query() method defined by the
+    User Dictionary Provider. The following lines of code show a
+    ContentResolver.query() call:
+
+Kotlin
+
+// Queries the user dictionary and returns results
+cursor = contentResolver.query(
+        UserDictionary.Words.CONTENT_URI,   // The content URI of the words table
+        projection,                        // The columns to return for each row
+        selectionClause,                   // Selection criteria
+        selectionArgs.toTypedArray(),      // Selection criteria
+        sortOrder                          // The sort order for the returned rows
+)
+
+Java
+
+// Queries the user dictionary and returns results
+cursor = getContentResolver().query(
+    UserDictionary.Words.CONTENT_URI,   // The content URI of the words table
+    projection,                        // The columns to return for each row
+    selectionClause,                   // Selection criteria
+    selectionArgs,                     // Selection criteria
+    sortOrder);                        // The sort order for the returned rows
+
+
+
+    Table 2 shows how the arguments to
+    query(Uri,projection,selection,selectionArgs,sortOrder) match an SQL SELECT statement:
+
+
+Table 2: Query() compared to SQL query.
+
+
+
+query() argument
+SELECT keyword/parameter
+Notes
+
+
+Uri
+FROM table_name
+Uri maps to the table in the provider named table_name.
+
+
+projection
+col,col,col,...
+
+projection is an array of columns that should be included for each row
+            retrieved.
+        
+
+
+selection
+WHERE col = value
+selection specifies the criteria for selecting rows.
+
+
+selectionArgs
+
+            (No exact equivalent. Selection arguments replace ? placeholders in the
+            selection clause.)
+        
+
+
+sortOrder
+ORDER BY col,col,...
+
+sortOrder specifies the order in which rows appear in the returned
+            Cursor.
+        
+
+
+Content URIs
+
+    A content URI is a URI that identifies data in a provider. Content URIs
+    include the symbolic name of the entire provider (its authority) and a
+    name that points to a table (a path). When you call
+    a client method to access a table in a provider, the content URI for the table is one of
+    the arguments.
+
+
+    In the preceding lines of code, the constant
+    CONTENT_URI contains the content URI of
+    the user dictionary's "words" table. The ContentResolver
+    object parses out the URI's authority, and uses it to "resolve" the provider by
+    comparing the authority to a system table of known providers. The
+    ContentResolver can then dispatch the query arguments to the correct
+    provider.
+
+
+    The ContentProvider uses the path part of the content URI to choose the
+    table to access. A provider usually has a path for each table it exposes.
+
+
+    In the previous lines of code, the full URI for the "words" table is:
+
+
+content://user_dictionary/words
+
+
+    where the user_dictionary string is the provider's authority, and
+    the words string is the table's path. The string
+    content:// (the scheme) is always present,
+    and identifies this as a content URI.
+
+
+    Many providers allow you to access a single row in a table by appending an ID value
+    to the end of the URI. For example, to retrieve a row whose _ID is
+    4 from user dictionary, you can use this content URI:
+
+Kotlin
+
+val singleUri: Uri = ContentUris.withAppendedId(UserDictionary.Words.CONTENT_URI, 4)
+
+Java
+
+Uri singleUri = ContentUris.withAppendedId(UserDictionary.Words.CONTENT_URI,4);
+
+
+
+    You often use id values when you've retrieved a set of rows and then want to update or delete
+    one of them.
+
+
+Note: The Uri and Uri.Builder classes
+    contain convenience methods for constructing well-formed URI objects from strings. The
+    ContentUris class contains convenience methods for appending id values to
+    a URI. The previous snippet uses withAppendedId() to append an id to the UserDictionary content URI.
+
+
+Retrieving data from the provider
+
+    This section describes how to retrieve data from a provider, using the User Dictionary Provider
+    as an example.
+
+
+    For the sake of clarity, the code snippets in this section call
+    ContentResolver.query() on the "UI thread"". In
+    actual code, however, you should do queries asynchronously on a separate thread. One way to do
+    this is to use the CursorLoader class, which is described
+    in more detail in the 
+    Loaders guide. Also, the lines of code are snippets only; they don't show a complete
+    application.
+
+
+    To retrieve data from a provider, follow these basic steps:
+
+
+
+        Request the read access permission for the provider.
+   
+
+        Define the code that sends a query to the provider.
+   
+
+Requesting read access permission
+
+    To retrieve data from a provider, your application needs "read access permission" for the
+    provider. You can't request this permission at run-time; instead, you have to specify that
+    you need this permission in your manifest, using the
+<uses-permission>
+    element and the exact permission name defined by the
+    provider. When you specify this element in your manifest, you are in effect "requesting" this
+    permission for your application. When users install your application, they implicitly grant
+    this request.
+
+
+    To find the exact name of the read access permission for the provider you're using, as well
+    as the names for other access permissions used by the provider, look in the provider's
+    documentation.
+
+
+    The role of permissions in accessing providers is described in more detail in the section
+    Content provider permissions.
+
+
+    The User Dictionary Provider defines the permission
+    android.permission.READ_USER_DICTIONARY in its manifest file, so an
+    application that wants to read from the provider must request this permission.
+
+
+Constructing the query
+
+    The next step in retrieving data from a provider is to construct a query. This first snippet
+    defines some variables for accessing the User Dictionary Provider:
+
+Kotlin
+
+// A "projection" defines the columns that will be returned for each row
+private val mProjection: Array<String> = arrayOf(
+        UserDictionary.Words._ID,    // Contract class constant for the _ID column name
+        UserDictionary.Words.WORD,   // Contract class constant for the word column name
+        UserDictionary.Words.LOCALE  // Contract class constant for the locale column name
+)
+
+// Defines a string to contain the selection clause
+private var selectionClause: String? = null
+
+// Declares an array to contain selection arguments
+private lateinit var selectionArgs: Array<String>
+
+Java
+
+// A "projection" defines the columns that will be returned for each row
+String[] mProjection =
+{
+    UserDictionary.Words._ID,    // Contract class constant for the _ID column name
+    UserDictionary.Words.WORD,   // Contract class constant for the word column name
+    UserDictionary.Words.LOCALE  // Contract class constant for the locale column name
+};
+
+// Defines a string to contain the selection clause
+String selectionClause = null;
+
+// Initializes an array to contain selection arguments
+String[] selectionArgs = {""};
+
+
+
+    The next snippet shows how to use
+    ContentResolver.query(), using the User Dictionary
+    Provider as an example. A provider client query is similar to an SQL query, and it contains a
+    set of columns to return, a set of selection criteria, and a sort order.
+
+
+    The set of columns that the query should return is called a projection
+    (the variable mProjection).
+
+
+    The expression that specifies the rows to retrieve is split into a selection clause and
+    selection arguments. The selection clause is a combination of logical and Boolean expressions,
+    column names, and values (the variable mSelectionClause). If you specify the
+    replaceable parameter ? instead of a value, the query method retrieves the value
+    from the selection arguments array (the variable mSelectionArgs).
+
+
+    In the next snippet, if the user doesn't enter a word, the selection clause is set to
+    null, and the query returns all the words in the provider. If the user enters
+    a word, the selection clause is set to UserDictionary.Words.WORD + " = ?" and
+    the first element of selection arguments array is set to the word the user enters.
+
+Kotlin
+
+/*
+ * This declares String array to contain the selection arguments.
+ */
+private lateinit var selectionArgs: Array<String>
+
+// Gets a word from the UI
+searchString = searchWord.text.toString()
+
+// Remember to insert code here to check for invalid or malicious input.
+
+// If the word is the empty string, gets everything
+selectionArgs = searchString?.takeIf { it.isNotEmpty() }?.let {
+    selectionClause = "${UserDictionary.Words.WORD} = ?"
+    arrayOf(it)
+} ?: run {
+    selectionClause = null
+    emptyArray<String>()
+}
+
+// Does a query against the table and returns a Cursor object
+mCursor = contentResolver.query(
+        UserDictionary.Words.CONTENT_URI,  // The content URI of the words table
+        projection,                       // The columns to return for each row
+        selectionClause,                  // Either null, or the word the user entered
+        selectionArgs,                    // Either empty, or the string the user entered
+        sortOrder                         // The sort order for the returned rows
+)
+
+// Some providers return null if an error occurs, others throw an exception
+when (mCursor?.count) {
+    null -> {
+        /*
+         * Insert code here to handle the error. Be sure not to use the cursor!
+         * You may want to call android.util.Log.e() to log this error.
+         *
+         */
+    }
+    0 -> {
+        /*
+         * Insert code here to notify the user that the search was unsuccessful. This isn't
+         * necessarily an error. You may want to offer the user the option to insert a new
+         * row, or re-type the search term.
+         */
+    }
+    else -> {
+        // Insert code here to do something with the results
+    }
+}
+
+Java
+
+/*
+ * This defines a one-element String array to contain the selection argument.
+ */
+String[] selectionArgs = {""};
+
+// Gets a word from the UI
+searchString = searchWord.getText().toString();
+
+// Remember to insert code here to check for invalid or malicious input.
+
+// If the word is the empty string, gets everything
+if (TextUtils.isEmpty(searchString)) {
+    // Setting the selection clause to null will return all words
+    selectionClause = null;
+    selectionArgs[0] = "";
+
+} else {
+    // Constructs a selection clause that matches the word that the user entered.
+    selectionClause = UserDictionary.Words.WORD + " = ?";
+
+    // Moves the user's input string to the selection arguments.
+    selectionArgs[0] = searchString;
+
+}
+
+// Does a query against the table and returns a Cursor object
+mCursor = getContentResolver().query(
+    UserDictionary.Words.CONTENT_URI,  // The content URI of the words table
+    projection,                       // The columns to return for each row
+    selectionClause,                  // Either null, or the word the user entered
+    selectionArgs,                    // Either empty, or the string the user entered
+    sortOrder);                       // The sort order for the returned rows
+
+// Some providers return null if an error occurs, others throw an exception
+if (null == mCursor) {
+    /*
+     * Insert code here to handle the error. Be sure not to use the cursor! You may want to
+     * call android.util.Log.e() to log this error.
+     *
+     */
+// If the Cursor is empty, the provider found no matches
+} else if (mCursor.getCount() < 1) {
+
+    /*
+     * Insert code here to notify the user that the search was unsuccessful. This isn't necessarily
+     * an error. You may want to offer the user the option to insert a new row, or re-type the
+     * search term.
+     */
+
+} else {
+    // Insert code here to do something with the results
+
+}
+
+
+
+    This query is analogous to the SQL statement:
+
+
+SELECT _ID, word, locale FROM words WHERE word = <userinput> ORDER BY word ASC;
+
+
+    In this SQL statement, the actual column names are used instead of contract class constants.
+
+Protecting against malicious input
+
+    If the data managed by the content provider is in an SQL database, including external untrusted
+    data into raw SQL statements can lead to SQL injection.
+
+
+    Consider this selection clause:
+
+Kotlin
+
+// Constructs a selection clause by concatenating the user's input to the column name
+var selectionClause = "var = $mUserInput"
+
+Java
+
+// Constructs a selection clause by concatenating the user's input to the column name
+String selectionClause = "var = " + userInput;
+
+
+
+    If you do this, you're allowing the user to concatenate malicious SQL onto your SQL statement.
+    For example, the user could enter "nothing; DROP TABLE *;"  for mUserInput, which
+    would result in the selection clause var = nothing; DROP TABLE *;. Since the
+    selection clause is treated as an SQL statement, this might cause the provider to erase all of
+    the tables in the underlying SQLite database (unless the provider is set up to catch
+    SQL injection attempts).
+
+
+    To avoid this problem, use a selection clause that uses ? as a replaceable
+    parameter and a separate array of selection arguments. When you do this, the user input
+    is bound directly to the query rather than being interpreted as part of an SQL statement.
+    Because it's not treated as SQL, the user input can't inject malicious SQL. Instead of using
+    concatenation to include the user input, use this selection clause:
+
+Kotlin
+
+// Constructs a selection clause with a replaceable parameter
+var selectionClause = "var = ?"
+
+Java
+
+// Constructs a selection clause with a replaceable parameter
+String selectionClause =  "var = ?";
+
+
+
+    Set up the array of selection arguments like this:
+
+Kotlin
+
+// Defines a mutable list to contain the selection arguments
+var selectionArgs: MutableList<String> = mutableListOf()
+
+Java
+
+// Defines an array to contain the selection arguments
+String[] selectionArgs = {""};
+
+
+
+    Put a value in the selection arguments array like this:
+
+Kotlin
+
+// Adds the user's input to the selection argument
+selectionArgs += userInput
+
+Java
+
+// Sets the selection argument to the user's input
+selectionArgs[0] = userInput;
+
+
+
+    A selection clause that uses ? as a replaceable parameter and an array of
+    selection arguments array are preferred way to specify a selection, even if the provider isn't
+    based on an SQL database.
+
+
+Displaying query results
+
+    The ContentResolver.query() client method always
+    returns a Cursor containing the columns specified by the query's
+    projection for the rows that match the query's selection criteria. A
+    Cursor object provides random read access to the rows and columns it
+    contains. Using Cursor methods, you can iterate over the rows in the
+    results, determine the data type of each column, get the data out of a column, and examine other
+    properties of the results. Some Cursor implementations automatically
+    update the object when the provider's data changes, or trigger methods in an observer object
+    when the Cursor changes, or both.
+
+
+Note: A provider may restrict access to columns based on the nature of the
+    object making the query. For example, the Contacts Provider restricts access for some columns to
+    sync adapters, so it won't return them to an activity or service.
+
+
+    If no rows match the selection criteria, the provider
+    returns a Cursor object for which
+    Cursor.getCount() is 0 (an empty cursor).
+
+
+    If an internal error occurs, the results of the query depend on the particular provider. It may
+    choose to return null, or it may throw an Exception.
+
+
+    Since a Cursor is a "list" of rows, a good way to display the
+    contents of a Cursor is to link it to a ListView
+    via a SimpleCursorAdapter.
+
+
+    The following snippet continues the code from the previous snippet. It creates a
+    SimpleCursorAdapter object containing the Cursor
+    retrieved by the query, and sets this object to be the adapter for a
+    ListView:
+
+Kotlin
+
+// Defines a list of columns to retrieve from the Cursor and load into an output row
+val wordListColumns : Array<String> = arrayOf(
+        UserDictionary.Words.WORD,      // Contract class constant containing the word column name
+        UserDictionary.Words.LOCALE     // Contract class constant containing the locale column name
+)
+
+// Defines a list of View IDs that will receive the Cursor columns for each row
+val wordListItems = intArrayOf(R.id.dictWord, R.id.locale)
+
+// Creates a new SimpleCursorAdapter
+cursorAdapter = SimpleCursorAdapter(
+        applicationContext,             // The application's Context object
+        R.layout.wordlistrow,           // A layout in XML for one row in the ListView
+        mCursor,                        // The result from the query
+        wordListColumns,               // A string array of column names in the cursor
+        wordListItems,                 // An integer array of view IDs in the row layout
+        0                               // Flags (usually none are needed)
+)
+
+// Sets the adapter for the ListView
+wordList.setAdapter(cursorAdapter)
+
+Java
+
+// Defines a list of columns to retrieve from the Cursor and load into an output row
+String[] wordListColumns =
+{
+    UserDictionary.Words.WORD,   // Contract class constant containing the word column name
+    UserDictionary.Words.LOCALE  // Contract class constant containing the locale column name
+};
+
+// Defines a list of View IDs that will receive the Cursor columns for each row
+int[] wordListItems = { R.id.dictWord, R.id.locale};
+
+// Creates a new SimpleCursorAdapter
+cursorAdapter = new SimpleCursorAdapter(
+    getApplicationContext(),               // The application's Context object
+    R.layout.wordlistrow,                  // A layout in XML for one row in the ListView
+    mCursor,                               // The result from the query
+    wordListColumns,                      // A string array of column names in the cursor
+    wordListItems,                        // An integer array of view IDs in the row layout
+    0);                                    // Flags (usually none are needed)
+
+// Sets the adapter for the ListView
+wordList.setAdapter(cursorAdapter);
+
+
+
+Note: To back a ListView with a
+    Cursor, the cursor must contain a column named _ID.
+    Because of this, the query shown previously retrieves the _ID column for the
+    "words" table, even though the ListView doesn't display it.
+    This restriction also explains why most providers have a _ID column for each of
+    their tables.
+
+
+Getting data from query results
+
+    Rather than simply displaying query results, you can use them for other tasks. For
+    example, you can retrieve spellings from the user dictionary and then look them up in
+    other providers. To do this, you iterate over the rows in the Cursor:
+
+Kotlin
+
+/*
+* Only executes if the cursor is valid. The User Dictionary Provider returns null if
+* an internal error occurs. Other providers may throw an Exception instead of returning null.
+*/
+mCursor?.apply {
+    // Determine the column index of the column named "word"
+    val index: Int = getColumnIndex(UserDictionary.Words.WORD)
+
+    /*
+     * Moves to the next row in the cursor. Before the first movement in the cursor, the
+     * "row pointer" is -1, and if you try to retrieve data at that position you will get an
+     * exception.
+     */
+    while (moveToNext()) {
+        // Gets the value from the column.
+        newWord = getString(index)
+
+        // Insert code here to process the retrieved word.
+
+        ...
+
+        // end of while loop
+    }
+}
+
+Java
+
+// Determine the column index of the column named "word"
+int index = mCursor.getColumnIndex(UserDictionary.Words.WORD);
+
+/*
+ * Only executes if the cursor is valid. The User Dictionary Provider returns null if
+ * an internal error occurs. Other providers may throw an Exception instead of returning null.
+ */
+
+if (mCursor != null) {
+    /*
+     * Moves to the next row in the cursor. Before the first movement in the cursor, the
+     * "row pointer" is -1, and if you try to retrieve data at that position you will get an
+     * exception.
+     */
+    while (mCursor.moveToNext()) {
+
+        // Gets the value from the column.
+        newWord = mCursor.getString(index);
+
+        // Insert code here to process the retrieved word.
+
+        ...
+
+        // end of while loop
+    }
+} else {
+
+    // Insert code here to report an error if the cursor is null or the provider threw an exception.
+}
+
+
+
+Cursor implementations contain several "get" methods for
+    retrieving different types of data from the object. For example, the previous snippet
+    uses getString(). They also have a
+    getType() method that returns a value indicating
+    the data type of the column.
+
+
+Content provider permissions
+
+    A provider's application can specify permissions that other applications must have in order to
+    access the provider's data. These permissions ensure that the user knows what data
+    an application will try to access. Based on the provider's requirements, other applications
+    request the permissions they need in order to access the provider. End users see the requested
+    permissions when they install the application.
+
+
+    If a provider's application doesn't specify any permissions, then other applications have no
+    access to the provider's data. However, components in the provider's application always have
+    full read and write access, regardless of the specified permissions.
+
+
+    As noted previously, the User Dictionary Provider requires the
+    android.permission.READ_USER_DICTIONARY permission to retrieve data from it.
+    The provider has the separate android.permission.WRITE_USER_DICTIONARY
+    permission for inserting, updating, or deleting data.
+
+
+    To get the permissions needed to access a provider, an application requests them with a
+<uses-permission>
+    element in its manifest file. When the Android Package Manager installs the application, a user
+    must approve all of the permissions the application requests. If the user approves all of them,
+    Package Manager continues the installation; if the user doesn't approve them, Package Manager
+    aborts the installation.
+
+
+    The following
+<uses-permission>
+    element requests read access to the User Dictionary Provider:
+
+
+<uses-permission android:name="android.permission.READ_USER_DICTIONARY">
+
+
+    The impact of permissions on provider access is explained in more detail in the
+    Security and permissions guide.
+
+
+Inserting, updating, and deleting data
+
+    In the same way that you retrieve data from a provider, you also use the interaction between
+    a provider client and the provider's ContentProvider to modify data.
+    You call a method of ContentResolver with arguments that are passed to
+    the corresponding method of ContentProvider. The provider and provider
+    client automatically handle security and inter-process communication.
+
+Inserting data
+
+    To insert data into a provider, you call the
+    ContentResolver.insert()
+    method. This method inserts a new row into the provider and returns a content URI for that row.
+    This snippet shows how to insert a new word into the User Dictionary Provider:
+
+Kotlin
+
+// Defines a new Uri object that receives the result of the insertion
+lateinit var newUri: Uri
+
+...
+
+// Defines an object to contain the new values to insert
+val newValues = ContentValues().apply {
+    /*
+     * Sets the values of each column and inserts the word. The arguments to the "put"
+     * method are "column name" and "value"
+     */
+    put(UserDictionary.Words.APP_ID, "example.user")
+    put(UserDictionary.Words.LOCALE, "en_US")
+    put(UserDictionary.Words.WORD, "insert")
+    put(UserDictionary.Words.FREQUENCY, "100")
+
+}
+
+newUri = contentResolver.insert(
+        UserDictionary.Words.CONTENT_URI,   // the user dictionary content URI
+        newValues                          // the values to insert
+)
+
+Java
+
+// Defines a new Uri object that receives the result of the insertion
+Uri newUri;
+
+...
+
+// Defines an object to contain the new values to insert
+ContentValues newValues = new ContentValues();
+
+/*
+ * Sets the values of each column and inserts the word. The arguments to the "put"
+ * method are "column name" and "value"
+ */
+newValues.put(UserDictionary.Words.APP_ID, "example.user");
+newValues.put(UserDictionary.Words.LOCALE, "en_US");
+newValues.put(UserDictionary.Words.WORD, "insert");
+newValues.put(UserDictionary.Words.FREQUENCY, "100");
+
+newUri = getContentResolver().insert(
+    UserDictionary.Words.CONTENT_URI,   // the user dictionary content URI
+    newValues                          // the values to insert
+);
+
+
+
+    The data for the new row goes into a single ContentValues object, which
+    is similar in form to a one-row cursor. The columns in this object don't need to have the
+    same data type, and if you don't want to specify a value at all, you can set a column
+    to null using ContentValues.putNull().
+
+
+    The snippet doesn't add the _ID column, because this column is maintained
+    automatically. The provider assigns a unique value of _ID to every row that is
+    added. Providers usually use this value as the table's primary key.
+
+
+    The content URI returned in newUri identifies the newly-added row, with
+    the following format:
+
+
+content://user_dictionary/words/<id_value>
+
+
+    The <id_value> is the contents of _ID for the new row.
+    Most providers can detect this form of content URI automatically and then perform the requested
+    operation on that particular row.
+
+
+    To get the value of _ID from the returned Uri, call
+    ContentUris.parseId().
+
+Updating data
+
+    To update a row, you use a ContentValues object with the updated
+    values just as you do with an insertion, and selection criteria just as you do with a query.
+    The client method you use is
+    ContentResolver.update(). You only need to add
+    values to the ContentValues object for columns you're updating. If you
+    want to clear the contents of a column, set the value to null.
+
+
+    The following snippet changes all the rows whose locale has the language "en" to a
+    have a locale of null. The return value is the number of rows that were updated:
+
+Kotlin
+
+// Defines an object to contain the updated values
+val updateValues = ContentValues().apply {
+    /*
+     * Sets the updated value and updates the selected words.
+     */
+    putNull(UserDictionary.Words.LOCALE)
+}
+
+// Defines selection criteria for the rows you want to update
+val selectionClause: String = UserDictionary.Words.LOCALE + "LIKE ?"
+val selectionArgs: Array<String> = arrayOf("en_%")
+
+// Defines a variable to contain the number of updated rows
+var rowsUpdated: Int = 0
+
+...
+
+rowsUpdated = contentResolver.update(
+        UserDictionary.Words.CONTENT_URI,   // the user dictionary content URI
+        updateValues,                      // the columns to update
+        selectionClause,                   // the column to select on
+        selectionArgs                      // the value to compare to
+)
+
+Java
+
+// Defines an object to contain the updated values
+ContentValues updateValues = new ContentValues();
+
+// Defines selection criteria for the rows you want to update
+String selectionClause = UserDictionary.Words.LOCALE +  " LIKE ?";
+String[] selectionArgs = {"en_%"};
+
+// Defines a variable to contain the number of updated rows
+int rowsUpdated = 0;
+
+...
+
+/*
+ * Sets the updated value and updates the selected words.
+ */
+updateValues.putNull(UserDictionary.Words.LOCALE);
+
+rowsUpdated = getContentResolver().update(
+    UserDictionary.Words.CONTENT_URI,   // the user dictionary content URI
+    updateValues,                      // the columns to update
+    selectionClause,                   // the column to select on
+    selectionArgs                      // the value to compare to
+);
+
+
+
+    You should also sanitize user input when you call
+    ContentResolver.update(). To learn more about
+    this, read the section Protecting against malicious input.
+
+Deleting data
+
+    Deleting rows is similar to retrieving row data: you specify selection criteria for the rows
+    you want to delete and the client method returns the number of deleted rows.
+    The following snippet deletes rows whose appid matches "user". The method returns the
+    number of deleted rows.
+
+Kotlin
+
+// Defines selection criteria for the rows you want to delete
+val selectionClause = "${UserDictionary.Words.LOCALE} LIKE ?"
+val selectionArgs: Array<String> = arrayOf("user")
+
+// Defines a variable to contain the number of rows deleted
+var rowsDeleted: Int = 0
+
+...
+
+// Deletes the words that match the selection criteria
+rowsDeleted = contentResolver.delete(
+        UserDictionary.Words.CONTENT_URI,   // the user dictionary content URI
+        selectionClause,                   // the column to select on
+        selectionArgs                      // the value to compare to
+)
+
+Java
+
+// Defines selection criteria for the rows you want to delete
+String selectionClause = UserDictionary.Words.APP_ID + " LIKE ?";
+String[] selectionArgs = {"user"};
+
+// Defines a variable to contain the number of rows deleted
+int rowsDeleted = 0;
+
+...
+
+// Deletes the words that match the selection criteria
+rowsDeleted = getContentResolver().delete(
+    UserDictionary.Words.CONTENT_URI,   // the user dictionary content URI
+    selectionClause,                   // the column to select on
+    selectionArgs                      // the value to compare to
+);
+
+
+
+    You should also sanitize user input when you call
+    ContentResolver.delete(). To learn more about
+    this, read the section Protecting against malicious input.
+
+
+Provider Data Types
+
+    Content providers can offer many different data types. The User Dictionary Provider offers only
+    text, but providers can also offer the following formats:
+
+
+
+            integer
+        
+
+            long integer (long)
+        
+
+            floating point
+        
+
+            long floating point (double)
+        
+
+
+    Another data type that providers often use is Binary Large OBject (BLOB) implemented as a
+    64KB byte array. You can see the available data types by looking at the
+    Cursor class "get" methods.
+
+
+    The data type for each column in a provider is usually listed in its documentation.
+    The data types for the User Dictionary Provider are listed in the reference documentation
+    for its contract class UserDictionary.Words (contract classes are
+    described in the section Contract Classes).
+    You can also determine the data type by calling Cursor.getType().
+
+
+    Providers also maintain MIME data type information for each content URI they define. You can
+    use the MIME type information to find out if your application can handle data that the
+    provider offers, or to choose a type of handling based on the MIME type. You usually need the
+    MIME type when you are working with a provider that contains complex
+    data structures or files. For example, the ContactsContract.Data
+    table in the Contacts Provider uses MIME types to label the type of contact data stored in each
+    row. To get the MIME type corresponding to a content URI, call
+    ContentResolver.getType().
+
+
+    The section MIME type reference describes the
+    syntax of both standard and custom MIME types.
+
+
+Alternative forms of provider access
+
+    Three alternative forms of provider access are important in application development:
+
+
+
+Batch access: You can create a batch of access calls with methods in
+        the ContentProviderOperation class, and then apply them with
+        ContentResolver.applyBatch().
+    
+
+        Asynchronous queries: You should do queries in a separate thread. One way to do this is to
+        use a CursorLoader object. The examples in the
+        Loaders guide demonstrate
+        how to do this.
+    
+
+Data access via intents: Although you can't send an intent
+        directly to a provider, you can send an intent to the provider's application, which is
+        usually the best-equipped to modify the provider's data.
+    
+
+
+    Batch access and modification via intents are described in the following sections.
+
+Batch access
+
+    Batch access to a provider is useful for inserting a large number of rows, or for inserting
+    rows in multiple tables in the same method call, or in general for performing a set of
+    operations across process boundaries as a transaction (an atomic operation).
+
+
+    To access a provider in "batch mode",
+    you create an array of ContentProviderOperation objects and then
+    dispatch them to a content provider with
+    ContentResolver.applyBatch(). You pass the
+    content provider's authority to this  method, rather than a particular content URI.
+    This allows each ContentProviderOperation object in the array to work
+    against a different table. A call to ContentResolver.applyBatch() returns an array of results.
+
+
+    The description of the ContactsContract.RawContacts contract class
+    includes a code snippet that demonstrates batch insertion. The
+    Contact Manager
+    sample application contains an example of batch access in its ContactAdder.java
+    source file.
+
+Data access via intents
+
+    Intents can provide indirect access to a content provider. You allow the user to access
+    data in a provider even if your application doesn't have access permissions, either by
+    getting a result intent back from an application that has permissions, or by activating an
+    application that has permissions and letting the user do work in it.
+
+Getting access with temporary permissions
+
+    You can access data in a content provider, even if you don't have the proper access
+    permissions, by sending an intent to an application that does have the permissions and
+    receiving back a result intent containing "URI" permissions.
+    These are permissions for a specific content URI that last until the activity that receives
+    them is finished. The application that has permanent permissions grants temporary
+    permissions by setting a flag in the result intent:
+
+
+
+Read permission:
+FLAG_GRANT_READ_URI_PERMISSION
+
+
+Write permission:
+FLAG_GRANT_WRITE_URI_PERMISSION
+
+
+
+Note: These flags don't give general read or write access to the provider
+    whose authority is contained in the content URI. The access is only for the URI itself.
+
+
+    A provider defines URI permissions for content URIs in its manifest, using the
+android:grantUriPermission
+    attribute of the
+<provider>
+    element, as well as the
+<grant-uri-permission>
+    child element of the
+<provider>
+    element. The URI permissions mechanism is explained in more detail in the
+    Permissions overview guide.
+
+
+    For example, you can retrieve data for a contact in the Contacts Provider, even if you don't
+    have the READ_CONTACTS permission. You might want to do
+    this in an application that sends e-greetings to a contact on their birthday. Instead of
+    requesting READ_CONTACTS, which gives you access to all of
+    the user's contacts and all of their information, you prefer to let the user control which
+    contacts are used by your application. To do this, you use the following process:
+
+
+
+        Your application sends an intent containing the action
+        ACTION_PICK and the "contacts" MIME type
+        CONTENT_ITEM_TYPE, using the
+        method startActivityForResult().
+    
+
+        Because this intent matches the intent filter for the
+        People app's "selection" activity, the activity will come to the foreground.
+    
+
+        In the selection activity, the user selects a
+        contact to update. When this happens, the selection activity calls
+        setResult(resultcode, intent)
+        to set up an intent to give back to your application. The intent contains the content URI
+        of the contact the user selected, and the "extras" flags
+        FLAG_GRANT_READ_URI_PERMISSION. These flags grant URI
+        permission to your app to read data for the contact pointed to by the
+        content URI. The selection activity then calls finish() to
+        return control to your application.
+    
+
+        Your activity returns to the foreground, and the system calls your activity's
+        onActivityResult()
+        method. This method receives the result intent created by the selection activity in
+        the People app.
+    
+
+        With the content URI from the result intent, you can read the contact's data
+        from the Contacts Provider, even though you didn't request permanent read access permission
+        to the provider in your manifest. You can then get the contact's birthday information
+        or their email address and then send the e-greeting.
+    
+
+Using another application
+
+    A simple way to allow the user to modify data to which you don't have access permissions is to
+    activate an application that has permissions and let the user do the work there.
+
+
+    For example, the Calendar application accepts an
+    ACTION_INSERT intent, which allows you to activate the
+    application's insert UI. You can pass "extras" data in this intent, which the application
+    uses to pre-populate the UI. Because recurring events have a complex syntax, the preferred
+    way of inserting events into the Calendar Provider is to activate the Calendar app with an
+    ACTION_INSERT and then let the user insert the event there.
+
+Displaying data using a helper app
+
+    If your application does have access permissions, you still may want to use an
+    intent to display data in another application. For example, the Calendar application accepts an
+    ACTION_VIEW intent, which displays a particular date or event.
+    This allows you to display calendar information without having to create your own UI.
+    To learn more about this feature, see the
+    Calendar Provider guide.
+
+
+    The application to which you send the intent doesn't have to be the application
+    associated with the provider. For example, you can retrieve a contact from the
+    Contact Provider, then send an ACTION_VIEW intent
+    containing the content URI for the contact's image to an image viewer.
+
+
+Contract Classes
+
+    A contract class defines constants that help applications work with the content URIs, column
+    names, intent actions, and other features of a content provider. Contract classes are not
+    included automatically with a provider; the provider's developer has to define them and then
+    make them available to other developers. Many of the providers included with the Android
+    platform have corresponding contract classes in the package android.provider.
+
+
+    For example, the User Dictionary Provider has a contract class
+    UserDictionary containing content URI and column name constants. The
+    content URI for the "words" table is defined in the constant
+    UserDictionary.Words.CONTENT_URI.
+    The UserDictionary.Words class also contains column name constants,
+    which are used in the example snippets in this guide. For example, a query projection can be
+    defined as:
+
+Kotlin
+
+val projection : Array<String> = arrayOf(
+        UserDictionary.Words._ID,
+        UserDictionary.Words.WORD,
+        UserDictionary.Words.LOCALE
+)
+
+Java
+
+String[] projection =
+{
+    UserDictionary.Words._ID,
+    UserDictionary.Words.WORD,
+    UserDictionary.Words.LOCALE
+};
+
+
+
+    Another contract class is ContactsContract for the Contacts Provider.
+    The reference documentation for this class includes example code snippets. One of its
+    subclasses, ContactsContract.Intents.Insert, is a contract
+    class that contains constants for intents and intent data.
+
+
+MIME Type Reference
+
+    Content providers can return standard MIME media types, or custom MIME type strings, or both.
+
+
+    MIME types have the format
+
+
+type/subtype
+
+
+    For example, the well-known MIME type text/html has the text type and
+    the html subtype. If the provider returns this type for a URI, it means that a
+    query using that URI will return text containing HTML tags.
+
+
+    Custom MIME type strings, also called "vendor-specific" MIME types, have more
+    complex type and subtype values. The type value is always
+
+
+vnd.android.cursor.dir
+
+
+    for multiple rows, or
+
+
+vnd.android.cursor.item
+
+
+    for a single row.
+
+
+    The subtype is provider-specific. The Android built-in providers usually have a simple
+    subtype. For example, when the Contacts application creates a row for a telephone number,
+    it sets the following MIME type in the row:
+
+
+vnd.android.cursor.item/phone_v2
+
+
+    Notice that the subtype value is simply phone_v2.
+
+
+    Other provider developers may create their own pattern of subtypes based on the provider's
+    authority and table names. For example, consider a provider that contains train timetables.
+    The provider's authority is com.example.trains, and it contains the tables
+    Line1, Line2, and Line3. In response to the content URI
+
+
+
+content://com.example.trains/Line1
+
+
+    for table Line1, the provider returns the MIME type
+
+
+vnd.android.cursor.dir/vnd.example.line1
+
+
+     In response to the content URI
+
+
+content://com.example.trains/Line2/5
+
+
+    for row 5 in table Line2, the provider returns the MIME type
+
+
+vnd.android.cursor.item/vnd.example.line2
+
+
+    Most content providers define contract class constants for the MIME types they use. The
+    Contacts Provider contract class ContactsContract.RawContacts,
+    for example, defines the constant
+    CONTENT_ITEM_TYPE for the MIME type of
+    a single raw contact row.
+
+
+    Content URIs for single rows are described in the section
+    Content URIs.
+
+
+
+
+
+
+        
+        Next
+      
+
+
+          arrow_forward
+        
+        Creating a content provider
+      
+
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

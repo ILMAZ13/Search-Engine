@@ -1,0 +1,1231 @@
+RenderScript Allocation Creation Functions  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    RenderScript Allocation Creation Functions
+  
+
+
+
+Overview
+The functions below can be used to create Allocations from a Script.
+
+ These functions can be called directly or indirectly from an invokable
+function.  If some control-flow path can result in a call to these functions
+from a RenderScript kernel function, a compiler error will be generated.
+
+Summary
+
+Functions
+
+
+rsCreateAllocation
+
+
+      Create an rs_allocation object of given Type.
+    
+
+
+
+rsCreateElement
+
+
+      Creates an rs_element object of the specified data type
+    
+
+
+
+rsCreatePixelElement
+
+
+      Creates an rs_element object of the specified data type and data kind
+    
+
+
+
+rsCreateType
+
+
+      Creates an rs_type object with the specified Element and shape attributes
+    
+
+
+
+rsCreateVectorElement
+
+
+      Creates an rs_element object of the specified data type and vector width
+    
+
+
+Functions
+
+
+
+rsCreateAllocation
+: Create an rs_allocation object of given Type.
+
+
+
+
+rs_allocation rsCreateAllocation(rs_type type);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation(rs_type type, rs_allocation_mipmap_control mipmap, uint32_t usages, void* ptr);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation(rs_type type, uint32_t usage);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_char(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_char(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_char(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_char2(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_char2(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_char2(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_char3(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_char3(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_char3(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_char4(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_char4(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_char4(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_double(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_double(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_double(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_double2(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_double2(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_double2(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_double3(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_double3(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_double3(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_double4(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_double4(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_double4(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_float(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_float(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_float(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_float2(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_float2(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_float2(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_float3(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_float3(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_float3(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_float4(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_float4(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_float4(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_half(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_half(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_half(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_half2(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_half2(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_half2(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_half3(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_half3(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_half3(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_half4(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_half4(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_half4(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_int(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_int(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_int(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_int2(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_int2(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_int2(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_int3(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_int3(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_int3(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_int4(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_int4(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_int4(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_long(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_long(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_long(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_long2(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_long2(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_long2(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_long3(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_long3(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_long3(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_long4(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_long4(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_long4(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_short(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_short(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_short(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_short2(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_short2(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_short2(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_short3(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_short3(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_short3(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_short4(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_short4(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_short4(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uchar(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uchar(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uchar(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uchar2(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uchar2(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uchar2(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uchar3(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uchar3(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uchar3(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uchar4(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uchar4(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uchar4(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uint(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uint(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uint(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uint2(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uint2(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uint2(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uint3(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uint3(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uint3(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uint4(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uint4(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_uint4(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ulong(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ulong(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ulong(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ulong2(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ulong2(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ulong2(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ulong3(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ulong3(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ulong3(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ulong4(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ulong4(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ulong4(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ushort(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ushort(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ushort(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ushort2(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ushort2(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ushort2(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ushort3(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ushort3(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ushort3(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ushort4(uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ushort4(uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_allocation rsCreateAllocation_ushort4(uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+
+ Parameters
+
+typeType of the Allocation
+usageUsage flag for the allocation
+mipmap
+usages
+ptr
+dimX
+dimY
+dimZ
+
+
+
+  Creates an rs_allocation object of the given Type and usage.
+
+  RS_ALLOCATION_USAGE_SCRIPT and RS_ALLOCATION_USAGE_GRAPHICS_TEXTURE are the
+ only supported usage flags for Allocations created from within a RenderScript
+ Script.
+
+  You can also use rsCreateAllocation_ wrapper functions to directly
+ create Allocations of scalar and vector numerical types without creating
+ intermediate rs_element or rs_type objects.
+
+  E.g. rsCreateAllocation_int4() returns an Allocation of int4 data type of
+ specified dimensions.
+
+
+
+
+
+
+rsCreateElement
+: Creates an rs_element object of the specified data type
+
+
+
+
+rs_element rsCreateElement(int32_t data_type, int32_t data_kind, bool isNormalized, uint32_t vecSize);
+
+    Added in API level 24
+
+
+
+rs_element rsCreateElement(rs_data_type data_type);
+
+    Added in API level 24
+
+
+
+
+ Parameters
+
+data_typeData type of the Element
+data_kind
+isNormalized
+vecSize
+
+
+
+  Creates an rs_element object of the specified data type.  The data kind of
+ the Element will be set to RS_KIND_USER and vector_width will be set to 1,
+ indicating non-vector.
+
+
+
+
+
+
+rsCreatePixelElement
+: Creates an rs_element object of the specified data type and data kind
+
+
+
+
+rs_element rsCreatePixelElement(rs_data_type data_type, rs_data_kind data_kind);
+
+    Added in API level 24
+
+
+
+
+ Parameters
+
+data_typeData type of the Element
+data_kindData kind of the Element
+
+
+
+  Creates an rs_element object of the specified data type and data kind.  The
+ vector_width of the Element will be set to 1, indicating non-vector.
+
+
+
+
+
+
+rsCreateType
+: Creates an rs_type object with the specified Element and shape attributes
+
+
+
+
+rs_type rsCreateType(rs_element element, uint32_t dimX);
+
+    Added in API level 24
+
+
+
+rs_type rsCreateType(rs_element element, uint32_t dimX, uint32_t dimY);
+
+    Added in API level 24
+
+
+
+rs_type rsCreateType(rs_element element, uint32_t dimX, uint32_t dimY, uint32_t dimZ);
+
+    Added in API level 24
+
+
+
+rs_type rsCreateType(rs_element element, uint32_t dimX, uint32_t dimY, uint32_t dimZ, bool mipmaps, bool faces, rs_yuv_format yuv_format);
+
+    Added in API level 24
+
+
+
+
+ Parameters
+
+elementElement to be associated with the Type
+dimXSize along the X dimension
+dimYSize along the Y dimension
+dimZSize along the Z dimension
+mipmapsFlag indicating if the Type has a mipmap chain
+facesFlag indicating if the Type is a cubemap
+yuv_formatYUV layout for the Type
+
+
+
+  Creates an rs_type object with the specified Element and shape attributes.
+
+  dimX specifies the size of the X dimension.
+
+  dimY, if present and non-zero, indicates that the Y dimension is present and
+ indicates its size.
+
+  dimZ, if present and non-zero, indicates that the Z dimension is present and
+ indicates its size.
+
+  mipmaps indicates the presence of level of detail (LOD).
+
+  faces indicates the  presence of cubemap faces.
+
+  yuv_format indicates the associated YUV format (or RS_YUV_NONE).
+
+
+
+
+
+
+rsCreateVectorElement
+: Creates an rs_element object of the specified data type and vector width
+
+
+
+
+rs_element rsCreateVectorElement(rs_data_type data_type, uint32_t vector_width);
+
+    Added in API level 24
+
+
+
+
+ Parameters
+
+data_typeData type of the Element
+vector_widthVector width (either 2, 3, or 4)
+
+
+
+  Creates an rs_element object of the specified data type and vector width.
+ Value of vector_width must be 2, 3 or 4.  The data kind of the Element will
+ be set to RS_KIND_USER.
+
+
+
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated April 23, 2018.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

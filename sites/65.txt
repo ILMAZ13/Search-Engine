@@ -1,0 +1,808 @@
+Create shortcuts  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Create shortcuts
+  
+
+
+
+  Shortcuts deliver specific types
+  of content to your users by helping them quickly access parts of your app.
+
+
+  How you deliver content with shortcuts depends on your use case and whether the shortcut's context
+  is app-driven or user-driven. Although a static shortcut's context doesn't change and a dynamic
+  shortcut's context constantly changes, the context in both cases is driven by your app. In cases
+  where a user chooses how they want your app to deliver content to them, such as with a pinned
+  shortcut, the context is defined by the user. The following scenarios demonstrate a few use cases
+  for each shortcut type:
+
+
+
+Static shortcuts 
+  are best for apps
+  that link to content using a consistent structure throughout the lifetime of a user's
+  interaction with the app. Because most launchers can
+  
+  only display four shortcuts at once,
+  static shortcuts are useful for common activities. For example, if the user wants to view their
+  calendar or email in a specific way, using a static shortcut ensures that their experience in
+  performing a routine task is consistent.
+
+
+Dynamic shortcuts 
+  are used for actions in apps that are context-sensitive.  For instance,
+  if you build a game that
+  allows the user to start from their current level on launch, the shortcut will need to be updated
+  frequently. Using a dynamic shortcut allows the shortcut to be updated each time the user
+  clears a level.
+
+
+Pinned shortcuts 
+  are used for specific, user-driven actions. For example, a user might want to pin a
+  specific website to the launcher. This is beneficial because it allows the user to perform a
+  custom action, like navigating to the website in one step, more quickly than using a
+  default instance of a browser.
+
+
+Create static shortcuts
+
+  Static shortcuts provide links to generic actions within your app, and these actions should remain
+  consistent over the lifetime of your app's current version. Good candidates for static shortcuts
+  include viewing sent messages, setting an alarm, and displaying a user's exercise activity for the
+  day.
+
+
+  To create a static shortcut, complete the following sequence of steps:
+
+
+
+
+  In your app's manifest file (AndroidManifest.xml), find an activity whose
+  intent filters are set to the 
+
+  android.intent.action.MAIN action and the 
+
+  android.intent.category.LAUNCHER category.
+
+
+
+
+  Add a 
+  <meta-data> element to this activity that references the resource file where the
+  app's shortcuts are defined:
+
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.myapplication">
+  <application ... >
+    <activity android:name="Main">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      
+      <meta-data android:name="android.app.shortcuts"
+                 android:resource="@xml/shortcuts" /> 
+    </activity>
+  </application>
+</manifest>
+
+
+
+
+  Create a new resource file: res/xml/shortcuts.xml.
+
+
+
+
+  In this new resource file, add a <shortcuts> root element, which contains a
+  list of <shortcut> elements. Each <shortcut>
+  element contains information about a static shortcut, including
+  its icon, its description labels, and the intents that it launches within the app:
+
+
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+  <shortcut
+    android:shortcutId="compose"
+    android:enabled="true"
+    android:icon="@drawable/compose_icon"
+    android:shortcutShortLabel="@string/compose_shortcut_short_label1"
+    android:shortcutLongLabel="@string/compose_shortcut_long_label1"
+    android:shortcutDisabledMessage="@string/compose_disabled_message1">
+    <intent
+      android:action="android.intent.action.VIEW"
+      android:targetPackage="com.example.myapplication"
+      android:targetClass="com.example.myapplication.ComposeActivity" />
+    <!-- If your shortcut is associated with multiple intents, include them
+         here. The last intent in the list determines what the user sees when
+         they launch this shortcut. -->
+    <categories android:name="android.shortcut.conversation" />
+  </shortcut>
+  <!-- Specify more shortcuts here. -->
+</shortcuts>
+
+
+
+Customize attribute values
+
+  The following list includes descriptions for the different attributes within a static shortcut.
+  You must provide a value for android:shortcutId and
+  android:shortcutShortLabel. All other values are
+  optional.
+
+
+
+android:shortcutId
+
+
+
+  A string literal, which represents the shortcut when a 
+ShortcutManager object performs
+  operations on it.
+
+
+Note: You cannot set this attribute's value to a resource
+  string, such as @string/foo.
+
+
+
+android:shortcutShortLabel
+
+
+
+  A concise phrase that describes the shortcut's purpose. When possible, limit the length of the
+  "short description" of a shortcut to 10 characters.
+  
+
+  For more information, see 
+
+ setShortLabel().
+
+
+Note: This attribute's value must be a resource string, such as
+  @string/shortcut_short_label.
+
+
+
+android:shortcutLongLabel
+
+
+
+  An extended phrase that describes the shortcut's purpose. If there's enough space, the launcher
+  displays this value instead of android:shortcutShortLabel.
+  When possible, limit the length of the "long description" of a shortcut to 25 characters.
+  
+
+  For more information, see
+  
+  setLongLabel().
+
+
+Note: This attribute's value must be a resource string, such as
+  @string/shortcut_long_label.
+
+
+
+android:shortcutDisabledMessage
+
+
+
+  The message that appears in a supported launcher when the user attempts to launch a disabled
+  shortcut. The message should explain to the user why the shortcut is now disabled.
+  This attribute's value has no effect if android:enabled is true.
+
+
+Note: This attribute's value must be a resource string, such as
+  @string/shortcut_disabled_message.
+
+
+
+android:enabled
+
+
+
+  Determines whether the user can interact with the shortcut from a supported launcher.
+  The default value of android:enabled is true.
+  If you set it to false, you should also
+  set a android:shortcutDisabledMessage that explains why you've disabled the
+  shortcut. If you don't think you need to provide such a message, it's easiest to remove the
+  shortcut from the XML file entirely.
+
+
+
+android:icon
+
+
+
+  The bitmap
+  or 
+  adaptive icon that the launcher uses when displaying the shortcut to the user. This
+  value can be either the path to an image or the resource file that contains the image. Use
+  adaptive icons whenever possible to improve performance and consistency.
+
+
+Note: Shortcut icons cannot include
+  tints.
+
+
+
+Configure inner elements
+
+  The XML file that lists an app's static shortcuts supports the following elements inside each
+  <shortcut> element. You must
+  include an intent inner element for each static shortcut that you define.
+
+
+
+intent
+
+
+
+  The action that the system launches when the user selects the shortcut. This intent must provide
+  a value for the android:action attribute.
+
+
+Note: This intent element cannot include string resources.
+
+
+  You can provide multiple intents for a single shortcut. See
+  
+  Manage multiple intents and activities,
+  Using intents,
+  and the 
+  TaskStackBuilder class reference for details.
+
+
+
+categories
+
+
+
+  Provides a grouping for the types of actions that your app's shortcuts perform, such as creating new
+  chat messages.
+
+
+  For a list of supported shortcut categories, see the
+  
+  ShortcutInfo class reference.
+
+
+
+Create dynamic shortcuts
+
+  Dynamic shortcuts provide links to specific, context-sensitive actions within your app. These
+  actions can change between uses of your app, and they can change even while your app is running.
+  Good candidates for dynamic shortcuts include calling a specific person, navigating to a specific
+  location, and loading a game from the user's last save point.
+
+
+  The 
+  ShortcutManager API allows you to complete the following operations
+  on dynamic shortcuts:
+
+
+
+Publish: Use
+    
+    setDynamicShortcuts() to redefine the entire list of dynamic
+    shortcuts, or use
+    addDynamicShortcuts()
+    to augment an existing list of dynamic shortcuts.
+  
+
+Update: Use the 
+    updateShortcuts() method.
+  
+
+Remove: Remove a set of dynamic shortcuts using
+    
+    removeDynamicShortcuts(), or remove all dynamic shortcuts using
+    
+    removeAllDynamicShortcuts().
+  
+
+
+  For more information about performing operations on shortcuts, read
+  Manage shortcuts and the
+  
+  ShortcutManager reference.
+
+
+  An example of creating a dynamic shortcut and associating it with your app appears in the
+  following code snippet:
+
+
+Note: Instances of the ShortcutManager class must be obtained using
+  
+  Context.getSystemService(Class) with the argument ShortcutManager.class or
+  
+  Context.getSystemService(String) with the argument
+  
+  Context.SHORTCUT_SERVICE.
+
+
+Kotlin
+
+val shortcutManager = getSystemService<ShortcutManager>(ShortcutManager::class.java)
+
+val shortcut = ShortcutInfo.Builder(context, "id1")
+        .setShortLabel("Website")
+        .setLongLabel("Open the website")
+        .setIcon(Icon.createWithResource(context, R.drawable.icon_website))
+        .setIntent(Intent(Intent.ACTION_VIEW,
+                Uri.parse("https://www.mysite.example.com/")))
+        .build()
+
+shortcutManager!!.dynamicShortcuts = Arrays.asList(shortcut)
+
+Java
+
+ShortcutManager shortcutManager = getSystemService(ShortcutManager.class);
+
+ShortcutInfo shortcut = new ShortcutInfo.Builder(context, "id1")
+    .setShortLabel("Website")
+    .setLongLabel("Open the website")
+    .setIcon(Icon.createWithResource(context, R.drawable.icon_website))
+    .setIntent(new Intent(Intent.ACTION_VIEW,
+                   Uri.parse("https://www.mysite.example.com/")))
+    .build();
+
+shortcutManager.setDynamicShortcuts(Arrays.asList(shortcut));
+
+
+
+Create pinned shortcuts
+
+
+
+Figure 1. Appearance of app shortcuts and pinned
+    shortcuts
+
+
+
+  On Android 8.0 (API level 26) and higher, you can create pinned shortcuts. Unlike static
+  and dynamic shortcuts, pinned shortcuts appear in supported launchers as separate icons.
+  Figure 1 shows the distinction between these two types of shortcuts.
+
+
+Note: When you attempt to pin a shortcut onto a supported
+  launcher, the user receives a confirmation dialog asking their permission to pin
+  the shortcut. If the user doesn't allow the shortcut to be pinned, the launcher
+  cancels the request.
+
+
+  To pin a shortcut to a supported launcher using your app, complete the following
+  sequence of steps:
+
+
+
+    Use
+    
+    isRequestPinShortcutSupported() to verify that the device's
+    default launcher supports in-app pinning of shortcuts.
+  
+
+Create a 
+    ShortcutInfo object in one of two
+    ways, depending on whether the shortcut already exists:
+
+
+        If the shortcut already exists, create a
+        ShortcutInfo object that contains only the
+        existing shortcut's ID. The system finds and pins all other information
+        related to the shortcut automatically.
+      
+
+        If you're pinning a new shortcut, create a
+        ShortcutInfo object that contains an ID, an
+        intent, and a short label for the new shortcut.
+      
+
+
+Note: Because the system performs
+    
+    backup and restore on pinned shortcuts automatically, these
+    shortcuts' IDs should contain either stable, constant strings or server-side identifiers,
+    rather than identifiers generated locally that might not make sense on other devices.
+    
+
+
+Attempt to pin the shortcut to the device's launcher by calling
+    
+    requestPinShortcut(). During this process, you can pass in a
+    
+    PendingIntent object, which notifies your app only when
+    the shortcut is pinned successfully.
+Note: If the user doesn't allow the shortcut to be
+    pinned to the launcher, your app doesn't receive a callback.
+After a shortcut is pinned, your app can update its contents using the
+    
+    updateShortcuts() method. For more information, read
+    
+    Update shortcuts.
+    
+
+
+
+  The following code snippet demonstrates how to create a pinned shortcut:
+
+
+Note: Instances of the ShortcutManager class must be obtained using
+  
+  Context.getSystemService(Class) with the argument ShortcutManager.class or
+  
+  Context.getSystemService(String) with the argument
+  
+  Context.SHORTCUT_SERVICE.
+
+
+Kotlin
+
+val shortcutManager = getSystemService(ShortcutManager::class.java)
+
+if (shortcutManager!!.isRequestPinShortcutSupported) {
+    // Assumes there's already a shortcut with the ID "my-shortcut".
+    // The shortcut must be enabled.
+    val pinShortcutInfo = ShortcutInfo.Builder(context, "my-shortcut").build()
+
+    // Create the PendingIntent object only if your app needs to be notified
+    // that the user allowed the shortcut to be pinned. Note that, if the
+    // pinning operation fails, your app isn't notified. We assume here that the
+    // app has implemented a method called createShortcutResultIntent() that
+    // returns a broadcast intent.
+    val pinnedShortcutCallbackIntent = shortcutManager.createShortcutResultIntent(pinShortcutInfo)
+
+    // Configure the intent so that your app's broadcast receiver gets
+    // the callback successfully.For details, see PendingIntent.getBroadcast().
+    val successCallback = PendingIntent.getBroadcast(context, /* request code */ 0,
+            pinnedShortcutCallbackIntent, /* flags */ 0)
+
+    shortcutManager.requestPinShortcut(pinShortcutInfo,
+            successCallback.intentSender)
+}
+
+
+Java
+
+ShortcutManager shortcutManager =
+        context.getSystemService(ShortcutManager.class);
+
+if (shortcutManager.isRequestPinShortcutSupported()) {
+    // Assumes there's already a shortcut with the ID "my-shortcut".
+    // The shortcut must be enabled.
+    ShortcutInfo pinShortcutInfo =
+            new ShortcutInfo.Builder(context, "my-shortcut").build();
+
+    // Create the PendingIntent object only if your app needs to be notified
+    // that the user allowed the shortcut to be pinned. Note that, if the
+    // pinning operation fails, your app isn't notified. We assume here that the
+    // app has implemented a method called createShortcutResultIntent() that
+    // returns a broadcast intent.
+    Intent pinnedShortcutCallbackIntent =
+            shortcutManager.createShortcutResultIntent(pinShortcutInfo);
+
+    // Configure the intent so that your app's broadcast receiver gets
+    // the callback successfully.For details, see PendingIntent.getBroadcast().
+    PendingIntent successCallback = PendingIntent.getBroadcast(context, /* request code */ 0,
+            pinnedShortcutCallbackIntent, /* flags */ 0);
+
+    shortcutManager.requestPinShortcut(pinShortcutInfo,
+            successCallback.getIntentSender());
+}
+
+
+
+
+
+Note: See also the support library APIs,
+  
+  isRequestPinShortcutSupported() and
+  
+  requestPinShortcut(), which work on Android 7.1 (API level 25) and
+  lower. The support library falls back to the deprecated
+  
+  EXTRA_SHORTCUT_INTENT extra to attempt the
+  pinning process.
+
+Create a custom shortcut activity
+
+
+
+Figure 2. Example of a custom app shortcut
+    dialog activity
+
+
+
+  You can also create a specialized activity that helps users create shortcuts, complete with custom
+  options and a confirmation button. Figure 2 shows an example of this type of activity in the Gmail
+  app.
+
+
+  In your app's manifest file, add 
+
+  ACTION_CREATE_SHORTCUT to the activity's 
+
+  <intent-filter> element. This declaration sets up the following behavior when
+  the user attempts to create a shortcut:
+
+
+
+    The system starts your app's specialized activity.
+  
+
+    The user sets options for the shortcut.
+  
+
+    The user selects the confirmation button.
+  
+
+    Your app creates the shortcut using the 
+
+    createShortcutResultIntent() method. This method returns an 
+Intent, which your app relays back
+    to the previously-executing activity using 
+setResult().
+  
+
+    Your app calls 
+finish()
+    on the activity used to create the customized shortcut.
+  
+
+
+  Similarly, your app can prompt users to add pinned shortcuts to the home screen after installation
+  or the first time the app is launched. This method is effective because it helps your users
+  create a shortcut as part of their ordinary workflow.
+
+Testing shortcuts
+
+  To test your app's shortcuts, install your app on a device with a launcher that supports
+  shortcuts. Then, perform the following actions:
+
+
+
+  Long-tap on your app's launcher icon to view the shortcuts that you've defined for your app.
+  
+
+  Tap and drag a shortcut to pin it to the device's launcher.
+  
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

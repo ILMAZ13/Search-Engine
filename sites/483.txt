@@ -1,0 +1,745 @@
+Build more accessible custom views  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Build more accessible custom views
+  
+
+
+If your application requires a custom
+view component, you must do some additional work to make the view more
+accessible. These are the main tasks for improving your custom view's
+accessibility:
+
+Handle directional controller clicks
+Implement accessibility API methods
+Send AccessibilityEvent objects specific to your custom
+    view
+Populate AccessibilityEvent and AccessibilityNodeInfo for your view
+
+Handle directional controller clicks
+On most devices, clicking a view using a directional controller sends a KeyEvent with KEYCODE_DPAD_CENTER to the view currently
+in focus. All standard Android views already handle KEYCODE_DPAD_CENTER appropriately. When building a custom View control, make sure this event has the same effect as touching the view on the
+touchscreen. 
+Your custom control should also treat the KEYCODE_ENTER event the
+same as KEYCODE_DPAD_CENTER. This approach makes interaction from a
+full keyboard much easier for users.
+Implement accessibility API methods
+Accessibility events are messages about users interaction with visual interface components in
+your application. These messages are handled by Accessibility Services,
+which use the information in these events to produce supplemental feedback and prompts. In
+Android 4.0 (API Level 14) and higher, the methods for
+generating accessibility events have been expanded to provide more detailed information than the
+AccessibilityEventSource interface introduced in Android 1.6 (API
+Level 4). The expanded accessibility methods are part of the View class as well
+as the View.AccessibilityDelegate class. The methods are as follows:
+
+sendAccessibilityEvent()
+(API Level 4) This method is called when a user takes action on a view. The event is
+classified with a user action type such as TYPE_VIEW_CLICKED. You typically do
+not need to implement this method unless you are creating a custom view.
+sendAccessibilityEventUnchecked()
+(API Level 4) This method is used when the calling code needs to directly control the check
+for accessibility being enabled on the device (AccessibilityManager.isEnabled()). If
+you do implement this method, you must perform the call as if accessibility is enabled, regardless
+of the actual system setting. You typically do not need to implement this method for a custom view.
+
+dispatchPopulateAccessibilityEvent()
+(API Level 4) The system calls this method when your custom view generates an
+accessibility event. As of API Level 14, the default implementation of this method calls onPopulateAccessibilityEvent() for this view and
+then the dispatchPopulateAccessibilityEvent() method for each child of this view. In order to support
+accessibility services on revisions of Android prior to 4.0 (API Level 14) you
+must override this method and populate getText() with descriptive text for your custom
+view, which is spoken by accessibility services, such as TalkBack.
+onPopulateAccessibilityEvent()
+(API Level 14) This method sets the spoken text prompt of the AccessibilityEvent for your view. This method is also called if the
+view is a child of a view which generates an accessibility event.
+
+  Note: Modifying additional attributes beyond the text within
+this method potentially overwrites properties set by other methods. While you can modify
+attributes of the accessibility event with this method, you should limit these changes
+to text content, and use the onInitializeAccessibilityEvent() method to modify other properties of the event.
+Note: If your implementation of this event completely
+overrides the output text without allowing other parts of your layout to modify its content, then
+do not call the super implementation of this method in your code.
+
+onInitializeAccessibilityEvent()
+(API Level 14) The system calls this method to obtain additional information about the
+state of the view, beyond text content. If your custom view provides interactive control beyond a
+simple TextView or Button, you should override this
+method and set the additional information about your view into the event using this method, such as
+password field type, checkbox type or states that provide user interaction or feedback. If you
+do override this method, you must call its super implementation and then only modify properties
+that have not been set by the super class.
+onInitializeAccessibilityNodeInfo()
+(API Level 14) This method provides accessibility services with information about the state of
+the view. The default View implementation has a standard set of view
+properties, but if your custom view provides interactive control beyond a simple TextView or Button, you should override this method and set
+the additional information about your view into the AccessibilityNodeInfo object handled by this method.
+onRequestSendAccessibilityEvent()
+(API Level 14) The system calls this method when a child of your view has generated an
+AccessibilityEvent. This step allows the parent view to amend
+the accessibility event with additional information. You should implement this method only if your
+custom view can have child views and if the parent view can provide context information to the
+accessibility event that would be useful to accessibility services.
+
+In order to support these accessibility methods for a custom view, you should take one of the
+following approaches:
+
+If your application targets Android 4.0 (API level 14) and higher, override and implement the
+accessibility methods listed above directly in your custom view class.
+If your custom view is intended to be compatible with Android 1.6 (API Level 4) and above, add
+the Android Support Library, revision 5 or
+higher, to your project. Then, within your custom view class, call the
+ViewCompat.setAccessibilityDelegate() method to implement the accessibility methods
+above. For an example of this approach, see the Android Support Library (revision 5 or higher)
+sample AccessibilityDelegateSupportActivity in
+(<sdk>/extras/android/support/v4/samples/Support4Demos/)
+  
+
+In either case, you should implement the following accessibility methods for your custom view
+class:
+
+dispatchPopulateAccessibilityEvent()
+onPopulateAccessibilityEvent()
+onInitializeAccessibilityEvent()
+onInitializeAccessibilityNodeInfo()
+
+For more information about implementing these methods, see Populate
+Accessibility Events.
+Send accessibility events
+Depending on the specifics of your custom view, it may need to send AccessibilityEvent objects at a different times or for events not
+handled by the default implementation. The View class provides a default
+implementation for these event types:
+
+Starting with API Level 4:
+    
+TYPE_VIEW_CLICKED
+TYPE_VIEW_LONG_CLICKED
+TYPE_VIEW_FOCUSED
+
+
+Starting with API Level 14:
+    
+TYPE_VIEW_SCROLLED
+TYPE_VIEW_HOVER_ENTER
+TYPE_VIEW_HOVER_EXIT
+
+
+
+Note: Hover events are associated with the Explore by
+Touch feature, which uses these events as triggers for providing audible prompts for user interface
+elements.
+In general, you should send an AccessibilityEvent whenever the
+content of your custom view changes. For example, if you are implementing a custom slider bar that
+allows a user to select a numeric value by pressing the left or right arrows, your custom view
+should emit an event of type TYPE_VIEW_TEXT_CHANGED whenever the slider
+value changes. The following sample code demonstrates the use of the sendAccessibilityEvent() method to report this event.
+
+Kotlin
+
+override fun onKeyUp(keyCode: Int, event: KeyEvent): Boolean {
+    return when(keyCode) {
+        KeyEvent.KEYCODE_DPAD_LEFT -> {
+            currentValue--
+            sendAccessibilityEvent(AccessibilityEvent.TYPE_VIEW_TEXT_CHANGED)
+            true
+        }
+        ...
+    }
+}
+
+Java
+
+@Override
+public boolean onKeyUp (int keyCode, KeyEvent event) {
+    if (keyCode == KeyEvent.KEYCODE_DPAD_LEFT) {
+        currentValue--;
+        sendAccessibilityEvent(AccessibilityEvent.TYPE_VIEW_TEXT_CHANGED);
+        return true;
+    }
+    ...
+}
+
+
+
+Populate accessibility events
+Each AccessibilityEvent has a set of required properties that
+describe the current state of the view. These properties include things such as the view's class
+name, content description and checked state. The specific properties required for each event type
+are described in the AccessibilityEvent reference documentation.
+The View implementation provides default values for these properties. Many of
+these values, including the class name and event timestamp, are provided automatically. If you are
+creating a custom view component, you must provide some information about the content and
+characteristics of the view. This information may be as simple as a button label, but may also
+include additional state information that you want to add to the event.
+The minimum requirement for providing information to accessibility services with a custom
+view is to implement dispatchPopulateAccessibilityEvent(). This method is called by the system to request
+information for an AccessibilityEvent and makes your custom
+view compatible with accessibility services on Android 1.6 (API Level 4) and higher. The
+following example code demonstrates a basic implementation of this method.
+
+Kotlin
+
+override fun dispatchPopulateAccessibilityEvent(event: AccessibilityEvent): Boolean {
+    // Call the super implementation to populate its text to the event, which
+    // calls onPopulateAccessibilityEvent() on API Level 14 and up.
+    return super.dispatchPopulateAccessibilityEvent(event).let { completed ->
+
+        // In case this is running on a API revision earlier that 14, check
+        // the text content of the event and add an appropriate text
+        // description for this custom view:
+        if (text?.isNotEmpty() == true) {
+            event.text.add(text)
+            true
+        } else {
+            completed
+        }
+    }
+}
+
+Java
+
+@Override
+public boolean dispatchPopulateAccessibilityEvent(AccessibilityEvent event) {
+    // Call the super implementation to populate its text to the event, which
+    // calls onPopulateAccessibilityEvent() on API Level 14 and up.
+    boolean completed = super.dispatchPopulateAccessibilityEvent(event);
+
+    // In case this is running on a API revision earlier that 14, check
+    // the text content of the event and add an appropriate text
+    // description for this custom view:
+    CharSequence text = getText();
+    if (!TextUtils.isEmpty(text)) {
+        event.getText().add(text);
+        return true;
+    }
+    return completed;
+}
+
+
+
+For Android 4.0 (API Level 14) and higher, use the onPopulateAccessibilityEvent() and
+onInitializeAccessibilityEvent()
+methods to populate or modify the information in an AccessibilityEvent. Use the
+onPopulateAccessibilityEvent() method
+specifically for adding or modifying the text content of the event, which is turned into audible
+prompts by accessibility services such as TalkBack. Use the
+onInitializeAccessibilityEvent() method for
+populating additional information about the event, such as the selection state of the view.
+In addition, implement the
+onInitializeAccessibilityNodeInfo()
+method. The AccessibilityNodeInfo objects populated by this method
+are used by accessibility services to investigate the view hierarchy that generated an accessibility
+event after receiving that event, to obtain a more detailed context information and provide
+appropriate feedback to users.
+The example code below shows how override these three methods by using
+ViewCompat.setAccessibilityDelegate(). Note that this sample code requires that the Android
+Support Library for API Level 4 (revision
+5 or higher) is added to your project.
+
+Kotlin
+
+ViewCompat.setAccessibilityDelegate(this, object : AccessibilityDelegateCompat() {
+
+    override fun onPopulateAccessibilityEvent(host: View, event: AccessibilityEvent) {
+        super.onPopulateAccessibilityEvent(host, event)
+        // We call the super implementation to populate its text for the
+        // event. Then we add our text not present in a super class.
+        // Very often you only need to add the text for the custom view.
+        if (text?.isNotEmpty() == true) {
+            event.text.add(text)
+        }
+    }
+
+    override fun onInitializeAccessibilityEvent(host: View, event: AccessibilityEvent) {
+        super.onInitializeAccessibilityEvent(host, event);
+        // We call the super implementation to let super classes
+        // set appropriate event properties. Then we add the new property
+        // (checked) which is not supported by a super class.
+        event.isChecked = isChecked()
+    }
+
+    override fun onInitializeAccessibilityNodeInfo(host: View, info: AccessibilityNodeInfoCompat) {
+        super.onInitializeAccessibilityNodeInfo(host, info)
+        // We call the super implementation to let super classes set
+        // appropriate info properties. Then we add our properties
+        // (checkable and checked) which are not supported by a super class.
+        info.isCheckable = true
+        info.isChecked = isChecked()
+        // Quite often you only need to add the text for the custom view.
+        if (text?.isNotEmpty() == true) {
+            info.text = text
+        }
+    }
+})
+
+Java
+
+ViewCompat.setAccessibilityDelegate(new AccessibilityDelegateCompat() {
+    @Override
+    public void onPopulateAccessibilityEvent(View host, AccessibilityEvent event) {
+        super.onPopulateAccessibilityEvent(host, event);
+        // We call the super implementation to populate its text for the
+        // event. Then we add our text not present in a super class.
+        // Very often you only need to add the text for the custom view.
+        CharSequence text = getText();
+        if (!TextUtils.isEmpty(text)) {
+            event.getText().add(text);
+        }
+    }
+    @Override
+    public void onInitializeAccessibilityEvent(View host, AccessibilityEvent event) {
+        super.onInitializeAccessibilityEvent(host, event);
+        // We call the super implementation to let super classes
+        // set appropriate event properties. Then we add the new property
+        // (checked) which is not supported by a super class.
+        event.setChecked(isChecked());
+    }
+    @Override
+    public void onInitializeAccessibilityNodeInfo(View host,
+            AccessibilityNodeInfoCompat info) {
+        super.onInitializeAccessibilityNodeInfo(host, info);
+        // We call the super implementation to let super classes set
+        // appropriate info properties. Then we add our properties
+        // (checkable and checked) which are not supported by a super class.
+        info.setCheckable(true);
+        info.setChecked(isChecked());
+        // Quite often you only need to add the text for the custom view.
+        CharSequence text = getText();
+        if (!TextUtils.isEmpty(text)) {
+            info.setText(text);
+        }
+    }
+}
+
+
+
+You can implement these methods
+directly in your custom view class. For another example of this approach, see the Android
+Support Library (revision 5 or higher)
+sample AccessibilityDelegateSupportActivity in
+(<sdk>/extras/android/support/v4/samples/Support4Demos/).
+Provide a customized accessibility context
+In Android 4.0 (API Level 14), the framework was enhanced to allow accessibility services to
+  inspect the containing view hierarchy of a user interface component that generates an
+  accessibility event. This enhancement allows accessibility services to provide a much richer set
+  of contextual information with which to aid users.
+There are some cases where accessibility services cannot get adequate information
+  from the view hierarchy. An example of this is a custom interface control that has two or more
+  separately clickable areas, such as a calendar control. In this case, the services cannot get
+  adequate information because the clickable subsections are not part of the view hierarchy.
+
+
+Figure 1. A custom calendar view with selectable day elements.
+
+In the example shown in Figure 1, the entire calendar is implemented as a single view, so if you
+  do not do anything else, accessibility services do not receive enough information about the
+  content of the view and the user's selection within the view. For example, if a user clicks on the
+  day containing 17, the accessibility framework only receives the description
+  information for the whole calendar control. In this case, the TalkBack accessibility service would
+  simply announce "Calendar" or, only slightly better, "April Calendar" and the user would be left
+  to wonder what day was selected.
+To provide adequate context information for accessibility services in situations like this,
+  the framework provides a way to specify a virtual view hierarchy. A virtual view
+  hierarchy is a way for application developers to provide a complementary view hierarchy
+  to accessibility services that more closely matches the actual information on screen. This
+  approach allows accessibility services to provide more useful context information to users.
+Another situation where a virtual view hierarchy may be needed is a user interface containing
+  a set of controls (views) that have closely related functions, where an action on one control
+  affects the contents of one or more elements, such as a number picker with separate up and down
+  buttons. In this case, accessibility services cannot get adequate information because action on
+  one control changes content in another and the relationship of those controls may not be apparent
+  to the service. To handle this situation, group the related controls with a containing view and
+  provide a virtual view hierarchy from this container to clearly represent the information and
+  behavior provided by the controls.
+In order to provide a virtual view hierarchy for a view, override the getAccessibilityNodeProvider() method in your custom view or view group and
+  return an implementation of AccessibilityNodeProvider. For an
+  example implementation of this accessibility feature, see
+  AccessibilityNodeProviderActivity in the ApiDemos sample project. You can implement a
+  virtual view hierarchy that is compatible with Android 1.6 and later by using the
+  Support Library with the
+  ViewCompat.getAccessibilityNodeProvider() method and providing an implementation with
+  AccessibilityNodeProviderCompat.
+Handle custom touch events
+Custom view controls may require non-standard touch event behavior. For example, a custom
+control may use the onTouchEvent(MotionEvent) listener method to detect the
+ACTION_DOWN and ACTION_UP events
+and trigger a special click event. In order to maintain compatibility with accessibility services,
+the code that handles this custom click event must do the following:
+
+Generate an appropriate AccessibilityEvent for the
+  interpreted click action.
+Enable accessibility services to perform the custom click action for users who are not able to
+   use a touch screen.
+
+To handle these requirements in an efficient way, your code should override the
+performClick() method, which must call the super implementation of this
+method and then execute whatever actions are required by the click event. When the custom click
+action is detected, that code should then call your performClick() method. The following
+code example demonstrates this pattern.
+
+Kotlin
+
+class CustomTouchView(context: Context) : View(context) {
+
+    var downTouch = false
+
+    override fun onTouchEvent(event: MotionEvent): Boolean {
+        super.onTouchEvent(event)
+
+        // Listening for the down and up touch events
+        return when (event.action) {
+            MotionEvent.ACTION_DOWN -> {
+                downTouch = true
+                true
+            }
+
+            MotionEvent.ACTION_UP -> if (downTouch) {
+                downTouch = false
+                performClick() // Call this method to handle the response, and
+                // thereby enable accessibility services to
+                // perform this action for a user who cannot
+                // click the touchscreen.
+                true
+            } else {
+                false
+            }
+
+            else -> false  // Return false for other touch events
+        }
+    }
+
+    override fun performClick(): Boolean {
+        // Calls the super implementation, which generates an AccessibilityEvent
+        // and calls the onClick() listener on the view, if any
+        super.performClick()
+
+        // Handle the action for the custom click here
+
+        return true
+    }
+}
+
+Java
+
+class CustomTouchView extends View {
+
+    public CustomTouchView(Context context) {
+        super(context);
+    }
+
+    boolean downTouch = false;
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        super.onTouchEvent(event);
+
+        // Listening for the down and up touch events
+        switch (event.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+                downTouch = true;
+                return true;
+
+            case MotionEvent.ACTION_UP:
+                if (downTouch) {
+                    downTouch = false;
+                    performClick(); // Call this method to handle the response, and
+                                    // thereby enable accessibility services to
+                                    // perform this action for a user who cannot
+                                    // click the touchscreen.
+                    return true;
+                }
+        }
+        return false; // Return false for other touch events
+    }
+
+    @Override
+    public boolean performClick() {
+        // Calls the super implementation, which generates an AccessibilityEvent
+        // and calls the onClick() listener on the view, if any
+        super.performClick();
+
+        // Handle the action for the custom click here
+
+        return true;
+    }
+}
+
+
+
+The pattern shown above makes sure that the custom click event is compatible with
+accessibility services by using the performClick() method to both generate
+an accessibility event and provide an entry point for accessibility services to act on behalf of a
+user to perform this custom click event.
+Note: If your custom view has distinct clickable regions, such as
+a custom calendar view, you must implement a virtual view
+hierarchy by overriding getAccessibilityNodeProvider() in your custom
+view in order to be compatible with accessibility services.
+
+
+
+
+
+        
+        Previous
+      
+
+
+          arrow_back
+        
+        Building accessibility services
+      
+
+
+
+
+
+        
+        Next
+      
+
+
+          arrow_forward
+        
+        Build accessibility service
+      
+
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

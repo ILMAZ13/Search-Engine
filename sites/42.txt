@@ -1,0 +1,1794 @@
+<uses-feature>  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    <uses-feature>
+  
+
+
+
+Google Play uses the <uses-feature>
+elements declared in your app manifest to filter your app from devices
+that do not meet its hardware and software feature requirements. 
+By specifying the features that your application requires,
+you enable Google Play to present your application only to users whose
+devices meet the application's feature requirements, rather than presenting it
+to all users. 
+For important information about how
+Google Play uses features as the basis for filtering, please read Google Play and Feature-Based Filtering,
+below.
+
+
+syntax:
+
+<uses-feature
+  android:name="string"
+  android:required=["true" | "false"]
+  android:glEsVersion="integer" />
+
+contained in:
+<manifest>
+description:
+Declares a single hardware or software feature that is used by the
+application.
+
+The purpose of a <uses-feature> declaration is to inform
+any external entity of the set of hardware and software features on which your
+application depends. The element offers a required attribute that
+lets you specify whether your application requires and cannot function without
+the declared feature, or whether it prefers to have the feature but can function
+without it. Because feature support can vary across Android devices, the
+<uses-feature> element serves an important role in letting an
+application describe the device-variable features that it uses.
+The set of available features that your application declares corresponds to
+the set of feature constants made available by the Android PackageManager, which are listed for
+convenience in the Features Reference sections
+at the bottom of this document.
+
+You must specify each feature in a separate <uses-feature>
+element, so if your application requires multiple features, it would declare
+multiple <uses-feature> elements. For example, an application
+that requires both Bluetooth and camera features in the device would declare
+these two elements:
+
+<uses-feature android:name="android.hardware.bluetooth" />
+<uses-feature android:name="android.hardware.camera" />
+
+In general, you should always make sure to declare
+<uses-feature> elements for all of the features that your
+application requires.
+Declared <uses-feature> elements are informational only, meaning
+that the Android system itself does not check for matching feature support on
+the device before installing an application. However, other services
+(such as Google Play) or applications may check your application's
+<uses-feature> declarations as part of handling or interacting
+with your application. For this reason, it's very important that you declare all of
+the features (from the list below) that your application uses. 
+For some features, there may exist a specific attribute that allows you to define
+a version of the feature, such as the version of Open GL used (declared with
+glEsVersion). Other features that either do or do not
+exist for a device, such as a camera, are declared using the
+name attribute.
+Although the <uses-feature> element is only activated for
+devices running API Level 4 or higher, it is recommended to include these
+elements for all applications, even if the minSdkVersion
+is "3" or lower. Devices running older versions of the platform will simply
+ignore the element.
+Note: When declaring a feature, remember
+that you must also request permissions as appropriate. For example, you must
+still request the CAMERA
+permission before your application can access the camera API. Requesting the
+permission grants your application access to the appropriate hardware and
+software, while declaring the features used by your application ensures proper
+device compatibility.
+
+attributes:
+
+
+
+android:name
+
+
+    Specifies a single hardware or software feature used by the application, as
+    a descriptor string. Valid attribute values are listed in the Hardware features and Software
+    features sections. These attribute values are case-sensitive.
+  
+
+android:required
+
+
+
+    Boolean value that indicates whether the application requires the feature
+    specified in android:name.
+    
+When you declare android:required="true" for a feature,
+    you are specifying that the application cannot function, or is not
+    designed to function, when the specified feature is not present on the
+    device. 
+When you declare android:required="false" for a feature, it
+    means that the application prefers to use the feature if present on
+    the device, but that it is designed to function without the specified
+    feature, if necessary. 
+
+The default value for android:required if not declared is
+    "true".
+
+android:glEsVersion
+The OpenGL ES version required by the application. The higher 16 bits
+represent the major number and the lower 16 bits represent the minor number. For
+example, to specify OpenGL ES version 2.0, you would set the value as
+"0x00020000", or to specify OpenGL ES 3.2, you would set the value as "0x00030002".
+
+  An application should specify at most one android:glEsVersion
+attribute in its manifest. If it specifies more than one, the
+android:glEsVersion with the numerically highest value is used and
+any other values are ignored.
+If an application does not specify an android:glEsVersion
+attribute, then it is assumed that the application requires only OpenGL ES 1.0,
+which is supported by all Android-powered devices.
+An application can assume that if a platform supports a given OpenGL ES
+version, it also supports all numerically lower OpenGL ES versions. Therefore,
+an application that requires both OpenGL ES 1.0 and OpenGL ES 2.0 must specify
+that it requires OpenGL ES 2.0.
+An application that can work with any of several OpenGL ES versions should
+only specify the numerically lowest version of OpenGL ES that it requires. (It
+can check at run-time whether a higher level of OpenGL ES is available.)
+For more information about using OpenGL ES, including how to check the supported OpenGL ES
+version at runtime, see the OpenGL ES
+API guide.
+
+
+
+
+introduced in:
+API Level 4
+see also:
+
+
+PackageManager
+FeatureInfo
+ConfigurationInfo
+<uses-permission>
+Filters on Google Play
+
+
+
+Google Play and Feature-Based Filtering
+Google Play filters the applications that are visible to users, so that
+users can see and download only those applications that are compatible with
+their devices. One of the ways it filters applications is by feature
+compatibility.
+To determine an application's feature compatibility with a given user's
+device, Google Play compares:
+
+Features required by the application — an application declares features in
+<uses-feature> elements in its manifest with...
+Features available on the device, in hardware or software —
+a device reports the features it supports as read-only system properties.
+
+To ensure an accurate comparison of features, the Android Package Manager
+provides a shared set of feature constants that both applications and devices
+use to declare feature requirements and support. The available feature constants
+are listed in the Features Reference sections at
+the bottom of this document, and in the class documentation for PackageManager.
+When the user launches Google Play, the application queries the
+Package Manager for the list of features available on the device by calling
+getSystemAvailableFeatures(). The
+Store application then passes the features list up to Google Play
+when establishing the session for the user.
+Each time you upload an application to the Google Play Console,
+Google Play scans the application's manifest file. It looks for
+<uses-feature> elements and evaluates them in combination
+with other elements, in some cases, such as <uses-sdk> and
+<uses-permission> elements. After establishing the
+application's set of required features, it stores that list internally as
+metadata associated with the application .apk and the application
+version. 
+When a user searches or browses for applications using the Google Play
+application, the service compares the features needed by each application with
+the features available on the user's device. If all of an application's required
+features are present on the device, Google Play allows the user to see the
+application and potentially download it. If any required feature is not
+supported by the device, Google Play filters the application so that it is
+not visible to the user and not available for download. 
+Because the features you declare in <uses-feature>
+elements directly affect how Google Play filters your application, it's
+important to understand how Google Play evaluates the application's manifest
+and establishes the set of required features. The sections below provide more
+information. 
+Filtering based on explicitly declared features
+An explicitly declared feature is one that your application declares in a
+<uses-feature> element. The feature declaration can include
+an android:required=["true" | "false"] attribute (if you are
+compiling against API level 5 or higher), which lets you specify whether the
+application absolutely requires the feature and cannot function properly without
+it ("true"), or whether the application prefers to use the feature
+if available, but is designed to run without it ("false").
+Google Play handles explicitly declared features in this way: 
+
+If a feature is explicitly declared as being required, Google Play adds
+the feature to the list of required features for the application. It then
+filters the application from users on devices that do not provide that feature.
+For example:
+<uses-feature android:name="android.hardware.camera" android:required="true" />
+If a feature is explicitly declared as not being required, Google
+Play does not add the feature to the list of required features. For
+that reason, an explicitly declared non-required feature is never considered when
+filtering the application. Even if the device does not provide the declared
+feature, Google Play will still consider the application compatible with the
+device and will show it to the user, unless other filtering rules apply. For
+example:
+<uses-feature android:name="android.hardware.camera" android:required="false" />
+If a feature is explicitly declared, but without an
+android:required attribute, Google Play assumes that the feature
+is required and sets up filtering on it. 
+
+In general, if your application is designed to run on Android 1.6 and earlier
+versions, the android:required attribute is not available in the
+API and Google Play assumes that any and all
+<uses-feature> declarations are required. 
+Note: By declaring a feature explicitly and
+including an android:required="false" attribute, you can
+effectively disable all filtering on Google Play for the specified feature.
+
+Filtering based on implicit features
+An implicit feature is one that an application requires in order to
+function properly, but which is not declared in a
+<uses-feature> element in the manifest file. Strictly
+speaking, every application should always declare all features that it
+uses or requires, so the absence of a declaration for a feature used by an
+application should be considered an error. However, as a safeguard for users and
+developers, Google Play looks for implicit features in each application and
+sets up filters for those features, just as it would do for an explicitly
+declared feature. 
+An application might require a feature but not declare it because: 
+
+The application was compiled against an older version of the Android library
+(Android 1.5 or earlier) and the <uses-feature> element was
+not available.
+The developer incorrectly assumed that the feature would be present on all
+devices and a declaration was unnecessary.
+The developer omitted the feature declaration accidentally.
+The developer declared the feature explicitly, but the declaration was not
+valid. For example, a spelling error in the <uses-feature>
+element name or an unrecognized string value for the
+android:name attribute would invalidate the feature declaration.
+
+
+To account for the cases above, Google Play attempts to discover an
+application's implied feature requirements by examining other elements
+declared in the manifest file, specifically,
+<uses-permission> elements.
+If an application requests hardware-related permissions, Google Play
+assumes that the application uses the underlying hardware features and
+therefore requires those features, even though there might be no
+corresponding to <uses-feature> declarations. For such
+permissions, Google Play adds the underlying hardware features to the
+metadata that it stores for the application and sets up filters for them.
+For example, if an application requests the CAMERA permission
+but does not declare a <uses-feature> element for
+android.hardware.camera, Google Play considers that the
+application requires a camera and should not be shown to users whose devices do
+not offer a camera.
+If you don't want Google Play to filter based on a specific implied
+feature, you can disable that behavior. To do so, declare the feature explicitly
+in a <uses-feature> element and include an
+android:required="false" attribute. For example, to disable
+filtering derived from the CAMERA permission, you would declare
+the feature as shown below.
+<uses-feature android:name="android.hardware.camera" android:required="false" />
+It's important to understand that the permissions that you
+request in <uses-permission> elements can directly affect how
+Google Play filters your application. The reference section Permissions that Imply Feature Requirements lists the
+full set of permissions that imply feature requirements and
+therefore trigger filtering.
+Special handling for Bluetooth feature
+Google Play applies slightly different rules than described above, when
+determining filtering for Bluetooth.
+If an application declares a Bluetooth permission in a
+<uses-permission> element, but does not explicitly declare
+the Bluetooth feature in a <uses-feature> element, Google
+Play checks the version(s) of the Android platform on which the application is
+designed to run, as specified in the <uses-sdk> element. 
+As shown in the table below, Google Play enables filtering for the
+Bluetooth feature only if the application declares its lowest or targeted
+platform as Android 2.0 (API level 5) or higher. However, note that Google
+Play applies the normal rules for filtering when the application explicitly
+declares the Bluetooth feature in a <uses-feature> element.
+
+Table 1. How Google Play determines the
+Bluetooth feature requirement for an application that requests a Bluetooth
+permission but does not declare the Bluetooth feature in a
+<uses-feature> element.
+
+
+If minSdkVersion is ...
+or targetSdkVersion is
+Result
+
+
+<=4 (or uses-sdk is not declared)
+<=4
+Google Play will not filter the application from any devices
+based on their reported support for the android.hardware.bluetooth
+feature.
+
+
+<=4
+>=5
+Google Play filters the application from any devices that
+do not support the android.hardware.bluetooth feature (including
+older releases).
+
+
+>=5
+>=5
+
+
+The examples below illustrate the different filtering effects, based on how
+Google Play handles the Bluetooth feature. 
+
+In first example, an application that is designed to run on older API levels
+declares a Bluetooth permission, but does not declare the Bluetooth feature in a
+<uses-feature> element.
+Result: Google Play does not filter the application from any device.
+
+<manifest ...>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-sdk android:minSdkVersion="3" />
+    ...
+</manifest>
+
+In the second example, below, the same application also declares a target
+API level of "5". 
+Result: Google Play now assumes that the feature is required and
+will filter the application from all devices that do not report Bluetooth support,
+including devices running older versions of the platform. 
+
+<manifest ...>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="5" />
+    ...
+</manifest>
+
+Here the same application now specifically declares the Bluetooth feature.
+Result: Identical to the previous example (filtering is applied).
+
+<manifest ...>
+    <uses-feature android:name="android.hardware.bluetooth" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="5" />
+    ...
+</manifest>
+
+Finally, in the case below, the same application adds an
+android:required="false" attribute.
+Result: Google Play disables filtering based on Bluetooth
+feature support, for all devices.
+
+<manifest ...>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="5" />
+    ...
+</manifest>
+Testing the features required by your application
+You can use the aapt tool, included in the Android SDK, to
+determine how Google Play will filter your application, based on its declared
+features and permissions. To do so, run  aapt with the dump
+badging command. This causes aapt to parse your
+application's manifest and apply the same rules as used by Google Play to
+determine the features that your application requires. 
+To use the tool, follow these steps: 
+
+First, build and export your application as an unsigned .apk.
+If you are developing in Android Studio, build your application with Gradle:
+
+Open the project and select Run > Edit Configurations.
+Select the plus sign near the top-left corner of the Run/Debug
+Configurations window.
+Select Gradle.
+Enter Unsigned APK in Name.
+Choose your module from the Gradle project section.
+Enter assemble in Tasks.
+Select OK to complete the new configuration.
+Make sure the Unsigned APK run configuration is selected
+in the toolbar and select Run > Run 'Unsigned APK'.
+
+You can find your unsigned .apk in the
+<ProjectName>/app/build/outputs/apk/ directory.
+
+Next, locate the aapt tool, if it is not already in your PATH.
+If you are using SDK Tools r8 or higher, you can find aapt in the
+<SDK>/build-tools/<tools version number>
+directory.
+Note: You must use the version of
+aapt that is provided for the latest Build-Tools component available. If
+you do not have the latest Build-Tools component, download it using the Android SDK Manager.
+
+Run aapt using this syntax: 
+
+$ aapt dump badging <path_to_exported_.apk>
+Here's an example of the command output for the second Bluetooth example, above: 
+$ ./aapt dump badging BTExample.apk
+package: name='com.example.android.btexample' versionCode='' versionName=''
+uses-permission:'android.permission.BLUETOOTH_ADMIN'
+uses-feature:'android.hardware.bluetooth'
+sdkVersion:'3'
+targetSdkVersion:'5'
+application: label='BT Example' icon='res/drawable/app_bt_ex.png'
+launchable activity name='com.example.android.btexample.MyActivity'label='' icon=''
+uses-feature:'android.hardware.touchscreen'
+main
+supports-screens: 'small' 'normal' 'large'
+locales: '--_--'
+densities: '160'
+
+
+  Features Reference
+
+
+  The following sections provide reference information about hardware features,
+  software features, and sets of permissions that imply specific feature
+  requirements.
+
+
+  Hardware features
+
+
+  This section presents the hardware features supported by the most current
+  platform release. To indicate that your app uses or requires a hardware
+  feature, declare the corresponding value (beginning with
+  "android.hardware") in an android:name attribute.
+  Each time you declare a hardware feature, use a separate
+  <uses-feature> element.
+
+
+  Audio hardware features
+
+
+
+android.hardware.audio.low_latency
+
+
+    The app uses the device's low-latency audio pipeline, which reduces lag and
+    delays when processing sound input or output.
+  
+
+android.hardware.audio.output
+
+
+    The app transmits sound using the device's speakers, audio jack, Bluetooth
+    streaming capabilities, or a similar mechanism.
+  
+
+android.hardware.audio.pro
+
+
+    The app uses the device's high-end audio functionality and performance
+    capabilities.
+  
+
+android.hardware.microphone
+
+
+    The app records audio using the device's microphone.
+  
+
+
+  Bluetooth hardware features
+
+
+
+android.hardware.bluetooth
+
+
+    The app uses the device's Bluetooth features, usually to communicate with
+    other Bluetooth-enabled devices.
+  
+
+android.hardware.bluetooth_le
+
+
+    The app uses the device's Bluetooth Low Energy radio features.
+  
+
+
+  Camera hardware features
+
+
+
+android.hardware.camera
+
+
+    The app uses the device's back-facing camera. Devices with only a
+    front-facing camera do not list this feature, so use the
+    android.hardware.camera.any feature instead if your app can
+    communicate with any camera, regardless of which direction the camera
+    faces.
+  
+
+android.hardware.camera.any
+
+
+    The app uses one of the device's cameras, or an external camera that the
+    user connects to the device. Use this value instead of
+    android.hardware.camera if your app does not require the
+    camera to be a back-facing one.
+  
+
+android.hardware.camera.autofocus
+
+
+
+      The app uses the autofocus feature that the device's camera supports.
+    
+
+      By using this feature, an app implies that it also uses the
+      android.hardware.camera feature, unless this parent feature
+      is declared with android:required="false".
+    
+
+
+android.hardware.camera.capability.manual_post_processing
+
+
+
+      The app uses the MANUAL_POST_PROCESSING feature that the
+      device's camera supports.
+    
+
+      This feature allows your app to override the camera's auto white balance
+      functionality. Use android.colorCorrection.transform,
+      android.colorCorrection.gains, and an
+      android.colorCorrection.mode of
+      TRANSFORM_MATRIX.
+    
+
+
+android.hardware.camera.capability.manual_sensor
+
+
+
+      The app uses the MANUAL_SENSOR feature that the device's
+      camera supports.
+    
+
+      This feature implies support for auto-exposure locking
+      (android.control.aeLock), which allows the camera's exposure
+      time and sensitivity to remain fixed at specific values.
+    
+
+
+android.hardware.camera.capability.raw
+
+
+
+      The app uses the RAW feature that the device's camera
+      supports.
+    
+
+      This feature implies that the device can save DNG (raw) files and that
+      the device's camera provides the DNG-related metadata necessary for your
+      app to process these raw images directly.
+    
+
+
+android.hardware.camera.external
+
+
+    The app communicates with an external camera that the user connects to the
+    device. This feature does not guarantee, however, that the external camera
+    is available for your app to use.
+  
+
+android.hardware.camera.flash
+
+
+
+      The app uses the flash feature that the device's camera supports.
+    
+
+      By using this feature, an app implies that it also uses the
+      android.hardware.camera feature, unless this parent feature
+      is declared with android:required="false".
+    
+
+
+android.hardware.camera.front
+
+
+
+      The app uses the device's front-facing camera.
+    
+
+      By using this feature, an app implies that it also uses the
+      android.hardware.camera feature, unless this parent feature
+      is declared with android:required="false".
+    
+
+
+android.hardware.camera.level.full
+
+
+    The app uses the FULL-level image-capturing support that at
+    least one of the device's cameras provides. Cameras with FULL
+    support provide burst-capture capabilities, per-frame control, and manual
+    post-processing control.
+  
+
+
+  Device UI hardware features
+
+
+
+android.hardware.type.automotive
+
+
+
+      The app is designed to show its UI on a set of screens inside a vehicle.
+      The user interacts with the app using hard buttons, touch, rotary
+      controllers, and mouse-like interfaces. The vehicle's screens usually
+      appear in the center console or the instrument cluster of a vehicle. These
+      screens usually have limited size and resolution.
+    
+
+Note: It's important to keep in mind that, since the user
+      is driving while using this type of app UI, the app must minimize driver
+      distraction.
+    
+
+
+android.hardware.type.television
+
+
+
+      (Deprecated; use 
+android.software.leanback instead.)
+    
+
+      The app is designed to show its UI on a television. This feature defines
+      "television" to be a typical living room television experience: displayed
+      on a big screen, where the user is sitting far away and the dominant form
+      of input is something like a d-pad, and generally not using a mouse,
+      pointer, or touch device.
+    
+
+
+android.hardware.type.watch
+
+
+    The app is designed to show its UI on a watch. A watch is worn on the body,
+    such as on the wrist. The user is very close to the device while
+    interacting with it.
+  
+
+
+  Fingerprint hardware features
+
+
+
+android.hardware.fingerprint
+
+
+    The app reads fingerprints using the device's biometric hardware.
+  
+
+
+  Gamepad hardware features
+
+
+
+android.hardware.gamepad
+
+
+    The app captures game controller input, either from the device itself or
+    from a connected gamepad.
+  
+
+
+  Infrared hardware features
+
+
+
+android.hardware.consumerir
+
+
+    The app uses the device's infrared (IR) capabilities, usually to
+    communicate with other consumer IR devices.
+  
+
+
+  Location hardware features
+
+
+
+android.hardware.location
+
+
+    The app uses one or more features on the device for determining location,
+    such as GPS location, network location, or cell location.
+  
+
+android.hardware.location.gps
+
+
+
+      The app uses precise location coordinates obtained from a Global
+      Positioning System (GPS) receiver on the device.
+    
+
+      By using this feature, an app implies that it also uses the
+      android.hardware.location feature, unless this parent
+      feature is declared with the attribute
+      android:required="false".
+    
+
+
+android.hardware.location.network
+
+
+
+      The app uses coarse location coordinates obtained from a network-based
+      geolocation system supported on the device.
+    
+
+      By using this feature, an app implies that it also uses the
+      android.hardware.location feature, unless this parent
+      feature is declared with the attribute
+      android:required="false".
+    
+
+
+
+  NFC hardware features
+
+
+
+android.hardware.nfc
+
+
+    The app uses the device's Near-Field Communication (NFC) radio features.
+  
+
+android.hardware.nfc.hce
+
+
+
+      The app uses NFC card emulation that is hosted on the device.
+    
+
+
+
+  OpenGL ES hardware features
+
+
+
+android.hardware.opengles.aep
+
+
+    The app uses the OpenGL ES Android Extension Packthat is installed
+    on the device.
+  
+
+
+  Sensor hardware features
+
+
+
+android.hardware.sensor.accelerometer
+
+
+    The app uses motion readings from the device's accelerometer to detect
+    the device's current orientation. For example, an app could use
+    accelerometer readings to determine when to switch between portrait and
+    landscape orientations.
+  
+
+android.hardware.sensor.ambient_temperature
+
+
+    The app uses the device's ambient (environmental) temperature sensor. For
+    example, a weather app could report indoor or outdoor temperature.
+  
+
+android.hardware.sensor.barometer
+
+
+    The app uses the device's barometer. For example, a weather app could
+    report air pressure.
+  
+
+android.hardware.sensor.compass
+
+
+    The app uses the device's magnetometer (compass). For example, a navigation
+    app could show the current direction a user faces.
+  
+
+android.hardware.sensor.gyroscope
+
+
+    The app uses the device's gyroscope to detect rotation and twist, creating
+    a six-axis orientation system. By using this sensor, an app can detect more
+    smoothly whether it needs to switch between portrait and landscape
+    orientations.
+  
+
+android.hardware.sensor.hifi_sensors
+
+
+    The app uses the device's high fidelity (Hi-Fi) sensors. For example, a
+    gaming app could detect the user's high-precision movements.
+  
+
+android.hardware.sensor.heartrate
+
+
+    The app uses the device's heart rate monitor. For example, a fitness app
+    could report trends in a user's heart rate over time.
+  
+
+android.hardware.sensor.heartrate.ecg
+
+
+    The app uses the device's elcardiogram (ECG) heart rate sensor. For
+    example, a fitness app could report more detailed information about a
+    user's heart rate.
+  
+
+android.hardware.sensor.light
+
+
+    The app uses the device's light sensor. For example, an app could display
+    one of two different color schemes based on the ambient lighting
+    conditions.
+  
+
+android.hardware.sensor.proximity
+
+
+    The app uses the device's proximity sensor. For example, a telephony app
+    could turn off the device's screen when the app detects that the user is
+    holding the device close to their body.
+  
+
+android.hardware.sensor.relative_humidity
+
+
+    The app uses the device's relative humidity sensor. For example, a weather
+    app could use the humidity to calculate and report the current dewpoint.
+  
+
+android.hardware.sensor.stepcounter
+
+
+    The app uses the device's step counter. For example, a fitness app could
+    report the number of steps a user needs to take to achieve their daily step
+    count goal.
+  
+
+android.hardware.sensor.stepdetector
+
+
+    The app uses the device's step detector. For example, a fitness app could
+    use the time interval between steps to infer the type of exercise that the
+    user is doing.
+  
+
+
+  Screen hardware features
+
+
+
+android.hardware.screen.landscape
+
+
+android.hardware.screen.portrait
+
+
+
+      The app requires the device to use the portrait or landscape orientation.
+      If your app supports both orientations, then you don't need to declare
+      either feature.
+    
+
+      For example, if your app requires portrait orientation, you should
+      declare the following feature so that only the devices that support
+      portrait orientation (always or by user choice) can run your app:
+    
+<uses-feature android:name="android.hardware.screen.portrait" />
+
+      Both orientations are assumed not required by default, so your app may be
+      installed on devices that support one or both orientations. However, if
+      any of your activities request that they run in a specific orientation,
+      using the android:screenOrientation attribute, then this declaration implies
+      that your app requires that orientation. For example, if you declare
+      android:screenOrientation with either "landscape", "reverseLandscape", or "sensorLandscape", then your app will be
+      available only on devices that support landscape orientation.
+    
+
+      As a best practice, you should still declare your requirement for this
+      orientation using a <uses-feature> element. If you declare
+      an orientation for your activity using android:screenOrientation, but don't actually require it, you can
+      disable the requirement by declaring the orientation with a <uses-feature> element and include android:required="false".
+    
+
+      For backward compatibility, any device running Android 3.1 (API level 12)
+      or lower supports both landscape and portrait orientations.
+    
+
+
+
+  Telephony hardware features
+
+
+
+android.hardware.telephony
+
+
+    The app uses the device's telephony features, such as telephony radio with
+    data communication services.
+  
+
+android.hardware.telephony.cdma
+
+
+
+      The app uses the Code Division Multiple Access (CDMA) telephony radio
+      system.
+    
+
+      By using this feature, an app implies that it also uses the
+      android.hardware.telephony feature, unless this parent
+      feature is declared with android:required="false".
+    
+
+
+android.hardware.telephony.gsm
+
+
+
+      The app uses the Global System for Mobile Communications (GSM) telephony
+      radio system.
+    
+
+      By using this feature, an app implies that it also uses the
+      android.hardware.telephony feature, unless this parent
+      feature is declared with android:required="false".
+    
+
+
+
+  Touchscreen hardware features
+
+
+
+android.hardware.faketouch
+
+
+
+      The app uses basic touch interaction events, such as tapping and
+      dragging.
+    
+
+      When declared as required, this feature indicates that the app is
+      compatible with a device only if that device emulates a touchscreen
+      ("fake touch" interface) or has an actual touchscreen.
+    
+
+      A device that offers a fake touch interface provides a user input system
+      that emulates a subset of a touchscreen's capabilities. For example, a
+      mouse or remote control could drive an on-screen cursor. If your app
+      requires basic point and click interaction (in other words, it won't work
+      with only a d-pad controller), you should declare this feature. Because
+      this is the minimum level of touch interaction, you can also use an app
+      that declares this feature on devices that offer more complex touch
+      interfaces.
+    
+
+Note: Apps require the
+      android.hardware.faketouch feature by default. If you want
+      your app to be limited to devices that only have a touchscreen, you must
+      explicitly declare that touchscreen is required as follows:
+<uses-feature android:name="android.hardware.touchscreen"
+    android:required="true" />
+All apps that don't explicitly require
+      android.hardware.touchscreen will also work on devices
+      with android.hardware.faketouch.
+    
+<uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+
+
+android.hardware.faketouch.multitouch.distinct
+
+
+
+      The app tracks two or more distinct "fingers" on a fake touch interface.
+      This is a superset of the android.hardware.faketouch
+      feature. When declared as required, this feature indicates that the app
+      is compatible with a device only if that device emulates distinct
+      tracking of two or more fingers or has an actual touchscreen.
+    
+
+      Unlike the distinct multitouch defined by android.hardware.touchscreen.multitouch.distinct, input devices that
+      support distinct multitouch with a fake touch interface don't support all
+      two-finger gestures because the input in transformed to cursor movement
+      on the screen. That is, single-finger gestures on such a device move a
+      cursor, two-finger swipes cause single-finger touch events to occur, and
+      other two-finger gestures trigger the corresponding two-finger touch
+      events.
+    
+
+      A device that provides a two-finger touch trackpad for cursor movement
+      can support this feature.
+    
+
+
+android.hardware.faketouch.multitouch.jazzhand
+
+
+
+      The app tracks five or more distinct "fingers" on a fake touch interface.
+      This is a superset of the android.hardware.faketouch
+      feature. When declared as required, this feature indicates that the app
+      is compatible with a device only if that device emulates distinct
+      tracking of five or more fingers or has an actual touchscreen.
+    
+
+      Unlike the distinct multitouch defined by android.hardware.touchscreen.multitouch.jazzhand, input devices that
+      support jazzhand multitouch with a fake touch interface don't support all
+      five-finger gestures because the input in transformed to cursor movement
+      on the screen. That is, single-finger gestures on such a device move a
+      cursor, multi-finger gestures cause single-finger touch events to occur,
+      and other multi-finger gestures trigger the corresponding multi-finger
+      touch events.
+    
+
+      A device that provides a five-finger touch trackpad for cursor movement
+      can support this feature.
+    
+
+
+android.hardware.touchscreen
+
+
+
+      The app uses the device's touchscreen capabilities for gestures that are
+      more interactive than basic touch events, such as a fling. This is a
+      superset of the android.hardware.faketouch feature.
+    
+
+      By default, your app requires this feature. As such, your app is not
+      available to devices that provide only an emulated touch interface ("fake
+      touch") by default. If you want to make your app available on devices
+      that provide a fake touch interface (or even on devices that provide only
+      a d-pad controller), you must explicitly declare that a touchscreen is
+      not required by declaring android.hardware.touchscreen with
+      android:required="false". You should add this declaration if
+      your app uses—but does not require—a real touchscreen interface.  All
+      apps that don't explicitly require
+      android.hardware.touchscreen will also work on devices with
+      android.hardware.faketouch.
+    
+
+      If your app in fact requires a touch interface (to perform more advanced
+      touch gestures such as fling), then you don't need to declare any touch
+      interface features because they're required by default. However, it's
+      best if you explicitly declare all features that your app uses.
+    
+
+      If you require more complex touch interaction, such as multi-finger
+      gestures, you should declare that your app uses advanced touchscreen
+      features.
+    
+
+
+android.hardware.touchscreen.multitouch
+
+
+
+      The app uses the device's basic two-point multitouch capabilities, such
+      as for pinch gestures, but the app does not need to track touches
+      independently. This is a superset of the
+      android.hardware.touchscreen feature.
+    
+
+      By using this feature, an app implies that it also uses the
+      android.hardware.touchscreen feature, unless this parent
+      feature is declared with android:required="false".
+    
+
+
+android.hardware.touchscreen.multitouch.distinct
+
+
+
+      The app uses the device's advanced multitouch capabilities for tracking
+      two or more points independently. This feature is a superset of the
+      android.hardware.touchscreen.multitouch feature.
+    
+
+      By using this feature, an app implies that it also uses the
+      android.hardware.touchscreen.multitouch feature, unless this
+      parent feature is declared with android:required="false".
+    
+
+
+android.hardware.touchscreen.multitouch.jazzhand
+
+
+
+      The app uses the device's advanced multitouch capabilities for tracking
+      five or more points independently. This feature is a superset of the
+      android.hardware.touchscreen.multitouch feature.
+    
+
+      By using this feature, an app implies that it also uses the
+      android.hardware.touchscreen.multitouch feature, unless this
+      parent feature is declared with android:required="false".
+    
+
+
+
+  USB hardware features
+
+
+
+android.hardware.usb.accessory
+
+
+    The app behaves as the USB device and connects to USB hosts.
+  
+
+android.hardware.usb.host
+
+
+    The app uses the USB accessories that are connected to the device. The
+    device serves as the USB host.
+  
+
+
+  Vulkan hardware features
+
+
+
+android.hardware.vulkan.compute
+
+
+    The app uses Vulkan compute features. The feature version indicates which level of optional
+    compute features the app requires beyond the Vulkan 1.0 requirements. For example, if your app
+    requires Vulkan compute level 0 support, you should declare the following feature:
+    <uses-feature
+    android:name="android.hardware.vulkan.compute"
+    android:version="0"
+    android:required="true" />
+    See 
+    FEATURE_VULKAN_HARDWARE_COMPUTE for more details on the feature version.
+  
+
+android.hardware.vulkan.level
+
+
+    The app uses Vulkan level features. The feature version indicates which level of optional
+    hardware features the app requires. For example, if your app requires Vulkan hardware level 0
+    support, you should declare the following feature:
+    <uses-feature
+    android:name="android.hardware.vulkan.level"
+    android:version="0"
+    android:required="true" />
+    See 
+    FEATURE_VULKAN_HARDWARE_LEVEL for more details on the feature version.
+  
+
+android.hardware.vulkan.version
+
+
+    The app requires support from a minimum version of Vulkan API, which is specified by the
+    feature version. For example, if your app requires Vulkan 1.0 support, you should declare the
+    following feature:
+    <uses-feature
+    android:name="android.hardware.vulkan.version"
+    android:version="0x400003"
+    android:required="true" />
+    See 
+    FEATURE_VULKAN_HARDWARE_VERSION for more details on the feature version.
+  
+
+
+  Wi-Fi hardware features
+
+
+
+android.hardware.wifi
+
+
+    The app uses 802.11 networking (Wi-Fi) features on the device.
+  
+
+android.hardware.wifi.direct
+
+
+    The app uses the Wi-Fi Direct networking features on the device.
+  
+
+
+  Software features
+
+
+  This section presents the software features supported by the most current
+  platform release. To indicate that your app uses or requires a software
+  feature, declare the corresponding value (beginning with
+  "android.software") in an android:name attribute.
+  Each time you declare a software feature, use a separate
+  <uses-feature> element.
+
+
+  Communication software features
+
+
+
+android.software.sip
+
+
+    The app uses Session Initiation Protocol (SIP) services. By using SIP, the
+    app can support internet telephony operations, such as video conferencing
+    and instant messaging.
+  
+
+android.software.sip.voip
+
+
+
+      The app uses SIP-based Voice Over Internet Protocol (VoIP) services. By
+      using VoIP, the app can support real-time internet telephony operations,
+      such as two-way video conferencing.
+    
+
+      By using this feature, an app implies that it also uses the
+      android.software.sip feature, unless this parent feature is
+      declared with android:required="false".
+    
+
+
+android.software.webview
+
+
+    The app displays content from the internet.
+  
+
+
+  Custom input software features
+
+
+
+android.software.input_methods
+
+
+    The app uses a new input method, which the developer defines in an InputMethodService.
+  
+
+
+  Device management software features
+
+
+
+android.software.backup
+
+
+    The app includes logic to handle a backup and restore operation.
+  
+
+android.software.device_admin
+
+
+    The app uses device administrators to enforce a device policy.
+  
+
+android.software.managed_users
+
+
+    The app supports secondary users and managed profiles.
+  
+
+android.software.securely_removes_users
+
+
+    The app can permanently remove users and their associated
+    data.
+  
+
+android.software.verified_boot
+
+
+    The app includes logic to handle results from the device's verified boot
+    feature, which detects whether the device's configuration changes during a
+    restart operation.
+  
+
+
+  Media software features
+
+
+
+android.software.midi
+
+
+    The app connects to musical instruments or outputs sound using the Musical
+    Instrument Digital Interface (MIDI) protocol.
+  
+
+android.software.print
+
+
+    The app includes commands for printing documents displayed on the device.
+  
+
+android.software.leanback
+
+
+    The app is designed to run on Android TV devices.
+  
+
+android.software.live_tv
+
+
+    The app streams live television programs.
+  
+
+
+  Screen interface software features
+
+
+
+android.software.app_widgets
+
+
+    The app uses or provides App Widgets and should be installed only on
+    devices that include a Home screen or similar location where users can
+    embed App Widgets.
+  
+
+android.software.home_screen
+
+
+    The app behaves as a replacement to the device's Home screen.
+  
+
+android.software.live_wallpaper
+
+
+    The app uses or provides wallpapers that include animation.
+  
+
+
+  Permissions that Imply Feature Requirements
+
+
+  Some of the hardware and software feature constants were made available to
+  applications after the corresponding API; for example, the
+  android.hardware.bluetooth feature was added in Android 2.2 (API
+  level 8), but the Bluetooth API that it refers to was added in Android 2.0
+  (API level 5). Because of this, some apps were able to use the API before
+  they had the ability to declare that they require the API using the
+  <uses-feature> system.
+
+
+  To prevent those apps from being made available unintentionally, Google Play
+  assumes that certain hardware-related permissions indicate that the
+  underlying hardware features are required by default. For instance,
+  applications that use Bluetooth must request the BLUETOOTH
+  permission in a <uses-permission> element — for legacy
+  apps, Google Play assumes that the permission declaration means that the
+  underlying android.hardware.bluetooth feature is required by the
+  application and sets up filtering based on that feature. Table 2 lists
+  permissions that imply feature requirements equivalent to those declared in
+  <uses-feature> elements.
+
+
+  Note that <uses-feature> declarations, including any
+  declared android:required attribute, always take precedence over
+  features implied by the permissions in table 2. For any of these permissions,
+  you can disable filtering based on the implied feature by explicitly
+  declaring the implied feature explicitly, in a
+  <uses-feature> element, with an
+  android:required="false" attribute. For example, to disable any
+  filtering based on the CAMERA permission, you would add this
+  <uses-feature> declaration to the manifest file:
+
+<uses-feature android:name="android.hardware.camera" android:required="false" />
+
+Caution: If your app targets Android 5.0 (API level 21) or
+  higher and uses the ACCESS_COARSE_LOCATION or
+  ACCESS_FINE_LOCATION permission in order to receive location
+  updates from the network or a GPS, respectively, you must also explicitly
+  declare that your app uses the android.hardware.location.network
+  or android.hardware.location.gps hardware features.
+
+
+Table 2. Device permissions that imply device hardware use.
+
+
+
+Category
+This Permission...
+...Implies This Feature Requirement
+
+
+
+Bluetooth
+BLUETOOTH
+android.hardware.bluetooth
+(See Special handling for Bluetooth feature for details.)
+
+
+
+BLUETOOTH_ADMIN
+android.hardware.bluetooth
+
+
+
+Camera
+CAMERA
+android.hardware.camera and
+android.hardware.camera.autofocus
+
+
+
+Location
+ACCESS_MOCK_LOCATION
+android.hardware.location
+
+
+
+ACCESS_LOCATION_EXTRA_COMMANDS
+android.hardware.location
+
+
+
+INSTALL_LOCATION_PROVIDER
+android.hardware.location
+
+
+
+ACCESS_COARSE_LOCATION
+
+
+android.hardware.location
+
+
+android.hardware.location.network
+      (Only when target API level is 20 or lower.)
+    
+
+
+
+
+ACCESS_FINE_LOCATION
+
+
+android.hardware.location
+
+
+android.hardware.location.gps
+      (Only when target API level is 20 or lower.)
+    
+
+
+
+
+Microphone
+RECORD_AUDIO
+android.hardware.microphone
+
+
+
+Telephony
+CALL_PHONE
+android.hardware.telephony
+
+
+
+CALL_PRIVILEGED
+android.hardware.telephony
+
+
+
+MODIFY_PHONE_STATE
+android.hardware.telephony
+
+
+
+PROCESS_OUTGOING_CALLS
+android.hardware.telephony
+
+
+
+READ_SMS
+android.hardware.telephony
+
+
+
+RECEIVE_SMS
+android.hardware.telephony
+
+
+
+RECEIVE_MMS
+android.hardware.telephony
+
+
+
+RECEIVE_WAP_PUSH
+android.hardware.telephony
+
+
+
+SEND_SMS
+android.hardware.telephony
+
+
+
+WRITE_APN_SETTINGS
+android.hardware.telephony
+
+
+
+WRITE_SMS
+android.hardware.telephony
+
+
+
+Wi-Fi
+ACCESS_WIFI_STATE
+android.hardware.wifi
+
+
+
+CHANGE_WIFI_STATE
+android.hardware.wifi
+
+
+
+CHANGE_WIFI_MULTICAST_STATE
+android.hardware.wifi
+
+
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated January 23, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

@@ -1,0 +1,945 @@
+Position sensors  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Position sensors
+  
+
+
+
+  The Android platform provides two sensors that let you determine the position
+  of a device: the geomagnetic field sensor and the accelerometer. The Android
+  platform also provides a sensor that lets you determine how close the face of
+  a device is to an object (known as the proximity sensor). The
+  geomagnetic field sensor and the proximity sensor are hardware-based. Most
+  handset and tablet manufacturers include a geomagnetic field sensor. Likewise,
+  handset manufacturers usually include a proximity sensor to determine when a
+  handset is being held close to a user's face (for example, during a phone
+  call). For determining a device's orientation, you can use the readings from
+  the device's accelerometer and the geomagnetic field sensor.
+
+
+Note: The orientation sensor was deprecated in Android 2.2
+  (API level 8), and the orientation sensor type was deprecated in Android 4.4W
+  (API level 20).
+
+
+  Position sensors are useful for determining a device's physical position in
+  the world's frame of reference. For example, you can use the geomagnetic field
+  sensor in combination with the accelerometer to determine a device's position
+  relative to the magnetic north pole. You can also use these sensors to
+  determine a device's orientation in your application's frame of reference.
+  Position sensors are not typically used to monitor device movement or motion,
+  such as shake, tilt, or thrust (for more information, see Motion sensors).
+
+
+  The geomagnetic field sensor and accelerometer return multi-dimensional arrays
+  of sensor values for each SensorEvent. For example,
+  the geomagnetic field sensor provides geomagnetic field strength values for
+  each of the three coordinate axes during a single sensor event. Likewise, the
+  accelerometer sensor measures the acceleration applied to the device during a
+  sensor event. For more information about the coordinate systems that are used
+  by sensors, see 
+  Sensor coordinate systems. The proximity sensor provides a single value
+  for each sensor event. Table 1 summarizes the position sensors that are
+  supported on the Android platform.
+
+
+Table 1. Position sensors that are supported on the Android platform.
+
+
+Sensor
+Sensor event data
+Description
+Units of measure
+
+
+TYPE_GAME_ROTATION_VECTOR
+SensorEvent.values[0]
+Rotation vector component along the x axis (x * sin(θ/2)).
+Unitless
+
+
+SensorEvent.values[1]
+Rotation vector component along the y axis (y * sin(θ/2)).
+
+
+SensorEvent.values[2]
+Rotation vector component along the z axis (z * sin(θ/2)).
+
+
+TYPE_GEOMAGNETIC_ROTATION_VECTOR
+SensorEvent.values[0]
+Rotation vector component along the x axis (x * sin(θ/2)).
+Unitless
+
+
+SensorEvent.values[1]
+Rotation vector component along the y axis (y * sin(θ/2)).
+
+
+SensorEvent.values[2]
+Rotation vector component along the z axis (z * sin(θ/2)).
+
+
+TYPE_MAGNETIC_FIELD
+SensorEvent.values[0]
+Geomagnetic field strength along the x axis.
+μT
+
+
+SensorEvent.values[1]
+Geomagnetic field strength along the y axis.
+
+
+SensorEvent.values[2]
+Geomagnetic field strength along the z axis.
+
+
+TYPE_MAGNETIC_FIELD_UNCALIBRATED
+SensorEvent.values[0]
+Geomagnetic field strength (without hard iron calibration) along the x axis.
+μT
+
+
+SensorEvent.values[1]
+Geomagnetic field strength (without hard iron calibration) along the y axis.
+
+
+SensorEvent.values[2]
+Geomagnetic field strength (without hard iron calibration) along the z axis.
+
+
+SensorEvent.values[3]
+Iron bias estimation along the x axis.
+
+
+SensorEvent.values[4]
+Iron bias estimation along the y axis.
+
+
+SensorEvent.values[5]
+Iron bias estimation along the z axis.
+
+
+TYPE_ORIENTATION1
+SensorEvent.values[0]
+Azimuth (angle around the z-axis).
+Degrees
+
+
+SensorEvent.values[1]
+Pitch (angle around the x-axis).
+
+
+SensorEvent.values[2]
+Roll (angle around the y-axis).
+
+
+TYPE_PROXIMITY
+SensorEvent.values[0]
+Distance from object.2
+cm
+
+
+
+1This sensor was deprecated in Android 2.2 (API
+  level 8), and this sensor type was deprecated in Android 4.4W (API level 20).
+  The sensor framework provides alternate methods for acquiring device
+  orientation, which are discussed in Compute
+  the device's orientation.
+
+2 Some proximity sensors provide only binary values
+representing near and far.
+Use the game rotation vector sensor
+The game rotation vector sensor is identical to the
+Rotation
+vector sensor, except it does not use the geomagnetic field. Therefore the Y axis does not
+point north but instead to some other reference. That reference is allowed to drift by the
+same order of magnitude as the gyroscope drifts around the Z axis.
+Because the game rotation vector sensor does not use the magnetic field, relative rotations
+are more accurate, and not impacted by magnetic field changes. Use this sensor in a game if
+you do not care about where north is, and the normal rotation vector does not fit your needs
+because of its reliance on the magnetic field.
+The following code shows you how to get an instance of the default game rotation vector
+sensor:
+
+Kotlin
+
+private lateinit var sensorManager: SensorManager
+private var sensor: Sensor? = null
+...
+sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
+sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GAME_ROTATION_VECTOR)
+
+Java
+
+private SensorManager sensorManager;
+private Sensor sensor;
+...
+sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GAME_ROTATION_VECTOR);
+
+
+
+Use the geomagnetic rotation vector sensor
+The geomagnetic rotation vector sensor is similar to the
+Rotation
+vector sensor, but it uses a magnetometer instead of a gyroscope. The accuracy of this
+sensor is lower than the normal rotation vector sensor, but the power consumption is reduced.
+Only use this sensor if you want to collect some rotation information in the background without
+draining too much battery. This sensor is most useful when used in conjunction with batching.
+The following code shows you how to get an instance of the default geomagnetic rotation
+vector sensor:
+
+Kotlin
+
+private lateinit var sensorManager: SensorManager
+private var sensor: Sensor? = null
+...
+sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
+sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GEOMAGNETIC_ROTATION_VECTOR)
+
+Java
+
+private SensorManager sensorManager;
+private Sensor sensor;
+...
+sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GEOMAGNETIC_ROTATION_VECTOR);
+
+
+
+Compute the device's orientation
+By computing a device's orientation, you can monitor the position of the
+  device relative to the earth's frame of reference (specifically, the magnetic
+  north pole). The following code shows you how to compute a device's
+  orientation:
+
+
+Kotlin
+
+private lateinit var sensorManager: SensorManager
+...
+// Rotation matrix based on current readings from accelerometer and magnetometer.
+val rotationMatrix = FloatArray(9)
+SensorManager.getRotationMatrix(rotationMatrix, null, accelerometerReading, magnetometerReading)
+
+// Express the updated rotation matrix as three orientation angles.
+val orientationAngles = FloatArray(3)
+SensorManager.getOrientation(rotationMatrix, orientationAngles)
+
+Java
+
+private SensorManager sensorManager;
+...
+// Rotation matrix based on current readings from accelerometer and magnetometer.
+final float[] rotationMatrix = new float[9];
+SensorManager.getRotationMatrix(rotationMatrix, null,
+    accelerometerReading, magnetometerReading);
+
+// Express the updated rotation matrix as three orientation angles.
+final float[] orientationAngles = new float[3];
+SensorManager.getOrientation(rotationMatrix, orientationAngles);
+
+
+
+The system computes the orientation angles by using a device's geomagnetic
+  field sensor in combination with the device's accelerometer. Using these two
+  hardware sensors, the system provides data for the following three
+  orientation angles:
+
+
+
+Azimuth (degrees of rotation about the -z axis). This is
+    the angle between the device's current compass direction and magnetic north.
+    If the top edge of the device faces magnetic north, the azimuth is 0
+    degrees; if the top edge faces south, the azimuth is 180 degrees. Similarly,
+    if the top edge faces east, the azimuth is 90 degrees, and if the top edge
+    faces west, the azimuth is 270 degrees.
+  
+
+Pitch (degrees of rotation about the x axis). This is the
+    angle between a plane parallel to the device's screen and a plane parallel
+    to the ground. If you hold the device parallel to the ground with the bottom
+    edge closest to you and tilt the top edge of the device toward the ground,
+    the pitch angle becomes positive. Tilting in the opposite direction—
+    moving the top edge of the device away from the ground—causes
+    the pitch angle to become negative. The range of values is -180 degrees to
+    180 degrees.
+  
+
+Roll (degrees of rotation about the y axis). This is the
+    angle between a plane perpendicular to the device's screen and a plane
+    perpendicular to the ground. If you hold the device parallel to the ground
+    with the bottom edge closest to you and tilt the left edge of the device
+    toward the ground, the roll angle becomes positive. Tilting in the opposite
+    direction—moving the right edge of the device toward the ground—
+    causes the roll angle to become negative. The range of values is -90 degrees
+    to 90 degrees.
+  
+
+
+Note:The sensor's roll definition has changed to reflect the
+  vast majority of implementations in the geosensor ecosystem.
+
+
+  Note that these angles work off of a different coordinate system than the
+  one used in aviation (for yaw, pitch, and roll). In the aviation system, the
+  x axis is along the long side of the plane, from tail to nose.
+
+
+  The orientation sensor derives its data by processing the raw sensor data
+  from the accelerometer and the geomagnetic field sensor. Because of the heavy
+  processing that is involved, the accuracy and precision of the orientation
+  sensor is diminished. Specifically, this sensor is reliable only when the roll
+  angle is 0. As a result, the orientation sensor was deprecated in Android
+  2.2 (API level 8), and the orientation sensor type was deprecated in Android
+  4.4W (API level 20).
+
+  Instead of using raw data from the orientation sensor, we recommend that you
+  use the getRotationMatrix()
+  method in conjunction with the
+  getOrientation() method
+  to compute orientation values, as shown in the following code sample. As part
+  of this process, you can use the
+  remapCoordinateSystem()
+  method to translate the orientation values to your application's frame of
+  reference.
+
+
+Kotlin
+
+class SensorActivity : Activity(), SensorEventListener {
+
+    private lateinit var sensorManager: SensorManager
+    private val accelerometerReading = FloatArray(3)
+    private val magnetometerReading = FloatArray(3)
+
+    private val rotationMatrix = FloatArray(9)
+    private val orientationAngles = FloatArray(3)
+
+    public override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.main)
+        sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
+    }
+
+    override fun onAccuracyChanged(sensor: Sensor, accuracy: Int) {
+        // Do something here if sensor accuracy changes.
+        // You must implement this callback in your code.
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        // Get updates from the accelerometer and magnetometer at a constant rate.
+        // To make batch operations more efficient and reduce power consumption,
+        // provide support for delaying updates to the application.
+        //
+        // In this example, the sensor reporting delay is small enough such that
+        // the application receives an update before the system checks the sensor
+        // readings again.
+        sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)?.also { accelerometer ->
+            sensorManager.registerListener(
+                    this,
+                    accelerometer,
+                    SensorManager.SENSOR_DELAY_NORMAL,
+                    SensorManager.SENSOR_DELAY_UI
+            )
+        }
+        sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD)?.also { magneticField ->
+            sensorManager.registerListener(
+                    this,
+                    magneticField,
+                    SensorManager.SENSOR_DELAY_NORMAL,
+                    SensorManager.SENSOR_DELAY_UI
+            )
+        }
+    }
+
+    override fun onPause() {
+        super.onPause()
+
+        // Don't receive any more updates from either sensor.
+        sensorManager.unregisterListener(this)
+    }
+
+    // Get readings from accelerometer and magnetometer. To simplify calculations,
+    // consider storing these readings as unit vectors.
+    override fun onSensorChanged(event: SensorEvent) {
+        if (event.sensor.type == Sensor.TYPE_ACCELEROMETER) {
+            System.arraycopy(event.values, 0, accelerometerReading, 0, accelerometerReading.size)
+        } else if (event.sensor.type == Sensor.TYPE_MAGNETIC_FIELD) {
+            System.arraycopy(event.values, 0, magnetometerReading, 0, magnetometerReading.size)
+        }
+    }
+
+    // Compute the three orientation angles based on the most recent readings from
+    // the device's accelerometer and magnetometer.
+    fun updateOrientationAngles() {
+        // Update rotation matrix, which is needed to update orientation angles.
+        SensorManager.getRotationMatrix(
+                rotationMatrix,
+                null,
+                accelerometerReading,
+                magnetometerReading
+        )
+
+        // "mRotationMatrix" now has up-to-date information.
+
+        SensorManager.getOrientation(rotationMatrix, mOrientationAngles)
+
+        // "mOrientationAngles" now has up-to-date information.
+    }
+}
+
+Java
+
+public class SensorActivity extends Activity implements SensorEventListener {
+
+    private SensorManager sensorManager;
+    private final float[] accelerometerReading = new float[3];
+    private final float[] magnetometerReading = new float[3];
+
+    private final float[] rotationMatrix = new float[9];
+    private final float[] orientationAngles = new float[3];
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+    }
+
+    @Override
+    public void onAccuracyChanged(Sensor sensor, int accuracy) {
+        // Do something here if sensor accuracy changes.
+        // You must implement this callback in your code.
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        // Get updates from the accelerometer and magnetometer at a constant rate.
+        // To make batch operations more efficient and reduce power consumption,
+        // provide support for delaying updates to the application.
+        //
+        // In this example, the sensor reporting delay is small enough such that
+        // the application receives an update before the system checks the sensor
+        // readings again.
+        Sensor accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
+        if (accelerometer != null) {
+            sensorManager.registerListener(this, accelerometer,
+                SensorManager.SENSOR_DELAY_NORMAL, SensorManager.SENSOR_DELAY_UI);
+        }
+        Sensor magneticField = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
+        if (magneticField != null) {
+            sensorManager.registerListener(this, magneticField,
+                SensorManager.SENSOR_DELAY_NORMAL, SensorManager.SENSOR_DELAY_UI);
+        }
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        // Don't receive any more updates from either sensor.
+        sensorManager.unregisterListener(this);
+    }
+
+    // Get readings from accelerometer and magnetometer. To simplify calculations,
+    // consider storing these readings as unit vectors.
+    @Override
+    public void onSensorChanged(SensorEvent event) {
+        if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
+          System.arraycopy(event.values, 0, accelerometerReading,
+              0, accelerometerReading.length);
+        } else if (event.sensor.getType() == Sensor.TYPE_MAGNETIC_FIELD) {
+            System.arraycopy(event.values, 0, magnetometerReading,
+                0, magnetometerReading.length);
+        }
+    }
+
+    // Compute the three orientation angles based on the most recent readings from
+    // the device's accelerometer and magnetometer.
+    public void updateOrientationAngles() {
+        // Update rotation matrix, which is needed to update orientation angles.
+        SensorManager.getRotationMatrix(rotationMatrix, null,
+            accelerometerReading, mMagnetometerReading);
+
+        // "mRotationMatrix" now has up-to-date information.
+
+        SensorManager.getOrientation(rotationMatrix, mOrientationAngles);
+
+        // "mOrientationAngles" now has up-to-date information.
+    }
+}
+
+
+
+
+  You don't usually need to perform any data processing or filtering of the
+  device's raw orientation angles other than translating the sensor's
+  coordinate system to your application's frame of reference.
+
+Use the geomagnetic field sensor
+The geomagnetic field sensor lets you monitor changes in the earth's magnetic field. The
+following code shows you how to get an instance of the default geomagnetic field sensor:
+
+Kotlin
+
+private lateinit var sensorManager: SensorManager
+private var sensor: Sensor? = null
+...
+sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
+sensor = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD)
+
+Java
+
+private SensorManager sensorManager;
+private Sensor sensor;
+...
+sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+sensor = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
+
+
+
+This sensor provides raw field strength data (in μT) for each of the three coordinate axes.
+Usually, you do not need to use this sensor directly. Instead, you can use the rotation vector
+sensor to determine raw rotational movement or you can use the accelerometer and geomagnetic field
+sensor in conjunction with the getRotationMatrix() method to obtain the rotation matrix and the inclination matrix. You can then
+use these matrices with the getOrientation()
+and getInclination() methods to obtain azimuth
+and geomagnetic inclination data.
+Note: When testing your app, you can improve
+the sensor's accuracy by waving the device in a figure-8 pattern.
+Use the uncalibrated magnetometer
+The uncalibrated magnetometer is similar to the geomagnetic field
+sensor, except that no hard iron calibration is applied to the magnetic field. Factory calibration
+and temperature compensation are still applied to the magnetic field. The uncalibrated magnetometer
+is useful to handle bad hard iron estimations. In general, geomagneticsensor_event.values[0]
+will be close to uncalibrated_magnetometer_event.values[0] -
+uncalibrated_magnetometer_event.values[3]. That is,
+calibrated_x ~= uncalibrated_x - bias_estimate_x
+Note: Uncalibrated sensors provide more raw results and may
+include some bias, but their measurements contain fewer jumps from corrections applied through
+calibration. Some applications may prefer these uncalibrated results as smoother and more
+reliable. For instance, if an application is attempting to conduct its own sensor fusion,
+introducing calibrations can actually distort results.
+In addition to the magnetic field, the uncalibrated magnetometer also provides the
+estimated hard iron bias in each axis. The following code shows you how to get an instance of the
+default uncalibrated magnetometer:
+
+Kotlin
+
+private lateinit var sensorManager: SensorManager
+private var sensor: Sensor? = null
+...
+sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
+sensor = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD_UNCALIBRATED)
+
+Java
+
+private SensorManager sensorManager;
+private Sensor sensor;
+...
+sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+sensor = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD_UNCALIBRATED);
+
+
+
+Use the proximity sensor
+The proximity sensor lets you determine how far away an object is from a device. The following
+code shows you how to get an instance of the default proximity sensor:
+
+Kotlin
+
+private lateinit var sensorManager: SensorManager
+private var sensor: Sensor? = null
+...
+sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
+sensor = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY)
+
+Java
+
+private SensorManager sensorManager;
+private Sensor sensor;
+...
+sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+sensor = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
+
+
+
+The proximity sensor is usually used to determine how far away a person's head is from the face
+of a handset device (for example, when a user is making or receiving a phone call). Most
+proximity sensors return the absolute distance, in cm, but some return only near and
+far values. The following code shows you how to use the proximity sensor:
+
+Kotlin
+
+class SensorActivity : Activity(), SensorEventListener {
+
+    private lateinit var sensorManager: SensorManager
+    private var mProximity: Sensor? = null
+
+    public override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.main)
+
+        // Get an instance of the sensor service, and use that to get an instance of
+        // a particular sensor.
+        sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
+        mProximity = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY)
+    }
+
+    override fun onAccuracyChanged(sensor: Sensor, accuracy: Int) {
+        // Do something here if sensor accuracy changes.
+    }
+
+    override fun onSensorChanged(event: SensorEvent) {
+        val distance = event.values[0]
+        // Do something with this sensor data.
+    }
+
+    override fun onResume() {
+        // Register a listener for the sensor.
+        super.onResume()
+
+        mProximity?.also { proximity ->
+            sensorManager.registerListener(this, proximity, SensorManager.SENSOR_DELAY_NORMAL)
+        }
+    }
+
+    override fun onPause() {
+        // Be sure to unregister the sensor when the activity pauses.
+        super.onPause()
+        sensorManager.unregisterListener(this)
+    }
+}
+
+Java
+
+public class SensorActivity extends Activity implements SensorEventListener {
+    private SensorManager sensorManager;
+    private Sensor proximity;
+
+    @Override
+    public final void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+
+        // Get an instance of the sensor service, and use that to get an instance of
+        // a particular sensor.
+        sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        proximity = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
+    }
+
+    @Override
+    public final void onAccuracyChanged(Sensor sensor, int accuracy) {
+        // Do something here if sensor accuracy changes.
+    }
+
+    @Override
+    public final void onSensorChanged(SensorEvent event) {
+        float distance = event.values[0];
+        // Do something with this sensor data.
+    }
+
+    @Override
+    protected void onResume() {
+        // Register a listener for the sensor.
+        super.onResume();
+        sensorManager.registerListener(this, proximity, SensorManager.SENSOR_DELAY_NORMAL);
+      }
+
+    @Override
+    protected void onPause() {
+        // Be sure to unregister the sensor when the activity pauses.
+        super.onPause();
+        sensorManager.unregisterListener(this);
+    }
+}
+
+
+
+Note: Some proximity sensors return binary values that represent
+"near" or "far." In this case, the sensor usually reports its maximum range value in the far state
+and a lesser value in the near state. Typically, the far value is a value > 5 cm, but this can vary
+from sensor to sensor. You can determine a sensor's maximum range by using the getMaximumRange() method.
+You should also read
+
+Sensors
+Sensors Overview
+Motion Sensors
+Environment Sensors
+AccelerometerPlay sample
+
+
+
+
+
+
+        
+        Previous
+      
+
+
+          arrow_back
+        
+        Motion sensors
+      
+
+
+
+
+
+        
+        Next
+      
+
+
+          arrow_forward
+        
+        Environment sensors
+      
+
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

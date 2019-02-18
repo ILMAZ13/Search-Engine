@@ -1,0 +1,1836 @@
+Camera API  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Camera API
+  
+
+
+The Android framework includes support for various cameras and camera features available on
+devices, allowing you to capture pictures and videos in your applications. This document discusses a
+quick, simple approach to image and video capture and outlines an advanced approach for creating
+custom camera experiences for your users.
+Note:
+    This page describes the Camera class, which has been
+    deprecated. We recommend using the newer class camera2,
+    which works on Android 5.0 (API  level 21) or greater. Read more about camera2 on
+    our blog
+    and watch this video.
+  
+
+
+      Refer to the following related resources:
+    
+
+MediaPlayer overview
+Data and file storage overview
+
+
+Considerations
+Before enabling your application to use cameras on Android devices, you should consider a few
+questions about how your app intends to use this hardware feature.
+
+Camera Requirement - Is the use of a camera so important to your
+application that you do not want your application installed on a device that does not have a
+camera? If so, you should declare the camera requirement in your
+manifest.
+Quick Picture or Customized Camera - How will your application use the
+camera? Are you just interested in snapping a quick picture or video clip, or will your application
+provide a new way to use cameras? For a getting a quick snap or clip, consider
+Using Existing Camera Apps. For developing a customized camera feature, check
+out the Building a Camera App section.
+Foreground Services Requirement - When does your app interact with
+  the camera? On Android 9 (API level 28) and later, apps running in the
+  background cannot access the camera. Therefore, you should use the camera
+  either when your app is in the foreground or as part of a
+  foreground service.
+  
+Storage - Are the images or videos your application generates intended to be
+only visible to your application or shared so that other applications such as Gallery or other
+media and social apps can use them? Do you want the pictures and videos to be available even if your
+application is uninstalled? Check out the Saving Media Files section to
+see how to implement these options.
+
+The basics
+The Android framework supports capturing images and video through the
+android.hardware.camera2 API or camera Intent. Here are the relevant
+classes:
+
+android.hardware.camera2
+This package is the primary API for controlling device cameras. It can be used to take
+pictures or videos when you are building a camera application.
+Camera
+This class is the older deprecated API for controlling device cameras.
+SurfaceView
+This class is used to present a live camera preview to the user.
+MediaRecorder
+This class is used to record video from the camera.
+Intent
+An intent action type of MediaStore.ACTION_IMAGE_CAPTURE or MediaStore.ACTION_VIDEO_CAPTURE can be used to capture images or videos without directly
+using the Camera object.
+
+Manifest declarations
+Before starting development on your application with the Camera API, you should make sure
+your manifest has the appropriate declarations to allow use of camera hardware and other
+related features.
+
+Camera Permission - Your application must request permission to use a device
+camera.
+
+<uses-permission android:name="android.permission.CAMERA" />
+
+Note: If you are using the camera by
+invoking an existing camera app,
+your application does not need to request this permission.
+
+Camera Features - Your application must also declare use of camera features,
+for example:
+
+<uses-feature android:name="android.hardware.camera" />
+
+For a list of camera features, see the manifest
+Features
+Reference.
+Adding camera features to your manifest causes Google Play to prevent your application from
+being installed to devices that do not include a camera or do not support the camera features you
+specify. For more information about using feature-based filtering with Google Play, see Google
+Play and Feature-Based Filtering.
+If your application can use a camera or camera feature for proper operation, but does
+not require it, you should specify this in the manifest by including the android:required attribute, and setting it to false:
+
+<uses-feature android:name="android.hardware.camera" android:required="false" />
+
+
+Storage Permission - If your application saves images or videos to the
+device's external storage (SD Card), you must also specify this in the manifest.
+
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+Audio Recording Permission - For recording audio with video capture, your
+application must request the audio capture permission.
+
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+
+
+Location Permission - If your application tags images
+    with GPS location information, you must request the ACCESS_FINE_LOCATION
+    permission. Note that, if your app targets Android 5.0 (API level 21) or
+    higher, you also need to declare that your app uses the device's GPS:
+
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+...
+<!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+<uses-feature android:name="android.hardware.location.gps" />
+
+For more information about getting user location, see
+Location Strategies.
+
+
+Using existing camera apps
+A quick way to enable taking pictures or videos in your application without a lot of extra code
+is to use an Intent to invoke an existing Android camera application.
+The details are described in the training lessons
+Taking Photos Simply and
+Recording Videos Simply.
+Building a camera app
+Some developers may require a camera user interface that is customized to the look of their
+application or provides special features. Writing your own picture-taking code
+can provide a more compelling experience for your users.
+ Note: The following guide is for the older, deprecated Camera
+API. For new or advanced camera applications, the newer android.hardware.camera2 API is
+recommended.
+The general steps for creating a custom camera interface for your application are as follows:
+
+Detect and Access Camera - Create code to check for the existence of
+cameras and request access.
+Create a Preview Class - Create a camera preview class that extends SurfaceView and implements the SurfaceHolder interface. This
+class previews the live images from the camera.
+Build a Preview Layout - Once you have the camera preview class, create a
+view layout that incorporates the preview and the user interface controls you want.
+Setup Listeners for Capture - Connect listeners for your interface
+controls to start image or video capture in response to user actions, such as pressing a
+button.
+Capture and Save Files - Setup the code for capturing pictures or
+videos and saving the output.
+Release the Camera - After using the camera, your application must
+properly release it for use by other applications.
+
+Camera hardware is a shared resource that must be carefully managed so your application does
+not collide with other applications that may also want to use it. The following sections discusses
+how to detect camera hardware, how to request access to a camera, how to capture pictures or video
+and how to release the camera when your application is done using it.
+Caution: Remember to release the Camera
+object by calling the Camera.release() when your
+application is done using it! If your application does not properly release the camera, all
+subsequent attempts to access the camera, including those by your own application, will fail and may
+cause your or other applications to be shut down.
+Detecting camera hardware
+If your application does not specifically require a camera using a manifest declaration, you
+should check to see if a camera is available at runtime. To perform this check, use the PackageManager.hasSystemFeature() method, as shown in the example code below:
+
+Kotlin
+
+/** Check if this device has a camera */
+private fun checkCameraHardware(context: Context): Boolean {
+    if (context.packageManager.hasSystemFeature(PackageManager.FEATURE_CAMERA)) {
+        // this device has a camera
+        return true
+    } else {
+        // no camera on this device
+        return false
+    }
+}
+
+Java
+
+/** Check if this device has a camera */
+private boolean checkCameraHardware(Context context) {
+    if (context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA)){
+        // this device has a camera
+        return true;
+    } else {
+        // no camera on this device
+        return false;
+    }
+}
+
+
+
+Android devices can have multiple cameras, for example a back-facing camera for photography and a
+front-facing camera for video calls. Android 2.3 (API Level 9) and later allows you to check the
+number of cameras available on a device using the Camera.getNumberOfCameras() method.
+Accessing cameras
+If you have determined that the device on which your application is running has a camera, you
+must request to access it by getting an instance of Camera (unless you
+are using an intent to access the camera). 
+To access the primary camera, use the Camera.open() method
+and be sure to catch any exceptions, as shown in the code below:
+
+Kotlin
+
+/** A safe way to get an instance of the Camera object. */
+fun getCameraInstance(): Camera? {
+    return try {
+        Camera.open() // attempt to get a Camera instance
+    } catch (e: Exception) {
+        // Camera is not available (in use or does not exist)
+        null // returns null if camera is unavailable
+    }
+}
+
+Java
+
+/** A safe way to get an instance of the Camera object. */
+public static Camera getCameraInstance(){
+    Camera c = null;
+    try {
+        c = Camera.open(); // attempt to get a Camera instance
+    }
+    catch (Exception e){
+        // Camera is not available (in use or does not exist)
+    }
+    return c; // returns null if camera is unavailable
+}
+
+
+
+Caution: Always check for exceptions when using Camera.open(). Failing to check for exceptions if the camera is in
+use or does not exist will cause your application to be shut down by the system.
+On devices running Android 2.3 (API Level 9) or higher, you can access specific cameras using
+Camera.open(int). The example code above will access
+the first, back-facing camera on a device with more than one camera.
+Checking camera features
+Once you obtain access to a camera, you can get further information about its capabilities using
+the Camera.getParameters() method and checking the
+returned Camera.Parameters object for supported capabilities. When using
+API Level 9 or higher, use the Camera.getCameraInfo() to determine if a camera is on the front
+or back of the device, and the orientation of the image.
+Creating a preview class
+For users to effectively take pictures or video, they must be able to see what the device camera
+sees. A camera preview class is a SurfaceView that can display the live image
+data coming from a camera, so users can frame and capture a picture or video.
+The following example code demonstrates how to create a basic camera preview class that can be
+included in a View layout. This class implements SurfaceHolder.Callback in order to capture the callback events
+for creating and destroying the view, which are needed for assigning the camera preview input.
+
+Kotlin
+
+/** A basic Camera preview class */
+class CameraPreview(
+        context: Context,
+        private val mCamera: Camera
+) : SurfaceView(context), SurfaceHolder.Callback {
+
+    private val mHolder: SurfaceHolder = holder.apply {
+        // Install a SurfaceHolder.Callback so we get notified when the
+        // underlying surface is created and destroyed.
+        addCallback(this@CameraPreview)
+        // deprecated setting, but required on Android versions prior to 3.0
+        setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS)
+    }
+
+    override fun surfaceCreated(holder: SurfaceHolder) {
+        // The Surface has been created, now tell the camera where to draw the preview.
+        mCamera.apply {
+            try {
+                setPreviewDisplay(holder)
+                startPreview()
+            } catch (e: IOException) {
+                Log.d(TAG, "Error setting camera preview: ${e.message}")
+            }
+        }
+    }
+
+    override fun surfaceDestroyed(holder: SurfaceHolder) {
+        // empty. Take care of releasing the Camera preview in your activity.
+    }
+
+    override fun surfaceChanged(holder: SurfaceHolder, format: Int, w: Int, h: Int) {
+        // If your preview can change or rotate, take care of those events here.
+        // Make sure to stop the preview before resizing or reformatting it.
+        if (mHolder.surface == null) {
+            // preview surface does not exist
+            return
+        }
+
+        // stop preview before making changes
+        try {
+            mCamera.stopPreview()
+        } catch (e: Exception) {
+            // ignore: tried to stop a non-existent preview
+        }
+
+        // set preview size and make any resize, rotate or
+        // reformatting changes here
+
+        // start preview with new settings
+        mCamera.apply {
+            try {
+                setPreviewDisplay(mHolder)
+                startPreview()
+            } catch (e: Exception) {
+                Log.d(TAG, "Error starting camera preview: ${e.message}")
+            }
+        }
+    }
+}
+
+Java
+
+/** A basic Camera preview class */
+public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
+    private SurfaceHolder mHolder;
+    private Camera mCamera;
+
+    public CameraPreview(Context context, Camera camera) {
+        super(context);
+        mCamera = camera;
+
+        // Install a SurfaceHolder.Callback so we get notified when the
+        // underlying surface is created and destroyed.
+        mHolder = getHolder();
+        mHolder.addCallback(this);
+        // deprecated setting, but required on Android versions prior to 3.0
+        mHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+    }
+
+    public void surfaceCreated(SurfaceHolder holder) {
+        // The Surface has been created, now tell the camera where to draw the preview.
+        try {
+            mCamera.setPreviewDisplay(holder);
+            mCamera.startPreview();
+        } catch (IOException e) {
+            Log.d(TAG, "Error setting camera preview: " + e.getMessage());
+        }
+    }
+
+    public void surfaceDestroyed(SurfaceHolder holder) {
+        // empty. Take care of releasing the Camera preview in your activity.
+    }
+
+    public void surfaceChanged(SurfaceHolder holder, int format, int w, int h) {
+        // If your preview can change or rotate, take care of those events here.
+        // Make sure to stop the preview before resizing or reformatting it.
+
+        if (mHolder.getSurface() == null){
+          // preview surface does not exist
+          return;
+        }
+
+        // stop preview before making changes
+        try {
+            mCamera.stopPreview();
+        } catch (Exception e){
+          // ignore: tried to stop a non-existent preview
+        }
+
+        // set preview size and make any resize, rotate or
+        // reformatting changes here
+
+        // start preview with new settings
+        try {
+            mCamera.setPreviewDisplay(mHolder);
+            mCamera.startPreview();
+
+        } catch (Exception e){
+            Log.d(TAG, "Error starting camera preview: " + e.getMessage());
+        }
+    }
+}
+
+
+
+If you want to set a specific size for your camera preview, set this in the surfaceChanged() method as noted in the comments above. When setting preview size, you
+must use values from getSupportedPreviewSizes().
+Do not set arbitrary values in the setPreviewSize() method.
+Note:
+  With the introduction of the 
+  Multi-Window feature in Android 7.0 (API level 24) and higher, you can no
+  longer assume the aspect ratio of the preview is the same as your activity
+  even after calling setDisplayOrientation().
+  Depending on the window size and aspect ratio, you may may have to fit a wide
+  camera preview into a portrait-orientated layout, or vice versa, using a
+  letterbox layout.
+
+Placing preview in a layout
+A camera preview class, such as the example shown in the previous section, must be placed in the
+layout of an activity along with other user interface controls for taking a picture or video. This
+section shows you how to build a basic layout and activity for the preview.
+The following layout code provides a very basic view that can be used to display a camera
+preview. In this example, the FrameLayout element is meant to be the
+container for the camera preview class. This layout type is used so that additional picture
+information or controls can be overlaid on the live camera preview images.
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  <FrameLayout
+    android:id="@+id/camera_preview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    />
+
+  <Button
+    android:id="@+id/button_capture"
+    android:text="Capture"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    />
+</LinearLayout>
+
+On most devices, the default orientation of the camera preview is landscape. This example layout
+specifies a horizontal (landscape) layout and the code below fixes the orientation of the
+application to landscape. For simplicity in rendering a camera preview, you should change your
+application's preview activity orientation to landscape by adding the following to your
+manifest.
+
+<activity android:name=".CameraActivity"
+          android:label="@string/app_name"
+
+          android:screenOrientation="landscape">
+          <!-- configure this activity to use landscape orientation -->
+
+          <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+</activity>
+
+Note: A camera preview does not have to be in landscape mode.
+Starting in Android 2.2 (API Level 8), you can use the setDisplayOrientation() method to set the
+rotation of the preview image. In order to change preview orientation as the user re-orients the
+phone, within the surfaceChanged() method of your preview class, first stop the preview with Camera.stopPreview() change the orientation and then
+start the preview again with Camera.startPreview().
+In the activity for your camera view, add your preview class to the FrameLayout element shown in the example above. Your camera activity must also
+ensure that it releases the camera when it is paused or shut down. The following example shows how
+to modify a camera activity to attach the preview class shown in Creating
+a preview class.
+
+Kotlin
+
+class CameraActivity : Activity() {
+
+    private var mCamera: Camera? = null
+    private var mPreview: CameraPreview? = null
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        // Create an instance of Camera
+        mCamera = getCameraInstance()
+
+        mPreview = mCamera?.let {
+            // Create our Preview view
+            CameraPreview(this, it)
+        }
+
+        // Set the Preview view as the content of our activity.
+        mPreview?.also {
+            val preview: FrameLayout = findViewById(R.id.camera_preview)
+            preview.addView(it)
+        }
+    }
+}
+
+Java
+
+public class CameraActivity extends Activity {
+
+    private Camera mCamera;
+    private CameraPreview mPreview;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+
+        // Create an instance of Camera
+        mCamera = getCameraInstance();
+
+        // Create our Preview view and set it as the content of our activity.
+        mPreview = new CameraPreview(this, mCamera);
+        FrameLayout preview = (FrameLayout) findViewById(R.id.camera_preview);
+        preview.addView(mPreview);
+    }
+}
+
+
+
+Note: The getCameraInstance() method in the example above
+refers to the example method shown in Accessing cameras.
+Capturing pictures
+Once you have built a preview class and a view layout in which to display it, you are ready to
+start capturing images with your application. In your application code, you must set up listeners
+for your user interface controls to respond to a user action by taking a picture.
+In order to retrieve a picture, use the Camera.takePicture() method. This method takes three parameters which receive data from the camera.
+In order to receive data in a JPEG format, you must implement an Camera.PictureCallback interface to receive the image data and
+write it to a file. The following code shows a basic implementation of the Camera.PictureCallback interface to save an image received from the camera.
+
+Kotlin
+
+private val mPicture = Camera.PictureCallback { data, _ ->
+    val pictureFile: File = getOutputMediaFile(MEDIA_TYPE_IMAGE) ?: run {
+        Log.d(TAG, ("Error creating media file, check storage permissions"))
+        return@PictureCallback
+    }
+
+    try {
+        val fos = FileOutputStream(pictureFile)
+        fos.write(data)
+        fos.close()
+    } catch (e: FileNotFoundException) {
+        Log.d(TAG, "File not found: ${e.message}")
+    } catch (e: IOException) {
+        Log.d(TAG, "Error accessing file: ${e.message}")
+    }
+}
+
+Java
+
+private PictureCallback mPicture = new PictureCallback() {
+
+    @Override
+    public void onPictureTaken(byte[] data, Camera camera) {
+
+        File pictureFile = getOutputMediaFile(MEDIA_TYPE_IMAGE);
+        if (pictureFile == null){
+            Log.d(TAG, "Error creating media file, check storage permissions");
+            return;
+        }
+
+        try {
+            FileOutputStream fos = new FileOutputStream(pictureFile);
+            fos.write(data);
+            fos.close();
+        } catch (FileNotFoundException e) {
+            Log.d(TAG, "File not found: " + e.getMessage());
+        } catch (IOException e) {
+            Log.d(TAG, "Error accessing file: " + e.getMessage());
+        }
+    }
+};
+
+
+
+Trigger capturing an image by calling the Camera.takePicture() method. The following example code shows how to call this method from a
+button View.OnClickListener.
+
+Kotlin
+
+val captureButton: Button = findViewById(R.id.button_capture)
+captureButton.setOnClickListener {
+    // get an image from the camera
+    mCamera?.takePicture(null, null, picture)
+}
+
+Java
+
+// Add a listener to the Capture button
+Button captureButton = (Button) findViewById(R.id.button_capture);
+captureButton.setOnClickListener(
+    new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            // get an image from the camera
+            mCamera.takePicture(null, null, picture);
+        }
+    }
+);
+
+
+
+Note: The mPicture member in the following example refers
+to the example code above.
+Caution: Remember to release the Camera
+object by calling the Camera.release() when your
+application is done using it! For information about how to release the camera, see Releasing the camera.
+Capturing videos
+Video capture using the Android framework requires careful management of the Camera object and coordination with the MediaRecorder
+class. When recording video with Camera, you must manage the Camera.lock() and Camera.unlock() calls to allow MediaRecorder access to the camera hardware,
+in addition to the Camera.open() and Camera.release() calls.
+Note: Starting with Android 4.0 (API level 14), the Camera.lock() and Camera.unlock() calls are managed for you automatically.
+Unlike taking pictures with a device camera, capturing video requires a very particular call
+order. You must follow a specific order of execution to successfully prepare for and capture video
+with your application, as detailed below.
+
+Open Camera - Use the Camera.open()
+to get an instance of the camera object.
+Connect Preview - Prepare a live camera image preview by connecting a SurfaceView to the camera using Camera.setPreviewDisplay().
+  
+Start Preview - Call Camera.startPreview() to begin displaying the live camera images.
+Start Recording Video - The following steps must be completed in
+order to successfully record video:
+    
+Unlock the Camera - Unlock the camera for use by MediaRecorder by calling Camera.unlock().
+Configure MediaRecorder - Call in the following MediaRecorder methods in this order. For more information, see the MediaRecorder reference documentation.
+        
+setCamera() - Set the camera to be used for video capture, use your application's current instance
+of Camera.
+setAudioSource() - Set the
+audio source, use MediaRecorder.AudioSource.CAMCORDER. 
+setVideoSource() - Set
+the video source, use MediaRecorder.VideoSource.CAMERA.
+Set the video output format and encoding. For Android 2.2 (API Level 8) and
+higher, use the MediaRecorder.setProfile method, and get a profile instance using CamcorderProfile.get(). For versions of Android prior to
+2.2, you must set the video output format and encoding parameters:
+          
+setOutputFormat() - Set
+the output format, specify the default setting or MediaRecorder.OutputFormat.MPEG_4.
+setAudioEncoder() - Set
+the sound encoding type, specify the default setting or MediaRecorder.AudioEncoder.AMR_NB.
+setVideoEncoder() - Set
+the video encoding type, specify the default setting or MediaRecorder.VideoEncoder.MPEG_4_SP.
+
+
+setOutputFile() -
+Set the output file, use getOutputMediaFile(MEDIA_TYPE_VIDEO).toString() from the example
+method in the Saving Media Files section.
+setPreviewDisplay() - Specify the SurfaceView preview layout element for
+your application. Use the same object you specified for Connect Preview.
+
+Caution: You must call these MediaRecorder configuration methods in this order, otherwise your
+application will encounter errors and the recording will fail.
+
+Prepare MediaRecorder - Prepare the MediaRecorder
+with provided configuration settings by calling MediaRecorder.prepare().
+Start MediaRecorder - Start recording video by calling MediaRecorder.start().
+
+
+Stop Recording Video - Call the following methods in order, to
+successfully complete a video recording:
+    
+Stop MediaRecorder - Stop recording video by calling MediaRecorder.stop().
+Reset MediaRecorder - Optionally, remove the configuration settings from
+the recorder by calling MediaRecorder.reset().
+Release MediaRecorder - Release the MediaRecorder
+by calling MediaRecorder.release().
+Lock the Camera - Lock the camera so that future MediaRecorder sessions can use it by calling Camera.lock(). Starting with Android 4.0 (API level 14), this call is not required unless the
+MediaRecorder.prepare() call fails.
+
+
+Stop the Preview - When your activity has finished using the camera, stop the
+preview using Camera.stopPreview().
+Release Camera - Release the camera so that other applications can use
+it by calling Camera.release().
+
+Note: It is possible to use MediaRecorder
+without creating a camera preview first and skip the first few steps of this process. However,
+since users typically prefer to see a preview before starting a recording, that process is not
+discussed here.
+Tip: If your application is typically used for recording video, set
+setRecordingHint(boolean) to true prior to starting your
+preview. This setting can help reduce the time it takes to start recording.
+Configuring MediaRecorder
+When using the MediaRecorder class to record video, you must perform
+configuration steps in a specific order and then call the MediaRecorder.prepare() method to check and implement the
+configuration. The following example code demonstrates how to properly configure and prepare the
+MediaRecorder class for video recording.
+
+Kotlin
+
+private fun prepareVideoRecorder(): Boolean {
+    mediaRecorder = MediaRecorder()
+
+    mCamera?.let { camera ->
+        // Step 1: Unlock and set camera to MediaRecorder
+        camera?.unlock()
+
+        mediaRecorder?.run {
+            setCamera(camera)
+
+            // Step 2: Set sources
+            setAudioSource(MediaRecorder.AudioSource.CAMCORDER)
+            setVideoSource(MediaRecorder.VideoSource.CAMERA)
+
+            // Step 3: Set a CamcorderProfile (requires API Level 8 or higher)
+            setProfile(CamcorderProfile.get(CamcorderProfile.QUALITY_HIGH))
+
+            // Step 4: Set output file
+            setOutputFile(getOutputMediaFile(MEDIA_TYPE_VIDEO).toString())
+
+            // Step 5: Set the preview output
+            setPreviewDisplay(mPreview?.holder?.surface)
+
+            setOutputFormat(MediaRecorder.OutputFormat.MPEG_4)
+            setAudioEncoder(MediaRecorder.AudioEncoder.DEFAULT)
+            setVideoEncoder(MediaRecorder.VideoEncoder.DEFAULT)
+
+
+            // Step 6: Prepare configured MediaRecorder
+            return try {
+                prepare()
+                true
+            } catch (e: IllegalStateException) {
+                Log.d(TAG, "IllegalStateException preparing MediaRecorder: ${e.message}")
+                releaseMediaRecorder()
+                false
+            } catch (e: IOException) {
+                Log.d(TAG, "IOException preparing MediaRecorder: ${e.message}")
+                releaseMediaRecorder()
+                false
+            }
+        }
+
+    }
+    return false
+}
+
+Java
+
+private boolean prepareVideoRecorder(){
+
+    mCamera = getCameraInstance();
+    mediaRecorder = new MediaRecorder();
+
+    // Step 1: Unlock and set camera to MediaRecorder
+    mCamera.unlock();
+    mediaRecorder.setCamera(mCamera);
+
+    // Step 2: Set sources
+    mediaRecorder.setAudioSource(MediaRecorder.AudioSource.CAMCORDER);
+    mediaRecorder.setVideoSource(MediaRecorder.VideoSource.CAMERA);
+
+    // Step 3: Set a CamcorderProfile (requires API Level 8 or higher)
+    mediaRecorder.setProfile(CamcorderProfile.get(CamcorderProfile.QUALITY_HIGH));
+
+    // Step 4: Set output file
+    mediaRecorder.setOutputFile(getOutputMediaFile(MEDIA_TYPE_VIDEO).toString());
+
+    // Step 5: Set the preview output
+    mediaRecorder.setPreviewDisplay(mPreview.getHolder().getSurface());
+
+    // Step 6: Prepare configured MediaRecorder
+    try {
+        mediaRecorder.prepare();
+    } catch (IllegalStateException e) {
+        Log.d(TAG, "IllegalStateException preparing MediaRecorder: " + e.getMessage());
+        releaseMediaRecorder();
+        return false;
+    } catch (IOException e) {
+        Log.d(TAG, "IOException preparing MediaRecorder: " + e.getMessage());
+        releaseMediaRecorder();
+        return false;
+    }
+    return true;
+}
+
+
+
+Prior to Android 2.2 (API Level 8), you must set the output format and encoding formats
+parameters directly, instead of using CamcorderProfile. This approach is
+demonstrated in the following code:
+
+Kotlin
+
+    // Step 3: Set output format and encoding (for versions prior to API Level 8)
+    mediaRecorder?.apply {
+        setOutputFormat(MediaRecorder.OutputFormat.MPEG_4)
+        setAudioEncoder(MediaRecorder.AudioEncoder.DEFAULT)
+        setVideoEncoder(MediaRecorder.VideoEncoder.DEFAULT)
+    }
+
+Java
+
+    // Step 3: Set output format and encoding (for versions prior to API Level 8)
+    mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);
+    mediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.DEFAULT);
+    mediaRecorder.setVideoEncoder(MediaRecorder.VideoEncoder.DEFAULT);
+
+
+
+The following video recording parameters for MediaRecorder are given
+default settings, however, you may want to adjust these settings for your application:
+
+setVideoEncodingBitRate()
+setVideoSize()
+setVideoFrameRate()
+setAudioEncodingBitRate() setAudioChannels()
+setAudioSamplingRate()
+
+Starting and stopping MediaRecorder
+When starting and stopping video recording using the MediaRecorder class,
+you must follow a specific order, as listed below.
+
+Unlock the camera with Camera.unlock()
+Configure MediaRecorder as shown in the code example above
+Start recording using MediaRecorder.start()
+Record the video
+Stop recording using MediaRecorder.stop()
+Release the media recorder with MediaRecorder.release()
+Lock the camera using Camera.lock()
+
+The following example code demonstrates how to wire up a button to properly start and stop
+video recording using the camera and the MediaRecorder class.
+Note: When completing a video recording, do not release the camera
+or else your preview will be stopped.
+
+Kotlin
+
+var isRecording = false
+val captureButton: Button = findViewById(R.id.button_capture)
+captureButton.setOnClickListener {
+    if (isRecording) {
+        // stop recording and release camera
+        mediaRecorder?.stop() // stop the recording
+        releaseMediaRecorder() // release the MediaRecorder object
+        mCamera?.lock() // take camera access back from MediaRecorder
+
+        // inform the user that recording has stopped
+        setCaptureButtonText("Capture")
+        isRecording = false
+    } else {
+        // initialize video camera
+        if (prepareVideoRecorder()) {
+            // Camera is available and unlocked, MediaRecorder is prepared,
+            // now you can start recording
+            mediaRecorder?.start()
+
+            // inform the user that recording has started
+            setCaptureButtonText("Stop")
+            isRecording = true
+        } else {
+            // prepare didn't work, release the camera
+            releaseMediaRecorder()
+            // inform user
+        }
+    }
+}
+
+Java
+
+private boolean isRecording = false;
+
+// Add a listener to the Capture button
+Button captureButton = (Button) findViewById(id.button_capture);
+captureButton.setOnClickListener(
+    new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            if (isRecording) {
+                // stop recording and release camera
+                mediaRecorder.stop();  // stop the recording
+                releaseMediaRecorder(); // release the MediaRecorder object
+                mCamera.lock();         // take camera access back from MediaRecorder
+
+                // inform the user that recording has stopped
+                setCaptureButtonText("Capture");
+                isRecording = false;
+            } else {
+                // initialize video camera
+                if (prepareVideoRecorder()) {
+                    // Camera is available and unlocked, MediaRecorder is prepared,
+                    // now you can start recording
+                    mediaRecorder.start();
+
+                    // inform the user that recording has started
+                    setCaptureButtonText("Stop");
+                    isRecording = true;
+                } else {
+                    // prepare didn't work, release the camera
+                    releaseMediaRecorder();
+                    // inform user
+                }
+            }
+        }
+    }
+);
+
+
+Note: In the above example, the prepareVideoRecorder()
+method refers to the example code shown in Configuring MediaRecorder. This method takes care of locking
+the camera, configuring and preparing the MediaRecorder instance.
+Releasing the camera
+Cameras are a resource that is shared by applications on a device. Your application can make
+use of the camera after getting an instance of Camera, and you must be
+particularly careful to release the camera object when your application stops using it, and as
+soon as your application is paused (Activity.onPause()). If
+your application does not properly release the camera, all subsequent attempts to access the camera,
+including those by your own application, will fail and may cause your or other applications to be
+shut down.
+To release an instance of the Camera object, use the Camera.release() method, as shown in the example code below.
+
+Kotlin
+
+class CameraActivity : Activity() {
+    private var mCamera: Camera?
+    private var preview: SurfaceView?
+    private var mediaRecorder: MediaRecorder?
+
+    override fun onPause() {
+        super.onPause()
+        releaseMediaRecorder() // if you are using MediaRecorder, release it first
+        releaseCamera() // release the camera immediately on pause event
+    }
+
+    private fun releaseMediaRecorder() {
+        mediaRecorder?.reset() // clear recorder configuration
+        mediaRecorder?.release() // release the recorder object
+        mediaRecorder = null
+        mCamera?.lock() // lock camera for later use
+    }
+
+    private fun releaseCamera() {
+        mCamera?.release() // release the camera for other applications
+        mCamera = null
+    }
+}
+
+Java
+
+public class CameraActivity extends Activity {
+    private Camera mCamera;
+    private SurfaceView preview;
+    private MediaRecorder mediaRecorder;
+
+    ...
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        releaseMediaRecorder();       // if you are using MediaRecorder, release it first
+        releaseCamera();              // release the camera immediately on pause event
+    }
+
+    private void releaseMediaRecorder(){
+        if (mediaRecorder != null) {
+            mediaRecorder.reset();   // clear recorder configuration
+            mediaRecorder.release(); // release the recorder object
+            mediaRecorder = null;
+            mCamera.lock();           // lock camera for later use
+        }
+    }
+
+    private void releaseCamera(){
+        if (mCamera != null){
+            mCamera.release();        // release the camera for other applications
+            mCamera = null;
+        }
+    }
+}
+
+
+
+Caution: If your application does not properly release the
+camera, all subsequent attempts to access the camera, including those by your own application, will
+fail and may cause your or other applications to be shut down.
+Saving media files
+Media files created by users such as pictures and videos should be saved to a device's external
+storage directory (SD Card) to conserve system space and to allow users to access these files
+without their device. There are many possible directory locations to save media files on a device,
+however there are only two standard locations you should consider as a developer:
+
+Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) - This method returns the standard, shared and recommended
+location for saving pictures and videos. This directory is shared (public), so other applications
+can easily discover, read, change and delete files saved in this location. If your application is
+uninstalled by the user, media files saved to this location will not be removed. To avoid
+interfering with users existing pictures and videos, you should create a sub-directory for your
+application's media files within this directory, as shown in the code sample below. This method is
+available in Android 2.2 (API Level 8), for equivalent calls in earlier API versions, see Saving Shared Files.
+Context.getExternalFilesDir(Environment.DIRECTORY_PICTURES) - This method returns a standard location for saving
+pictures and videos which are associated with your application. If your application is uninstalled,
+any files saved in this location are removed. Security is not enforced for files in this
+location and other applications may read, change and delete them.
+
+The following example code demonstrates how to create a File or Uri location for a media file that can be used when invoking a device's camera with
+an Intent or as part of a Building a Camera
+App.
+
+Kotlin
+
+val MEDIA_TYPE_IMAGE = 1
+val MEDIA_TYPE_VIDEO = 2
+
+/** Create a file Uri for saving an image or video */
+private fun getOutputMediaFileUri(type: Int): Uri {
+    return Uri.fromFile(getOutputMediaFile(type))
+}
+
+/** Create a File for saving an image or video */
+private fun getOutputMediaFile(type: Int): File? {
+    // To be safe, you should check that the SDCard is mounted
+    // using Environment.getExternalStorageState() before doing this.
+
+    val mediaStorageDir = File(
+            Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
+            "MyCameraApp"
+    )
+    // This location works best if you want the created images to be shared
+    // between applications and persist after your app has been uninstalled.
+
+    // Create the storage directory if it does not exist
+    mediaStorageDir.apply {
+        if (!exists()) {
+            if (!mkdirs()) {
+                Log.d("MyCameraApp", "failed to create directory")
+                return null
+            }
+        }
+    }
+
+    // Create a media file name
+    val timeStamp = SimpleDateFormat("yyyyMMdd_HHmmss").format(Date())
+    return when (type) {
+        MEDIA_TYPE_IMAGE -> {
+            File("${mediaStorageDir.path}${File.separator}IMG_$timeStamp.jpg")
+        }
+        MEDIA_TYPE_VIDEO -> {
+            File("${mediaStorageDir.path}${File.separator}VID_$timeStamp.mp4")
+        }
+        else -> null
+    }
+}
+
+Java
+
+public static final int MEDIA_TYPE_IMAGE = 1;
+public static final int MEDIA_TYPE_VIDEO = 2;
+
+/** Create a file Uri for saving an image or video */
+private static Uri getOutputMediaFileUri(int type){
+      return Uri.fromFile(getOutputMediaFile(type));
+}
+
+/** Create a File for saving an image or video */
+private static File getOutputMediaFile(int type){
+    // To be safe, you should check that the SDCard is mounted
+    // using Environment.getExternalStorageState() before doing this.
+
+    File mediaStorageDir = new File(Environment.getExternalStoragePublicDirectory(
+              Environment.DIRECTORY_PICTURES), "MyCameraApp");
+    // This location works best if you want the created images to be shared
+    // between applications and persist after your app has been uninstalled.
+
+    // Create the storage directory if it does not exist
+    if (! mediaStorageDir.exists()){
+        if (! mediaStorageDir.mkdirs()){
+            Log.d("MyCameraApp", "failed to create directory");
+            return null;
+        }
+    }
+
+    // Create a media file name
+    String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+    File mediaFile;
+    if (type == MEDIA_TYPE_IMAGE){
+        mediaFile = new File(mediaStorageDir.getPath() + File.separator +
+        "IMG_"+ timeStamp + ".jpg");
+    } else if(type == MEDIA_TYPE_VIDEO) {
+        mediaFile = new File(mediaStorageDir.getPath() + File.separator +
+        "VID_"+ timeStamp + ".mp4");
+    } else {
+        return null;
+    }
+
+    return mediaFile;
+}
+
+
+
+Note: Environment.getExternalStoragePublicDirectory() is available in Android 2.2 (API Level 8) or
+higher. If you are targeting devices with earlier versions of Android, use Environment.getExternalStorageDirectory()
+instead. For more information, see Saving Shared Files.
+To make the URI support work profiles, first 
+convert the file URI to a content URI. Then, add the content URI to
+EXTRA_OUTPUT
+of an Intent.
+For more information about saving files on an Android device, see Data Storage.
+Camera features
+Android supports a wide array of camera features you can control with your camera application,
+such as picture format, flash mode, focus settings, and many more. This section lists the common
+camera features, and briefly discusses how to use them. Most camera features can be accessed and set
+using the through Camera.Parameters object. However, there are several
+important features that require more than simple settings in Camera.Parameters. These features are covered in the following sections:
+
+Metering and focus areas
+Face detection
+Time lapse video
+
+For general information about how to use features that are controlled through Camera.Parameters, review the Using camera
+features section. For more detailed information about how to use features controlled through the
+camera parameters object, follow the links in the feature list below to the API reference
+documentation.
+
+Table 1. Common camera features sorted by the Android API Level in which they
+were introduced.
+
+
+Feature API Level Description
+
+
+Face Detection
+14
+Identify human faces within a picture and use them for focus, metering and white
+balance
+
+
+Metering Areas
+14
+Specify one or more areas within an image for calculating white balance
+
+
+Focus Areas
+14
+Set one or more areas within an image to use for focus
+
+
+White Balance Lock
+14
+Stop or start automatic white balance adjustments
+
+
+Exposure Lock
+14
+Stop or start automatic exposure adjustments
+
+
+Video Snapshot
+14
+Take a picture while shooting video (frame grab)
+
+
+Time Lapse Video
+11
+Record frames with set delays to record a time lapse video
+
+
+Multiple Cameras
+9
+Support for more than one camera on a device, including front-facing and back-facing
+cameras
+
+
+Focus Distance
+9
+Reports distances between the camera and objects that appear to be in focus
+
+
+Zoom
+8
+Set image magnification
+
+
+Exposure
+Compensation
+8
+Increase or decrease the light exposure level
+
+
+GPS Data
+5
+Include or omit geographic location data with the image
+
+
+White Balance
+5
+Set the white balance mode, which affects color values in the captured image
+
+
+Focus Mode
+5
+Set how the camera focuses on a subject such as automatic, fixed, macro or infinity
+
+
+Scene Mode
+5
+Apply a preset mode for specific types of photography situations such as night, beach, snow
+or candlelight scenes
+
+
+JPEG Quality
+5
+Set the compression level for a JPEG image, which increases or decreases image output file
+quality and size
+
+
+Flash Mode
+5
+Turn flash on, off, or use automatic setting
+
+
+Color Effects
+5
+Apply a color effect to the captured image such as black and white, sepia tone or negative.
+
+
+
+Anti-Banding
+5
+Reduces the effect of banding in color gradients due to JPEG compression
+
+
+Picture Format
+1
+Specify the file format for the picture
+
+
+Picture Size
+1
+Specify the pixel dimensions of the saved picture
+
+
+Note: These features are not supported on all devices due to
+hardware differences and software implementation. For information on checking the availability
+of features on the device where your application is running, see Checking
+feature availability.
+Checking feature availability
+The first thing to understand when setting out to use camera features on Android devices is that
+not all camera features are supported on all devices. In addition, devices that support a particular
+feature may support them to different levels or with different options. Therefore, part of your
+decision process as you develop a camera application is to decide what camera features you want to
+support and to what level. After making that decision, you should plan on including code in your
+camera application that checks to see if device hardware supports those features and fails
+gracefully if a feature is not available.
+You can check the availability of camera features by getting an instance of a camera's parameters
+object, and checking the relevant methods. The following code sample shows you how to obtain a
+Camera.Parameters object and check if the camera supports the autofocus
+feature:
+
+Kotlin
+
+val params: Camera.Parameters? = camera?.parameters
+val focusModes: List<String>? = params?.supportedFocusModes
+if (focusModes?.contains(Camera.Parameters.FOCUS_MODE_AUTO) == true) {
+    // Autofocus mode is supported
+}
+
+Java
+
+// get Camera parameters
+Camera.Parameters params = camera.getParameters();
+
+List<String> focusModes = params.getSupportedFocusModes();
+if (focusModes.contains(Camera.Parameters.FOCUS_MODE_AUTO)) {
+  // Autofocus mode is supported
+}
+
+
+
+You can use the technique shown above for most camera features. The
+Camera.Parameters object provides a getSupported...(), is...Supported() or getMax...() method to determine if (and to what extent) a feature is
+supported.
+If your application requires certain camera features in order to function properly, you can
+require them through additions to your application manifest. When you declare the use of specific
+camera features, such as flash and auto-focus, Google Play restricts your application from
+being installed on devices which do not support these features. For a list of camera features that
+can be declared in your app manifest, see the manifest
+ Features
+Reference.
+Using camera features
+Most camera features are activated and controlled using a Camera.Parameters object. You obtain this object by first getting an instance of
+the Camera object, calling the getParameters() method, changing the returned parameter
+object and then setting it back into the camera object, as demonstrated in the following example
+code:
+
+Kotlin
+
+val params: Camera.Parameters? = camera?.parameters
+params?.focusMode = Camera.Parameters.FOCUS_MODE_AUTO
+camera?.parameters = params
+
+Java
+
+// get Camera parameters
+Camera.Parameters params = camera.getParameters();
+// set the focus mode
+params.setFocusMode(Camera.Parameters.FOCUS_MODE_AUTO);
+// set Camera parameters
+camera.setParameters(params);
+
+
+
+This technique works for nearly all camera features, and most parameters can be changed at any
+time after you have obtained an instance of the Camera object. Changes to
+parameters are typically visible to the user immediately in the application's camera preview.
+On the software side, parameter changes may take several frames to actually take effect as the
+camera hardware processes the new instructions and then sends updated image data.
+Important: Some camera features cannot be changed at will. In
+particular, changing the size or orientation of the camera preview requires that you first stop the
+preview, change the preview size, and then restart the preview. Starting with Android 4.0 (API
+Level 14) preview orientation can be changed without restarting the preview.
+Other camera features require more code in order to implement, including:
+
+Metering and focus areas
+Face detection
+Time lapse video
+
+A quick outline of how to implement these features is provided in the following sections.
+Metering and focus areas
+In some photographic scenarios, automatic focusing and light metering may not produce the
+desired results. Starting with Android 4.0 (API Level 14), your camera application can provide
+additional controls to allow your app or users to specify areas in an image to use for determining
+focus or light level settings and pass these values to the camera hardware for use in capturing
+images or video.
+Areas for metering and focus work very similarly to other camera features, in that you control
+them through methods in the Camera.Parameters object. The following code
+demonstrates setting two light metering areas for an instance of
+Camera:
+
+Kotlin
+
+// Create an instance of Camera
+camera = getCameraInstance()
+
+// set Camera parameters
+val params: Camera.Parameters? = camera?.parameters
+
+params?.apply {
+    if (maxNumMeteringAreas > 0) { // check that metering areas are supported
+        meteringAreas = ArrayList<Camera.Area>().apply {
+            val areaRect1 = Rect(-100, -100, 100, 100) // specify an area in center of image
+            add(Camera.Area(areaRect1, 600)) // set weight to 60%
+            val areaRect2 = Rect(800, -1000, 1000, -800) // specify an area in upper right of image
+            add(Camera.Area(areaRect2, 400)) // set weight to 40%
+        }
+    }
+    camera?.parameters = this
+}
+
+Java
+
+// Create an instance of Camera
+camera = getCameraInstance();
+
+// set Camera parameters
+Camera.Parameters params = camera.getParameters();
+
+if (params.getMaxNumMeteringAreas() > 0){ // check that metering areas are supported
+    List<Camera.Area> meteringAreas = new ArrayList<Camera.Area>();
+
+    Rect areaRect1 = new Rect(-100, -100, 100, 100);    // specify an area in center of image
+    meteringAreas.add(new Camera.Area(areaRect1, 600)); // set weight to 60%
+    Rect areaRect2 = new Rect(800, -1000, 1000, -800);  // specify an area in upper right of image
+    meteringAreas.add(new Camera.Area(areaRect2, 400)); // set weight to 40%
+    params.setMeteringAreas(meteringAreas);
+}
+
+camera.setParameters(params);
+
+
+
+The Camera.Area object contains two data parameters: A Rect object for specifying an area within the camera's field of view and a weight
+value, which tells the camera what level of importance this area should be given in light metering
+or focus calculations.
+The Rect field in a Camera.Area object
+describes a rectangular shape mapped on a 2000 x 2000 unit grid. The coordinates -1000, -1000
+represent the top, left corner of the camera image, and coordinates 1000, 1000 represent the
+bottom, right corner of the camera image, as shown in the illustration below.
+
+
+Figure 1. The red lines illustrate the coordinate system for specifying a
+Camera.Area within a camera preview. The blue box shows the location and
+shape of an camera area with the Rect values 333,333,667,667.
+
+The bounds of this coordinate system always correspond to the outer edge of the image visible in
+the camera preview and do not shrink or expand with the zoom level. Similarly, rotation of the image
+preview using Camera.setDisplayOrientation()
+does not remap the coordinate system.
+Face detection
+For pictures that include people, faces are usually the most important part of the picture, and
+should be used for determining both focus and white balance when capturing an image. The Android 4.0
+(API Level 14) framework provides APIs for identifying faces and calculating picture settings using
+face recognition technology.
+Note: While the face detection feature is running,
+setWhiteBalance(String),
+setFocusAreas(List<Camera.Area>) and
+setMeteringAreas(List<Camera.Area>) have no effect.
+Using the face detection feature in your camera application requires a few general steps:
+
+Check that face detection is supported on the device
+Create a face detection listener
+Add the face detection listener to your camera object
+Start face detection after preview (and after every preview restart)
+
+The face detection feature is not supported on all devices. You can check that this feature is
+supported by calling getMaxNumDetectedFaces(). An
+example of this check is shown in the startFaceDetection() sample method below.
+In order to be notified and respond to the detection of a face, your camera application must set
+a listener for face detection events. In order to do this, you must create a listener class that
+implements the Camera.FaceDetectionListener interface as shown in the
+example code below.
+
+Kotlin
+
+internal class MyFaceDetectionListener : Camera.FaceDetectionListener {
+
+    override fun onFaceDetection(faces: Array<Camera.Face>, camera: Camera) {
+        if (faces.isNotEmpty()) {
+            Log.d("FaceDetection", ("face detected: ${faces.size}" +
+                    " Face 1 Location X: ${faces[0].rect.centerX()}" +
+                    "Y: ${faces[0].rect.centerY()}"))
+        }
+    }
+}
+
+Java
+
+class MyFaceDetectionListener implements Camera.FaceDetectionListener {
+
+    @Override
+    public void onFaceDetection(Face[] faces, Camera camera) {
+        if (faces.length > 0){
+            Log.d("FaceDetection", "face detected: "+ faces.length +
+                    " Face 1 Location X: " + faces[0].rect.centerX() +
+                    "Y: " + faces[0].rect.centerY() );
+        }
+    }
+}
+
+
+
+After creating this class, you then set it into your application's
+Camera object, as shown in the example code below:
+
+Kotlin
+
+camera?.setFaceDetectionListener(MyFaceDetectionListener())
+
+Java
+
+camera.setFaceDetectionListener(new MyFaceDetectionListener());
+
+
+
+Your application must start the face detection function each time you start (or restart) the
+camera preview. Create a method for starting face detection so you can call it as needed, as shown
+in the example code below.
+
+Kotlin
+
+fun startFaceDetection() {
+    // Try starting Face Detection
+    val params = mCamera?.parameters
+    // start face detection only *after* preview has started
+
+    params?.apply {
+        if (maxNumDetectedFaces > 0) {
+            // camera supports face detection, so can start it:
+            mCamera?.startFaceDetection()
+        }
+    }
+}
+
+Java
+
+public void startFaceDetection(){
+    // Try starting Face Detection
+    Camera.Parameters params = mCamera.getParameters();
+
+    // start face detection only *after* preview has started
+    if (params.getMaxNumDetectedFaces() > 0){
+        // camera supports face detection, so can start it:
+        mCamera.startFaceDetection();
+    }
+}
+
+
+
+You must start face detection each time you start (or restart) the camera preview. If
+you use the preview class shown in Creating a preview class, add your
+startFaceDetection() method to both the
+surfaceCreated() and surfaceChanged() methods in your preview class,
+as shown in the sample code below.
+
+Kotlin
+
+override fun surfaceCreated(holder: SurfaceHolder) {
+    try {
+        mCamera.setPreviewDisplay(holder)
+        mCamera.startPreview()
+
+        startFaceDetection() // start face detection feature
+    } catch (e: IOException) {
+        Log.d(TAG, "Error setting camera preview: ${e.message}")
+    }
+}
+
+override fun surfaceChanged(holder: SurfaceHolder, format: Int, w: Int, h: Int) {
+    if (holder.surface == null) {
+        // preview surface does not exist
+        Log.d(TAG, "holder.getSurface() == null")
+        return
+    }
+    try {
+        mCamera.stopPreview()
+    } catch (e: Exception) {
+        // ignore: tried to stop a non-existent preview
+        Log.d(TAG, "Error stopping camera preview: ${e.message}")
+    }
+    try {
+        mCamera.setPreviewDisplay(holder)
+        mCamera.startPreview()
+
+        startFaceDetection() // re-start face detection feature
+    } catch (e: Exception) {
+        // ignore: tried to stop a non-existent preview
+        Log.d(TAG, "Error starting camera preview: ${e.message}")
+    }
+}
+
+Java
+
+public void surfaceCreated(SurfaceHolder holder) {
+    try {
+        mCamera.setPreviewDisplay(holder);
+        mCamera.startPreview();
+
+        startFaceDetection(); // start face detection feature
+
+    } catch (IOException e) {
+        Log.d(TAG, "Error setting camera preview: " + e.getMessage());
+    }
+}
+
+public void surfaceChanged(SurfaceHolder holder, int format, int w, int h) {
+
+    if (holder.getSurface() == null){
+        // preview surface does not exist
+        Log.d(TAG, "holder.getSurface() == null");
+        return;
+    }
+
+    try {
+        mCamera.stopPreview();
+
+    } catch (Exception e){
+        // ignore: tried to stop a non-existent preview
+        Log.d(TAG, "Error stopping camera preview: " + e.getMessage());
+    }
+
+    try {
+        mCamera.setPreviewDisplay(holder);
+        mCamera.startPreview();
+
+        startFaceDetection(); // re-start face detection feature
+
+    } catch (Exception e){
+        // ignore: tried to stop a non-existent preview
+        Log.d(TAG, "Error starting camera preview: " + e.getMessage());
+    }
+}
+
+
+
+Note: Remember to call this method after calling
+startPreview(). Do not attempt to start face detection
+in the onCreate() method of your camera app's main activity,
+as the preview is not available by this point in your application's the execution.
+Time lapse video
+Time lapse video allows users to create video clips that combine pictures taken a few seconds or
+minutes apart. This feature uses MediaRecorder to record the images for a time
+lapse sequence. 
+To record a time lapse video with MediaRecorder, you must configure the
+recorder object as if you are recording a normal video, setting the captured frames per second to a
+low number and using one of the time lapse quality settings, as shown in the code example below.
+
+Kotlin
+
+mediaRecorder.setProfile(CamcorderProfile.get(CamcorderProfile.QUALITY_TIME_LAPSE_HIGH))
+mediaRecorder.setCaptureRate(0.1) // capture a frame every 10 seconds
+
+Java
+
+// Step 3: Set a CamcorderProfile (requires API Level 8 or higher)
+mediaRecorder.setProfile(CamcorderProfile.get(CamcorderProfile.QUALITY_TIME_LAPSE_HIGH));
+...
+// Step 5.5: Set the video capture rate to a low number
+mediaRecorder.setCaptureRate(0.1); // capture a frame every 10 seconds
+
+
+
+These settings must be done as part of a larger configuration procedure for MediaRecorder. For  a full configuration code example, see Configuring MediaRecorder. Once the configuration is complete,
+you start the video recording as if you were recording a normal video clip. For more information
+about configuring and running MediaRecorder, see Capturing videos.
+The Android Camera2Video
+  and Android HcrViewfinder
+  samples further demonstrate the use of the APIs covered on this page.
+Additional sample code
+To download a sample app about Camera2 basic, see
+Android Camera2Basic Sample.
+To download a sample app about Camera2 raw, see
+Android Camera2Raw Sample.
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

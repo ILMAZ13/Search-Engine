@@ -1,0 +1,908 @@
+Loaders  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Loaders
+  
+
+
+Loaders have been deprecated as of Android P (API 28). The recommended option for
+dealing with loading data while handling the Activity and Fragment lifecycles is to use a
+combination of ViewModels
+and LiveData.
+ViewModels survive configuration changes like Loaders but with
+less boilerplate. LiveData provides a lifecycle-aware way of loading data that you can reuse in
+multiple ViewModels. You can also combine LiveData using
+MediatorLiveData
+, and any observable queries, such as those from a
+Room database, can be used to observe changes
+to the data. ViewModels and LiveData are also available in situations where you do not have access
+to the LoaderManager, such as in a
+Service. Using the two in
+tandem provides an easy way to access the data your app needs without having to deal with the UI
+lifecycle. To learn more about LiveData see the
+LiveData guide and to learn more about
+ViewModels see the ViewModel guide.
+
+The Loader API lets you load data from a
+content provider
+or other data source for display in an FragmentActivity or Fragment. If you don't understand why you need the Loader API to
+perform this seemingly trivial operation, then first consider some of the
+problems you might encounter without loaders:
+
+If you fetch the data directly in the activity or fragment, your users will
+  suffer from lack of responsiveness due to performing potentially slow
+  queries from the UI thread.
+If you fetch the data from another thread, perhaps with AsyncTask, then you're responsible for managing both the thread
+  and the UI thread through various activity or fragment lifecycle events, such as
+  onDestroy() and configurations changes.
+
+Loaders solve these problems and includes other benefits. For example:
+
+Loaders run on separate threads to prevent janky or unresponsive UI.
+Loaders simplify thread management by providing callback methods when events
+  occur.
+Loaders persist and cache results across configuration changes to prevent
+  duplicate queries.
+Loaders can implement an observer to monitor for changes in the underlying
+  data source. For example, CursorLoader automatically
+  registers a ContentObserver to trigger a reload
+  when data changes.
+
+Loader API Summary
+There are multiple classes and interfaces that may be involved when using
+loaders in an app. They are summarized in this table:
+
+
+Class/Interface
+Description
+
+
+LoaderManager
+An abstract class associated with an FragmentActivity or
+    Fragment for managing one or more
+    Loader instances. There is only one
+    LoaderManager per activity or fragment, but a
+    LoaderManager can manage multiple loaders.
+
+    To get LoaderManager, call getSupportLoaderManager()
+    from the activity or fragment.
+
+    To start loading data from a loader, call either
+    initLoader() or
+    restartLoader().
+    The system automatically determines whether a loader with the same integer ID already
+    exists and will either create a new loader or reuse an existing loader.
+    
+
+
+LoaderManager.LoaderCallbacks
+This interface contains callback methods that are called when
+    loader events occur. The interface defines three callback methods:
+
+    
+onCreateLoader(int, Bundle)
+      - called when the system needs a new loader to be created. Your code
+      should create a Loader object and return it to
+      the system.
+onLoadFinished(Loader<D>, D)
+      - called when a loader has finished loading data. Typically, your code
+      should display the data to the user.
+onLoaderReset(Loader<D>)
+      - called when a previously created loader is being reset (when you call
+      destroyLoader(int) or when the activity
+      or fragment is  destroyed , and thus making its data unavailable. Your
+      code should remove any references it has to the loader's data.
+
+
+    This interface is typically implemented by your activity or fragment and is
+    registered when you call
+    initLoader() or
+    restartLoader().
+    
+
+
+Loader
+Loaders perform the loading of data. This class is abstract and serves
+    as the base class for all loaders. You can directly subclass
+    Loader or use one of the following built-in
+    subclasses to simplify implementation:
+
+    
+AsyncTaskLoader - an abstract loader that
+      provides an AsyncTask to perform load operations on a separate
+      thread.
+CursorLoader - a concrete subclass of
+      AsyncTaskLoader for asynchronously loading data
+      from a ContentProvider. It queries a
+      ContentResolver and returns a
+      Cursor.
+
+
+
+
+The following sections show you how to use these
+classes and interfaces in an application.
+Using Loaders in an Application
+This section describes how to use loaders in an Android application. An
+application that uses loaders typically includes the following:
+
+An FragmentActivity or Fragment.
+An instance of the LoaderManager.
+A CursorLoader to load data backed by a ContentProvider. Alternatively, you can implement your own subclass
+of Loader or AsyncTaskLoader to
+load data from some other source.
+An implementation for LoaderManager.LoaderCallbacks.
+This is where you create new loaders and manage your references to existing
+loaders.
+A way of displaying the loader's data, such as a SimpleCursorAdapter.
+A data source, such as a ContentProvider, when using a
+CursorLoader.
+
+Starting a Loader
+The LoaderManager manages one or more Loader instances within an FragmentActivity or
+Fragment. There is only one LoaderManager per activity or fragment.
+You typically
+initialize a Loader within the activity's onCreate() method, or within the fragment's
+onActivityCreated() method. You
+do this as follows:
+
+Kotlin
+
+supportLoaderManager.initLoader(0, null, this)
+
+Java
+
+// Prepare the loader.  Either re-connect with an existing one,
+// or start a new one.
+getSupportLoaderManager().initLoader(0, null, this);
+
+
+
+The initLoader() method takes
+the following parameters:
+
+A unique ID that identifies the loader. In this example, the ID is 0.
+Optional arguments to supply to the loader at
+construction (null in this example).
+A LoaderManager.LoaderCallbacks implementation, which
+the LoaderManager calls to report loader events. In this
+example, the local class implements the LoaderManager.LoaderCallbacks interface, so it passes a reference
+to itself, this.
+
+The initLoader() call ensures that a loader
+is initialized and active. It has two possible outcomes:
+
+If the loader specified by the ID already exists, the last created loader
+is reused.
+If the loader specified by the ID does not exist,
+initLoader() triggers the
+LoaderManager.LoaderCallbacks method onCreateLoader().
+This is where you  implement the code to instantiate and return a new loader.
+For more discussion, see the section onCreateLoader.
+
+In either case, the given LoaderManager.LoaderCallbacks
+implementation is associated with the loader, and  will be called when the
+loader state changes.  If at the point of this call  the caller is in its
+started state, and the requested loader already exists and has generated its
+data, then the system calls onLoadFinished()
+immediately (during initLoader()),
+so you must be prepared for this to happen. See 
+onLoadFinished for more discussion of this callback
+Note that the initLoader()
+method returns the Loader that is created, but you don't
+need to capture a reference to it. The LoaderManager manages
+the life of the loader automatically. The LoaderManager
+starts and stops loading when necessary, and maintains the state of the loader
+and its associated content. As this implies, you rarely interact with loaders
+directly (though for an example of using loader methods to fine-tune a loader's
+behavior, see the  LoaderThrottle sample).
+You most commonly use the LoaderManager.LoaderCallbacks methods to intervene in the loading
+process when particular events occur. For more discussion of this topic, see Using the LoaderManager Callbacks.
+Restarting a Loader
+When you use initLoader(), as
+shown above, it uses an existing loader with the specified ID if there is one.
+If there isn't, it creates one. But sometimes you want to discard your old data
+and start over.
+To discard your old data, you use restartLoader(). For example, this
+implementation of SearchView.OnQueryTextListener restarts
+the loader when the user's query changes. The loader needs to be restarted so
+that it can use the revised search filter to do a new query:
+
+Kotlin
+
+fun onQueryTextChanged(newText: String?): Boolean {
+    // Called when the action bar search text has changed.  Update
+    // the search filter, and restart the loader to do a new query
+    // with this filter.
+    curFilter = if (newText?.isNotEmpty() == true) newText else null
+    supportLoaderManager.restartLoader(0, null, this)
+    return true
+}
+
+Java
+
+public boolean onQueryTextChanged(String newText) {
+    // Called when the action bar search text has changed.  Update
+    // the search filter, and restart the loader to do a new query
+    // with this filter.
+    curFilter = !TextUtils.isEmpty(newText) ? newText : null;
+    getSupportLoaderManager().restartLoader(0, null, this);
+    return true;
+}
+
+
+
+Using the LoaderManager Callbacks
+LoaderManager.LoaderCallbacks is a callback interface
+that lets a client  interact with the LoaderManager. 
+Loaders, in particular CursorLoader, are  expected to
+retain their  data after being stopped. This allows applications to keep their
+data across the activity or fragment's onStop() and onStart() methods, so that
+when users return to an application, they don't have to wait for the data to
+reload. You use the LoaderManager.LoaderCallbacks methods
+when to know when to create a new loader, and to tell the application when it is
+ time to  stop using a loader's data.
+LoaderManager.LoaderCallbacks includes these
+methods:
+
+onCreateLoader()  —
+Instantiate and return a new Loader for the given ID.
+
+
+ onLoadFinished()
+— Called when a previously created loader has finished its load.
+
+
+onLoaderReset()
+    — Called when a previously created loader is being reset,  thus  making its
+data unavailable.
+
+
+These methods are described in more detail in the following sections.
+onCreateLoader
+When you attempt to access a loader (for example, through initLoader()), it checks to see whether
+the loader specified by the ID exists. If it doesn't, it triggers the LoaderManager.LoaderCallbacks method onCreateLoader(). This
+is where you  create a new loader. Typically this will be a CursorLoader, but you can implement your own Loader subclass. 
+In this example, the onCreateLoader()
+callback method creates a CursorLoader. You must build
+the CursorLoader using its constructor method, which
+requires the complete set of information needed to perform a query to the ContentProvider. Specifically, it needs:
+
+uri — The URI for the content to retrieve. 
+projection — A list of which columns to return. Passing
+null will return all columns, which is inefficient. 
+selection — A filter declaring which rows to return,
+formatted as an SQL WHERE clause (excluding the WHERE itself). Passing
+null will return all rows for the given URI. 
+selectionArgs — You may include ?s in the selection, which will
+be replaced by the values from selectionArgs, in the order that they appear in
+the selection. The values will be bound as Strings. 
+sortOrder — How to order the rows, formatted as an SQL
+ORDER BY clause (excluding the ORDER BY itself). Passing null will
+use the default sort order, which may be unordered.
+
+For example:
+
+Kotlin
+
+// If non-null, this is the current filter the user has provided.
+private var curFilter: String? = null
+...
+override fun onCreateLoader(id: Int, args: Bundle?): Loader<Cursor> {
+    // This is called when a new Loader needs to be created.  This
+    // sample only has one Loader, so we don't care about the ID.
+    // First, pick the base URI to use depending on whether we are
+    // currently filtering.
+    val baseUri: Uri = if (curFilter != null) {
+        Uri.withAppendedPath(ContactsContract.Contacts.CONTENT_URI, Uri.encode(curFilter))
+    } else {
+        ContactsContract.Contacts.CONTENT_URI
+    }
+
+    // Now create and return a CursorLoader that will take care of
+    // creating a Cursor for the data being displayed.
+    val select: String = "((${Contacts.DISPLAY_NAME} NOTNULL) AND (" +
+            "${Contacts.HAS_PHONE_NUMBER}=1) AND (" +
+            "${Contacts.DISPLAY_NAME} != ''))"
+    return (activity as? Context)?.let { context ->
+        CursorLoader(
+                context,
+                baseUri,
+                CONTACTS_SUMMARY_PROJECTION,
+                select,
+                null,
+                "${Contacts.DISPLAY_NAME} COLLATE LOCALIZED ASC"
+        )
+    } ?: throw Exception("Activity cannot be null")
+}
+
+Java
+
+// If non-null, this is the current filter the user has provided.
+String curFilter;
+...
+public Loader<Cursor> onCreateLoader(int id, Bundle args) {
+    // This is called when a new Loader needs to be created.  This
+    // sample only has one Loader, so we don't care about the ID.
+    // First, pick the base URI to use depending on whether we are
+    // currently filtering.
+    Uri baseUri;
+    if (curFilter != null) {
+        baseUri = Uri.withAppendedPath(Contacts.CONTENT_FILTER_URI,
+                  Uri.encode(curFilter));
+    } else {
+        baseUri = Contacts.CONTENT_URI;
+    }
+
+    // Now create and return a CursorLoader that will take care of
+    // creating a Cursor for the data being displayed.
+    String select = "((" + Contacts.DISPLAY_NAME + " NOTNULL) AND ("
+            + Contacts.HAS_PHONE_NUMBER + "=1) AND ("
+            + Contacts.DISPLAY_NAME + " != '' ))";
+    return new CursorLoader(getActivity(), baseUri,
+            CONTACTS_SUMMARY_PROJECTION, select, null,
+            Contacts.DISPLAY_NAME + " COLLATE LOCALIZED ASC");
+}
+
+
+
+onLoadFinished
+This method is called when a previously created loader has finished its load.
+This method is guaranteed to be called prior to the release of  the last data
+that was supplied for this loader.  At this point  you should remove all use of
+the old data (since it will be released  soon), but should not do your own
+release of the data since its loader  owns it and will take care of that.
+The loader will release the data once it knows the application  is no longer
+using it.  For example, if the data is  a cursor from a CursorLoader,  you should not call close() on it yourself. If the cursor is being
+placed in a CursorAdapter, you should use the swapCursor()  method so that the
+old Cursor is not closed. For example:
+
+Kotlin
+
+private lateinit var adapter: SimpleCursorAdapter
+...
+
+override fun onLoadFinished(loader: Loader<Cursor>, data: Cursor?) {
+    // Swap the new cursor in.  (The framework will take care of closing the
+    // old cursor once we return.)
+    adapter.swapCursor(data)
+}
+
+Java
+
+// This is the Adapter being used to display the list's data.
+SimpleCursorAdapter adapter;
+...
+
+public void onLoadFinished(Loader<Cursor> loader, Cursor data) {
+    // Swap the new cursor in.  (The framework will take care of closing the
+    // old cursor once we return.)
+    adapter.swapCursor(data);
+}
+
+
+
+onLoaderReset
+This method is called when a previously created loader is being reset,  thus
+making its data unavailable. This callback lets you find  out when the data is
+about to be released so you can remove your  reference to it.  
+This implementation calls
+swapCursor()
+with a value of null:
+
+Kotlin
+
+private lateinit var adapter: SimpleCursorAdapter
+...
+
+override fun onLoaderReset(loader: Loader<Cursor>) {
+    // This is called when the last Cursor provided to onLoadFinished()
+    // above is about to be closed.  We need to make sure we are no
+    // longer using it.
+    adapter.swapCursor(null)
+}
+
+Java
+
+// This is the Adapter being used to display the list's data.
+SimpleCursorAdapter adapter;
+...
+
+public void onLoaderReset(Loader<Cursor> loader) {
+    // This is called when the last Cursor provided to onLoadFinished()
+    // above is about to be closed.  We need to make sure we are no
+    // longer using it.
+    adapter.swapCursor(null);
+}
+
+
+
+Example
+As an example, here is the full implementation of a Fragment that displays a ListView containing
+the results of a query against the contacts content provider. It uses a CursorLoader to manage the query on the provider.
+For an application to access a user's contacts, as shown in this example, its
+manifest must include the permission
+READ_CONTACTS.
+
+Kotlin
+
+private val CONTACTS_SUMMARY_PROJECTION: Array<String> = arrayOf(
+        Contacts._ID,
+        Contacts.DISPLAY_NAME,
+        Contacts.CONTACT_STATUS,
+        Contacts.CONTACT_PRESENCE,
+        Contacts.PHOTO_ID,
+        Contacts.LOOKUP_KEY
+)
+
+
+class CursorLoaderListFragment :
+        ListFragment(),
+        SearchView.OnQueryTextListener,
+        LoaderManager.LoaderCallbacks<Cursor> {
+
+    // This is the Adapter being used to display the list's data.
+    private lateinit var mAdapter: SimpleCursorAdapter
+
+    // If non-null, this is the current filter the user has provided.
+    private var curFilter: String? = null
+
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+
+        // Give some text to display if there is no data.  In a real
+        // application this would come from a resource.
+        setEmptyText("No phone numbers")
+
+        // We have a menu item to show in action bar.
+        setHasOptionsMenu(true)
+
+        // Create an empty adapter we will use to display the loaded data.
+        mAdapter = SimpleCursorAdapter(activity,
+                android.R.layout.simple_list_item_2,
+                null,
+                arrayOf(Contacts.DISPLAY_NAME, Contacts.CONTACT_STATUS),
+                intArrayOf(android.R.id.text1, android.R.id.text2),
+                0
+        )
+        listAdapter = mAdapter
+
+        // Prepare the loader.  Either re-connect with an existing one,
+        // or start a new one.
+        loaderManager.initLoader(0, null, this)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        // Place an action bar item for searching.
+        menu.add("Search").apply {
+            setIcon(android.R.drawable.ic_menu_search)
+            setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM)
+            actionView = SearchView(activity).apply {
+                setOnQueryTextListener(this@CursorLoaderListFragment)
+            }
+        }
+    }
+
+    override fun onQueryTextChange(newText: String?): Boolean {
+        // Called when the action bar search text has changed.  Update
+        // the search filter, and restart the loader to do a new query
+        // with this filter.
+        curFilter = if (newText?.isNotEmpty() == true) newText else null
+        loaderManager.restartLoader(0, null, this)
+        return true
+    }
+
+    override fun onQueryTextSubmit(query: String): Boolean {
+        // Don't care about this.
+        return true
+    }
+
+    override fun onListItemClick(l: ListView, v: View, position: Int, id: Long) {
+        // Insert desired behavior here.
+        Log.i("FragmentComplexList", "Item clicked: $id")
+    }
+
+    override fun onCreateLoader(id: Int, args: Bundle?): Loader<Cursor> {
+        // This is called when a new Loader needs to be created.  This
+        // sample only has one Loader, so we don't care about the ID.
+        // First, pick the base URI to use depending on whether we are
+        // currently filtering.
+        val baseUri: Uri = if (curFilter != null) {
+            Uri.withAppendedPath(Contacts.CONTENT_URI, Uri.encode(curFilter))
+        } else {
+            Contacts.CONTENT_URI
+        }
+
+        // Now create and return a CursorLoader that will take care of
+        // creating a Cursor for the data being displayed.
+        val select: String = "((${Contacts.DISPLAY_NAME} NOTNULL) AND (" +
+                "${Contacts.HAS_PHONE_NUMBER}=1) AND (" +
+                "${Contacts.DISPLAY_NAME} != ''))"
+        return (activity as? Context)?.let { context ->
+            CursorLoader(
+                    context,
+                    baseUri,
+                    CONTACTS_SUMMARY_PROJECTION,
+                    select,
+                    null,
+                    "${Contacts.DISPLAY_NAME} COLLATE LOCALIZED ASC"
+            )
+        } ?: throw Exception("Activity cannot be null")
+    }
+
+    override fun onLoadFinished(loader: Loader<Cursor>, data: Cursor) {
+        // Swap the new cursor in.  (The framework will take care of closing the
+        // old cursor once we return.)
+        mAdapter.swapCursor(data)
+    }
+
+    override fun onLoaderReset(loader: Loader<Cursor>) {
+        // This is called when the last Cursor provided to onLoadFinished()
+        // above is about to be closed.  We need to make sure we are no
+        // longer using it.
+        mAdapter.swapCursor(null)
+    }
+}
+
+Java
+
+public static class CursorLoaderListFragment extends ListFragment
+        implements OnQueryTextListener, LoaderManager.LoaderCallbacks<Cursor> {
+
+    // This is the Adapter being used to display the list's data.
+    SimpleCursorAdapter mAdapter;
+
+    // If non-null, this is the current filter the user has provided.
+    String curFilter;
+
+    @Override public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        // Give some text to display if there is no data.  In a real
+        // application this would come from a resource.
+        setEmptyText("No phone numbers");
+
+        // We have a menu item to show in action bar.
+        setHasOptionsMenu(true);
+
+        // Create an empty adapter we will use to display the loaded data.
+        mAdapter = new SimpleCursorAdapter(getActivity(),
+                android.R.layout.simple_list_item_2, null,
+                new String[] { Contacts.DISPLAY_NAME, Contacts.CONTACT_STATUS },
+                new int[] { android.R.id.text1, android.R.id.text2 }, 0);
+        setListAdapter(mAdapter);
+
+        // Prepare the loader.  Either re-connect with an existing one,
+        // or start a new one.
+        getLoaderManager().initLoader(0, null, this);
+    }
+
+    @Override public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        // Place an action bar item for searching.
+        MenuItem item = menu.add("Search");
+        item.setIcon(android.R.drawable.ic_menu_search);
+        item.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+        SearchView sv = new SearchView(getActivity());
+        sv.setOnQueryTextListener(this);
+        item.setActionView(sv);
+    }
+
+    public boolean onQueryTextChange(String newText) {
+        // Called when the action bar search text has changed.  Update
+        // the search filter, and restart the loader to do a new query
+        // with this filter.
+        curFilter = !TextUtils.isEmpty(newText) ? newText : null;
+        getLoaderManager().restartLoader(0, null, this);
+        return true;
+    }
+
+    @Override public boolean onQueryTextSubmit(String query) {
+        // Don't care about this.
+        return true;
+    }
+
+    @Override public void onListItemClick(ListView l, View v, int position, long id) {
+        // Insert desired behavior here.
+        Log.i("FragmentComplexList", "Item clicked: " + id);
+    }
+
+    // These are the Contacts rows that we will retrieve.
+    static final String[] CONTACTS_SUMMARY_PROJECTION = new String[] {
+        Contacts._ID,
+        Contacts.DISPLAY_NAME,
+        Contacts.CONTACT_STATUS,
+        Contacts.CONTACT_PRESENCE,
+        Contacts.PHOTO_ID,
+        Contacts.LOOKUP_KEY,
+    };
+    public Loader<Cursor> onCreateLoader(int id, Bundle args) {
+        // This is called when a new Loader needs to be created.  This
+        // sample only has one Loader, so we don't care about the ID.
+        // First, pick the base URI to use depending on whether we are
+        // currently filtering.
+        Uri baseUri;
+        if (curFilter != null) {
+            baseUri = Uri.withAppendedPath(Contacts.CONTENT_FILTER_URI,
+                    Uri.encode(curFilter));
+        } else {
+            baseUri = Contacts.CONTENT_URI;
+        }
+
+        // Now create and return a CursorLoader that will take care of
+        // creating a Cursor for the data being displayed.
+        String select = "((" + Contacts.DISPLAY_NAME + " NOTNULL) AND ("
+                + Contacts.HAS_PHONE_NUMBER + "=1) AND ("
+                + Contacts.DISPLAY_NAME + " != '' ))";
+        return new CursorLoader(getActivity(), baseUri,
+                CONTACTS_SUMMARY_PROJECTION, select, null,
+                Contacts.DISPLAY_NAME + " COLLATE LOCALIZED ASC");
+    }
+
+    public void onLoadFinished(Loader<Cursor> loader, Cursor data) {
+        // Swap the new cursor in.  (The framework will take care of closing the
+        // old cursor once we return.)
+        mAdapter.swapCursor(data);
+    }
+
+    public void onLoaderReset(Loader<Cursor> loader) {
+        // This is called when the last Cursor provided to onLoadFinished()
+        // above is about to be closed.  We need to make sure we are no
+        // longer using it.
+        mAdapter.swapCursor(null);
+    }
+}
+
+
+
+More Examples
+The following examples illustrate how to use loaders:
+
+
+  LoaderCursor - a complete version of the snippet shown above.
+Retrieving a List of Contacts
+  - a walkthrough that uses a CursorLoader to retrieve
+  data from the contacts provider.
+
+  LoaderThrottle - an example of how to use throttling to reduce the number
+  of queries a content provider performs when its data changes.
+AsyncTaskLoader - an example that uses an AsyncTaskLoader
+  to load the currently installed apps from the package manager.
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

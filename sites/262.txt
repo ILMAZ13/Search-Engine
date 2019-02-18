@@ -1,0 +1,1071 @@
+Device administration overview  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Device administration overview
+  
+
+
+
+Device admin deprecation. Starting with Android 9
+  (API level 28), some admin policies will be marked as deprecated when
+  invoked by a device admin. We recommend you start to prepare now for this change. To learn
+  more and see the migration options, read
+  
+    Device admin deprecation.
+
+Android includes support for enterprise apps by offering the
+Android Device Administration API. The Device Administration API provides device
+administration features at the system level.  These APIs allow you to create
+security-aware apps that are useful in enterprise settings, in which IT
+professionals require rich control over employee devices. For example, the
+built-in Android Email app has leveraged these APIs to improve
+Exchange support. Through the Email app, Exchange administrators can
+enforce password policies —  including alphanumeric passwords or numeric
+PINs — across devices. Administrators can also remotely wipe (that is,
+restore factory defaults on) lost or stolen handsets. Exchange users can sync
+their email and calendar data.
+This document is intended for developers who want to develop enterprise
+solutions for Android-powered devices. It discusses the various features
+provided by the Device Administration API to provide stronger security for
+employee devices that are powered by Android.
+
+Note For information on building a Work Policy
+  Controller for Android for Work deployments, see
+  Build a Device Policy Controller.
+
+Device administration API overview
+Here are examples of the types of apps that might use the Device Administration API:
+
+Email clients.
+Security apps that do remote wipe.
+Device management services and apps.
+
+How does it work?
+You use the Device Administration API to write device admin apps that users
+install on their devices. The device admin app enforces the desired
+policies. Here's how it works: 
+A system administrator writes a device admin app that enforces
+remote/local device security policies. These policies could be hard-coded into
+the app, or the app could dynamically fetch policies from a third-party
+server. 
+The  app is installed on users' devices. Android does
+not currently have an automated provisioning solution. Some of the ways a sysadmin might
+distribute the app to users are as follows:
+
+Google Play.
+Enabling installation from another store.
+Distributing the app through other means, such as email or websites.
+
+
+The system prompts the user to enable the device admin app. How
+and when this happens depends on how the app is implemented.
+Once  users enable the device admin app, they are subject to
+its policies. Complying with those policies typically confers benefits, such as
+access to sensitive systems and data.
+
+If users do not enable the device admin app, it remains on the device, but in an inactive state. Users will not be subject to its policies, and they will conversely not get any of the app's benefits—for example, they may not be able to sync data.
+If a user fails to comply with the policies (for example, if a user sets a
+password that violates the guidelines), it is up to the app to decide
+how to handle this. However, typically this will result in the user not being
+able to sync data.
+If a device attempts to connect to a server that requires policies not
+supported in the Device Administration API, the connection will not
+be allowed. The Device Administration API does not currently allow partial
+provisioning. In other words, if a device (for example, a legacy device) does
+not support all of the stated policies, there is no way to allow the
+device to connect.
+If a device contains multiple enabled admin apps, the strictest policy is
+enforced. There is no way to target a particular admin
+app.
+To uninstall an existing device admin app, users need to
+first unregister the app as an administrator. 
+Policies
+In an enterprise setting, it's often the case that employee devices must
+adhere to a strict set of policies that govern the use of the device. The
+Device Administration API supports the  policies listed in Table 1.
+Note that the Device Administration API currently only supports passwords for screen
+lock:
+Table 1. Policies supported by the Device Administration API.
+
+
+Policy
+Description
+
+
+Password enabled
+Requires that devices ask for PIN or passwords.
+
+
+Minimum password length
+Set the required number of characters for the password. For example, you
+can require PIN or passwords to have at least six characters.  
+
+Alphanumeric password required
+Requires that passwords have a
+combination of letters and numbers. They may include symbolic characters.
+    
+
+
+Complex password required
+Requires that passwords must contain at least a letter, a numerical digit, and a special symbol. Introduced in Android 3.0.
+    
+
+
+Minimum letters required in password The minimum number of
+letters required in the password for all admins or a particular one. Introduced in Android 3.0.
+
+
+Minimum lowercase letters required in password
+The minimum number of lowercase
+letters required in the password for all admins or a particular one. Introduced in Android 3.0.
+
+
+Minimum non-letter characters required in password
+The minimum number of
+non-letter characters required in the password for all admins or a particular one. Introduced in Android 3.0.
+
+
+Minimum numerical digits required in password
+The minimum number of numerical digits required in the password for all admins or a particular one. Introduced in Android 3.0.
+
+
+Minimum symbols required in password
+The minimum number of symbols required in the password for all admins or a particular one. Introduced in Android 3.0.
+
+
+Minimum uppercase letters required in password
+The minimum number of uppercase letters required in the password for all admins or a particular one. Introduced in Android 3.0.
+
+
+Password expiration timeout
+When the password will expire, expressed as a delta in milliseconds from when a device admin sets the expiration timeout. Introduced in Android 3.0.
+
+
+Password history restriction
+This policy prevents users from reusing the last n unique passwords.
+ This policy is typically used in conjunction with
+setPasswordExpirationTimeout(), which forces
+users to update their passwords after a specified amount of time has elapsed.
+Introduced in Android 3.0.
+
+
+Maximum failed password attempts 
+Specifies how many times a user can enter the wrong password before the
+device wipes its data.  The Device Administration API also allows administrators to
+remotely reset the device to  factory defaults. This secures data in case the
+device is lost or stolen.
+
+
+Maximum inactivity time lock
+Sets the length of time since the user last touched the screen or
+pressed a button before the device locks the screen. When this happens, users
+need to enter their PIN or passwords again before they can use their devices and
+access data.  The value can be between 1 and 60 minutes. 
+
+Require storage encryption
+Specifies that the storage area should be encrypted, if the device supports it.
+Introduced in Android 3.0. 
+
+Disable camera
+Specifies that the camera should be disabled. Note that this doesn't have
+to be a permanent disabling. The camera can be enabled/disabled dynamically
+based on context, time, and so on. Introduced in Android 4.0.
+
+
+Other features
+In addition to supporting the policies listed in the above table, the Device
+Administration API lets you do the following: 
+Prompt user to set a new password.
+Lock device immediately.
+Wipe the device's data (that is, restore the device to its factory defaults).
+
+Sample app
+The examples used in this document are based on the Device Administration API
+sample, which is included in the SDK samples (available through the
+Android SDK Manager) and located on your system as
+<sdk_root>/ApiDemos/app/src/main/java/com/example/android/apis/app/DeviceAdminSample.java.
+The sample app offers a demo of device admin features. It presents users
+with a user interface that lets them enable the device admin app. Once
+they've enabled the app, they can use the buttons in the user interface
+to do the following:
+
+Set password quality.
+Specify requirements for the user's password, such as minimum length, the minimum number of
+  numeric characters it must contain, and so on.
+Set the password. If the password does not conform to the specified
+policies, the system  returns an error.
+Set how many failed password attempts can occur before the device is wiped
+(that is, restored to factory settings).
+Set how long from now the password will expire.
+Set the password history length (length refers to number of old passwords stored in the history).
+This prevents users from reusing
+one of the last n passwords they previously used.
+Specify that the storage area should be encrypted, if the device supports it.
+Set the maximum amount of inactive time that can elapse before the device
+locks.
+Make the device lock immediately.
+Wipe the device's data (that is, restore factory settings).
+Disable the camera.
+
+
+Figure 1. Screenshot of the sample app
+Developing a device administration app
+System administrators can use the Device Administration API to write an app
+that enforces remote/local device security policy enforcement. This section
+summarizes the steps involved in creating a device administration
+app.
+Creating the manifest
+To use the Device Administration API, the app's
+manifest must include the following:
+
+A subclass of DeviceAdminReceiver that includes the following:
+    
+The BIND_DEVICE_ADMIN permission.
+The ability to  respond to the ACTION_DEVICE_ADMIN_ENABLED
+intent, expressed in the manifest as an intent filter.
+
+
+A declaration of security policies used in metadata.
+
+Here is an excerpt from the Device Administration sample manifest:
+<activity android:name=".app.DeviceAdminSample"
+            android:label="@string/activity_sample_device_admin">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.SAMPLE_CODE" />
+    </intent-filter>
+</activity>
+<receiver android:name=".app.DeviceAdminSample$DeviceAdminSampleReceiver"
+        android:label="@string/sample_device_admin"
+        android:description="@string/sample_device_admin_description"
+        android:permission="android.permission.BIND_DEVICE_ADMIN">
+    <meta-data android:name="android.app.device_admin"
+            android:resource="@xml/device_admin_sample" />
+    <intent-filter>
+        <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+    </intent-filter>
+</receiver>
+Note that:
+
+The following attributes refer to string resources that for the sample app reside in
+ApiDemos/res/values/strings.xml. For more information about resources, see
+Application Resources.
+
+android:label="@string/activity_sample_device_admin" refers to the
+user-readable label for the activity.
+android:label="@string/sample_device_admin" refers to the
+user-readable label for the permission.
+android:description="@string/sample_device_admin_description" refers to
+the user-readable description of the permission. A descripton is typically longer and more
+informative than
+a label.
+
+android:permission="android.permission.BIND_DEVICE_ADMIN"
+ is a permission that a DeviceAdminReceiver subclass must
+have, to ensure that only the system can interact with the receiver (no app can be granted this permission). This
+prevents other apps from abusing your device admin app.
+android.app.action.DEVICE_ADMIN_ENABLED is the primary
+action that a DeviceAdminReceiver subclass must handle to be
+allowed to manage a device. This is set to the receiver when the user enables
+the device admin app. Your code typically handles this in
+onEnabled(). To be supported, the receiver must also
+require the BIND_DEVICE_ADMIN permission so that other apps
+cannot abuse it.  
+When a user enables the device admin app, that gives the receiver
+permission to perform actions in response to the broadcast of particular system
+events. When suitable event arises, the app can impose a policy. For
+example, if the user attempts to set a new password that doesn't meet the policy
+requirements, the app can prompt the user to pick a different password
+that does meet the requirements.
+Avoid changing the receiver name after publishing your app. If the name in the
+manifest changes, device admin is disabled when users update the app. To learn more, see
+<receiver>.
+android:resource="@xml/device_admin_sample"
+declares the security policies used in metadata. The metadata provides additional
+information specific to the device administrator, as parsed by the DeviceAdminInfo class. Here are the contents of
+device_admin_sample.xml:
+
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-policies>
+    <limit-password />
+    <watch-login />
+    <reset-password />
+    <force-lock />
+    <wipe-data />
+    <expire-password />
+    <encrypted-storage />
+    <disable-camera />
+  </uses-policies>
+</device-admin>
+
+When designing your device administration app, you don't need to
+include all of the policies, just the ones that are relevant for your app.
+
+For more discussion of the manifest file, see the Android Developers Guide.
+
+
+
+Implementing the code
+The Device Administration API includes the following classes:
+
+DeviceAdminReceiver
+Base class for implementing a device administration component. This class provides
+a convenience for interpreting the raw intent actions   that are sent by the
+system. Your Device Administration app must include a
+DeviceAdminReceiver subclass.
+DevicePolicyManager
+A class for managing policies enforced on a device. Most clients of
+this class must have published a DeviceAdminReceiver that the user
+has currently enabled. The DevicePolicyManager manages policies for
+one or more DeviceAdminReceiver instances
+DeviceAdminInfo
+This class is used to specify metadata
+for a device administrator component.
+
+These classes provide the foundation for a fully functional device administration app.
+The rest of this section describes how you use the DeviceAdminReceiver and
+DevicePolicyManager APIs to write a device admin app.
+Subclassing DeviceAdminReceiver
+To create a device admin app, you must subclass
+DeviceAdminReceiver. The DeviceAdminReceiver class
+consists of a series of callbacks that are triggered when particular events
+occur.
+In its DeviceAdminReceiver subclass, the sample app
+simply displays a Toast notification in response to particular
+events. For example:
+
+Kotlin
+
+class DeviceAdminSample : DeviceAdminReceiver() {
+
+    private fun showToast(context: Context, msg: String) {
+        context.getString(R.string.admin_receiver_status, msg).let { status ->
+            Toast.makeText(context, status, Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    override fun onEnabled(context: Context, intent: Intent) =
+            showToast(context, context.getString(R.string.admin_receiver_status_enabled))
+
+    override fun onDisableRequested(context: Context, intent: Intent): CharSequence =
+            context.getString(R.string.admin_receiver_status_disable_warning)
+
+    override fun onDisabled(context: Context, intent: Intent) =
+            showToast(context, context.getString(R.string.admin_receiver_status_disabled))
+
+    override fun onPasswordChanged(context: Context, intent: Intent, userHandle: UserHandle) =
+            showToast(context, context.getString(R.string.admin_receiver_status_pw_changed))
+...
+}
+
+Java
+
+public class DeviceAdminSample extends DeviceAdminReceiver {
+
+    void showToast(Context context, String msg) {
+        String status = context.getString(R.string.admin_receiver_status, msg);
+        Toast.makeText(context, status, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onEnabled(Context context, Intent intent) {
+        showToast(context, context.getString(R.string.admin_receiver_status_enabled));
+    }
+
+    @Override
+    public CharSequence onDisableRequested(Context context, Intent intent) {
+        return context.getString(R.string.admin_receiver_status_disable_warning);
+    }
+
+    @Override
+    public void onDisabled(Context context, Intent intent) {
+        showToast(context, context.getString(R.string.admin_receiver_status_disabled));
+    }
+
+    @Override
+    public void onPasswordChanged(Context context, Intent intent, userHandle: UserHandle) {
+        showToast(context, context.getString(R.string.admin_receiver_status_pw_changed));
+    }
+...
+}
+
+
+
+Enabling the app
+One of the major events a device admin app has to handle is the user
+enabling the app. The user must explicitly enable the app for
+the policies to be enforced. If the user chooses not to enable the app
+it will still be present on the device, but its policies will not be enforced, and the user will not
+get any of the app's benefits.
+The process of enabling the app begins when the user performs an
+action that triggers the ACTION_ADD_DEVICE_ADMIN
+intent. In the
+sample app, this happens when the user clicks the Enable
+Admin checkbox. 
+When the user clicks the Enable Admin checkbox, the display
+changes to prompt the user to activate the device admin app, as shown in figure
+2.
+
+Figure 2. Sample app: activating the app
+Below  is the code that gets executed when the user clicks the Enable Admin checkbox. This has the effect of triggering the
+onPreferenceChange()
+callback. This callback is invoked when the value of this  Preference has been changed by the user and is about to be set and/or persisted. If the user is enabling the app, the display
+changes to prompt the user to activate the device admin app, as shown in figure
+2. Otherwise, the device admin app is disabled. 
+
+Kotlin
+
+override fun onPreferenceChange(preference: Preference, newValue: Any): Boolean {
+    if (super.onPreferenceChange(preference, newValue)) return true
+    val value = newValue as Boolean
+    if (preference == enableCheckbox) {
+        if (value != adminActive) {
+            if (value) {
+                // Launch the activity to have the user enable our admin.
+                val intent = Intent(DevicePolicyManager.ACTION_ADD_DEVICE_ADMIN).apply {
+                    putExtra(DevicePolicyManager.EXTRA_DEVICE_ADMIN, deviceAdminSample)
+                    putExtra(DevicePolicyManager.EXTRA_ADD_EXPLANATION,
+                            activity.getString(R.string.add_admin_extra_app_text))
+                }
+                startActivityForResult(intent, REQUEST_CODE_ENABLE_ADMIN)
+                // return false - don't update checkbox until we're really active
+                return false
+            } else {
+                dpm.removeActiveAdmin(deviceAdminSample)
+                enableDeviceCapabilitiesArea(false)
+                adminActive = false
+            }
+        }
+    } else if (preference == disableCameraCheckbox) {
+        dpm.setCameraDisabled(deviceAdminSample, value)
+    }
+    return true
+}
+
+Java
+
+@Override
+public boolean onPreferenceChange(Preference preference, Object newValue) {
+    if (super.onPreferenceChange(preference, newValue)) {
+        return true;
+    }
+    boolean value = (Boolean) newValue;
+    if (preference == enableCheckbox) {
+        if (value != adminActive) {
+            if (value) {
+                // Launch the activity to have the user enable our admin.
+                Intent intent = new Intent(DevicePolicyManager.ACTION_ADD_DEVICE_ADMIN);
+                intent.putExtra(DevicePolicyManager.EXTRA_DEVICE_ADMIN, deviceAdminSample);
+                intent.putExtra(DevicePolicyManager.EXTRA_ADD_EXPLANATION,
+                        activity.getString(R.string.add_admin_extra_app_text));
+                startActivityForResult(intent, REQUEST_CODE_ENABLE_ADMIN);
+                // return false - don't update checkbox until we're really active
+                return false;
+            } else {
+                dpm.removeActiveAdmin(deviceAdminSample);
+                enableDeviceCapabilitiesArea(false);
+                adminActive = false;
+            }
+        }
+    } else if (preference == disableCameraCheckbox) {
+        dpm.setCameraDisabled(deviceAdminSample, value);
+    }
+    return true;
+}
+
+
+
+The line
+intent.putExtra(DevicePolicyManager.EXTRA_DEVICE_ADMIN,
+mDeviceAdminSample) states that mDeviceAdminSample (which is
+a DeviceAdminReceiver component) is the target policy.
+This line invokes the user interface shown in figure 2, which guides users through
+adding the device administrator to the system (or allows them to reject it).
+When the app needs to perform an operation that is contingent on the
+device admin app being enabled, it confirms that the app is
+active. To do this it uses the DevicePolicyManager method
+isAdminActive(). Notice that the DevicePolicyManager
+method isAdminActive() takes a DeviceAdminReceiver
+component as its argument:
+
+Kotlin
+
+private lateinit var dpm: DevicePolicyManager
+...
+private fun isActiveAdmin(): Boolean = dpm.isAdminActive(deviceAdminSample)
+
+Java
+
+DevicePolicyManager dpm;
+...
+private boolean isActiveAdmin() {
+    return dpm.isAdminActive(deviceAdminSample);
+}
+
+
+
+Managing policies
+DevicePolicyManager is a public class for managing policies
+enforced on a device. DevicePolicyManager manages policies for one
+or more DeviceAdminReceiver instances. 
+You get a handle to the DevicePolicyManager as follows: 
+
+Kotlin
+
+dpm = getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
+
+Java
+
+DevicePolicyManager dpm =
+    (DevicePolicyManager)getSystemService(Context.DEVICE_POLICY_SERVICE);
+
+
+
+This section describes how to use DevicePolicyManager to perform
+ administrative tasks:
+
+Set password policies
+Set  device lock
+Perform data wipe
+
+Set password policies
+DevicePolicyManager includes APIs for setting and enforcing the
+device password policy. In the Device Administration API, the password only applies to
+screen lock. This section describes common password-related tasks.
+Set a password for the device
+This code displays a user interface prompting the user to set a password:
+
+Kotlin
+
+Intent(DevicePolicyManager.ACTION_SET_NEW_PASSWORD).also { intent ->
+    startActivity(intent)
+}
+
+Java
+
+Intent intent = new Intent(DevicePolicyManager.ACTION_SET_NEW_PASSWORD);
+startActivity(intent);
+
+
+
+Set the password quality
+The password quality can be one of the following DevicePolicyManager constants: 
+
+PASSWORD_QUALITY_ALPHABETICThe user must enter a
+password containing at least alphabetic (or other symbol) characters.
+PASSWORD_QUALITY_ALPHANUMERICThe user must enter a
+password containing at least both numeric and alphabetic (or
+other symbol) characters.
+PASSWORD_QUALITY_NUMERICThe user must enter a   password
+containing at least numeric characters.
+PASSWORD_QUALITY_COMPLEXThe user
+must have entered a password containing at least a letter, a numerical digit and
+a special symbol.
+PASSWORD_QUALITY_SOMETHINGThe
+policy requires some kind
+of password, but doesn't care what it is.
+PASSWORD_QUALITY_UNSPECIFIED
+  The policy has no requirements   for the password. 
+
+For example, this is how you would set the password policy to require an alphanumeric password:
+
+Kotlin
+
+private lateinit var dpm: DevicePolicyManager
+private lateinit var deviceAdminSample: ComponentName
+...
+dpm.setPasswordQuality(deviceAdminSample, DevicePolicyManager.PASSWORD_QUALITY_ALPHANUMERIC)
+
+Java
+
+DevicePolicyManager dpm;
+ComponentName deviceAdminSample;
+...
+dpm.setPasswordQuality(deviceAdminSample, DevicePolicyManager.PASSWORD_QUALITY_ALPHANUMERIC);
+
+
+
+Set password content requirements
+Beginning with Android 3.0, the DevicePolicyManager class
+includes methods that let you fine-tune the contents of the password. For
+example, you could set a policy that states that passwords must contain at least
+n uppercase letters. Here are the methods for fine-tuning a password's
+contents:
+
+setPasswordMinimumLetters()
+setPasswordMinimumLowerCase()
+setPasswordMinimumUpperCase()
+setPasswordMinimumNonLetter()
+setPasswordMinimumNumeric()
+setPasswordMinimumSymbols()
+
+For example, this snippet states that the password must have at least 2 uppercase letters:
+
+Kotlin
+
+private lateinit var dpm: DevicePolicyManager
+private lateinit var deviceAdminSample: ComponentName
+private val pwMinUppercase = 2
+...
+dpm.setPasswordMinimumUpperCase(deviceAdminSample, pwMinUppercase)
+
+Java
+
+DevicePolicyManager dpm;
+ComponentName deviceAdminSample;
+int pwMinUppercase = 2;
+...
+dpm.setPasswordMinimumUpperCase(deviceAdminSample, pwMinUppercase);
+
+
+
+Set the minimum password length
+You can specify that a password must be at least the specified minimum
+length. For example:
+
+Kotlin
+
+private lateinit var dpm: DevicePolicyManager
+private lateinit var deviceAdminSample: ComponentName
+private val pwLength: Int = ...
+...
+dpm.setPasswordMinimumLength(deviceAdminSample, pwLength)
+
+Java
+
+DevicePolicyManager dpm;
+ComponentName deviceAdminSample;
+int pwLength;
+...
+dpm.setPasswordMinimumLength(deviceAdminSample, pwLength);
+
+
+
+Set maximum failed password attempts
+You can set the maximum number of allowed failed password attempts before the
+device is wiped (that is, reset to factory settings). For example:
+
+Kotlin
+
+val dPM:DevicePolicyManager
+private lateinit var dpm: DevicePolicyManager
+private lateinit var deviceAdminSample: ComponentName
+private val maxFailedPw: Int = ...
+...
+dpm.setMaximumFailedPasswordsForWipe(deviceAdminSample, maxFailedPw)
+
+Java
+
+DevicePolicyManager dpm;
+ComponentName deviceAdminSample;
+int maxFailedPw;
+ ...
+dpm.setMaximumFailedPasswordsForWipe(deviceAdminSample, maxFailedPw);
+
+
+
+Set password expiration timeout
+Beginning with Android 3.0, you can use the
+setPasswordExpirationTimeout()
+method to set when a password will expire, expressed as a delta in milliseconds from when a device admin sets the expiration timeout. For example:
+
+Kotlin
+
+private lateinit var dpm: DevicePolicyManager
+private lateinit var deviceAdminSample: ComponentName
+private val pwExpiration: Long = ...
+...
+dpm.setPasswordExpirationTimeout(deviceAdminSample, pwExpiration)
+
+Java
+
+DevicePolicyManager dpm;
+ComponentName deviceAdminSample;
+long pwExpiration;
+...
+dpm.setPasswordExpirationTimeout(deviceAdminSample, pwExpiration);
+
+
+
+Restrict password based on history
+Beginning with Android 3.0, you can use the
+setPasswordHistoryLength()
+method to limit users'
+ability to reuse old passwords. This method takes a length
+parameter, which specifies how many old
+passwords are stored. When this policy is active, users cannot enter a new
+password that matches the last n passwords. This prevents
+users from using the same password over and over. This policy is typically used
+in conjunction with
+setPasswordExpirationTimeout(),
+which forces users
+to update their passwords after a specified amount of time has elapsed. 
+For example, this snippet prohibits users from reusing any of their last 5 passwords:
+
+Kotlin
+
+private lateinit var dpm: DevicePolicyManager
+private lateinit var deviceAdminSample: ComponentName
+private val pwHistoryLength = 5
+...
+dpm.setPasswordHistoryLength(deviceAdminSample, pwHistoryLength)
+
+Java
+
+DevicePolicyManager dpm;
+ComponentName deviceAdminSample;
+int pwHistoryLength = 5;
+...
+dpm.setPasswordHistoryLength(deviceAdminSample, pwHistoryLength);
+
+
+
+Set device lock
+You can set the maximum period of user inactivity that can occur before the
+device locks. For example:
+
+Kotlin
+
+private lateinit var dpm: DevicePolicyManager
+private lateinit var deviceAdminSample: ComponentName
+private val timeMs: Long = 1000L * timeout.text.toString().toLong()
+...
+dpm.setMaximumTimeToLock(deviceAdminSample, timeMs)
+
+Java
+
+DevicePolicyManager dpm;
+ComponentName deviceAdminSample;
+...
+long timeMs = 1000L*Long.parseLong(timeout.getText().toString());
+dpm.setMaximumTimeToLock(deviceAdminSample, timeMs);
+
+
+
+You can also programmatically tell the device to lock immediately:
+
+Kotlin
+
+private lateinit var dpm: DevicePolicyManager
+dpm.lockNow()
+
+Java
+
+DevicePolicyManager dpm;
+mDPM.lockNow();
+
+
+
+Perform data wipe
+You can use the DevicePolicyManager method
+wipeData() to reset the device to factory settings. This is useful
+if the device is lost or stolen. Often the decision to wipe the device is the
+result of certain conditions being met. For example, you can use
+setMaximumFailedPasswordsForWipe() to state that a device should be
+wiped after a specific number of failed password attempts.
+You wipe data as follows:
+
+Kotlin
+
+private lateinit var dpm: DevicePolicyManager
+dpm.wipeData(0)
+
+Java
+
+DevicePolicyManager dpm;
+mDPM.wipeData(0);
+
+
+
+The wipeData() method takes as its
+  parameter a bit mask of additional options. Currently the value must be 0. 
+Disable camera
+Beginning with Android 4.0, you can disable the camera. Note that this doesn't have to be a permanent disabling. The camera can be enabled/disabled dynamically based on context, time, and so on. 
+You control whether the camera is disabled by using the
+setCameraDisabled() method. For example, this snippet sets the camera to be enabled or disabled based on a checkbox setting:
+
+Kotlin
+
+private lateinit var disableCameraCheckbox: CheckBoxPreference
+private lateinit var dpm: DevicePolicyManager
+private lateinit var deviceAdminSample: ComponentName
+...
+dpm.setCameraDisabled(deviceAdminSample, mDisableCameraCheckbox.isChecked)
+
+Java
+
+private CheckBoxPreference disableCameraCheckbox;
+DevicePolicyManager dpm;
+ComponentName deviceAdminSample;
+...
+dpm.setCameraDisabled(deviceAdminSample, mDisableCameraCheckbox.isChecked());
+
+
+
+Storage encryption
+Beginning with Android 3.0, you can use the
+setStorageEncryption()
+method to set a policy requiring encryption of the storage area, where supported.
+For example:
+
+Kotlin
+
+private lateinit var dpm: DevicePolicyManager
+private lateinit var deviceAdminSample: ComponentName
+...
+dpm.setStorageEncryption(deviceAdminSample, true)
+
+Java
+
+DevicePolicyManager dpm;
+ComponentName deviceAdminSample;
+...
+dpm.setStorageEncryption(deviceAdminSample, true);
+
+
+
+
+See the Device Administration API sample for a complete example of how to enable storage encryption.
+
+Additional code samples
+The Android AppRestrictionsEnforcer
+  and Android DeviceOwner
+  samples further demonstrate the use of the APIs covered on this page.
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

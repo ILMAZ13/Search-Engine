@@ -1,0 +1,1005 @@
+MediaPlayer overview  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    MediaPlayer overview
+  
+
+
+The Android multimedia framework includes support for playing variety of common media types, so
+that you can easily integrate audio, video and images into your applications. You can play audio or
+video from media files stored in your application's resources (raw resources), from standalone files
+in the filesystem, or from a data stream arriving over a network connection, all using MediaPlayer APIs.
+This document shows you how to write a media-playing application that interacts with the user and
+the system in order to obtain good performance and a pleasant user experience.
+Note: You can play back the audio data only to the standard output
+device. Currently, that is the mobile device speaker or a Bluetooth headset. You cannot play sound
+files in the conversation audio during a call.
+The basics
+The following classes are used to play sound and video in the Android framework:
+
+MediaPlayer
+This class is the primary API for playing sound and video.
+AudioManager
+This class manages audio sources and audio output on a device.
+
+Manifest declarations
+Before starting development on your application using MediaPlayer, make sure your manifest has
+the appropriate declarations to allow use of related features.
+
+Internet Permission - If you are using MediaPlayer to stream network-based
+content, your application must request network access.
+
+<uses-permission android:name="android.permission.INTERNET" />
+
+
+Wake Lock Permission - If your player application needs to keep the screen
+from dimming or the processor from sleeping, or uses the MediaPlayer.setScreenOnWhilePlaying() or
+MediaPlayer.setWakeMode() methods, you must request this permission.
+
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+
+Using MediaPlayer
+One of the most important components of the media framework is the
+MediaPlayer
+class. An object of this class can fetch, decode, and play both audio and video
+with minimal setup. It supports several different media sources such as:
+
+Local resources
+Internal URIs, such as one you might obtain from a Content Resolver
+External URLs (streaming)
+
+For a list of media formats that Android supports,
+see the Supported Media
+Formats page. 
+Here is an example
+of how to play audio that's available as a local raw resource (saved in your application's
+res/raw/ directory):
+
+Kotlin
+
+var mediaPlayer: MediaPlayer? = MediaPlayer.create(context, R.raw.sound_file_1)
+mediaPlayer?.start() // no need to call prepare(); create() does that for you
+
+Java
+
+MediaPlayer mediaPlayer = MediaPlayer.create(context, R.raw.sound_file_1);
+mediaPlayer.start(); // no need to call prepare(); create() does that for you
+
+
+
+In this case, a "raw" resource is a file that the system does not
+try to parse in any particular way. However, the content of this resource should not
+be raw audio. It should be a properly encoded and formatted media file in one
+of the supported formats.
+And here is how you might play from a URI available locally in the system
+(that you obtained through a Content Resolver, for instance):
+
+Kotlin
+
+val myUri: Uri = .... // initialize Uri here
+val mediaPlayer: MediaPlayer? = MediaPlayer().apply {
+    setAudioStreamType(AudioManager.STREAM_MUSIC)
+    setDataSource(applicationContext, myUri)
+    prepare()
+    start()
+}
+
+Java
+
+Uri myUri = ....; // initialize Uri here
+MediaPlayer mediaPlayer = new MediaPlayer();
+mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+mediaPlayer.setDataSource(getApplicationContext(), myUri);
+mediaPlayer.prepare();
+mediaPlayer.start();
+
+
+
+Playing from a remote URL via HTTP streaming looks like this:
+
+Kotlin
+
+val url = "http://........" // your URL here
+val mediaPlayer: MediaPlayer? = MediaPlayer().apply {
+    setAudioStreamType(AudioManager.STREAM_MUSIC)
+    setDataSource(url)
+    prepare() // might take long! (for buffering, etc)
+    start()
+}
+
+Java
+
+String url = "http://........"; // your URL here
+MediaPlayer mediaPlayer = new MediaPlayer();
+mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+mediaPlayer.setDataSource(url);
+mediaPlayer.prepare(); // might take long! (for buffering, etc)
+mediaPlayer.start();
+
+
+
+Note:
+If you're passing a URL to stream an online media file, the file must be capable of
+progressive download.
+Caution: You must either catch or pass
+IllegalArgumentException and IOException when using
+setDataSource(), because
+the file you are referencing might not exist.
+Asynchronous preparation
+Using MediaPlayer can be straightforward in
+principle. However, it's important to keep in mind that a few more things are
+necessary to integrate it correctly with a typical Android application. For
+example, the call to prepare() can
+take a long time to execute, because
+it might involve fetching and decoding media data. So, as is the case with any
+method that may take long to execute, you should never call it from your
+application's UI thread. Doing that causes the UI to hang until the method returns,
+which is a very bad user experience and can cause an ANR (Application Not Responding) error. Even if
+you expect your resource to load quickly, remember that anything that takes more than a tenth
+of a second to respond in the UI causes a noticeable pause and gives
+the user the impression that your application is slow.
+To avoid hanging your UI thread, spawn another thread to
+prepare the MediaPlayer and notify the main thread when done. However, while
+you could write the threading logic
+yourself, this pattern is so common when using MediaPlayer that the framework
+supplies a convenient way to accomplish this task by using the
+prepareAsync() method. This method
+starts preparing the media in the background and returns immediately. When the media
+is done preparing, the onPrepared()
+method of the MediaPlayer.OnPreparedListener, configured through
+setOnPreparedListener() is called.
+Managing state
+Another aspect of a MediaPlayer that you should keep in mind is
+that it's state-based. That is, the MediaPlayer has an internal state
+that you must always be aware of when writing your code, because certain operations
+are only valid when then player is in specific states. If you perform an operation while in the
+wrong state, the system may throw an exception or cause other undesirable behaviors.
+The documentation in the
+MediaPlayer class shows a complete state diagram,
+that clarifies which methods move the MediaPlayer from one state to another.
+For example, when you create a new MediaPlayer, it is in the Idle
+state. At that point, you should initialize it by calling
+setDataSource(), bringing it
+to the Initialized state. After that, you have to prepare it using either the
+prepare() or
+prepareAsync() method. When
+the MediaPlayer is done preparing, it enters the Prepared
+state, which means you can call start()
+to make it play the media. At that point, as the diagram illustrates,
+you can move between the Started, Paused and PlaybackCompleted states by
+calling such methods as
+start(),
+pause(), and
+seekTo(),
+amongst others. When you
+call stop(), however, notice that you
+cannot call start() again until you
+prepare the MediaPlayer again.
+Always keep the state diagram
+in mind when writing code that interacts with a
+MediaPlayer object, because calling its methods from the wrong state is a
+common cause of bugs.
+Releasing the MediaPlayer
+A MediaPlayer can consume valuable
+system resources.
+Therefore, you should always take extra precautions to make sure you are not
+hanging on to a MediaPlayer instance longer than necessary. When you
+are done with it, you should always call
+release() to make sure any
+system resources allocated to it are properly released. For example, if you are
+using a MediaPlayer and your activity receives a call to onStop(), you must release the MediaPlayer,
+because it
+makes little sense to hold on to it while your activity is not interacting with
+the user (unless you are playing media in the background, which is discussed in the next section).
+When your activity is resumed or restarted, of course, you need to
+create a new MediaPlayer and prepare it again before resuming playback.
+Here's how you should release and then nullify your MediaPlayer:
+
+Kotlin
+
+mediaPlayer?.release()
+mediaPlayer = null
+
+Java
+
+mediaPlayer.release();
+mediaPlayer = null;
+
+
+
+As an example, consider the problems that could happen if you
+forgot to release the MediaPlayer when your activity is stopped, but create a
+new one when the activity starts again. As you may know, when the user changes the
+screen orientation (or changes the device configuration in another way),
+the system handles that by restarting the activity (by default), so you might quickly
+consume all of the system resources as the user
+rotates the device back and forth between portrait and landscape, because at each
+orientation change, you create a new MediaPlayer that you never
+release. (For more information about runtime restarts, see Handling Runtime Changes.)
+You may be wondering what happens if you want to continue playing
+"background media" even when the user leaves your activity, much in the same
+way that the built-in Music application behaves. In this case, what you need is
+a MediaPlayer controlled by a Service, as
+discussed in the next section
+Using MediaPlayer in a service
+If you want your media to play in the background even when your application
+is not onscreen—that is, you want it to continue playing while the user is
+interacting with other applications—then you must start a
+Service and control the
+MediaPlayer instance from there.
+You need to embed the
+MediaPlayer in a MediaBrowserServiceCompat service and have
+it interact with a
+MediaBrowserCompat in another activity.
+
+You should be careful about this client/server setup. There are expectations
+about how a player running in a background service interacts with the rest of the
+system. If your application does not fulfill those expectations, the user may
+have a bad experience. Read
+Building an Audio App
+for the full details.
+This section describes special instructions for managing a MediaPlayer when it is implemented inside a service.
+Running asynchronously
+First of all, like an Activity, all work in a
+Service is done in a single thread by
+default—in fact, if you're running an activity and a service from the same application, they
+use the same thread (the "main thread") by default. Therefore, services need to
+process incoming intents quickly
+and never perform lengthy computations when responding to them. If any heavy
+work or blocking calls are expected, you must do those tasks asynchronously: either from
+another thread you implement yourself, or using the framework's many facilities
+for asynchronous processing.
+For instance, when using a MediaPlayer from your main thread,
+you should call prepareAsync() rather than
+prepare(), and implement
+a MediaPlayer.OnPreparedListener
+in order to be notified when the preparation is complete and you can start playing.
+For example:
+
+Kotlin
+
+private const val ACTION_PLAY: String = "com.example.action.PLAY"
+
+class MyService: Service(), MediaPlayer.OnPreparedListener {
+
+    private var mMediaPlayer: MediaPlayer? = null
+
+    override fun onStartCommand(intent: Intent, flags: Int, startId: Int): Int {
+        ...
+        val action: String = intent.action
+        when(action) {
+            ACTION_PLAY -> {
+                mMediaPlayer = ... // initialize it here
+                mMediaPlayer?.apply {
+                    setOnPreparedListener(this@MyService)
+                    prepareAsync() // prepare async to not block main thread
+                }
+
+            }
+        }
+        ...
+    }
+
+    /** Called when MediaPlayer is ready */
+    override fun onPrepared(mediaPlayer: MediaPlayer) {
+        mediaPlayer.start()
+    }
+}
+
+Java
+
+public class MyService extends Service implements MediaPlayer.OnPreparedListener {
+    private static final String ACTION_PLAY = "com.example.action.PLAY";
+    MediaPlayer mediaPlayer = null;
+
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        ...
+        if (intent.getAction().equals(ACTION_PLAY)) {
+            mediaPlayer = ... // initialize it here
+            mediaPlayer.setOnPreparedListener(this);
+            mediaPlayer.prepareAsync(); // prepare async to not block main thread
+        }
+    }
+
+    /** Called when MediaPlayer is ready */
+    public void onPrepared(MediaPlayer player) {
+        player.start();
+    }
+}
+
+
+
+Handling asynchronous errors
+On synchronous operations, errors would normally
+be signaled with an exception or an error code, but whenever you use asynchronous
+resources, you should make sure your application is notified
+of errors appropriately. In the case of a MediaPlayer,
+you can accomplish this by implementing a
+MediaPlayer.OnErrorListener and
+setting it in your MediaPlayer instance:
+
+Kotlin
+
+class MyService : Service(), MediaPlayer.OnErrorListener {
+
+    private var mediaPlayer: MediaPlayer? = null
+
+    fun initMediaPlayer() {
+        // ...initialize the MediaPlayer here...
+        mediaPlayer?.setOnErrorListener(this)
+    }
+
+    override fun onError(mp: MediaPlayer, what: Int, extra: Int): Boolean {
+        // ... react appropriately ...
+        // The MediaPlayer has moved to the Error state, must be reset!
+    }
+}
+
+Java
+
+public class MyService extends Service implements MediaPlayer.OnErrorListener {
+    MediaPlayer mediaPlayer;
+
+    public void initMediaPlayer() {
+        // ...initialize the MediaPlayer here...
+        mediaPlayer.setOnErrorListener(this);
+    }
+
+    @Override
+    public boolean onError(MediaPlayer mp, int what, int extra) {
+        // ... react appropriately ...
+        // The MediaPlayer has moved to the Error state, must be reset!
+    }
+}
+
+
+
+It's important to remember that when an error occurs, the MediaPlayer
+moves to the Error state (see the documentation for the
+MediaPlayer class for the full state diagram)
+and you must reset it before you can use it again.
+
+
+Using wake locks
+When designing applications that play media
+in the background, the device may go to sleep
+while your service is running. Because the Android system tries to conserve
+battery while the device is sleeping, the system tries to shut off any
+of the phone's features that are
+not necessary, including the CPU and the WiFi hardware.
+However, if your service is playing or streaming music, you want to prevent
+the system from interfering with your playback.
+In order to ensure that your service continues to run under
+those conditions, you have to use "wake locks." A wake lock is a way to signal to
+the system that your application is using some feature that should
+stay available even if the phone is idle.
+Notice: You should always use wake locks sparingly and hold them
+only for as long as truly necessary, because they significantly reduce the battery life of the
+device.
+To ensure that the CPU continues running while your MediaPlayer is
+playing, call the setWakeMode() method when initializing your MediaPlayer. Once you do,
+the MediaPlayer holds the specified lock while playing and releases the lock
+when paused or stopped:
+
+Kotlin
+
+mediaPlayer = MediaPlayer().apply {
+    // ... other initialization here ...
+    setWakeMode(applicationContext, PowerManager.PARTIAL_WAKE_LOCK)
+}
+
+Java
+
+mediaPlayer = new MediaPlayer();
+// ... other initialization here ...
+mediaPlayer.setWakeMode(getApplicationContext(), PowerManager.PARTIAL_WAKE_LOCK);
+
+
+
+However, the wake lock acquired in this example guarantees only that the CPU remains awake. If
+you are streaming media over the
+network and you are using Wi-Fi, you probably want to hold a
+WifiLock as
+well, which you must acquire and release manually. So, when you start preparing the
+MediaPlayer with the remote URL, you should create and acquire the Wi-Fi lock.
+For example:
+
+Kotlin
+
+val wifiManager = getSystemService(Context.WIFI_SERVICE) as WifiManager
+val wifiLock: WifiManager.WifiLock =
+    wifiManager.createWifiLock(WifiManager.WIFI_MODE_FULL, "mylock")
+
+wifiLock.acquire()
+
+Java
+
+WifiLock wifiLock = ((WifiManager) getSystemService(Context.WIFI_SERVICE))
+    .createWifiLock(WifiManager.WIFI_MODE_FULL, "mylock");
+
+wifiLock.acquire();
+
+
+
+When you pause or stop your media, or when you no longer need the
+network, you should release the lock:
+
+Kotlin
+
+wifiLock.release()
+
+Java
+
+wifiLock.release();
+
+
+
+Performing cleanup
+As mentioned earlier, a MediaPlayer object can consume a significant
+amount of system resources, so you should keep it only for as long as you need and call
+release() when you are done with it. It's important
+to call this cleanup method explicitly rather than rely on system garbage collection because
+it might take some time before the garbage collector reclaims the MediaPlayer,
+as it's only sensitive to memory needs and not to shortage of other media-related resources.
+So, in the case when you're using a service, you should always override the
+onDestroy() method to make sure you are releasing
+the MediaPlayer:
+
+Kotlin
+
+class MyService : Service() {
+
+    private var mediaPlayer: MediaPlayer? = null
+    // ...
+
+    override fun onDestroy() {
+        super.onDestroy()
+        mediaPlayer?.release()
+    }
+}
+
+Java
+
+public class MyService extends Service {
+   MediaPlayer mediaPlayer;
+   // ...
+
+   @Override
+   public void onDestroy() {
+       super.onDestroy()
+       if (mediaPlayer != null) mediaPlayer.release();
+   }
+}
+
+
+
+You should always look for other opportunities to release your MediaPlayer
+as well, apart from releasing it when being shut down. For example, if you expect not
+to be able to play media for an extended period of time (after losing audio focus, for example),
+you should definitely release your existing MediaPlayer and create it again
+later. On the
+other hand, if you only expect to stop playback for a very short time, you should probably
+hold on to your MediaPlayer to avoid the overhead of creating and preparing it
+again.
+Digital Rights Management (DRM)
+
+Starting with Android 8.0 (API level 26), MediaPlayer includes APIs that
+support the playback of DRM-protected material. They are similar to the low-level API provided by
+MediaDrm, but they operate at a higher level and do not
+expose the underlying extractor, drm, and crypto objects.
+
+
+Although the MediaPlayer DRM API does not provide the full functionality of
+MediaDrm, it supports the most common use cases. The
+current implementation can handle the following content types:
+
+Widevine-protected local media files
+Widevine-protected remote/streaming media files
+
+The following code snippet demonstrates how to use the new DRM MediaPlayer
+methods in a simple synchronous implementation.
+
+
+To manage DRM-controlled media, you need to include the new methods alongside
+the usual flow of MediaPlayer calls, as shown below:
+
+
+Kotlin
+
+mediaPlayer?.apply {
+    setDataSource()
+    setOnDrmConfigHelper() // optional, for custom configuration
+    prepare()
+    drmInfo?.also {
+        prepareDrm()
+        getKeyRequest()
+        provideKeyResponse()
+    }
+
+    // MediaPlayer is now ready to use
+    start()
+    // ...play/pause/resume...
+    stop()
+    releaseDrm()
+}
+
+Java
+
+setDataSource();
+setOnDrmConfigHelper(); // optional, for custom configuration
+prepare();
+if (getDrmInfo() != null) {
+  prepareDrm();
+  getKeyRequest();
+  provideKeyResponse();
+}
+
+// MediaPlayer is now ready to use
+start();
+// ...play/pause/resume...
+stop();
+releaseDrm();
+
+
+
+
+Start by initializing the MediaPlayer object and setting
+its source using setDataSource(),
+as usual. Then, to use DRM, perform these steps:
+
+If you want your app to perform custom configuration, define an
+OnDrmConfigHelper interface, and attach it to the
+player using
+setOnDrmConfigHelper().
+Call prepare().
+Call getDrmInfo(). If the source has DRM
+content, the method returns a non-null
+MediaPlayer.DrmInfo value.
+
+If MediaPlayer.DrmInfo exists:
+
+
+Examine the map of available UUIDs and choose one.
+Prepare the DRM configuration for the current source by calling prepareDrm().
+
+If you created and registered an
+  OnDrmConfigHelper callback, it is called
+  while prepareDrm()
+  is executing. This lets you perform custom configuration of the DRM
+  properties before opening the DRM session. The callback is called
+  synchronously in the thread that called
+  prepareDrm(). To
+  access the DRM properties, call
+  getDrmPropertyString() and
+  setDrmPropertyString().
+  Avoid performing lengthy operations.
+If the device has not yet been provisioned,
+  prepareDrm() also
+  accesses the provisioning server to provision the device. This can take a
+  variable amount of time, depending on the network connectivity.
+
+To get an opaque key request byte array to send to a license server, call
+    getKeyRequest().
+To inform the DRM engine about the key response received from the license server, call
+provideKeyResponse(). The result depends on the type of key request:
+  
+If the response is for an offline key request, the result is a key-set identifier. You can use
+  this key-set identifier with restoreKeys() to restore the keys to a new
+  session.
+If the response is for a streaming or release request, the result is null.
+
+Running prepareDrm() asynchronously
+
+By default, prepareDrm()
+runs synchronously, blocking until preparation is finished. However, the very
+first DRM preparation on a new device may also require provisioning, which is
+handled internally by
+prepareDrm(), and
+may take some time to finish due to the network operation involved. You can
+avoid blocking on
+prepareDrm() by
+defining and setting a MediaPlayer.OnDrmPreparedListener.
+
+When you set an OnDrmPreparedListener,
+prepareDrm()
+performs the provisioning (if needed) and preparation in the background. When
+provisioning and preparation have finished, the listener is called. You should
+not make any assumption about the calling sequence or the thread in which the
+listener runs (unless the listener is registered with a handler thread).
+The listener can be called before or after
+prepareDrm()
+returns.
+
+Setting up DRM asynchronously
+
+You can initialize the DRM asynchronously by creating and registering the
+MediaPlayer.OnDrmInfoListener for DRM preparation and the
+MediaPlayer.OnDrmPreparedListener to start the player.
+They work in conjunction with
+prepareAsync(), as shown below:
+
+
+Kotlin
+
+setOnPreparedListener()
+setOnDrmInfoListener()
+setDataSource()
+prepareAsync()
+// ...
+
+// If the data source content is protected you receive a call to the onDrmInfo() callback.
+override fun onDrmInfo(mediaPlayer: MediaPlayer, drmInfo: MediaPlayer.DrmInfo) {
+    mediaPlayer.apply {
+        prepareDrm()
+        getKeyRequest()
+        provideKeyResponse()
+    }
+}
+
+// When prepareAsync() finishes, you receive a call to the onPrepared() callback.
+// If there is a DRM, onDrmInfo() sets it up before executing this callback,
+// so you can start the player.
+override fun onPrepared(mediaPlayer: MediaPlayer) {
+    mediaPlayer.start()
+}
+
+Java
+
+setOnPreparedListener();
+setOnDrmInfoListener();
+setDataSource();
+prepareAsync();
+// ...
+
+// If the data source content is protected you receive a call to the onDrmInfo() callback.
+onDrmInfo() {
+  prepareDrm();
+  getKeyRequest();
+  provideKeyResponse();
+}
+
+// When prepareAsync() finishes, you receive a call to the onPrepared() callback.
+// If there is a DRM, onDrmInfo() sets it up before executing this callback,
+// so you can start the player.
+onPrepared() {
+
+start();
+}
+
+
+
+Handling encrypted media
+Starting with Android 8.0 (API level 26) MediaPlayer can also decrypt
+Common Encryption Scheme (CENC) and
+HLS sample-level encrypted media (METHOD=SAMPLE-AES) for the elementary stream types
+H.264, and AAC. Full-segment encrypted media (METHOD=AES-128) was previously supported.
+Retrieving media from a ContentResolver
+Another feature that may be useful in a media player application is the ability to
+retrieve music that the user has on the device. You can do that by querying the ContentResolver for external media:
+
+Kotlin
+
+val resolver: ContentResolver = contentResolver
+val uri = android.provider.MediaStore.Audio.Media.EXTERNAL_CONTENT_URI
+val cursor: Cursor? = resolver.query(uri, null, null, null, null)
+when {
+    cursor == null -> {
+        // query failed, handle error.
+    }
+    !cursor.moveToFirst() -> {
+        // no media on the device
+    }
+    else -> {
+        val titleColumn: Int = cursor.getColumnIndex(android.provider.MediaStore.Audio.Media.TITLE)
+        val idColumn: Int = cursor.getColumnIndex(android.provider.MediaStore.Audio.Media._ID)
+        do {
+            val thisId = cursor.getLong(idColumn)
+            val thisTitle = cursor.getString(titleColumn)
+            // ...process entry...
+        } while (cursor.moveToNext())
+    }
+}
+cursor?.close()
+
+Java
+
+ContentResolver contentResolver = getContentResolver();
+Uri uri = android.provider.MediaStore.Audio.Media.EXTERNAL_CONTENT_URI;
+Cursor cursor = contentResolver.query(uri, null, null, null, null);
+if (cursor == null) {
+    // query failed, handle error.
+} else if (!cursor.moveToFirst()) {
+    // no media on the device
+} else {
+    int titleColumn = cursor.getColumnIndex(android.provider.MediaStore.Audio.Media.TITLE);
+    int idColumn = cursor.getColumnIndex(android.provider.MediaStore.Audio.Media._ID);
+    do {
+       long thisId = cursor.getLong(idColumn);
+       String thisTitle = cursor.getString(titleColumn);
+       // ...process entry...
+    } while (cursor.moveToNext());
+}
+
+
+
+To use this with the MediaPlayer, you can do this:
+
+Kotlin
+
+val id: Long = /* retrieve it from somewhere */
+val contentUri: Uri =
+    ContentUris.withAppendedId(android.provider.MediaStore.Audio.Media.EXTERNAL_CONTENT_URI, id )
+
+mediaPlayer = MediaPlayer().apply {
+    setAudioStreamType(AudioManager.STREAM_MUSIC)
+    setDataSource(applicationContext, contentUri)
+}
+
+// ...prepare and start...
+
+Java
+
+long id = /* retrieve it from somewhere */;
+Uri contentUri = ContentUris.withAppendedId(
+        android.provider.MediaStore.Audio.Media.EXTERNAL_CONTENT_URI, id);
+
+mediaPlayer = new MediaPlayer();
+mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+mediaPlayer.setDataSource(getApplicationContext(), contentUri);
+
+// ...prepare and start...
+
+
+
+Sample code
+ The android-
+SimpleMediaPlayer code sample shows how to build a stand-alone player. The android-BasicMediaDecoder and
+android-DeviceOwner samples
+further demonstrate the use of the APIs covered on this page.
+Learn more
+These pages cover topics relating to recording, storing, and playing back audio and video.
+
+Supported Media Formats
+MediaRecorder
+Data Storage
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

@@ -1,0 +1,723 @@
+Make apps more accessible  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    Make apps more accessible
+  
+
+
+
+  Android apps should aim to be usable by everyone, including people with
+  disabilities.
+
+
+  Common disabilities that affect a person's use of an Android device include
+  blindness or low vision, color blindness, deafness or impaired hearing, and
+  restricted motor skills. When you develop apps with accessibility in mind, you
+  make the user experience better, particularly for users with these
+  disabilities.
+
+
+  In most cases, making your Android app more accessible doesn't require
+  extensive code restructuring. Rather, it means working through the subtle
+  details of how users interact with your app and providing appropriate feedback
+  to users based on their interactions.
+
+
+  This document presents guidelines for improving your app's accessibility. It
+  also lists resources that provide additional details and information related
+  to accessibility features in Android.
+
+Label UI elements
+
+  It's important to provide useful and descriptive labels that explain the
+  meaning and purpose of each interactive element to users. These labels allow
+  screen readers, such as TalkBack, to properly explain the function of a
+  particular control to users who rely on these services.
+
+
+  You can provide labels for elements in the following two ways:
+
+
+
+    When labeling static elements, which don't change appearance
+    throughout an activity's lifecycle, add an attribute to the corresponding
+    XML element within the activity's layout resource file.
+  
+
+    When labeling dynamic elements, which change appearance during an
+    activity's lifetime, set the element's label in the dynamic logic that
+    changes the element's appearance.
+  
+
+
+  The actual attributes and methods that you use to apply the element's label
+  depend on the type of element:
+
+
+
+
+      When labeling graphical elements, such as
+      ImageView and ImageButton
+      objects, use the android:contentDescription XML attribute for
+      static elements and the
+      setContentDescription()
+      method for dynamic elements.
+    
+
+      For graphical elements that are purely decorative, set their respective
+      android:contentDescription XML attributes to
+      "@null". If your app only supports devices running Android
+      4.1 (API level 16) or higher, you can instead set these elements'
+      android:importantForAccessibility XML attributes to
+      "no".
+    
+
+
+    When labeling editable elements, such as EditText objects, use the android:hint XML attribute for
+    static elements and the setHint()
+    method for dynamic elements to indicate each element's purpose.
+  
+
+    If your app is installed on a device running Android 4.2 (API level 17) or
+    higher, use the android:labelFor attribute when labeling
+    View objects that serve as content labels for
+    other View objects.
+  
+
+
+Note: Accessibility services automatically capture the text
+  that appears in TextView objects, so you
+  usually don't need to label these elements.
+
+
+  In the following example, a static ImageButton object designed to provide sharing functionality is given a label
+  of "share" (defined in values/strings.xml) as the
+  value:
+
+
+<ImageButton
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_alignParentBottom="true"
+   android:layout_alignParentLeft="true"
+   android:layout_alignParentStart="true"
+   android:contentDescription="@string/share"
+   android:src="@drawable/ic_share" />
+
+
+Note: Many accessibility services, such as TalkBack and
+  BrailleBack, automatically announce an element's type after announcing its
+  label, so you shouldn't include element types in your labels. For example,
+  "submit" is a good label for a Button object, but
+  "submitButton" isn't a good label.
+
+
+  This next example shows how to update a dynamic
+  ImageView object that displays a play or
+  pause icon within an activity:
+
+
+Kotlin
+
+val playPauseImageView = ImageView(...)
+var mediaCurrentlyPlaying = true
+...
+private fun updateImageButton() {
+    if (mediaCurrentlyPlaying) {
+        playPauseImageView.apply {
+            setImageResource(R.drawable.ic_pause)
+
+            // In res/values/strings.xml, "pause" contains a value of "Pause".
+            contentDescription = getString(R.string.pause)
+        }
+    } else {
+        playPauseImageView.apply {
+            setImageResource(R.drawable.ic_play)
+
+            // In res/values/strings.xml, "play" contains a value of "Play".
+            contentDescription = getString(R.string.play)
+        }
+    }
+}
+
+Java
+
+ImageView playPauseImageView = new ImageView(...);
+boolean mediaCurrentlyPlaying = true;
+...
+private void updateImageButton() {
+    if (mediaCurrentlyPlaying) {
+       playPauseImageView.setImageResource(R.drawable.ic_pause);
+
+       // In res/values/strings.xml, "pause" contains a value of "Pause".
+       playPauseImageView.setContentDescription(getString(R.string.pause));
+    } else {
+       playPauseImageView.setImageResource(R.drawable.ic_play);
+
+       // In res/values/strings.xml, "play" contains a value of "Play".
+       playPauseImageView.setContentDescription(getString(R.string.play));
+    }
+}
+
+
+
+
+  When adding labels to the elements that appear in a given activity, make sure
+  that each label is unique so that users can identify each element accurately.
+  In particular, you should include additional text or contextual information in
+  elements within reused layouts, such as ListView and RecyclerView
+  objects, so that each child element is uniquely identified.
+
+Group content
+
+  You should arrange related content into groups so that accessibility services
+  announce the content in a way that reflects its natural groupings. Users of
+  assistive technology then don't need to swipe, scan, or wait as much to
+  discover all information on the screen.
+
+
+  The two most effective methods of grouping related content are the following:
+
+
+
+    For smaller or simpler groups of content, you can organize all content into a single
+    announcement.
+  
+
+    For larger or more complex content structures, you can create natural groupings for
+    the content.
+  
+
+
+  Organize content into a single announcement
+
+
+  If users should treat a set of elements as a single unit of information, you
+  can group these elements in a focusable container. That way, accessibility
+  services present the grouped content in a single announcement. In the
+  following example, a RelativeLayout
+  element contains pieces of content that relate to one another:
+
+
+<RelativeLayout
+    android:id="@+id/song_data_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/song_title"
+        android:text="@string/song_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/singer"
+        android:layout_toRightOf="@id/song_title"
+        android:text="@string/singer" />
+    ...
+</RelativeLayout>
+
+
+Note: You can specify the
+  android:contentDescription XML attribute on a container to
+  override automatic grouping and ordering of contained items.
+
+
+  When grouping element labels, make sure that you don't create unnecessarily
+  verbose announcements for accessibility services to present.
+
+
+  Create natural groupings
+
+
+  If you need to convey more complex structures, such as tables, you can assign
+  focus to one piece of the structure at a time, such as a single row. To define
+  the proper focusing pattern for a set of related content, place each piece
+  of the structure into its own focusable ViewGroup. In the following example, a structure comprising 6
+  TextView objects is divided into 3 pieces,
+  which the RelativeLayout elements
+  define:
+
+
+<LinearLayout
+    ...
+    orientation="vertical">
+    <RelativeLayout
+        ...
+        android:focusable="true">
+        <TextView ... />
+        <TextView ... />
+    </RelativeLayout>
+    <RelativeLayout
+        ...
+        android:focusable="true">
+        <TextView ... />
+        <TextView ... />
+    </RelativeLayout>
+    <RelativeLayout
+        ...
+        android:focusable="true">
+        <TextView ... />
+        <TextView ... />
+    </RelativeLayout>
+</LinearLayout>
+
+Create easy-to-follow navigation
+When designing your app, follow these best practices to provide ease of
+navigation:
+
+Make sure users can navigate through your app's layouts using keyboards or
+  navigation gestures.
+Avoid having UI elements fade out or disappear after a certain amount of
+  time.
+For controls that serve a single purpose but contain multiple elements,
+  your app should provide useful feedback each time users interact with a
+  particular piece of the control.
+
+Make touch targets large
+
+  Many people have difficulty interacting with small touch targets on a device's
+  screen. This could be because their fingers are large or because they have a
+  motor or visual impairment. By providing larger touch targets, you make it
+  substantially easier for users to navigate your app.
+
+
+  In general, you want the touchable area of focusable items to be a minimum of
+  48dp x 48dp. Larger is even better.
+
+
+  To ensure that each focusable item in your app has a large enough touch
+  target, set the android:minWidth and
+  android:minHeight attributes of each interactive element to 48dp
+  or greater:
+
+
+
+<ImageButton
+   ...
+   android:minWidth="48dp"
+   android:minHeight="48dp" />
+
+
+  You can also add padding or use the TouchDelegate API to increase the size of your elements' touch targets
+  without increasing the size of the elements themselves.
+
+Provide adequate color contrast
+
+People with low vision and those who use devices with dimmed displays can have
+difficulty reading information on the screen. By providing increased contrast
+ratios between the foreground and background colors in your app, you make it
+easier for users to navigate within and between screens.
+
+
+  To help developers use sufficient contrast ratios in their apps, The World
+  Wide Web Consortium (W3C) has created a set of color
+  contrast accessibility guidelines:
+
+
+
+    For large text, 18 points or higher for regular text and 14 points or higher
+    for bold text, you should use a contrast ratio of at least 3.0 to
+    1.
+  
+
+    For small text, smaller than 18 points for regular text and smaller than 14
+    points for bold text, you should use a contrast ratio of at least
+    4.5 to 1.
+  
+
+
+Figure 1 shows two version of an activity. One version uses a low contrast ratio
+between background and foreground colors, and the other version uses an
+increased contrast ratio:
+
+
+
+
+
+
+
+
+Low contrast ratios
+      Title: 1.42 to 1
+      Content: 3.49 to 1
+      
+Increased contrast ratios
+      Title: 4.61 to 1
+      Content: 10.05 to 1
+      
+
+
+
+Figure 1: Example of low and increased contrast ratios
+    between foreground and background colors
+  
+
+
+  To check your contrast ratios, you can use the Accessibility
+  Scanner or one of the many contrast checkers available online.
+
+
+Note: If your app's color scheme uses partially transparent
+  colors, keep in mind that these non-opaque colors might appear lighter than
+  the color defined by their RGB values.
+
+Use cues other than color
+
+  To assist users with color vision deficiencies, use cues other than color to
+  distinguish UI elements within your app's screens. These techniques could
+  include using different shapes or sizes, providing text or visual patterns,
+  or adding audio- or touch-based (haptic) feedback to mark the elements'
+  differences.
+
+
+  Figure 2 shows two versions of an activity. One version uses only color to
+  distinguish between two possible actions in a workflow, and the other uses
+  shapes and text to highlight the differences between the two options:
+
+
+
+
+
+
+
+
+Insufficient: Using color only
+Acceptable: Using color, shapes, and text
+
+
+
+Figure 2: Examples of differentiating UI elements using
+    color only and using color, shapes, and text
+  
+
+Make media content more accessible
+
+  If you're developing an app that includes media content, such as a video clip
+  or an audio recording, make sure that users with different types of
+  accessibility needs can understand this material, as well. In particular, you
+  should make sure that you've provided the following accommodations:
+
+
+
+    All video and audio materials should include controls that allow users to
+    pause or stop the media, change the volume, and toggle subtitles (captions).
+  
+
+    If a video presents information that is vital to completing a workflow, you
+    should provide the same content in an alternative format, such as a
+    transcript.
+  
+
+Apply ideas from accessibility resources
+
+  The following resources describe other accessibility features that Android
+  supports. After you've applied the guidelines in the previous sections, use
+  the following information to further improve your app's accessibility.
+
+Apply accessibility design principles
+
+  Google's material design guidelines include a set of recommendations for
+  structuring your app's UI so that all users, including users with
+  disabilities, can interact easily with your app. To view these guidelines,
+  navigate to the
+  Accessibility
+  page within the material design site.
+
+Activate accessibility settings
+
+  In addition to offering the accessibility services described in other sections
+  on this page, the Android platform includes several
+  accessibility
+  settings, such as increased font size and magnified screen area, that
+  users can adjust. As you develop your app, you should adjust these settings
+  yourself to ensure that your app's important UI elements remain fully visible
+  and usable.
+
+Test your app's accessibility
+
+  As you develop your app, it's important to test its accessibility using a
+  combination of manual tests, automated tests, and user tests. To learn more
+  about the aspects of your app that you should test, see
+  Testing Your App's
+  Accessibility.
+
+Work with custom views
+
+  The UI components built into the Android framework have predefined
+  accessibility capabilities. These components include useful metadata that
+  accessibility services incorporate into the feedback that they provide to
+  users of assistive technology. When you create your own custom views, you
+  should inherit as much functionality as possible from these framework-provided
+  UI elements.
+
+
+  For more information about how to make custom views more accessible, read
+  the guide on how to
+  Build more
+  accessible custom views.
+
+Sample accessibility app
+
+  The Basic
+  Accessibility sample, available on GitHub, presents an app containing a
+  variety of UI elements. It demonstrates how to add accessibility markup to
+  each of these elements and how accessibility services respond to this markup.
+
+
+
+
+
+
+        
+        Next
+      
+
+
+          arrow_forward
+        
+        Using node tree debugging
+      
+
+
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated January 31, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      

@@ -1,0 +1,698 @@
+USB accessory overview  |  Android DevelopersAndroid Developers
+          Platform
+        
+          Android Studio
+        
+          Google Play
+        
+          Android Jetpack
+        
+          Docs
+        
+          News
+        
+    
+    
+    
+      Documentation
+    
+    
+  
+          Overview
+        
+          Guides
+        
+          Reference
+        
+          Samples
+        
+          Design & Quality
+        
+
+
+
+
+
+
+
+          Platform
+        
+
+
+
+          Android Studio
+        
+
+
+
+          Google Play
+        
+
+
+
+          Android Jetpack
+        
+
+
+
+          Docs
+        
+
+
+
+
+          Overview
+        
+
+
+
+          Guides
+        
+
+
+
+          Reference
+        
+
+
+
+          Samples
+        
+
+
+
+          Design & Quality
+        
+
+
+
+
+
+
+          News
+        
+
+
+
+
+
+
+
+
+
+
+
+
+App BasicsIntroductionBuild your first appOverviewCreate an Android projectRun your appBuild a simple user interfaceStart another activityApp fundamentalsApp resourcesOverviewHandle configuration changesLocalizationLocalize your appTest your app with pseudolocalesUnicode and internationalization supportLanguage and locale resolutionComplex XML resourcesResource typesOverviewAnimationColor state listDrawableLayoutMenuStringStyleFontMore typesApp manifest fileOverview<action><activity><activity-alias><application><category><compatible-screens><data><grant-uri-permission><instrumentation><intent-filter><manifest><meta-data><path-permission><permission><permission-group><permission-tree><provider><receiver><service><supports-gl-texture><supports-screens><uses-configuration><uses-feature><uses-library><uses-permission><uses-permission-sdk-23><uses-sdk>App permissionsOverviewRequest app permissionsApp permissions best practicesDefine custom permissionsDevicesDevice compatibilityOverviewScreen compatibility overviewSupport different screen sizesSupport different pixel densitiesSupport display cutoutsDeclare restricted screen supportMultiple APK supportOverviewCreate multiple APKs for different API levelsCreate multiple APKs for different screen sizesCreate multiple APKs for different GL texturesCreate multiple APKs with several dimensionsSupport different languages and culturesSupport different platform versionsFilters on Google PlayWearOverviewAdding wearable features to notificationsOverviewCreating a notificationNotification stylesBridging mode for notificationsMaintaining compatibilityCreating wearable appsOverviewCreating and running a wearable appStandalone appsCreating custom layoutsKeeping your app visibleAuthentication in WearAdding voice capabilitiesPackaging and distributing Wear appsDebugging a Wear appCapturing Wear UI screenshotsCreating Wear apps for ChinaCreating custom UIsOverviewDefining layoutsCreating listsShowing confirmationsExiting full-screen activitiesUsing the Wear UI libraryWear navigation and actionsMulti-function buttonsRotary inputCreating input method editorsUsing wrist gesturesSending and syncing dataOverviewNetwork access and syncingAccessing the wearable data layerSyncing data itemsTransferring assetsSending and receiving messagesHandling data layer eventsMigrating Wear apps to GoogleApiCreating data providersOverviewExpose data to complicationsCreating watch facesOverviewDesigning watch facesBuilding a watch face serviceDrawing watch facesWatch face complicationsExposing data to complicationsAdding complications to a watch faceCreating interactive watch facesProviding configuration activitiesAddressing common issuesOptimizing watch facesDetecting locationRequesting PermissionsUsing the SpeakerAndroid TVOverviewBuilding TV AppsOverviewGetting started with TV appsHandling TV hardwareManaging TV controllersBuilding TV layoutsCreating TV navigationBuilding TV playback appsOverviewCreating a catalog browserProviding a card viewBuilding a details viewUsing Leanback transport controlsDisplaying a now playing cardAdding a guided stepIntroducing first-time users to your appEnabling background playbackHelping users find content on TVOverviewRecommending TV contentOverviewChannels on the home screenVideo program attributesAudio program attributesGame program attributesWatch next attributesPreviewing videosRecommendations in Android N and earlierMaking TV apps searchableSearching within TV AppsBuilding TV gamesBuilding TV channelsOverviewDeveloping a TV input serviceWorking with channel dataManaging user interactionSupporting time-shiftingSupporting content recordingTV Apps checklistAndroid AutoOverviewGetting Started with AutoPlaying Audio for AutoMessaging for AutoTesting for AutoAndroid ThingsOverviewPlatform differencesGoogle servicesSupported hardwareDeveloper kitsGet startedNXP i.MX7DRaspberry Pi 3Advanced setupOverviewManually flash an imageRecover a deviceConnecting to Wi-Fi with adbBuild appsCreate a Things appOverviewCreate a projectConnect the hardwareInteract with peripheralsIntegrate peripheral driversCommunicate with wireless devicesBluetoothLoWPANConfigure devicesSettingsUpdatesInteract with peripheralsOverviewGPIOPWMI2CSPIUARTNative PIOCLI toolIntegrate native codeBuild user-space driversOverviewLocationInputSensorsLoWPANSamplesManage devicesOverviewCreate a productConfigure a productCreate a buildOverviewManage appsPush an updateOverviewAutomatic updatesMonitor analyticsTermsConsole Terms of ServiceSDK License AgreementAndroid Things ConsoleChrome OS devicesOverviewBuilding apps for Chrome OSPreparing your development environmentOptimizing Apps for Chrome OSResolving Issues with Screen SizeApp Manifest Compatibility for ChromebooksLoading Apps on ChromebooksChrome OS Device Support for AppsApp Rendering Differences on ChromebooksWindow managementInput compatibility for ChromebooksAndroid Studio on Chrome OSChrome OS devices on EmulatorTest Cases for Android Apps on Chrome OSCore topicsActivitiesIntroduction to activitiesThe activity lifecycleActivity state changesTest your activitiesTasks and back stackProcesses and app lifecycleParcelables and bundlesFragmentsOverviewCreate a fragmentTest your fragmentsBuild a flexible UICommunicate with other fragmentsInteract with other appsOverviewSending the user to another appGetting a result from an activityAllowing other apps to start your activityHandling app linksOverviewEnabling links to app contentVerify app linksCreate app links for instant appsLoadersRecents screenMulti-window supportApp shortcutsOverviewCreate shortcutsManage shortcutsBest practices for shortcutsApp widgetsOverviewBuild an app widgetBuild an app widget hostArchitecture ComponentsOverviewAdding Components to your ProjectData Binding LibraryOverviewGet startedLayouts and binding expressionsWork with observable data objectsGenerated binding classesBinding adaptersBind layout views to Architecture ComponentsTwo-way data bindingHandling LifecyclesLiveDataNavigationOverviewImplement NavigationUpdate UI components with NavigationUINested graphsPass data between destinationsAdd support for new destinationImplement conditional navigationCreate a deep link for a destinationGlobal actionsMigrate to the Navigation ComponentPaging LibraryOverviewUI Components and ConsiderationsData Components and ConsiderationsRoom Persistence LibraryViewModelWorkManagerOverviewBasicsAdvancedMigrating from Firebase JobDispatcherSaving StatesRelease notesIntents and intent filtersOverviewCommon intentsUser interface & navigationOverviewLayoutsOverviewBuild a responsive UI with ConstraintLayoutCreate a list with RecyclerViewCreate a card-based layoutImplementing adaptive UI flowsImproving layout performanceOverviewOptimizing layout hierarchiesRe-using layouts with <include/>Delayed loading of viewsMaking ListView scrolling smoothLinear layoutAdapter viewRelative layoutCustom view componentsOverviewCreating a custom view classImplementing custom drawingMaking the view interactiveOptimizing the viewLook and feelMaterial designStyles and themesAdaptive iconsAdd a floating action buttonCreate shadows and clip viewsTextAutosizing TextViewsDownloadable fontsFonts in XMLEmoji compatibilityMagnifier widgetSpansButtonsCheckboxesRadio buttonsToggle buttonsSpinnersPickersTooltipsNotificationsOverviewCreate a notificationCreate an expandable notificationStart an activity from a notificationCreate a group of notificationsCreate and manage notification channelsModify a notification BadgeCreate a custom notificationAdd the app barOverviewSet up the app barAdd and handle actionsAdd an up actionUse action views and action providersControl the system UI visibilityOverviewDim the system barsHide the status barHide the navigation barEnable fullscreen modeRespond to UI visibility changesDesigning effective navigationOverviewPlanning screens and their relationshipsPlanning for multiple touchscreen sizesProviding descendant and lateral navigationDesigning back and up navigationPutting it all together: wireframing the example appImplementing effective navigationOverviewCreating swipe views with tabsCreating a navigation drawerProviding up navigationProviding proper back navigationImplementing descendant navigationSlide between fragments using ViewPagerSupporting swipe-to-refreshOverviewAdding swipe-to-refresh to your appResponding to a refresh gestureToasts overviewPop-up messages overviewOverviewBuild and display a pop-up messageAdd an action to a messageDialogsMenusSettingsOverviewOrganize your settingsCustomize your settingsUse saved valuesBuild a hierarchy in codeHandle other form factorsPreference components and attributesSearchOverviewCreating a search interfaceAdding recent query suggestionsAdding custom suggestionsSearchable configurationAdding search functionalityOverviewSetting up the search interfaceStoring and searching for dataRemaining backward compatibleCopy and pasteDrag and dropCreating backward-compatible UIsOverviewAbstracting the new APIsProxying to the new APIsCreating an implementation with older APIsUsing the version-aware componentAnimations & transitionsOverviewAnimations overviewProperty animation overviewAnimate drawable graphicsReveal or hide a view using animationMove a view using animationMove a view using a fling animationEnlarge a view using a zoom animationAnimate movement using spring physicsAuto animate layout updatesAnimate layout changes using a transitionCreate a custom transition animationStart an activity using an animationImages & graphicsOverviewDrawables overviewVector drawables overviewHandling bitmapsSelecting colors with the palette APIReducing image download sizesHardware accelerationOpenGL ESDisplaying graphics with OpenGL ESOverviewBuilding an OpenGL ES environmentDefining shapesDrawing shapesApplying projection and camera viewsAdding motionResponding to touch eventsRenderingOverviewReducing overdrawPerformance and view hierarchiesAnalyzing with profile GPU renderingEnhancing graphics with wide color contentAudio & videoAudio & video overviewSupported media formatsMedia app architectureMedia app architecture overviewUsing a media sessionBuilding an audio appAudio app overviewBuilding a media browser serviceBuilding a media browser clientMedia session callbacksBuilding a video appVideo app overviewBuilding a video player activityMedia session callbacksResponding to media buttonsHandling changes in audio outputManaging audio focusThe Google Assistant and media appsRouting between devicesRouting overviewMediaRouter overviewMediaRouteProvider overviewControl amplitude with VolumeShaperMediaPlayer overviewMediaRecorder overviewExoPlayerBackground tasksOverviewGuide to background processingSending operations to multiple threadsOverviewSpecify the code to run on a threadCreate a manager for multiple threadsRun code on a thread pool threadCommunicate with the UI threadSchedule jobs intelligentlyServicesOverviewCreate a background serviceSend work requests to the background serviceReport work statusBound servicesAIDL overviewBackground optimizationsBroadcasts overviewImplicit Broadcast ExceptionsManage device awake stateOverviewKeep the device awakeSchedule repeating alarmsApp data & filesOverviewStorage overviewSave files on device storageSave key-value dataSave data in a local databaseOverviewDefine data using entitiesCreate views into a databaseAccess data using DAOsMigrate your databaseTest your databaseReference complex dataSharing simple dataOverviewSending simple data to other appsReceiving simple data from other appsAdding an easy share actionSharing filesOverviewSetting up file sharingSharing a fileRequesting a shared fileRetrieving file informationSharing files with NFCOverviewSending files to another deviceReceiving files from another devicePrinting filesOverviewPrinting photosPrinting HTML documentsPrinting custom documentsContent providersOverviewContent provider basicsCreating a content providerOpen files using storage access frameworkCreate a custom document providerApp install locationUser data & identityOverviewAdd sign-in workflowAutofill frameworkOverviewOptimize your app for autofillBuild autofill servicesCalendar provider overviewContacts providerOverviewRetrieving a list of contactsRetrieving details for a contactModifying contacts using intentsDisplaying the quick contact badgeAccount transferData backupOverviewBack up user dataBack up key-value pairsOverviewRegisterTest backup and restoreBest practices for unique identifiersRemember and authenticate usersOverviewRemember your userAuthenticate to OAuth2 servicesCreate a custom account typeUser locationOverviewOptimize location for batteryGet the last known locationChange location settingsReceive location updatesDisplay a location addressCreate and monitor geofencesDetect when users start an activityMigrate to location and context APIsAdd mapsTouch & inputOverviewInput eventsUsing touch gesturesOverviewDetect common gesturesTrack touch and pointer movementsAnimate a scroll gestureHandle multi-touch gesturesDrag and scaleManage touch events in a ViewGroupHandling keyboard inputOverviewSpecifying the input method typeHandling input method visibilitySupporting keyboard navigationHandling keyboard actionsSupporting game controllersOverviewHandling controller actionsSupporting controllers across Android versionsSupporting multiple game controllersInput method editorsCreating an input methodImage keyboardSpelling checkerCameraOverviewTaking photosRecording videosControlling the cameraCamera APISensorsOverviewSensors overviewMotion sensorsPosition sensorsEnvironment sensorsRaw GNSS measurementsConnectivityOverviewPerforming network operationsOverviewConnect to the networkManage network usageOptimize network data usageParse XML dataTransmit network data using VolleyOverviewSend a simple requestSet up RequestQueueMake a standard requestImplement a custom requestPerform network operations using CronetOverviewSend a simple requestCronet request lifecycleReferenceorg.chromium.netOverviewCallbackExceptionCronetEngineOverviewCronetEngine.BuilderOverviewLibraryLoaderCronetExceptionInlineExecutionProhibitedExceptionNetworkExceptionQuicExceptionUploadDataProviderUploadDataProvidersUploadDataSinkUrlRequestOverviewBuilderCallbackStatusStatusListenerUrlResponseInfoOverviewHeaderBlockTransferring data without draining the batteryOverviewOptimize downloads for efficient network accessMinimize the effect of regular updatesAvoid redundant downloadsModify patterns based on the connectivity typeReduce network battery drainOverviewCollecting network traffic dataAnalyzing data trafficOptimizing user-initiated network useOptimizing app-initiated network useOptimizing server-initiated network useOptimizing general network useTransfer data using Sync AdaptersOverviewCreate a Stub AuthenticatorCreate a Stub Content ProviderCreate a Sync AdapterRun a Sync AdapterBluetoothOverviewBluetooth low energy overviewNFCOverviewNFC basicsAdvanced NFCHost-based card emulation overviewTelecomOverviewBuild a calling appWi-FiWi-Fi scanning overviewWi-Fi peer-to-peer overviewWi-Fi aware overviewWi-Fi location with RTTCompanion device pairing overviewUSBOverviewAccessory overviewHost overviewVPNSession initiation protocol overviewDiscover and connectOverviewUse network service discoveryCreate P2P connections with Wi-FiUse Wi-Fi P2P for service discoveryRenderscriptOverviewAdvanced RenderScriptRuntime API referenceOverviewNumerical typesObject typesConversion functionsMathematical constants and functionsVector math functionsMatrix functionsQuaternion functionsAtomic update functionsTime functions and typesAllocation data access functionsObject characteristics functionsKernel invocation functions and typesInput/output functionsDebugging functionsGraphics functions and typesIndexWeb-based contentOverviewBuilding web apps in WebViewManaging WebView objectsMigrating to WebView in Android 4.4Supporting different screens in web appsDebugging web appsBest practices for web appsAndroid App BundlesOverviewDownload modules with the Play Core LibraryGoogle Play InstantOverview of Google Play InstantGet started with instant appsCreate an instant-enabled app bundleUX best practices for appsGet started with instant gamesOverviewUnity pluginTechnical requirements checklist for gamesUX best practices for gamesReduce the size of your instant app or gameAdd ads to your instant app or gameProvide multiple entry pointsIntegrate with FirebaseAdd Google Analytics for Firebase to your instant appUse Firebase Dynamic Links with instant appsGoogle Play Instant policyResourcesReferenceCode samplesSDK release notesSupportFAQsKnown issuesStackOverflowApp ActionsSlicesOverviewGetting StartedSlice templatesBest practicesTestingOverviewFundamentals of testingSet up projectBuilding effective unit testsOverviewBuilding local unit testsBuilding instrumented unit testsAutomating UI testsOverviewTesting UI for a single appTesting UI for multiple appsTesting app component integrationsOverviewTesting your serviceTesting your content providerTesting UI performanceEspressoOverviewSetup instructionsBasicsRecipesMultiprocessAccessibility checkingListsIntentsWebIdling resourceCheat sheetUI AutomatorJUnit4 RulesAndroidJUnitRunnerSamplesRelease notesPerformanceOverviewAndroid VitalsOverviewStuck Partial Wake LocksExcessive WakeupsExcessive Background Wi-Fi ScansExcessive Background Network UsageANRsCrashesSlow RenderingFrozen FramesPermission DenialsApp Startup TimeApp Standby BucketsProcesses and Threads OverviewBetter Performance through ThreadingOptimizing for Battery LifeOverviewOptimizing for Doze and App StandbyMonitoring the Battery Level and Charging StateDetermining and Monitoring the Docking State and TypeDetermining and Monitoring the Connectivity StatusPower Management RestrictionsAnalyzing Power Use with Battery HistorianTesting power-related issuesReducing APK SizeManage Your App's MemoryOverview of Memory ManagemementDesigning for SeamlessnessKeeping Your App ResponsivePerformance TipsSMP Primer for AndroidVerifying App Behavior on the Android Runtime (ART)AccessibilityOverviewMaking apps more accessibleUsing node tree debuggingBuilding accessibility servicesBuild accessible custom viewsBuild accessibility serviceTest your app's accessibilitySecurityApp security best practicesSecurity tipsSecurity with HTTPS and SSLNetwork security configurationUpdating your security provider to protect against SSL exploitsProtecting against security threats with SafetyNetOverviewSafetyNet Attestation APISafetyNet Safe Browsing APISafetyNet reCAPTCHA APISafetyNet Verify Apps APICryptographyAndroid Keystore SystemVerifying hardware-backed key pairs with key attestationAndroid Protected ConfirmationSupporting Direct BootUsing scoped directory accessApp security improvement programBuild for BillionsOverviewConnectivityDevice capabilityData costBattery consumptionUI and contentBuild for EnterpriseOverviewDeveloper guideWork profilesSet up managed configurationsWork contactsDevice management policiesDevice managementOverviewBuild a device policy controllerWork profiles on fully managed devicesDedicated devicesOverviewLock task modeMultiple usersCookbookDevice controlNetworking and telephonySecuritySystem updatesNetwork activity loggingAndroid versionsOverviewAndroid 9Android 8.0Android 7.0Device administrationGoogle PlayGoogle Play BillingOverviewUse the Google Play Billing LibraryOverviewAdd one-time product-specific featuresAdd subscription-specific featuresPlay Billing Library referencePlay Billing Library release notesUse In-app Billing with AIDLOverviewIn-app Billing ReferenceAdd Real-time Developer NotificationsBest PracticesTest Google Play BillingMaking Your App Content Searchable by GoogleOptimizing Contextual Content for the AssistantGoogle Play Developer APIAPK Expansion FilesApplication LicensingOverviewLicensing OverviewSetting Up for LicensingAdding Licensing to Your AppLicensing ReferenceGoogle Play Install ReferrerOverviewPlay Install Referrer LibraryOverviewReferenceReleases NotesPlay Install Referrer API
+
+
+
+
+
+
+
+
+
+    
+    
+      Android Developers
+    
+    
+    
+
+
+
+
+    
+    
+      Docs
+    
+    
+    
+
+
+
+
+    
+    
+      Guides
+    
+    
+    
+
+
+
+
+    USB accessory overview
+  
+
+
+USB accessory mode allows users to connect
+  USB host hardware specifically designed for Android-powered devices. The accessories must adhere
+  to the Android accessory protocol outlined in the Android Accessory Development Kit documentation.
+  This allows Android-powered devices that cannot act as a USB host to still interact with USB
+  hardware. When an Android-powered device is in USB accessory mode, the attached Android USB
+  accessory acts as the host, provides power to the USB bus, and enumerates connected devices.
+  Android 3.1 (API level 12) supports USB accessory mode and the feature is also backported to
+  Android 2.3.4 (API level 10) to enable support for a broader range of devices.
+Choose the right USB accessory APIs
+Although the USB accessory APIs were introduced to the platform in Android 3.1, they are also
+  available in Android 2.3.4 using the Google APIs add-on library. Because these APIs were
+  backported using an external library, there are two packages that you can import to support USB
+  accessory mode. Depending on what Android-powered devices you want to support, you might have to
+  use one over the other:
+
+com.android.future.usb: To support USB accessory mode in Android 2.3.4, the
+    Google APIs add-on
+    library includes the backported USB accessory APIs and they are contained in this
+    namespace. Android 3.1 also supports importing and calling the classes within this namespace to
+    support applications written with the add-on library. This add-on library is a thin wrapper
+    around the android.hardware.usb accessory APIs and does not support USB host mode. If
+    you want to support the widest range of devices that support USB accessory mode, use the add-on
+    library and import this package. It is important to note that not all Android 2.3.4 devices are
+    required to support the USB accessory feature. Each individual device manufacturer decides
+    whether or not to support this capability, which is why you must declare it in your manifest
+    file.
+android.hardware.usb: This namespace contains the classes that support USB
+    accessory mode in Android 3.1. This package is included as part of the framework APIs, so
+    Android 3.1 supports USB accessory mode without the use of an add-on library. Use this package
+    if you only care about Android 3.1 or newer devices that have hardware support for USB
+    accessory mode, which you can declare in your manifest file.
+
+Install the Google APIs add-on library
+If you want to install the add-on, you can do so by installing the Google APIs Android API 10
+  package with the SDK Manager. See Installing the Google APIs
+  Add-on for more information on installing the add-on library.
+API overview
+Because the add-on library is a wrapper for the framework APIs, the classes that support the
+  USB accessory feature are similar. You can use the reference documentation for the android.hardware.usb even if you are using the add-on library.
+Note: There is, however, a minor usage
+  difference between the add-on library and framework APIs that you should be aware of.
+The following table describes the classes that support the USB accessory APIs:
+
+
+Class
+Description
+
+
+UsbManager
+Allows you to enumerate and communicate with connected USB accessories.
+
+
+UsbAccessory
+Represents a USB accessory and contains methods to access its identifying
+      information.
+
+
+Usage differences between the add-on library and platform APIs
+There are two usage differences between using the Google APIs add-on library and the platform
+  APIs.
+If you are using the add-on library, you must obtain the UsbManager object in the following manner:
+Kotlin
+
+val manager = UsbManager.getInstance(this)
+
+Java
+
+UsbManager manager = UsbManager.getInstance(this);
+
+
+If you are not using the add-on library, you must obtain the UsbManager object in the following manner:
+Kotlin
+
+val manager = getSystemService(Context.USB_SERVICE) as UsbManager
+
+Java
+
+UsbManager manager = (UsbManager) getSystemService(Context.USB_SERVICE);
+
+
+When you filter for a connected accessory with an intent filter, the UsbAccessory object is contained inside the intent that is passed to your
+  application. If you are using the add-on library, you must obtain the UsbAccessory object in the following manner:
+Kotlin
+
+val accessory = UsbManager.getAccessory(intent)
+
+Java
+
+UsbAccessory accessory = UsbManager.getAccessory(intent);
+
+
+If you are not using the add-on library, you must obtain the UsbAccessory object in the following manner:
+Kotlin
+
+val accessory = intent.getParcelableExtra(UsbManager.EXTRA_ACCESSORY) as UsbAccessory
+
+Java
+
+UsbAccessory accessory = (UsbAccessory) intent.getParcelableExtra(UsbManager.EXTRA_ACCESSORY);
+
+
+Android manifest requirements
+The following list describes what you need to add to your application's manifest file before
+  working with the USB accesory APIs. The manifest and resource file
+  examples show how to declare these items:
+
+Because not all Android-powered devices are guaranteed to support the USB accessory APIs,
+    include a <uses-feature> element that declares that your application uses
+    the android.hardware.usb.accessory feature.
+If you are using the
+    add-on library,
+    add the <uses-library> element specifying
+    com.android.future.usb.accessory for the library.
+Set the minimum SDK of the application to API Level 10 if you are using the add-on library
+    or 12 if you are using the android.hardware.usb package.
+
+If you want your application to be notified of an attached USB accessory, specify an
+      <intent-filter> and <meta-data> element pair for the
+      android.hardware.usb.action.USB_ACCESSORY_ATTACHED intent in your main activity.
+      The <meta-data> element points to an external XML resource file that
+      declares identifying information about the accessory that you want to detect.
+In the XML resource file, declare <usb-accessory> elements for the
+      accessories that you want to filter. Each <usb-accessory> can have the
+      following attributes:
+
+manufacturer
+model
+version
+
+Save the resource file in the res/xml/ directory. The resource file name
+      (without the .xml extension) must be the same as the one you specified in the
+      <meta-data> element. The format for the XML resource file is also shown in
+      the example below.
+
+
+Manifest and resource file examples
+The following example shows a sample manifest and its corresponding resource file:
+
+<manifest ...>
+    <uses-feature android:name="android.hardware.usb.accessory" />
+    
+    <uses-sdk android:minSdkVersion="<version>" />
+    ...
+    <application>
+      <uses-library android:name="com.android.future.usb.accessory" />
+        <activity ...>
+            ...
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+            </intent-filter>
+
+            <meta-data android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+                android:resource="@xml/accessory_filter" />
+        </activity>
+    </application>
+</manifest>
+
+In this case, the following resource file should be saved in
+  res/xml/accessory_filter.xml and specifies that any accessory that has the
+  corresponding model, manufacturer, and version should be filtered. The accessory sends these
+  attributes the Android-powered device:
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <usb-accessory model="DemoKit" manufacturer="Google" version="1.0"/>
+</resources>
+
+Work with accessories
+When users connect USB accessories to an Android-powered device, the Android system can
+  determine whether your application is interested in the connected accessory. If so, you can set
+  up communication with the accessory if desired. To do this, your application has to:
+
+Discover connected accessories by using an intent filter that filters for accessory
+    attached events or by enumerating connected accessories and finding the appropriate one.
+Ask the user for permission to communicate with the accessory, if not already
+    obtained.
+Communicate with the accessory by reading and writing data on the appropriate interface
+    endpoints.
+
+Discover an accessory
+Your application can discover accessories by either using an intent filter to be notified when
+  the user connects an accessory or by enumerating accessories that are already connected. Using an
+  intent filter is useful if you want to be able to have your application automatically detect a
+  desired accessory. Enumerating connected accessories is useful if you want to get a list of all
+  connected accessories or if your application did not filter for an intent.
+Use an intent filter
+To have your application discover a particular USB accessory, you can specify an intent filter
+  to filter for the android.hardware.usb.action.USB_ACCESSORY_ATTACHED intent. Along
+  with this intent filter, you need to specify a resource file that specifies properties of the USB
+  accessory, such as manufacturer, model, and version. When users connect an accessory that matches
+  your accessory filter,
+The following example shows how to declare the intent filter:
+
+<activity ...>
+    ...
+    <intent-filter>
+        <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+    </intent-filter>
+
+    <meta-data android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+        android:resource="@xml/accessory_filter" />
+</activity>
+
+The following example shows how to declare the corresponding resource file that specifies the
+  USB accessories that you're interested in:
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <usb-accessory manufacturer="Google, Inc." model="DemoKit" version="1.0" />
+</resources>
+
+In your activity, you can obtain the UsbAccessory that represents
+  the attached accessory from the intent like this (with the add-on library):
+Kotlin
+
+val accessory = UsbManager.getAccessory(intent)
+
+Java
+
+UsbAccessory accessory = UsbManager.getAccessory(intent);
+
+
+or like this (with the platform APIs):
+Kotlin
+
+val accessory = intent.getParcelableExtra(UsbManager.EXTRA_ACCESSORY) as UsbAccessory
+
+Java
+
+UsbAccessory accessory = (UsbAccessory)intent.getParcelableExtra(UsbManager.EXTRA_ACCESSORY);
+
+
+Enumerate accessories
+You can have your application enumerate accesories that have identified themselves while your
+  application is running.
+Use the getAccessoryList() method
+  to get an array all the USB accessories that are connected:
+Kotlin
+
+val manager = getSystemService(Context.USB_SERVICE) as UsbManager
+val accessoryList: Array<out UsbAccessory> = manager.accessoryList
+
+Java
+
+UsbManager manager = (UsbManager) getSystemService(Context.USB_SERVICE);
+UsbAccessory[] accessoryList = manager.getAccessoryList();
+
+
+Note: Only one connected accessory is supported at
+  a time.
+Obtain permission to communicate with an accessory
+Before communicating with the USB accessory, your application must have permission from your
+  users.
+Note: If your application uses an
+  intent filter to discover accessories as they're connected, it automatically receives
+  permission if the user allows your application to handle the intent. If not, you must request
+  permission explicitly in your application before connecting to the accessory.
+Explicitly asking for permission might be necessary in some situations such as when your
+  application enumerates accessories that are already connected and then wants to communicate with
+  one. You must check for permission to access an accessory before trying to communicate with it.
+  If not, you will receive a runtime error if the user denied permission to access the
+  accessory.
+To explicitly obtain permission, first create a broadcast receiver. This receiver listens for
+  the intent that gets broadcast when you call requestPermission(). The call to requestPermission() displays a dialog to the
+  user asking for permission to connect to the accessory. The following sample code shows how to
+  create the broadcast receiver:
+Kotlin
+
+private const val ACTION_USB_PERMISSION = "com.android.example.USB_PERMISSION"
+
+private val usbReceiver = object : BroadcastReceiver() {
+
+    override fun onReceive(context: Context, intent: Intent) {
+        if (ACTION_USB_PERMISSION == intent.action) {
+            synchronized(this) {
+                val accessory: UsbAccessory? = intent.getParcelableExtra(UsbManager.EXTRA_ACCESSORY)
+
+                if (intent.getBooleanExtra(UsbManager.EXTRA_PERMISSION_GRANTED, false)) {
+                    accessory?.apply {
+                        //call method to set up accessory communication
+                    }
+                } else {
+                    Log.d(TAG, "permission denied for accessory $accessory")
+                }
+            }
+        }
+    }
+}
+
+Java
+
+private static final String ACTION_USB_PERMISSION =
+    "com.android.example.USB_PERMISSION";
+private final BroadcastReceiver usbReceiver = new BroadcastReceiver() {
+
+    public void onReceive(Context context, Intent intent) {
+        String action = intent.getAction();
+        if (ACTION_USB_PERMISSION.equals(action)) {
+            synchronized (this) {
+                UsbAccessory accessory = (UsbAccessory) intent.getParcelableExtra(UsbManager.EXTRA_ACCESSORY);
+
+                if (intent.getBooleanExtra(UsbManager.EXTRA_PERMISSION_GRANTED, false)) {
+                    if(accessory != null){
+                        //call method to set up accessory communication
+                    }
+                }
+                else {
+                    Log.d(TAG, "permission denied for accessory " + accessory);
+                }
+            }
+        }
+    }
+};
+
+
+To register the broadcast receiver, put this in your onCreate() method in your
+  activity:
+Kotlin
+
+private const val ACTION_USB_PERMISSION = "com.android.example.USB_PERMISSION"
+...
+val manager = getSystemService(Context.USB_SERVICE) as UsbManager
+...
+permissionIntent = PendingIntent.getBroadcast(this, 0, Intent(ACTION_USB_PERMISSION), 0)
+val filter = IntentFilter(ACTION_USB_PERMISSION)
+registerReceiver(usbReceiver, filter)
+
+Java
+
+UsbManager usbManager = (UsbManager) getSystemService(Context.USB_SERVICE);
+private static final String ACTION_USB_PERMISSION =
+    "com.android.example.USB_PERMISSION";
+...
+permissionIntent = PendingIntent.getBroadcast(this, 0, new Intent(ACTION_USB_PERMISSION), 0);
+IntentFilter filter = new IntentFilter(ACTION_USB_PERMISSION);
+registerReceiver(usbReceiver, filter);
+
+
+To display the dialog that asks users for permission to connect to the accessory, call the
+  requestPermission() method:
+Kotlin
+
+lateinit var accessory: UsbAccessory
+...
+usbManager.requestPermission(accessory, permissionIntent)
+
+Java
+
+UsbAccessory accessory;
+...
+usbManager.requestPermission(accessory, permissionIntent);
+
+
+When users reply to the dialog, your broadcast receiver receives the intent that contains the
+  EXTRA_PERMISSION_GRANTED extra, which is a boolean
+  representing the answer. Check this extra for a value of true before connecting to the
+  accessory.
+Communicate with an accessory
+You can communicate with the accessory by using the UsbManager to
+  obtain a file descriptor that you can set up input and output streams to read and write data to
+  descriptor. The streams represent the accessory's input and output bulk endpoints. You should set
+  up the communication between the device and accessory in another thread, so you don't lock the
+  main UI thread. The following example shows how to open an accessory to communicate with:
+Kotlin
+
+private lateinit var accessory: UsbAccessory
+private var fileDescriptor: ParcelFileDescriptor? = null
+private var inputStream: FileInputStream? = null
+private var outputStream: FileOutputStream? = null
+...
+
+private fun openAccessory() {
+    Log.d(TAG, "openAccessory: $mAccessory")
+    fileDescriptor = usbManager.openAccessory(accessory)
+    fileDescriptor?.fileDescriptor?.also { fd ->
+        inputStream = FileInputStream(fd)
+        outputStream = FileOutputStream(fd)
+        val thread = Thread(null, this, "AccessoryThread")
+        thread.start()
+    }
+}
+
+Java
+
+UsbAccessory accessory;
+ParcelFileDescriptor fileDescriptor;
+FileInputStream inputStream;
+FileOutputStream outputStream;
+...
+
+private void openAccessory() {
+    Log.d(TAG, "openAccessory: " + accessory);
+    fileDescriptor = usbManager.openAccessory(accessory);
+    if (fileDescriptor != null) {
+        FileDescriptor fd = fileDescriptor.getFileDescriptor();
+        inputStream = new FileInputStream(fd);
+        outputStream = new FileOutputStream(fd);
+        Thread thread = new Thread(null, this, "AccessoryThread");
+        thread.start();
+    }
+}
+
+
+In the thread's run() method, you can read and write to the accessory by using
+  the FileInputStream or FileOutputStream objects. When reading
+  data from an accessory with a FileInputStream object, ensure that the buffer that
+  you use is big enough to store the USB packet data. The Android accessory protocol supports
+  packet buffers up to 16384 bytes, so you can choose to always declare your buffer to be of this
+  size for simplicity.
+Note: At a lower level, the packets are 64 bytes for USB
+  full-speed accessories and 512 bytes for USB high-speed accessories. The Android accessory
+  protocol bundles the packets together for both speeds into one logical packet for simplicity.
+For more information about using threads in Android, see Processes and
+  Threads.
+Terminate communication with an accessory
+When you are done communicating with an accessory or if the accessory was detached, close the
+  file descriptor that you opened by calling close().
+  To listen for detached events, create a broadcast receiver like below:
+Kotlin
+
+var usbReceiver: BroadcastReceiver = object : BroadcastReceiver() {
+    override fun onReceive(context: Context, intent: Intent) {
+
+        if (UsbManager.ACTION_USB_ACCESSORY_DETACHED == intent.action) {
+            val accessory: UsbAccessory? = intent.getParcelableExtra(UsbManager.EXTRA_ACCESSORY)
+            accessory?.apply {
+                // call your method that cleans up and closes communication with the accessory
+            }
+        }
+    }
+}
+
+Java
+
+BroadcastReceiver usbReceiver = new BroadcastReceiver() {
+    public void onReceive(Context context, Intent intent) {
+        String action = intent.getAction();
+
+        if (UsbManager.ACTION_USB_ACCESSORY_DETACHED.equals(action)) {
+            UsbAccessory accessory = (UsbAccessory)intent.getParcelableExtra(UsbManager.EXTRA_ACCESSORY);
+            if (accessory != null) {
+                // call your method that cleans up and closes communication with the accessory
+            }
+        }
+    }
+};
+
+
+Creating the broadcast receiver within the application, and not the manifest, allows your
+  application to only handle detached events while it is running. This way, detached events are
+  only sent to the application that is currently running and not broadcast to all applications.
+
+
+Content and code samples on this page are subject to the licenses described in the Content License. Java is a registered trademark of Oracle and/or its affiliates.
+
+      
+      Last updated February 13, 2019.
+    
+
+
+
+
+
+          
+          
+            Twitter
+          
+        Follow @AndroidDev on Twitter
+          
+          
+            YouTube
+          
+        Check out Android Developers on YouTubeMore Android
+                Android
+            
+                Enterprise
+            
+                Security
+            
+                Source
+            Support
+                Report platform bug
+            
+                Report documentation bug
+            
+                Google Play support
+            
+                Join user studies
+            Documentation
+                Developer guides
+            
+                Design guides
+            
+                API reference
+            
+                Samples
+            
+                Android Studio
+            
+                Android
+            
+                Chrome
+            
+                Firebase
+            
+                Google Cloud Platform
+            
+                All Products
+            
+            Bahasa Indonesia
+          
+            Deutsch
+          
+            English
+          
+            español
+          
+            Español (América Latina)
+          
+            français
+          
+            Português Brasileiro
+          
+            Tiếng Việt
+          
+            Türkçe
+          
+            Русский
+          
+            ภาษาไทย
+          
+            日本語
+          
+            简体中文
+          
+            繁體中文
+          
+            한국어
+          Privacy
+         License
+         Brand Guidelines
+         
+        Get Android and Google Play news by email
+      
+        
+        Subscribe
+      
