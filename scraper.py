@@ -37,7 +37,7 @@ def is_link_valid(link):
         is_the_same_domain = link.startswith(START_PATH)
     else:
         is_the_same_domain = link.startswith("/")
-    is_not_file = not (link.__contains__(".") and not link.__contains__(".html"))
+    is_not_file = (not link.__contains__(".")) or link.__contains__(".html") or link.__contains__(".php")
     return is_link and is_the_same_domain and is_not_file
 
 
