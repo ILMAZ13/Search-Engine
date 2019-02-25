@@ -1,14 +1,16 @@
 from bs4 import BeautifulSoup
 from queue import Queue
+from pymystem3 import Mystem
+from nltk.tokenize import RegexpTokenizer
 import httplib2
 import re
 
-SCHEME_HOST = 'https://developer.android.com'
-START_PATH = "/guide"
+SCHEME_HOST = 'http://developer.alexanderklimov.ru'
+START_PATH = "/android"
 ONLY_START_PATH = True
 PATH_TO_DIR = "sites/"
 # -1 For unlimited
-MAX_PAGES = -1
+MAX_PAGES = 15
 
 
 def load_site(domain):
@@ -57,7 +59,7 @@ def beautify(link, domain):
 def get_text(soup):
     for script in soup(["script", "style"]):
         script.decompose()
-    return soup.get_text(strip=False, separator="")
+    return soup.get_text(strip=True, separator=" ")
 
 
 def write_to_file(domain, visited_paths, texts):
@@ -73,6 +75,14 @@ def write_to_file(domain, visited_paths, texts):
     f.close()
 
 
+def write_lemmas(lemmas):
+    for i in range(len(lemmas)):
+        file_path = strip_double_slashes(PATH_TO_DIR + "/" + str(i) + "lemma.txt")
+        file = open(file_path, "w+")
+        file.write(lemmas[i].__str__())
+        file.close()
+
+
 def strip_double_slashes(link):
     return re.sub('/+', '/', link)
 
@@ -85,6 +95,21 @@ def strip_query_and_fragment(link):
             return link[:link.index("#")]
         except ValueError:
             return link
+
+
+def tokenize(text):
+    tokenizer = RegexpTokenizer(r'\w+')
+    return tokenizer.tokenize(text)
+
+
+def lemmatize(texts):
+    m = Mystem()
+    lemmas_all = []
+    for text in texts:
+        tokens = tokenize(text)
+        lemmas = [m.lemmatize(token)[0] for token in tokens]
+        lemmas_all.append(lemmas)
+    return lemmas_all
 
 
 if __name__ == '__main__':
@@ -144,3 +169,6 @@ if __name__ == '__main__':
         path = link_queue.get()
 
     write_to_file(SCHEME_HOST, visited_paths, texts)
+    lemmas = lemmatize(texts)
+    write_lemmas(lemmas)
+
