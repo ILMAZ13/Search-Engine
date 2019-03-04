@@ -8,9 +8,9 @@ import re
 SCHEME_HOST = 'http://developer.alexanderklimov.ru'
 START_PATH = "/android"
 ONLY_START_PATH = True
-PATH_TO_DIR = "sites/"
+PATH_TO_DIR = "sites"
 # -1 For unlimited
-MAX_PAGES = 15
+MAX_PAGES = 40
 
 
 def load_site(domain):
@@ -65,9 +65,8 @@ def get_text(soup):
 def write_to_file(domain, visited_paths, texts):
     index_path = strip_double_slashes(PATH_TO_DIR + "/index.txt")
     f = open(index_path, "w+")
-    f.write(domain + "\n")
     for i in range(len(texts)):
-        f.write(str(i) + " " + visited_paths[i] + "\n")
+        f.write(str(i) + " " + domain + visited_paths[i] + "\n")
         file_path = strip_double_slashes(PATH_TO_DIR + "/" + str(i) + ".txt")
         file = open(file_path, "w+")
         file.write(texts[i])
@@ -107,9 +106,34 @@ def lemmatize(texts):
     lemmas_all = []
     for text in texts:
         tokens = tokenize(text)
-        lemmas = [m.lemmatize(token)[0] for token in tokens]
+        lemmas = [m.lemmatize(token.lower())[0] for token in tokens]
         lemmas_all.append(lemmas)
     return lemmas_all
+
+
+def get_reversed_map(lemmas, visited_paths):
+    inverse_map = {}
+    for index, path in enumerate(visited_paths):
+        for token in lemmas[index]:
+            if token not in inverse_map:
+                inverse_map[token] = []
+            if path not in inverse_map[token]:
+                inverse_map[token].append(path)
+    return inverse_map
+
+
+def write_reversed_indexes(inverse_map, visited_paths):
+    index_path = strip_double_slashes(PATH_TO_DIR + "/reversed_index.txt")
+    f = open(index_path, "w+")
+    for token in inverse_map.keys():
+        f.write(token + " ")
+        for visited_path in visited_paths:
+            if visited_path in inverse_map[token]:
+                f.write("1 ")
+            else:
+                f.write("0 ")
+        f.write("\n")
+    f.close()
 
 
 if __name__ == '__main__':
@@ -171,4 +195,8 @@ if __name__ == '__main__':
     write_to_file(SCHEME_HOST, visited_paths, texts)
     lemmas = lemmatize(texts)
     write_lemmas(lemmas)
+
+    inverse_map = get_reversed_map(lemmas, visited_paths)
+    write_reversed_indexes(inverse_map, visited_paths)
+
 
