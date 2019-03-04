@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     words = sys.argv[1:]
 
-    zeros = np.zeros(len(paths), dtype = int)
+    zeros = np.zeros(len(paths), dtype=int)
 
     m = Mystem()
     lemmas = [m.lemmatize(word.lower())[0] for word in words]
@@ -47,7 +47,7 @@ if __name__ == '__main__':
         else:
             print(word + " -- doesn't exist in dictionary")
             words_len -= 1
-
+    print("Search results:")
     for i, num in enumerate(zeros):
         if num == words_len:
             print(paths[i])
