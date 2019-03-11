@@ -4,6 +4,7 @@ from pymystem3 import Mystem
 from nltk.tokenize import RegexpTokenizer
 import httplib2
 import re
+import math
 
 SCHEME_HOST = 'http://developer.alexanderklimov.ru'
 START_PATH = "/android"
@@ -117,8 +118,8 @@ def get_reversed_map(lemmas, visited_paths):
         for token in lemmas[index]:
             if token not in inverse_map:
                 inverse_map[token] = []
-            if path not in inverse_map[token]:
-                inverse_map[token].append(path)
+            # if path not in inverse_map[token]:
+            inverse_map[token].append(path)
     return inverse_map
 
 
@@ -132,6 +133,34 @@ def write_reversed_indexes(inverse_map, visited_paths):
                 f.write("1 ")
             else:
                 f.write("0 ")
+        f.write("\n")
+    f.close()
+
+
+def calculate_tf_idf(visited_paths, lemmas, inverse_map):
+    tf_idf = {}
+    doc_count = len(lemmas)
+    for index, path in enumerate(visited_paths):
+        for token in inverse_map.keys():
+            if token not in tf_idf:
+                tf_idf[token] = []
+            temp_tf = lemmas[index].count(token) / len(lemmas[index])
+            df = inverse_map[token].count(path)
+            if df > 0:
+                temp_idf = math.log2(doc_count / df)
+            else:
+                temp_idf = 0.0
+            tf_idf[token].append(temp_tf * temp_idf)
+    return tf_idf
+
+
+def write_tf_idf(tf_idf):
+    index_path = strip_double_slashes(PATH_TO_DIR + "/tf_idf.txt")
+    f = open(index_path, "w+")
+    for token in tf_idf.keys():
+        f.write(token + " ")
+        for arr in tf_idf[token]:
+            f.write(str(arr) + " ")
         f.write("\n")
     f.close()
 
@@ -199,4 +228,6 @@ if __name__ == '__main__':
     inverse_map = get_reversed_map(lemmas, visited_paths)
     write_reversed_indexes(inverse_map, visited_paths)
 
+    tf_idf = calculate_tf_idf(visited_paths, lemmas, inverse_map)
 
+    write_tf_idf(tf_idf)
