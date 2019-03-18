@@ -142,33 +142,34 @@ def calculate_tf_idf(visited_paths, lemmas, inverse_map):
     doc_count = len(lemmas)
     for index, path in enumerate(visited_paths):
         for token in inverse_map.keys():
-            if token == "кошка":
-                print("kk")
             if token not in tf:
                 tf[token] = []
             temp_tf = float(lemmas[index].count(token)) / float(len(lemmas[index]))
             tf[token].append(temp_tf)
     tf_idf = {}
+    idf = {}
     for token in inverse_map.keys():
         df = 0
         for path in visited_paths:
             if path in inverse_map[token]:
                 df += 1
-        log_res = math.log2(float(doc_count) / float(df))
+        idf_item = math.log2(float(doc_count) / float(df))
+        idf[token] = idf_item
         for tf_item in tf[token]:
             if token not in tf_idf:
                 tf_idf[token] = []
-            tf_idf[token].append(tf_item * log_res)
-    return tf_idf
+            tf_idf[token].append(tf_item * idf_item)
+    return tf_idf, idf
 
 
-def write_tf_idf(tf_idf):
+def write_tf_idf(tf_idf, idf):
     index_path = strip_double_slashes(PATH_TO_DIR + "/tf_idf.txt")
     f = open(index_path, "w+")
     for token in tf_idf.keys():
         f.write(token + " ")
         for arr in tf_idf[token]:
             f.write(str(arr) + " ")
+        f.write(str(idf[token]))
         f.write("\n")
     f.close()
 
@@ -236,6 +237,6 @@ if __name__ == '__main__':
     inverse_map = get_reversed_map(lemmas, visited_paths)
     write_reversed_indexes(inverse_map, visited_paths)
 
-    tf_idf = calculate_tf_idf(visited_paths, lemmas, inverse_map)
+    tf_idf, idf = calculate_tf_idf(visited_paths, lemmas, inverse_map)
 
-    write_tf_idf(tf_idf)
+    write_tf_idf(tf_idf, idf)

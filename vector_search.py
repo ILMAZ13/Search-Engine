@@ -18,19 +18,22 @@ def read_urls():
 def read_reversed_indexes():
     indexes = []
     tokens = []
+    idf = {}
     is_first_line = True
     with open(PATH_TO_REVERSED_INDEXES) as textFile:
         for line in textFile:
             splitted_text = line.split()
-            if len(splitted_text) != 41:
-                print("ALARM ", line)
-            tokens.append(splitted_text[0])
-            for index, tf_idf in enumerate(splitted_text[1:]):
+            # if len(splitted_text) != 42:
+            #     print("ALARM ", line)
+            token = splitted_text[0]
+            tokens.append(token)
+            idf[token] = float(splitted_text[-1])
+            for index, tf_idf in enumerate(splitted_text[1:-1]):
                 if is_first_line:
                     indexes.append([])
                 indexes[index].append(float(tf_idf))
             is_first_line = False
-    return indexes, tokens
+    return indexes, tokens, idf
 
 
 def calculate_tf(lemmas):
@@ -43,7 +46,7 @@ def calculate_tf(lemmas):
 
 if __name__ == '__main__':
     paths = read_urls()
-    indexes, tokens = read_reversed_indexes()
+    indexes, tokens, idf = read_reversed_indexes()
 
     doc_vec_len = []
     for vector in indexes:
@@ -64,7 +67,7 @@ if __name__ == '__main__':
     tf = calculate_tf(lemmas)
     for token in tf.keys():
         if token in tokens:
-            zeros[tokens.index(token)] = tf[token]
+            zeros[tokens.index(token)] = tf[token] * idf[token]
         else:
             print(token + " -- doesn't exist in dictionary")
 
