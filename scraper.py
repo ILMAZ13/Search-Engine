@@ -118,8 +118,8 @@ def get_reversed_map(lemmas, visited_paths):
         for token in lemmas[index]:
             if token not in inverse_map:
                 inverse_map[token] = []
-            # if path not in inverse_map[token]:
-            inverse_map[token].append(path)
+            if path not in inverse_map[token]:
+                inverse_map[token].append(path)
     return inverse_map
 
 
@@ -138,19 +138,27 @@ def write_reversed_indexes(inverse_map, visited_paths):
 
 
 def calculate_tf_idf(visited_paths, lemmas, inverse_map):
-    tf_idf = {}
+    tf = {}
     doc_count = len(lemmas)
     for index, path in enumerate(visited_paths):
         for token in inverse_map.keys():
+            if token == "кошка":
+                print("kk")
+            if token not in tf:
+                tf[token] = []
+            temp_tf = float(lemmas[index].count(token)) / float(len(lemmas[index]))
+            tf[token].append(temp_tf)
+    tf_idf = {}
+    for token in inverse_map.keys():
+        df = 0
+        for path in visited_paths:
+            if path in inverse_map[token]:
+                df += 1
+        log_res = math.log2(float(doc_count) / float(df))
+        for tf_item in tf[token]:
             if token not in tf_idf:
                 tf_idf[token] = []
-            temp_tf = lemmas[index].count(token) / len(lemmas[index])
-            df = inverse_map[token].count(path)
-            if df > 0:
-                temp_idf = math.log2(doc_count / df)
-            else:
-                temp_idf = 0.0
-            tf_idf[token].append(temp_tf * temp_idf)
+            tf_idf[token].append(tf_item * log_res)
     return tf_idf
 
 
