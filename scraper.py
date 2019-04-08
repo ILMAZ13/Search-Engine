@@ -5,6 +5,8 @@ from nltk.tokenize import RegexpTokenizer
 import httplib2
 import re
 import math
+import scipy
+import numpy as np
 
 SCHEME_HOST = 'http://developer.alexanderklimov.ru'
 START_PATH = "/android"
@@ -174,12 +176,33 @@ def write_tf_idf(tf_idf, idf):
     f.close()
 
 
+def calculate_page_rank(from_to, paths):
+    matrix = np.zeros(shape=(len(paths), len(paths)))
+    for pfrom in from_to.keys():
+        link_count = len(from_to[pfrom])
+        try:
+            col = paths.index(pfrom)
+            for link in from_to[pfrom]:
+                matrix[paths.index(link)][col] = 1 / link_count
+        except ValueError:
+            None
+
+    vec = np.linalg.eig(matrix)
+
+    index_path = strip_double_slashes(PATH_TO_DIR + "/page_rank.txt")
+    f = open(index_path, "w+")
+
+    for path, value in zip(paths, vec[0]):
+        f.write(path + " %.200f" % abs(value) + "\n")
+
+
 if __name__ == '__main__':
     # Prepare
     path = START_PATH
     link_queue = Queue()
     visited_paths = []
     texts = []
+    from_to = {}
 
     # Start iteration
     while True:
@@ -223,6 +246,9 @@ if __name__ == '__main__':
         for link in links:
             if is_link_valid(link):
                 link_queue.put(link)
+                if path not in from_to:
+                    from_to[path] = []
+                from_to[path].append(link)
 
         # Stop iteration
         if link_queue.empty() or (0 < MAX_PAGES <= len(visited_paths)):
@@ -230,6 +256,7 @@ if __name__ == '__main__':
 
         path = link_queue.get()
 
+    calculate_page_rank(from_to, visited_paths)
     write_to_file(SCHEME_HOST, visited_paths, texts)
     lemmas = lemmatize(texts)
     write_lemmas(lemmas)
